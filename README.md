@@ -1,10 +1,10 @@
 ###
 <img src="bitsei-db2-logo.png" width="220" alt="BITSEI Logo"/>
 
----
+
 ## BITSEI - Graph Databases Course - Prof. Gianmaria Silvello
 #### University of Padove - A.A. 2023-24
-
+---
 ## Getting Started
 
 ### 1: What is the domain that the ontology will cover?
@@ -40,8 +40,8 @@ We want to keep track and get information about what happened during a specific 
 - For serializing the data: [Python RDFlib](https://rdflib.readthedocs.io/en/stable/)
 - For querying the data: [GraphDB](https://www.ontotext.com/products/graphdb/) 
 
-### Contributors
 ---
+### Contributors
 - Mirco Cazzaro - 2076745
 - Nicola Boscolo Cegion - 2074285
 - Marco Martinelli - 2087646
