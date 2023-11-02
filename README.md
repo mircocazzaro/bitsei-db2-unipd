@@ -3,7 +3,7 @@
 
 
 ## BITSEI - Graph Databases Course - Prof. Gianmaria Silvello
-#### University of Padove - A.A. 2023-24
+#### University of Padova - A.A. 2023-24
 ---
 ## Getting Started
 
