@@ -1,5 +1,5 @@
 ###
-<img src="bitsei-db2-logo.png" width="100" alt="BITSEI Logo"/>
+<img src="bitsei-db2-logo.png" width="220" alt="BITSEI Logo"/>
 
 ---
 ### BITSEI - Graph Databases Course - Prof. Gianmaria Silvello
