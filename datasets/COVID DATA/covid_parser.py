@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Set the directory path where your CSV files are stored
-directory_path = 'zzzz_COVID-19/csse_covid_19_data/csse_covid_19_daily_reports'
+directory_path = '../../../PROJECT/zzzz_COVID-19/csse_covid_19_data/csse_covid_19_daily_reports'
 
 # Initialize an empty DataFrame to store the filtered data
 filtered_data = pd.DataFrame()
