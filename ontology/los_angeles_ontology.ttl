@@ -1,128 +1,128 @@
-@prefix : <http://www.bitsei.it/losAngelesOntology#/> .
+@prefix : <http://www.bitsei.it/losAngelesOntology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.bitsei.it/losAngelesOntology#/> .
+@base <http://www.bitsei.it/losAngelesOntology/> .
 
-<http://www.bitsei.it/losAngelesOntology#> rdf:type owl:Ontology ;
-                                            rdfs:comment "This is the Ontology related to the socio-economics aspects of the city of Los Angeles during the Covid years/"@en .
+<http://www.bitsei.it/losAngelesOntology> rdf:type owl:Ontology ;
+                                           rdfs:comment "This is the Ontology related to the socio-economics aspects of the city of Los Angeles during the Covid years/"@en .
 
 #################################################################
 #    Object Properties
 #################################################################
 
 ###  http://www.bitsei.it/losAngelesOntology/belongsToArea
-<http://www.bitsei.it/losAngelesOntology/belongsToArea> rdf:type owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain <http://www.bitsei.it/losAngelesOntology/Location> ;
-                                                        rdfs:range <http://www.bitsei.it/losAngelesOntology/Area> .
+:belongsToArea rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Location ;
+               rdfs:range :Area .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/belongsToCity
-<http://www.bitsei.it/losAngelesOntology/belongsToCity> rdf:type owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain <http://www.bitsei.it/losAngelesOntology/Area> ;
-                                                        rdfs:range <http://www.bitsei.it/losAngelesOntology/City> .
+:belongsToCity rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Area ;
+               rdfs:range :City .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/closedOnDate
-<http://www.bitsei.it/losAngelesOntology/closedOnDate> rdf:type owl:ObjectProperty ;
-                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                       rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                       rdfs:range <http://www.bitsei.it/losAngelesOntology/Day> .
+:closedOnDate rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Business ;
+              rdfs:range :Day .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasModusOperandi
-<http://www.bitsei.it/losAngelesOntology/hasModusOperandi> rdf:type owl:ObjectProperty ;
-                                                           rdfs:subPropertyOf owl:topObjectProperty ;
-                                                           rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                           rdfs:range <http://www.bitsei.it/losAngelesOntology/ModusOperandi> .
+:hasModusOperandi rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :CrimeEvent ;
+                  rdfs:range :ModusOperandi .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasNaics
-<http://www.bitsei.it/losAngelesOntology/hasNaics> rdf:type owl:ObjectProperty ;
-                                                   rdfs:subPropertyOf owl:topObjectProperty ;
-                                                   rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                   rdfs:range <http://www.bitsei.it/losAngelesOntology/Naics> .
+:hasNaics rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :Business ;
+          rdfs:range :Naics .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasPremis
-<http://www.bitsei.it/losAngelesOntology/hasPremis> rdf:type owl:ObjectProperty ;
-                                                    rdfs:subPropertyOf owl:topObjectProperty ;
-                                                    rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                    rdfs:range <http://www.bitsei.it/losAngelesOntology/Premis> .
+:hasPremis rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :CrimeEvent ;
+           rdfs:range :Premis .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/isOfType
-<http://www.bitsei.it/losAngelesOntology/isOfType> rdf:type owl:ObjectProperty ;
-                                                   rdfs:subPropertyOf owl:topObjectProperty ;
-                                                   rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                   rdfs:range <http://www.bitsei.it/losAngelesOntology/Crime> .
+:isOfType rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :CrimeEvent ;
+          rdfs:range :Crime .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/locatedIn
-<http://www.bitsei.it/losAngelesOntology/locatedIn> rdf:type owl:ObjectProperty ;
-                                                    rdfs:subPropertyOf owl:topObjectProperty ;
-                                                    rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                    rdfs:range <http://www.bitsei.it/losAngelesOntology/Location> .
+:locatedIn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:domain :Business ;
+           rdfs:range :Location .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/locatedInCity
-<http://www.bitsei.it/losAngelesOntology/locatedInCity> rdf:type owl:ObjectProperty ;
-                                                        rdfs:subPropertyOf owl:topObjectProperty ;
-                                                        rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                        rdfs:range <http://www.bitsei.it/losAngelesOntology/City> .
+:locatedInCity rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain :Business ;
+               rdfs:range :City .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/occurredInLocation
-<http://www.bitsei.it/losAngelesOntology/occurredInLocation> rdf:type owl:ObjectProperty ;
-                                                             rdfs:subPropertyOf owl:topObjectProperty ;
-                                                             rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                             rdfs:range <http://www.bitsei.it/losAngelesOntology/Location> .
+:occurredInLocation rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdfs:domain :CrimeEvent ;
+                    rdfs:range :Location .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/occurredInPatrolDivisionArea
-<http://www.bitsei.it/losAngelesOntology/occurredInPatrolDivisionArea> rdf:type owl:ObjectProperty ;
-                                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                                       rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                                       rdfs:range <http://www.bitsei.it/losAngelesOntology/PatrolDivision> .
+:occurredInPatrolDivisionArea rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty ;
+                              rdfs:domain :CrimeEvent ;
+                              rdfs:range :PatrolDivision .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/occurredOnDate
-<http://www.bitsei.it/losAngelesOntology/occurredOnDate> rdf:type owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                         rdfs:range <http://www.bitsei.it/losAngelesOntology/Day> .
+:occurredOnDate rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :CrimeEvent ;
+                rdfs:range :Day .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/occurredOnVictim
-<http://www.bitsei.it/losAngelesOntology/occurredOnVictim> rdf:type owl:ObjectProperty ;
-                                                           rdfs:subPropertyOf owl:topObjectProperty ;
-                                                           rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                           rdfs:range <http://www.bitsei.it/losAngelesOntology/Victim> .
+:occurredOnVictim rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :CrimeEvent ;
+                  rdfs:range :Victim .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/openedOnDate
-<http://www.bitsei.it/losAngelesOntology/openedOnDate> rdf:type owl:ObjectProperty ;
-                                                       rdfs:subPropertyOf owl:topObjectProperty ;
-                                                       rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                       rdfs:range <http://www.bitsei.it/losAngelesOntology/Day> .
+:openedOnDate rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Business ;
+              rdfs:range :Day .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/reportedOnDate
-<http://www.bitsei.it/losAngelesOntology/reportedOnDate> rdf:type owl:ObjectProperty ;
-                                                         rdfs:subPropertyOf owl:topObjectProperty ;
-                                                         rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                         rdfs:range <http://www.bitsei.it/losAngelesOntology/Day> .
+:reportedOnDate rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :CrimeEvent ;
+                rdfs:range :Day .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/usedWeapon
-<http://www.bitsei.it/losAngelesOntology/usedWeapon> rdf:type owl:ObjectProperty ;
-                                                     rdfs:subPropertyOf owl:topObjectProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                     rdfs:range <http://www.bitsei.it/losAngelesOntology/Weapon> .
+:usedWeapon rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdfs:domain :CrimeEvent ;
+            rdfs:range :Weapon .
 
 
 #################################################################
@@ -130,211 +130,211 @@
 #################################################################
 
 ###  http://www.bitsei.it/losAngelesOntology/areaName
-<http://www.bitsei.it/losAngelesOntology/areaName> rdf:type owl:DatatypeProperty ;
-                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                   rdfs:domain <http://www.bitsei.it/losAngelesOntology/Area> ;
-                                                   rdfs:range xsd:string .
+:areaName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :Area ;
+          rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/businessId
-<http://www.bitsei.it/losAngelesOntology/businessId> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                     rdfs:range xsd:integer .
+:businessId rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Business ;
+            rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/businessName
-<http://www.bitsei.it/losAngelesOntology/businessName> rdf:type owl:DatatypeProperty ;
-                                                       rdfs:subPropertyOf owl:topDataProperty ;
-                                                       rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                       rdfs:range xsd:string .
+:businessName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Business ;
+              rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/cityName
-<http://www.bitsei.it/losAngelesOntology/cityName> rdf:type owl:DatatypeProperty ;
-                                                   rdfs:subPropertyOf owl:topDataProperty ;
-                                                   rdfs:domain <http://www.bitsei.it/losAngelesOntology/City> ;
-                                                   rdfs:range xsd:string .
+:cityName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdfs:domain :City ;
+          rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/cityZipCode
-<http://www.bitsei.it/losAngelesOntology/cityZipCode> rdf:type owl:DatatypeProperty ;
-                                                      rdfs:subPropertyOf owl:topDataProperty ;
-                                                      rdfs:domain <http://www.bitsei.it/losAngelesOntology/City> ;
-                                                      rdfs:range xsd:string .
+:cityZipCode rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :City ;
+             rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/crimeCode
-<http://www.bitsei.it/losAngelesOntology/crimeCode> rdf:type owl:DatatypeProperty ;
-                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                    rdfs:domain <http://www.bitsei.it/losAngelesOntology/Crime> ;
-                                                    rdfs:range xsd:integer .
+:crimeCode rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Crime ;
+           rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/crimeDesc
-<http://www.bitsei.it/losAngelesOntology/crimeDesc> rdf:type owl:DatatypeProperty ;
-                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                    rdfs:domain <http://www.bitsei.it/losAngelesOntology/Crime> ;
-                                                    rdfs:range xsd:string .
+:crimeDesc rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Crime ;
+           rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/crimeId
-<http://www.bitsei.it/losAngelesOntology/crimeId> rdf:type owl:DatatypeProperty ;
-                                                  rdfs:subPropertyOf owl:topDataProperty ;
-                                                  rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                  rdfs:range xsd:integer .
+:crimeId rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :CrimeEvent ;
+         rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/doingBusinessAsName
-<http://www.bitsei.it/losAngelesOntology/doingBusinessAsName> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:subPropertyOf owl:topDataProperty ;
-                                                              rdfs:domain <http://www.bitsei.it/losAngelesOntology/Business> ;
-                                                              rdfs:range xsd:string .
+:doingBusinessAsName rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdfs:domain :Business ;
+                     rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasActiveCases
-<http://www.bitsei.it/losAngelesOntology/hasActiveCases> rdf:type owl:DatatypeProperty ;
-                                                         rdfs:subPropertyOf owl:topDataProperty ;
-                                                         rdfs:domain <http://www.bitsei.it/losAngelesOntology/Day> ;
-                                                         rdfs:range xsd:integer .
+:hasActiveCases rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdfs:domain :Day ;
+                rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasAddress
-<http://www.bitsei.it/losAngelesOntology/hasAddress> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/Location> ;
-                                                     rdfs:range xsd:string .
+:hasAddress rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Location ;
+            rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasDate
-<http://www.bitsei.it/losAngelesOntology/hasDate> rdf:type owl:DatatypeProperty ;
-                                                  rdfs:subPropertyOf owl:topDataProperty ;
-                                                  rdfs:domain <http://www.bitsei.it/losAngelesOntology/Day> ;
-                                                  rdfs:range xsd:dateTime .
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdfs:domain :Day ;
+         rdfs:range xsd:dateTime .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasLatitude
-<http://www.bitsei.it/losAngelesOntology/hasLatitude> rdf:type owl:DatatypeProperty ;
-                                                      rdfs:subPropertyOf owl:topDataProperty ;
-                                                      rdfs:domain <http://www.bitsei.it/losAngelesOntology/Location> ;
-                                                      rdfs:range xsd:double .
+:hasLatitude rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Location ;
+             rdfs:range xsd:double .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasLongitude
-<http://www.bitsei.it/losAngelesOntology/hasLongitude> rdf:type owl:DatatypeProperty ;
-                                                       rdfs:subPropertyOf owl:topDataProperty ;
-                                                       rdfs:domain <http://www.bitsei.it/losAngelesOntology/Location> ;
-                                                       rdfs:range xsd:double .
+:hasLongitude rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Location ;
+              rdfs:range xsd:double .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasNOfDeaths
-<http://www.bitsei.it/losAngelesOntology/hasNOfDeaths> rdf:type owl:DatatypeProperty ;
-                                                       rdfs:subPropertyOf owl:topDataProperty ;
-                                                       rdfs:domain <http://www.bitsei.it/losAngelesOntology/Day> ;
-                                                       rdfs:range xsd:integer .
+:hasNOfDeaths rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :Day ;
+              rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/moCode
-<http://www.bitsei.it/losAngelesOntology/moCode> rdf:type owl:DatatypeProperty ;
-                                                 rdfs:subPropertyOf owl:topDataProperty ;
-                                                 rdfs:domain <http://www.bitsei.it/losAngelesOntology/ModusOperandi> ;
-                                                 rdfs:range xsd:integer .
+:moCode rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :ModusOperandi ;
+        rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/moDesc
-<http://www.bitsei.it/losAngelesOntology/moDesc> rdf:type owl:DatatypeProperty ;
-                                                 rdfs:subPropertyOf owl:topDataProperty ;
-                                                 rdfs:domain <http://www.bitsei.it/losAngelesOntology/ModusOperandi> ;
-                                                 rdfs:range xsd:string .
+:moDesc rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdfs:domain :ModusOperandi ;
+        rdfs:range xsd:string .
 
 
-###  http://www.bitsei.it/losAngelesOntology/naincsCode
-<http://www.bitsei.it/losAngelesOntology/naincsCode> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/Naics> ;
-                                                     rdfs:range xsd:integer .
+###  http://www.bitsei.it/losAngelesOntology/naicsCode
+:naicsCode rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Naics ;
+           rdfs:range xsd:integer .
 
 
-###  http://www.bitsei.it/losAngelesOntology/naincsDescription
-<http://www.bitsei.it/losAngelesOntology/naincsDescription> rdf:type owl:DatatypeProperty ;
-                                                            rdfs:subPropertyOf owl:topDataProperty .
+###  http://www.bitsei.it/losAngelesOntology/naicsDescription
+:naicsDescription rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/pdAreaCode
-<http://www.bitsei.it/losAngelesOntology/pdAreaCode> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/PatrolDivision> ;
-                                                     rdfs:range xsd:integer .
+:pdAreaCode rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :PatrolDivision ;
+            rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/pdAreaName
-<http://www.bitsei.it/losAngelesOntology/pdAreaName> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/PatrolDivision> ;
-                                                     rdfs:range xsd:string .
+:pdAreaName rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :PatrolDivision ;
+            rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/premisCode
-<http://www.bitsei.it/losAngelesOntology/premisCode> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/Premis> ;
-                                                     rdfs:range xsd:integer .
+:premisCode rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Premis ;
+            rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/premisDesc
-<http://www.bitsei.it/losAngelesOntology/premisDesc> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/Premis> ;
-                                                     rdfs:range xsd:string .
+:premisDesc rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Premis ;
+            rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/reportedToFbi
-<http://www.bitsei.it/losAngelesOntology/reportedToFbi> rdf:type owl:DatatypeProperty ;
-                                                        rdfs:subPropertyOf owl:topDataProperty ;
-                                                        rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                        rdfs:range xsd:boolean .
+:reportedToFbi rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :CrimeEvent ;
+               rdfs:range xsd:boolean .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/timeOccurred
-<http://www.bitsei.it/losAngelesOntology/timeOccurred> rdf:type owl:DatatypeProperty ;
-                                                       rdfs:subPropertyOf owl:topDataProperty ;
-                                                       rdfs:domain <http://www.bitsei.it/losAngelesOntology/CrimeEvent> ;
-                                                       rdfs:range xsd:dateTime .
+:timeOccurred rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdfs:domain :CrimeEvent ;
+              rdfs:range xsd:dateTime .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/victimAge
-<http://www.bitsei.it/losAngelesOntology/victimAge> rdf:type owl:DatatypeProperty ;
-                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                    rdfs:domain <http://www.bitsei.it/losAngelesOntology/Victim> ;
-                                                    rdfs:range xsd:integer .
+:victimAge rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Victim ;
+           rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/victimDescent
-<http://www.bitsei.it/losAngelesOntology/victimDescent> rdf:type owl:DatatypeProperty ;
-                                                        rdfs:subPropertyOf owl:topDataProperty ;
-                                                        rdfs:domain <http://www.bitsei.it/losAngelesOntology/Victim> ;
-                                                        rdfs:range xsd:string .
+:victimDescent rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdfs:domain :Victim ;
+               rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/victimSex
-<http://www.bitsei.it/losAngelesOntology/victimSex> rdf:type owl:DatatypeProperty ;
-                                                    rdfs:subPropertyOf owl:topDataProperty ;
-                                                    rdfs:domain <http://www.bitsei.it/losAngelesOntology/Victim> ;
-                                                    rdfs:range xsd:string .
+:victimSex rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdfs:domain :Victim ;
+           rdfs:range xsd:string .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/weaponCode
-<http://www.bitsei.it/losAngelesOntology/weaponCode> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/Weapon> ;
-                                                     rdfs:range xsd:integer .
+:weaponCode rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Weapon ;
+            rdfs:range xsd:integer .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/weaponDesc
-<http://www.bitsei.it/losAngelesOntology/weaponDesc> rdf:type owl:DatatypeProperty ;
-                                                     rdfs:subPropertyOf owl:topDataProperty ;
-                                                     rdfs:domain <http://www.bitsei.it/losAngelesOntology/Weapon> ;
-                                                     rdfs:range xsd:string .
+:weaponDesc rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Weapon ;
+            rdfs:range xsd:string .
 
 
 #################################################################
@@ -342,292 +342,292 @@
 #################################################################
 
 ###  http://www.bitsei.it/losAngelesOntology/Area
-<http://www.bitsei.it/losAngelesOntology/Area> rdf:type owl:Class ;
-                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.bitsei.it/losAngelesOntology/belongsToCity> ;
-                                                                 owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                 owl:onClass <http://www.bitsei.it/losAngelesOntology/City>
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.bitsei.it/losAngelesOntology/areaName> ;
-                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                 owl:onDataRange xsd:string
-                                                               ] .
+:Area rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :belongsToCity ;
+                        owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onClass :City
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :areaName ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Business
-<http://www.bitsei.it/losAngelesOntology/Business> rdf:type owl:Class ;
-                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/openedOnDate> ;
-                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onClass <http://www.bitsei.it/losAngelesOntology/Day>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/closedOnDate> ;
-                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onClass <http://www.bitsei.it/losAngelesOntology/Day>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasNaics> ;
-                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onClass <http://www.bitsei.it/losAngelesOntology/Naics>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/locatedIn> ;
-                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onClass <http://www.bitsei.it/losAngelesOntology/Location>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/locatedInCity> ;
-                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onClass <http://www.bitsei.it/losAngelesOntology/City>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/businessId> ;
-                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onDataRange xsd:integer
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/businessName> ;
-                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onDataRange xsd:string
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/doingBusinessAsName> ;
-                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onDataRange xsd:string
-                                                                   ] .
+:Business rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :openedOnDate ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Day
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :closedOnDate ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Day
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasNaics ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Naics
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :locatedIn ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Location
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :locatedInCity ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :City
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :businessId ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:integer
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :businessName ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :doingBusinessAsName ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/City
-<http://www.bitsei.it/losAngelesOntology/City> rdf:type owl:Class ;
-                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.bitsei.it/losAngelesOntology/cityName> ;
-                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                 owl:onDataRange xsd:string
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.bitsei.it/losAngelesOntology/cityZipCode> ;
-                                                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                 owl:onDataRange xsd:string
-                                                               ] .
+:City rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :cityName ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :cityZipCode ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Crime
-<http://www.bitsei.it/losAngelesOntology/Crime> rdf:type owl:Class ;
-                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.bitsei.it/losAngelesOntology/crimeCode> ;
-                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                  owl:onDataRange xsd:integer
-                                                                ] ,
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.bitsei.it/losAngelesOntology/crimeDesc> ;
-                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                  owl:onDataRange xsd:string
-                                                                ] .
+:Crime rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :crimeCode ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:integer
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :crimeDesc ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:string
+                       ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/CrimeEvent
-<http://www.bitsei.it/losAngelesOntology/CrimeEvent> rdf:type owl:Class ;
-                                                     rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasModusOperandi> ;
-                                                                       owl:allValuesFrom <http://www.bitsei.it/losAngelesOntology/ModusOperandi>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/occurredOnVictim> ;
-                                                                       owl:allValuesFrom <http://www.bitsei.it/losAngelesOntology/Victim>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/usedWeapon> ;
-                                                                       owl:allValuesFrom <http://www.bitsei.it/losAngelesOntology/Weapon>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/isOfType> ;
-                                                                       owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onClass <http://www.bitsei.it/losAngelesOntology/Crime>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasPremis> ;
-                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onClass <http://www.bitsei.it/losAngelesOntology/Premis>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/occurredInLocation> ;
-                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onClass <http://www.bitsei.it/losAngelesOntology/Location>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/occurredOnDate> ;
-                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onClass <http://www.bitsei.it/losAngelesOntology/Day>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/reportedOnDate> ;
-                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onClass <http://www.bitsei.it/losAngelesOntology/Day>
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/crimeId> ;
-                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onDataRange xsd:integer
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/reportedToFbi> ;
-                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onDataRange xsd:boolean
-                                                                     ] ,
-                                                                     [ rdf:type owl:Restriction ;
-                                                                       owl:onProperty <http://www.bitsei.it/losAngelesOntology/timeOccurred> ;
-                                                                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                       owl:onDataRange xsd:dateTime
-                                                                     ] .
+:CrimeEvent rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasModusOperandi ;
+                              owl:allValuesFrom :ModusOperandi
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :occurredOnVictim ;
+                              owl:allValuesFrom :Victim
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :usedWeapon ;
+                              owl:allValuesFrom :Weapon
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :isOfType ;
+                              owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Crime
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasPremis ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Premis
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :occurredInLocation ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Location
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :occurredOnDate ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Day
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :reportedOnDate ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Day
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :crimeId ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:integer
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :reportedToFbi ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:boolean
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :timeOccurred ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:dateTime
+                            ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Day
-<http://www.bitsei.it/losAngelesOntology/Day> rdf:type owl:Class ;
-                                              rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasActiveCases> ;
-                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                owl:onDataRange xsd:integer
-                                                              ] ,
-                                                              [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasDate> ;
-                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                owl:onDataRange xsd:dateTime
-                                                              ] ,
-                                                              [ rdf:type owl:Restriction ;
-                                                                owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasNOfDeaths> ;
-                                                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                owl:onDataRange xsd:integer
-                                                              ] .
+:Day rdf:type owl:Class ;
+     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasActiveCases ;
+                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onDataRange xsd:integer
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasDate ;
+                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onDataRange xsd:dateTime
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasNOfDeaths ;
+                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onDataRange xsd:integer
+                     ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Location
-<http://www.bitsei.it/losAngelesOntology/Location> rdf:type owl:Class ;
-                                                   rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/belongsToArea> ;
-                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onClass <http://www.bitsei.it/losAngelesOntology/Area>
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasLatitude> ;
-                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onDataRange xsd:double
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasLongitude> ;
-                                                                     owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onDataRange xsd:double
-                                                                   ] ,
-                                                                   [ rdf:type owl:Restriction ;
-                                                                     owl:onProperty <http://www.bitsei.it/losAngelesOntology/hasAddress> ;
-                                                                     owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                     owl:onDataRange xsd:string
-                                                                   ] .
+:Location rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :belongsToArea ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Area
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasLatitude ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:double
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasLongitude ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:double
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAddress ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/ModusOperandi
-<http://www.bitsei.it/losAngelesOntology/ModusOperandi> rdf:type owl:Class ;
-                                                        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                          owl:onProperty <http://www.bitsei.it/losAngelesOntology/moCode> ;
-                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                          owl:onDataRange xsd:integer
-                                                                        ] ,
-                                                                        [ rdf:type owl:Restriction ;
-                                                                          owl:onProperty <http://www.bitsei.it/losAngelesOntology/moDesc> ;
-                                                                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                          owl:onDataRange xsd:string
-                                                                        ] .
+:ModusOperandi rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty :moCode ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:integer
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :moDesc ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:string
+                               ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Naics
-<http://www.bitsei.it/losAngelesOntology/Naics> rdf:type owl:Class ;
-                                                rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.bitsei.it/losAngelesOntology/naincsCode> ;
-                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                  owl:onDataRange xsd:integer
-                                                                ] ,
-                                                                [ rdf:type owl:Restriction ;
-                                                                  owl:onProperty <http://www.bitsei.it/losAngelesOntology/naincsDescription> ;
-                                                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                  owl:onDataRange xsd:string
-                                                                ] .
+:Naics rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :naicsCode ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:integer
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :naicsDescription ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:string
+                       ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/PatrolDivision
-<http://www.bitsei.it/losAngelesOntology/PatrolDivision> rdf:type owl:Class ;
-                                                         rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty <http://www.bitsei.it/losAngelesOntology/pdAreaCode> ;
-                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                           owl:onDataRange xsd:integer
-                                                                         ] ,
-                                                                         [ rdf:type owl:Restriction ;
-                                                                           owl:onProperty <http://www.bitsei.it/losAngelesOntology/pdAreaName> ;
-                                                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                           owl:onDataRange xsd:string
-                                                                         ] .
+:PatrolDivision rdf:type owl:Class ;
+                rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                  owl:onProperty :pdAreaCode ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:integer
+                                ] ,
+                                [ rdf:type owl:Restriction ;
+                                  owl:onProperty :pdAreaName ;
+                                  owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                  owl:onDataRange xsd:string
+                                ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Premis
-<http://www.bitsei.it/losAngelesOntology/Premis> rdf:type owl:Class ;
-                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.bitsei.it/losAngelesOntology/premisCode> ;
-                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                   owl:onDataRange xsd:integer
-                                                                 ] ,
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.bitsei.it/losAngelesOntology/premisDesc> ;
-                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                   owl:onDataRange xsd:string
-                                                                 ] .
+:Premis rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :premisCode ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:integer
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :premisDesc ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Victim
-<http://www.bitsei.it/losAngelesOntology/Victim> rdf:type owl:Class ;
-                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.bitsei.it/losAngelesOntology/victimAge> ;
-                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                   owl:onDataRange xsd:integer
-                                                                 ] ,
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.bitsei.it/losAngelesOntology/victimDescent> ;
-                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                   owl:onDataRange xsd:string
-                                                                 ] ,
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.bitsei.it/losAngelesOntology/victimSex> ;
-                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                   owl:onDataRange xsd:string
-                                                                 ] .
+:Victim rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :victimAge ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:integer
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :victimDescent ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :victimSex ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Weapon
-<http://www.bitsei.it/losAngelesOntology/Weapon> rdf:type owl:Class ;
-                                                 rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.bitsei.it/losAngelesOntology/weaponCode> ;
-                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                   owl:onDataRange xsd:integer
-                                                                 ] ,
-                                                                 [ rdf:type owl:Restriction ;
-                                                                   owl:onProperty <http://www.bitsei.it/losAngelesOntology/weaponDesc> ;
-                                                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                                                                   owl:onDataRange xsd:string
-                                                                 ] .
+:Weapon rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :weaponCode ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:integer
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :weaponDesc ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/murderCrime
-<http://www.bitsei.it/losAngelesOntology/murderCrime> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.bitsei.it/losAngelesOntology/Crime> .
+:murderCrime rdf:type owl:Class ;
+             rdfs:subClassOf :Crime .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/sexualCrime
-<http://www.bitsei.it/losAngelesOntology/sexualCrime> rdf:type owl:Class ;
-                                                      rdfs:subClassOf <http://www.bitsei.it/losAngelesOntology/Crime> .
+:sexualCrime rdf:type owl:Class ;
+             rdfs:subClassOf :Crime .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/theftCrime
-<http://www.bitsei.it/losAngelesOntology/theftCrime> rdf:type owl:Class ;
-                                                     rdfs:subClassOf <http://www.bitsei.it/losAngelesOntology/Crime> .
+:theftCrime rdf:type owl:Class ;
+            rdfs:subClassOf :Crime .
 
 
 #################################################################
@@ -635,19 +635,19 @@
 #################################################################
 
 [ rdf:type owl:AllDisjointClasses ;
-  owl:members ( <http://www.bitsei.it/losAngelesOntology/Area>
-                <http://www.bitsei.it/losAngelesOntology/Business>
-                <http://www.bitsei.it/losAngelesOntology/City>
-                <http://www.bitsei.it/losAngelesOntology/Crime>
-                <http://www.bitsei.it/losAngelesOntology/CrimeEvent>
-                <http://www.bitsei.it/losAngelesOntology/Day>
-                <http://www.bitsei.it/losAngelesOntology/Location>
-                <http://www.bitsei.it/losAngelesOntology/ModusOperandi>
-                <http://www.bitsei.it/losAngelesOntology/Naics>
-                <http://www.bitsei.it/losAngelesOntology/PatrolDivision>
-                <http://www.bitsei.it/losAngelesOntology/Premis>
-                <http://www.bitsei.it/losAngelesOntology/Victim>
-                <http://www.bitsei.it/losAngelesOntology/Weapon>
+  owl:members ( :Area
+                :Business
+                :City
+                :Crime
+                :CrimeEvent
+                :Day
+                :Location
+                :ModusOperandi
+                :Naics
+                :PatrolDivision
+                :Premis
+                :Victim
+                :Weapon
               )
 ] .
 
