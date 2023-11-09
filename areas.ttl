@@ -1,0 +1,151 @@
+@prefix lao: <http://www.bitsei.it/losAngelesOntology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lao:0 a lao:Area ;
+    lao:areaAcronym "0"^^xsd:string ;
+    lao:areaName "Harbor Gateway"^^xsd:string .
+
+lao:1 a lao:Area ;
+    lao:areaAcronym "1"^^xsd:string ;
+    lao:areaName "Palms "^^xsd:string .
+
+lao:10 a lao:Area ;
+    lao:areaAcronym "10"^^xsd:string ;
+    lao:areaName "Northeast Los Angeles"^^xsd:string .
+
+lao:11 a lao:Area ;
+    lao:areaAcronym "11"^^xsd:string ;
+    lao:areaName "Venice"^^xsd:string .
+
+lao:12 a lao:Area ;
+    lao:areaAcronym "12"^^xsd:string ;
+    lao:areaName "Silver Lake "^^xsd:string .
+
+lao:13 a lao:Area ;
+    lao:areaAcronym "13"^^xsd:string ;
+    lao:areaName "San Pedro"^^xsd:string .
+
+lao:14 a lao:Area ;
+    lao:areaAcronym "14"^^xsd:string ;
+    lao:areaName "Reseda "^^xsd:string .
+
+lao:15 a lao:Area ;
+    lao:areaAcronym "15"^^xsd:string ;
+    lao:areaName "Sun Valley "^^xsd:string .
+
+lao:16 a lao:Area ;
+    lao:areaAcronym "16"^^xsd:string ;
+    lao:areaName "Sunland "^^xsd:string .
+
+lao:17 a lao:Area ;
+    lao:areaAcronym "17"^^xsd:string ;
+    lao:areaName "Westwood"^^xsd:string .
+
+lao:18 a lao:Area ;
+    lao:areaAcronym "18"^^xsd:string ;
+    lao:areaName "West Los Angeles"^^xsd:string .
+
+lao:19 a lao:Area ;
+    lao:areaAcronym "19"^^xsd:string ;
+    lao:areaName "Hollywood"^^xsd:string .
+
+lao:2 a lao:Area ;
+    lao:areaAcronym "2"^^xsd:string ;
+    lao:areaName "Bel Air "^^xsd:string .
+
+lao:20 a lao:Area ;
+    lao:areaAcronym "20"^^xsd:string ;
+    lao:areaName "Canoga Park "^^xsd:string .
+
+lao:21 a lao:Area ;
+    lao:areaAcronym "21"^^xsd:string ;
+    lao:areaName "Central City North"^^xsd:string .
+
+lao:22 a lao:Area ;
+    lao:areaAcronym "22"^^xsd:string ;
+    lao:areaName "Chatsworth "^^xsd:string .
+
+lao:23 a lao:Area ;
+    lao:areaAcronym "23"^^xsd:string ;
+    lao:areaName "Wilmington "^^xsd:string .
+
+lao:24 a lao:Area ;
+    lao:areaAcronym "24"^^xsd:string ;
+    lao:areaName "Sylmar"^^xsd:string .
+
+lao:25 a lao:Area ;
+    lao:areaAcronym "25"^^xsd:string ;
+    lao:areaName "Wilshire"^^xsd:string .
+
+lao:26 a lao:Area ;
+    lao:areaAcronym "26"^^xsd:string ;
+    lao:areaName "Central City"^^xsd:string .
+
+lao:27 a lao:Area ;
+    lao:areaAcronym "27"^^xsd:string ;
+    lao:areaName "Westlake"^^xsd:string .
+
+lao:28 a lao:Area ;
+    lao:areaAcronym "28"^^xsd:string ;
+    lao:areaName "Port of Los Angeles"^^xsd:string .
+
+lao:29 a lao:Area ;
+    lao:areaAcronym "29"^^xsd:string ;
+    lao:areaName "Northridge"^^xsd:string .
+
+lao:3 a lao:Area ;
+    lao:areaAcronym "3"^^xsd:string ;
+    lao:areaName "Granada Hills "^^xsd:string .
+
+lao:30 a lao:Area ;
+    lao:areaAcronym "30"^^xsd:string ;
+    lao:areaName "Van Nuys "^^xsd:string .
+
+lao:31 a lao:Area ;
+    lao:areaAcronym "31"^^xsd:string ;
+    lao:areaName "Boyle Heights"^^xsd:string .
+
+lao:32 a lao:Area ;
+    lao:areaAcronym "32"^^xsd:string ;
+    lao:areaName "Sherman Oaks "^^xsd:string .
+
+lao:33 a lao:Area ;
+    lao:areaAcronym "33"^^xsd:string ;
+    lao:areaName "Westchester "^^xsd:string .
+
+lao:34 a lao:Area ;
+    lao:areaAcronym "34"^^xsd:string ;
+    lao:areaName "Los Angeles International Airport"^^xsd:string .
+
+lao:35 a lao:Area ;
+    lao:areaAcronym "35"^^xsd:string ;
+    lao:areaName "South Los Angeles"^^xsd:string .
+
+lao:36 a lao:Area ;
+    lao:areaAcronym "36"^^xsd:string ;
+    lao:areaName "Southeast Los Angeles"^^xsd:string .
+
+lao:4 a lao:Area ;
+    lao:areaAcronym "4"^^xsd:string ;
+    lao:areaName "Mission Hills "^^xsd:string .
+
+lao:5 a lao:Area ;
+    lao:areaAcronym "5"^^xsd:string ;
+    lao:areaName "Encino "^^xsd:string .
+
+lao:6 a lao:Area ;
+    lao:areaAcronym "6"^^xsd:string ;
+    lao:areaName "Brentwood "^^xsd:string .
+
+lao:7 a lao:Area ;
+    lao:areaAcronym "7"^^xsd:string ;
+    lao:areaName "West Adams "^^xsd:string .
+
+lao:8 a lao:Area ;
+    lao:areaAcronym "8"^^xsd:string ;
+    lao:areaName "North Hollywood "^^xsd:string .
+
+lao:9 a lao:Area ;
+    lao:areaAcronym "9"^^xsd:string ;
+    lao:areaName "Arleta "^^xsd:string .
+

@@ -129,6 +129,13 @@
 #    Data properties
 #################################################################
 
+###  http://www.bitsei.it/losAngelesOntology#areaAcronym
+:areaAcronym rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Area ;
+             rdfs:range xsd:string .
+
+
 ###  http://www.bitsei.it/losAngelesOntology/areaName
 :areaName rdf:type owl:DatatypeProperty ;
           rdfs:subPropertyOf owl:topDataProperty ;
