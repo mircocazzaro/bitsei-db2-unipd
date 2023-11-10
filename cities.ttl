@@ -1,21 +1,9 @@
 @prefix lao: <http://www.bitsei.it/losAngelesOntology/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-lao:01702 a lao:City ;
-    lao:cityName "FRAMINGHAM"^^xsd:string ;
-    lao:cityZipCode "01702"^^xsd:string .
-
 lao:02038 a lao:City ;
     lao:cityName "FRANKLIN"^^xsd:string ;
     lao:cityZipCode "02038"^^xsd:string .
-
-lao:02108 a lao:City ;
-    lao:cityName "BOSTON"^^xsd:string ;
-    lao:cityZipCode "02108"^^xsd:string .
-
-lao:06510 a lao:City ;
-    lao:cityName "NEW HAVEN"^^xsd:string ;
-    lao:cityZipCode "06510"^^xsd:string .
 
 lao:07004 a lao:City ;
     lao:cityName "FAIRFIELD"^^xsd:string ;
@@ -25,25 +13,9 @@ lao:07960 a lao:City ;
     lao:cityName "MORRISTOWN"^^xsd:string ;
     lao:cityZipCode "07960"^^xsd:string .
 
-lao:08873 a lao:City ;
-    lao:cityName "SOMERSET"^^xsd:string ;
-    lao:cityZipCode "08873"^^xsd:string .
-
-lao:10003 a lao:City ;
-    lao:cityName "NEW YORK"^^xsd:string ;
-    lao:cityZipCode "10003"^^xsd:string .
-
 lao:10016 a lao:City ;
     lao:cityName "NEW YORK"^^xsd:string ;
     lao:cityZipCode "10016"^^xsd:string .
-
-lao:10018 a lao:City ;
-    lao:cityName "NEW YORK"^^xsd:string ;
-    lao:cityZipCode "10018"^^xsd:string .
-
-lao:10105 a lao:City ;
-    lao:cityName "NEW YORK"^^xsd:string ;
-    lao:cityZipCode "10105"^^xsd:string .
 
 lao:10118 a lao:City ;
     lao:cityName "NEW YORK"^^xsd:string ;
@@ -56,10 +28,6 @@ lao:10122 a lao:City ;
 lao:10530 a lao:City ;
     lao:cityName "HARTSDALE"^^xsd:string ;
     lao:cityZipCode "10530"^^xsd:string .
-
-lao:10573 a lao:City ;
-    lao:cityName "PORT CHESTER"^^xsd:string ;
-    lao:cityZipCode "10573"^^xsd:string .
 
 lao:10601 a lao:City ;
     lao:cityName "WHITE PLAINS"^^xsd:string ;
@@ -85,17 +53,9 @@ lao:15655 a lao:City ;
     lao:cityName "ANSAN-SI GYEONGGI-DO"^^xsd:string ;
     lao:cityZipCode "15655"^^xsd:string .
 
-lao:18915 a lao:City ;
-    lao:cityName "COLMAR"^^xsd:string ;
-    lao:cityZipCode "18915"^^xsd:string .
-
 lao:19044 a lao:City ;
     lao:cityName "HORSHAM"^^xsd:string ;
     lao:cityZipCode "19044"^^xsd:string .
-
-lao:19801 a lao:City ;
-    lao:cityName "WILMINGTON"^^xsd:string ;
-    lao:cityZipCode "19801"^^xsd:string .
 
 lao:19901 a lao:City ;
     lao:cityName "DOVER"^^xsd:string ;
@@ -105,29 +65,9 @@ lao:19958 a lao:City ;
     lao:cityName "LEWES"^^xsd:string ;
     lao:cityZipCode "19958"^^xsd:string .
 
-lao:20037 a lao:City ;
-    lao:cityName "WASHINGTON"^^xsd:string ;
-    lao:cityZipCode "20037"^^xsd:string .
-
-lao:20191 a lao:City ;
-    lao:cityName "RESTON"^^xsd:string ;
-    lao:cityZipCode "20191"^^xsd:string .
-
-lao:22107 a lao:City ;
-    lao:cityName "MC LEAN"^^xsd:string ;
-    lao:cityZipCode "22107"^^xsd:string .
-
-lao:27263 a lao:City ;
-    lao:cityName "HIGH POINT"^^xsd:string ;
-    lao:cityZipCode "27263"^^xsd:string .
-
 lao:29306 a lao:City ;
     lao:cityName "SPARTANBURG"^^xsd:string ;
     lao:cityZipCode "29306"^^xsd:string .
-
-lao:30004 a lao:City ;
-    lao:cityName "ALPHARETTA"^^xsd:string ;
-    lao:cityZipCode "30004"^^xsd:string .
 
 lao:30014 a lao:City ;
     lao:cityName "COVINGTON"^^xsd:string ;
@@ -145,25 +85,9 @@ lao:30326 a lao:City ;
     lao:cityName "ATLANTA"^^xsd:string ;
     lao:cityZipCode "30326"^^xsd:string .
 
-lao:30328 a lao:City ;
-    lao:cityName "ATLANTA"^^xsd:string ;
-    lao:cityZipCode "30328"^^xsd:string .
-
-lao:32218 a lao:City ;
-    lao:cityName "JACKSONVILLE"^^xsd:string ;
-    lao:cityZipCode "32218"^^xsd:string .
-
 lao:32311 a lao:City ;
     lao:cityName "TALLAHASSEE"^^xsd:string ;
     lao:cityZipCode "32311"^^xsd:string .
-
-lao:33166 a lao:City ;
-    lao:cityName "MIAMI SPRINGS"^^xsd:string ;
-    lao:cityZipCode "33166"^^xsd:string .
-
-lao:33426 a lao:City ;
-    lao:cityName "BOYNTON BEACH"^^xsd:string ;
-    lao:cityZipCode "33426"^^xsd:string .
 
 lao:33609 a lao:City ;
     lao:cityName "TAMPA"^^xsd:string ;
@@ -177,10 +101,6 @@ lao:36695 a lao:City ;
     lao:cityName "MOBILE"^^xsd:string ;
     lao:cityZipCode "36695"^^xsd:string .
 
-lao:43230 a lao:City ;
-    lao:cityName "COLUMBUS"^^xsd:string ;
-    lao:cityZipCode "43230"^^xsd:string .
-
 lao:44139 a lao:City ;
     lao:cityName "SOLON"^^xsd:string ;
     lao:cityZipCode "44139"^^xsd:string .
@@ -188,10 +108,6 @@ lao:44139 a lao:City ;
 lao:45215 a lao:City ;
     lao:cityName "CINCINNATI"^^xsd:string ;
     lao:cityZipCode "45215"^^xsd:string .
-
-lao:48023 a lao:City ;
-    lao:cityName "IRA"^^xsd:string ;
-    lao:cityZipCode "48023"^^xsd:string .
 
 lao:48033 a lao:City ;
     lao:cityName "SOUTHFIELD"^^xsd:string ;
@@ -209,57 +125,17 @@ lao:49855 a lao:City ;
     lao:cityName "MARQUETTE"^^xsd:string ;
     lao:cityZipCode "49855"^^xsd:string .
 
-lao:53072 a lao:City ;
-    lao:cityName "PEWAUKEE"^^xsd:string ;
-    lao:cityZipCode "53072"^^xsd:string .
-
-lao:53538 a lao:City ;
-    lao:cityName "FORT ATKINSON"^^xsd:string ;
-    lao:cityZipCode "53538"^^xsd:string .
-
 lao:53717 a lao:City ;
     lao:cityName "MADISON"^^xsd:string ;
     lao:cityZipCode "53717"^^xsd:string .
-
-lao:55060 a lao:City ;
-    lao:cityName "OWATONNA"^^xsd:string ;
-    lao:cityZipCode "55060"^^xsd:string .
-
-lao:55092 a lao:City ;
-    lao:cityName "WYOMING"^^xsd:string ;
-    lao:cityZipCode "55092"^^xsd:string .
-
-lao:55416 a lao:City ;
-    lao:cityName "MINNEAPOLIS"^^xsd:string ;
-    lao:cityZipCode "55416"^^xsd:string .
-
-lao:56334 a lao:City ;
-    lao:cityName "GLENWOOD"^^xsd:string ;
-    lao:cityZipCode "56334"^^xsd:string .
-
-lao:57719 a lao:City ;
-    lao:cityName "BOX ELDER"^^xsd:string ;
-    lao:cityZipCode "57719"^^xsd:string .
-
-lao:63044 a lao:City ;
-    lao:cityName "BRIDGETON"^^xsd:string ;
-    lao:cityZipCode "63044"^^xsd:string .
 
 lao:63119 a lao:City ;
     lao:cityName "SAINT LOUIS"^^xsd:string ;
     lao:cityZipCode "63119"^^xsd:string .
 
-lao:63146 a lao:City ;
-    lao:cityName "SAINT LOUIS"^^xsd:string ;
-    lao:cityZipCode "63146"^^xsd:string .
-
 lao:64106 a lao:City ;
     lao:cityName "KANSAS CITY"^^xsd:string ;
     lao:cityZipCode "64106"^^xsd:string .
-
-lao:66062 a lao:City ;
-    lao:cityName "OLATHE"^^xsd:string ;
-    lao:cityZipCode "66062"^^xsd:string .
 
 lao:66211 a lao:City ;
     lao:cityName "OVERLAND PARK"^^xsd:string ;
@@ -277,21 +153,9 @@ lao:75006 a lao:City ;
     lao:cityName "CARROLLTON"^^xsd:string ;
     lao:cityZipCode "75006"^^xsd:string .
 
-lao:75057 a lao:City ;
-    lao:cityName "LEWISVILLE"^^xsd:string ;
-    lao:cityZipCode "75057"^^xsd:string .
-
 lao:76102 a lao:City ;
     lao:cityName "FORT WORTH"^^xsd:string ;
     lao:cityZipCode "76102"^^xsd:string .
-
-lao:77079 a lao:City ;
-    lao:cityName "HOUSTON"^^xsd:string ;
-    lao:cityZipCode "77079"^^xsd:string .
-
-lao:77388 a lao:City ;
-    lao:cityName "SPRING"^^xsd:string ;
-    lao:cityZipCode "77388"^^xsd:string .
 
 lao:78628 a lao:City ;
     lao:cityName "GEORGETOWN"^^xsd:string ;
@@ -305,14 +169,6 @@ lao:78741 a lao:City ;
     lao:cityName "AUSTIN"^^xsd:string ;
     lao:cityZipCode "78741"^^xsd:string .
 
-lao:80021 a lao:City ;
-    lao:cityName "BROOMFIELD"^^xsd:string ;
-    lao:cityZipCode "80021"^^xsd:string .
-
-lao:80108 a lao:City ;
-    lao:cityName "CASTLE PINES"^^xsd:string ;
-    lao:cityZipCode "80108"^^xsd:string .
-
 lao:81403 a lao:City ;
     lao:cityName "MONTROSE"^^xsd:string ;
     lao:cityZipCode "81403"^^xsd:string .
@@ -321,29 +177,9 @@ lao:82001 a lao:City ;
     lao:cityName "CHEYENNE"^^xsd:string ;
     lao:cityZipCode "82001"^^xsd:string .
 
-lao:83616 a lao:City ;
-    lao:cityName "EAGLE"^^xsd:string ;
-    lao:cityZipCode "83616"^^xsd:string .
-
-lao:84104 a lao:City ;
-    lao:cityName "SALT LAKE CITY"^^xsd:string ;
-    lao:cityZipCode "84104"^^xsd:string .
-
-lao:84606 a lao:City ;
-    lao:cityName "PROVO"^^xsd:string ;
-    lao:cityZipCode "84606"^^xsd:string .
-
 lao:84720 a lao:City ;
     lao:cityName "CEDAR CITY"^^xsd:string ;
     lao:cityZipCode "84720"^^xsd:string .
-
-lao:85016 a lao:City ;
-    lao:cityName "PHOENIX"^^xsd:string ;
-    lao:cityZipCode "85016"^^xsd:string .
-
-lao:85085 a lao:City ;
-    lao:cityName "PHOENIX"^^xsd:string ;
-    lao:cityZipCode "85085"^^xsd:string .
 
 lao:85756 a lao:City ;
     lao:cityName "TUCSON"^^xsd:string ;
@@ -352,10 +188,6 @@ lao:85756 a lao:City ;
 lao:89107 a lao:City ;
     lao:cityName "LAS VEGAS"^^xsd:string ;
     lao:cityZipCode "89107"^^xsd:string .
-
-lao:89128 a lao:City ;
-    lao:cityName "LAS VEGAS"^^xsd:string ;
-    lao:cityZipCode "89128"^^xsd:string .
 
 lao:89439 a lao:City ;
     lao:cityName "VERDI"^^xsd:string ;
@@ -517,8 +349,7 @@ lao:90039 a lao:City ;
     lao:cityZipCode "90039"^^xsd:string .
 
 lao:90040 a lao:City ;
-    lao:cityName "COMMERCE"^^xsd:string,
-        "LOS ANGELES"^^xsd:string ;
+    lao:cityName "COMMERCE"^^xsd:string ;
     lao:cityZipCode "90040"^^xsd:string .
 
 lao:90041 a lao:City ;
@@ -635,29 +466,16 @@ lao:90073 a lao:City ;
     lao:cityZipCode "90073"^^xsd:string .
 
 lao:90077 a lao:City ;
-    lao:cityName "BEL AIR"^^xsd:string,
-        "LOS ANGELES"^^xsd:string ;
+    lao:cityName "LOS ANGELES"^^xsd:string ;
     lao:cityZipCode "90077"^^xsd:string .
 
 lao:90079 a lao:City ;
     lao:cityName "LOS ANGELES"^^xsd:string ;
     lao:cityZipCode "90079"^^xsd:string .
 
-lao:90081 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string ;
-    lao:cityZipCode "90081"^^xsd:string .
-
 lao:90089 a lao:City ;
     lao:cityName "LOS ANGELES"^^xsd:string ;
     lao:cityZipCode "90089"^^xsd:string .
-
-lao:90090 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string ;
-    lao:cityZipCode "90090"^^xsd:string .
-
-lao:90093 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string ;
-    lao:cityZipCode "90093"^^xsd:string .
 
 lao:90094 a lao:City ;
     lao:cityName "LOS ANGELES"^^xsd:string,
@@ -764,10 +582,6 @@ lao:90266 a lao:City ;
     lao:cityName "MANHATTAN BEACH"^^xsd:string ;
     lao:cityZipCode "90266"^^xsd:string .
 
-lao:90270 a lao:City ;
-    lao:cityName "MAYWOOD"^^xsd:string ;
-    lao:cityZipCode "90270"^^xsd:string .
-
 lao:90272 a lao:City ;
     lao:cityName "LOS ANGELES"^^xsd:string,
         "PACIFIC PALISADES"^^xsd:string ;
@@ -775,7 +589,6 @@ lao:90272 a lao:City ;
 
 lao:90274 a lao:City ;
     lao:cityName "PALOS VERDES ESTATES"^^xsd:string,
-        "ROLLING HILLS"^^xsd:string,
         "ROLLING HILLS ESTATES"^^xsd:string ;
     lao:cityZipCode "90274"^^xsd:string .
 
@@ -819,8 +632,7 @@ lao:90301 a lao:City ;
     lao:cityZipCode "90301"^^xsd:string .
 
 lao:90302 a lao:City ;
-    lao:cityName "INGLEWOOD"^^xsd:string,
-        "LOS ANGELES"^^xsd:string ;
+    lao:cityName "INGLEWOOD"^^xsd:string ;
     lao:cityZipCode "90302"^^xsd:string .
 
 lao:90303 a lao:City ;
@@ -856,8 +668,7 @@ lao:90405 a lao:City ;
     lao:cityZipCode "90405"^^xsd:string .
 
 lao:90501 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string,
-        "TORRANCE"^^xsd:string ;
+    lao:cityName "TORRANCE"^^xsd:string ;
     lao:cityZipCode "90501"^^xsd:string .
 
 lao:90502 a lao:City ;
@@ -910,8 +721,7 @@ lao:90630 a lao:City ;
     lao:cityZipCode "90630"^^xsd:string .
 
 lao:90631 a lao:City ;
-    lao:cityName "LA HABRA"^^xsd:string,
-        "LA HABRA HEIGHTS"^^xsd:string ;
+    lao:cityName "LA HABRA"^^xsd:string ;
     lao:cityZipCode "90631"^^xsd:string .
 
 lao:90638 a lao:City ;
@@ -983,8 +793,7 @@ lao:90723 a lao:City ;
     lao:cityZipCode "90723"^^xsd:string .
 
 lao:90731 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string,
-        "SAN PEDRO"^^xsd:string ;
+    lao:cityName "SAN PEDRO"^^xsd:string ;
     lao:cityZipCode "90731"^^xsd:string .
 
 lao:90732 a lao:City ;
@@ -1048,10 +857,6 @@ lao:90813 a lao:City ;
     lao:cityName "LONG BEACH"^^xsd:string ;
     lao:cityZipCode "90813"^^xsd:string .
 
-lao:90814 a lao:City ;
-    lao:cityName "LONG BEACH"^^xsd:string ;
-    lao:cityZipCode "90814"^^xsd:string .
-
 lao:90815 a lao:City ;
     lao:cityName "LONG BEACH"^^xsd:string ;
     lao:cityZipCode "90815"^^xsd:string .
@@ -1072,17 +877,12 @@ lao:91007 a lao:City ;
     lao:cityName "ARCADIA"^^xsd:string ;
     lao:cityZipCode "91007"^^xsd:string .
 
-lao:91008 a lao:City ;
-    lao:cityName "BRADBURY"^^xsd:string ;
-    lao:cityZipCode "91008"^^xsd:string .
-
 lao:91010 a lao:City ;
     lao:cityName "DUARTE"^^xsd:string ;
     lao:cityZipCode "91010"^^xsd:string .
 
 lao:91011 a lao:City ;
-    lao:cityName "LA CANADA"^^xsd:string,
-        "LA CANADA FLINTRIDGE"^^xsd:string ;
+    lao:cityName "LA CANADA"^^xsd:string ;
     lao:cityZipCode "91011"^^xsd:string .
 
 lao:91016 a lao:City ;
@@ -1180,8 +980,7 @@ lao:91214 a lao:City ;
     lao:cityZipCode "91214"^^xsd:string .
 
 lao:91301 a lao:City ;
-    lao:cityName "AGOURA"^^xsd:string,
-        "AGOURA HILLS"^^xsd:string ;
+    lao:cityName "AGOURA HILLS"^^xsd:string ;
     lao:cityZipCode "91301"^^xsd:string .
 
 lao:91302 a lao:City ;
@@ -1241,10 +1040,6 @@ lao:91326 a lao:City ;
         "PORTER RANCH"^^xsd:string ;
     lao:cityZipCode "91326"^^xsd:string .
 
-lao:91330 a lao:City ;
-    lao:cityName "NORTHRIDGE"^^xsd:string ;
-    lao:cityZipCode "91330"^^xsd:string .
-
 lao:91331 a lao:City ;
     lao:cityName "ARLETA"^^xsd:string,
         "PACOIMA"^^xsd:string ;
@@ -1268,8 +1063,7 @@ lao:91342 a lao:City ;
 
 lao:91343 a lao:City ;
     lao:cityName "NORTH HILLS"^^xsd:string,
-        "NORTHRIDGE"^^xsd:string,
-        "SEPULVEDA"^^xsd:string ;
+        "NORTHRIDGE"^^xsd:string ;
     lao:cityZipCode "91343"^^xsd:string .
 
 lao:91344 a lao:City ;
@@ -1282,8 +1076,7 @@ lao:91345 a lao:City ;
     lao:cityZipCode "91345"^^xsd:string .
 
 lao:91350 a lao:City ;
-    lao:cityName "SANTA CLARITA"^^xsd:string,
-        "SAUGUS"^^xsd:string ;
+    lao:cityName "SANTA CLARITA"^^xsd:string ;
     lao:cityZipCode "91350"^^xsd:string .
 
 lao:91351 a lao:City ;
@@ -1334,21 +1127,12 @@ lao:91367 a lao:City ;
     lao:cityName "WOODLAND HILLS"^^xsd:string ;
     lao:cityZipCode "91367"^^xsd:string .
 
-lao:91371 a lao:City ;
-    lao:cityName "WOODLAND HILLS"^^xsd:string ;
-    lao:cityZipCode "91371"^^xsd:string .
-
 lao:91372 a lao:City ;
     lao:cityName "CALABASAS"^^xsd:string ;
     lao:cityZipCode "91372"^^xsd:string .
 
-lao:91377 a lao:City ;
-    lao:cityName "OAK PARK"^^xsd:string ;
-    lao:cityZipCode "91377"^^xsd:string .
-
 lao:91381 a lao:City ;
-    lao:cityName "SANTA CLARITA"^^xsd:string,
-        "STEVENSON RANCH"^^xsd:string,
+    lao:cityName "STEVENSON RANCH"^^xsd:string,
         "VALENCIA"^^xsd:string ;
     lao:cityZipCode "91381"^^xsd:string .
 
@@ -1380,14 +1164,12 @@ lao:91402 a lao:City ;
     lao:cityZipCode "91402"^^xsd:string .
 
 lao:91403 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string,
-        "SHERMAN OAKS"^^xsd:string,
+    lao:cityName "SHERMAN OAKS"^^xsd:string,
         "VAN NUYS"^^xsd:string ;
     lao:cityZipCode "91403"^^xsd:string .
 
 lao:91405 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string,
-        "VALLEY GLEN"^^xsd:string,
+    lao:cityName "VALLEY GLEN"^^xsd:string,
         "VAN NUYS"^^xsd:string ;
     lao:cityZipCode "91405"^^xsd:string .
 
@@ -1442,15 +1224,13 @@ lao:91521 a lao:City ;
     lao:cityZipCode "91521"^^xsd:string .
 
 lao:91601 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string,
-        "N HOLLYWOOD"^^xsd:string,
+    lao:cityName "N HOLLYWOOD"^^xsd:string,
         "NORTH HOLLYWOOD"^^xsd:string,
         "VALLEY VILLAGE"^^xsd:string ;
     lao:cityZipCode "91601"^^xsd:string .
 
 lao:91602 a lao:City ;
-    lao:cityName "N HOLLYWOOD"^^xsd:string,
-        "NORTH HOLLYWOOD"^^xsd:string,
+    lao:cityName "NORTH HOLLYWOOD"^^xsd:string,
         "STUDIO CITY"^^xsd:string,
         "TOLUCA LAKE"^^xsd:string ;
     lao:cityZipCode "91602"^^xsd:string .
@@ -1461,16 +1241,13 @@ lao:91604 a lao:City ;
     lao:cityZipCode "91604"^^xsd:string .
 
 lao:91605 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string,
-        "N HOLLYWOOD"^^xsd:string,
+    lao:cityName "N HOLLYWOOD"^^xsd:string,
         "NORTH HOLLYWOOD"^^xsd:string ;
     lao:cityZipCode "91605"^^xsd:string .
 
 lao:91606 a lao:City ;
-    lao:cityName "LOS ANGELES"^^xsd:string,
-        "N HOLLYWOOD"^^xsd:string,
-        "NORTH HOLLYWOOD"^^xsd:string,
-        "VALLEY GLEN"^^xsd:string ;
+    lao:cityName "N HOLLYWOOD"^^xsd:string,
+        "NORTH HOLLYWOOD"^^xsd:string ;
     lao:cityZipCode "91606"^^xsd:string .
 
 lao:91607 a lao:City ;
@@ -1496,13 +1273,8 @@ lao:91702 a lao:City ;
     lao:cityZipCode "91702"^^xsd:string .
 
 lao:91706 a lao:City ;
-    lao:cityName "BALDWIN PARK"^^xsd:string,
-        "IRWINDALE"^^xsd:string ;
+    lao:cityName "BALDWIN PARK"^^xsd:string ;
     lao:cityZipCode "91706"^^xsd:string .
-
-lao:91708 a lao:City ;
-    lao:cityName "CHINO"^^xsd:string ;
-    lao:cityZipCode "91708"^^xsd:string .
 
 lao:91709 a lao:City ;
     lao:cityName "CHINO HILLS"^^xsd:string ;
@@ -1531,10 +1303,6 @@ lao:91724 a lao:City ;
 lao:91730 a lao:City ;
     lao:cityName "RANCHO CUCAMONGA"^^xsd:string ;
     lao:cityZipCode "91730"^^xsd:string .
-
-lao:91731 a lao:City ;
-    lao:cityName "EL MONTE"^^xsd:string ;
-    lao:cityZipCode "91731"^^xsd:string .
 
 lao:91732 a lao:City ;
     lao:cityName "EL MONTE"^^xsd:string ;
@@ -1567,8 +1335,7 @@ lao:91744 a lao:City ;
     lao:cityZipCode "91744"^^xsd:string .
 
 lao:91745 a lao:City ;
-    lao:cityName "CITY OF INDUSTRY"^^xsd:string,
-        "HACIENDA HEIGHTS"^^xsd:string ;
+    lao:cityName "HACIENDA HEIGHTS"^^xsd:string ;
     lao:cityZipCode "91745"^^xsd:string .
 
 lao:91746 a lao:City ;
@@ -1625,10 +1392,6 @@ lao:91767 a lao:City ;
     lao:cityName "POMONA"^^xsd:string ;
     lao:cityZipCode "91767"^^xsd:string .
 
-lao:91768 a lao:City ;
-    lao:cityName "POMONA"^^xsd:string ;
-    lao:cityZipCode "91768"^^xsd:string .
-
 lao:91770 a lao:City ;
     lao:cityName "ROSEMEAD"^^xsd:string ;
     lao:cityZipCode "91770"^^xsd:string .
@@ -1648,10 +1411,6 @@ lao:91776 a lao:City ;
 lao:91780 a lao:City ;
     lao:cityName "TEMPLE CITY"^^xsd:string ;
     lao:cityZipCode "91780"^^xsd:string .
-
-lao:91784 a lao:City ;
-    lao:cityName "UPLAND"^^xsd:string ;
-    lao:cityZipCode "91784"^^xsd:string .
 
 lao:91786 a lao:City ;
     lao:cityName "UPLAND"^^xsd:string ;
@@ -1681,29 +1440,13 @@ lao:91803 a lao:City ;
     lao:cityName "ALHAMBRA"^^xsd:string ;
     lao:cityZipCode "91803"^^xsd:string .
 
-lao:91932 a lao:City ;
-    lao:cityName "IMPERIAL BEACH"^^xsd:string ;
-    lao:cityZipCode "91932"^^xsd:string .
-
-lao:92003 a lao:City ;
-    lao:cityName "BONSALL"^^xsd:string ;
-    lao:cityZipCode "92003"^^xsd:string .
-
 lao:92008 a lao:City ;
     lao:cityName "CARLSBAD"^^xsd:string ;
     lao:cityZipCode "92008"^^xsd:string .
 
-lao:92009 a lao:City ;
-    lao:cityName "CARLSBAD"^^xsd:string ;
-    lao:cityZipCode "92009"^^xsd:string .
-
 lao:92010 a lao:City ;
     lao:cityName "CARLSBAD"^^xsd:string ;
     lao:cityZipCode "92010"^^xsd:string .
-
-lao:92014 a lao:City ;
-    lao:cityName "DEL MAR"^^xsd:string ;
-    lao:cityZipCode "92014"^^xsd:string .
 
 lao:92020 a lao:City ;
     lao:cityName "EL CAJON"^^xsd:string ;
@@ -1721,10 +1464,6 @@ lao:92026 a lao:City ;
     lao:cityName "ESCONDIDO"^^xsd:string ;
     lao:cityZipCode "92026"^^xsd:string .
 
-lao:92028 a lao:City ;
-    lao:cityName "FALLBROOK"^^xsd:string ;
-    lao:cityZipCode "92028"^^xsd:string .
-
 lao:92029 a lao:City ;
     lao:cityName "ESCONDIDO"^^xsd:string ;
     lao:cityZipCode "92029"^^xsd:string .
@@ -1733,17 +1472,9 @@ lao:92037 a lao:City ;
     lao:cityName "LA JOLLA"^^xsd:string ;
     lao:cityZipCode "92037"^^xsd:string .
 
-lao:92040 a lao:City ;
-    lao:cityName "LAKESIDE"^^xsd:string ;
-    lao:cityZipCode "92040"^^xsd:string .
-
 lao:92054 a lao:City ;
     lao:cityName "OCEANSIDE"^^xsd:string ;
     lao:cityZipCode "92054"^^xsd:string .
-
-lao:92056 a lao:City ;
-    lao:cityName "OCEANSIDE"^^xsd:string ;
-    lao:cityZipCode "92056"^^xsd:string .
 
 lao:92057 a lao:City ;
     lao:cityName "OCEANSIDE"^^xsd:string ;
@@ -1757,14 +1488,6 @@ lao:92064 a lao:City ;
     lao:cityName "POWAY"^^xsd:string ;
     lao:cityZipCode "92064"^^xsd:string .
 
-lao:92065 a lao:City ;
-    lao:cityName "RAMONA"^^xsd:string ;
-    lao:cityZipCode "92065"^^xsd:string .
-
-lao:92067 a lao:City ;
-    lao:cityName "RANCHO SANTA FE"^^xsd:string ;
-    lao:cityZipCode "92067"^^xsd:string .
-
 lao:92069 a lao:City ;
     lao:cityName "SAN MARCOS"^^xsd:string ;
     lao:cityZipCode "92069"^^xsd:string .
@@ -1772,26 +1495,6 @@ lao:92069 a lao:City ;
 lao:92071 a lao:City ;
     lao:cityName "SANTEE"^^xsd:string ;
     lao:cityZipCode "92071"^^xsd:string .
-
-lao:92078 a lao:City ;
-    lao:cityName "SAN MARCOS"^^xsd:string ;
-    lao:cityZipCode "92078"^^xsd:string .
-
-lao:92081 a lao:City ;
-    lao:cityName "VISTA"^^xsd:string ;
-    lao:cityZipCode "92081"^^xsd:string .
-
-lao:92101 a lao:City ;
-    lao:cityName "SAN DIEGO"^^xsd:string ;
-    lao:cityZipCode "92101"^^xsd:string .
-
-lao:92102 a lao:City ;
-    lao:cityName "SAN DIEGO"^^xsd:string ;
-    lao:cityZipCode "92102"^^xsd:string .
-
-lao:92103 a lao:City ;
-    lao:cityName "SAN DIEGO"^^xsd:string ;
-    lao:cityZipCode "92103"^^xsd:string .
 
 lao:92111 a lao:City ;
     lao:cityName "SAN DIEGO"^^xsd:string ;
@@ -1805,10 +1508,6 @@ lao:92121 a lao:City ;
     lao:cityName "SAN DIEGO"^^xsd:string ;
     lao:cityZipCode "92121"^^xsd:string .
 
-lao:92127 a lao:City ;
-    lao:cityName "SAN DIEGO"^^xsd:string ;
-    lao:cityZipCode "92127"^^xsd:string .
-
 lao:92128 a lao:City ;
     lao:cityName "SAN DIEGO"^^xsd:string ;
     lao:cityZipCode "92128"^^xsd:string .
@@ -1818,17 +1517,8 @@ lao:92130 a lao:City ;
     lao:cityZipCode "92130"^^xsd:string .
 
 lao:92203 a lao:City ;
-    lao:cityName "BERMUDA DUNES"^^xsd:string,
-        "INDIO"^^xsd:string ;
+    lao:cityName "INDIO"^^xsd:string ;
     lao:cityZipCode "92203"^^xsd:string .
-
-lao:92211 a lao:City ;
-    lao:cityName "PALM DESERT"^^xsd:string ;
-    lao:cityZipCode "92211"^^xsd:string .
-
-lao:92220 a lao:City ;
-    lao:cityName "BANNING"^^xsd:string ;
-    lao:cityZipCode "92220"^^xsd:string .
 
 lao:92240 a lao:City ;
     lao:cityName "DESERT HOT SPRINGS"^^xsd:string ;
@@ -1842,21 +1532,9 @@ lao:92264 a lao:City ;
     lao:cityName "PALM SPRINGS"^^xsd:string ;
     lao:cityZipCode "92264"^^xsd:string .
 
-lao:92270 a lao:City ;
-    lao:cityName "RANCHO MIRAGE"^^xsd:string ;
-    lao:cityZipCode "92270"^^xsd:string .
-
-lao:92301 a lao:City ;
-    lao:cityName "ADELANTO"^^xsd:string ;
-    lao:cityZipCode "92301"^^xsd:string .
-
 lao:92308 a lao:City ;
     lao:cityName "APPLE VALLEY"^^xsd:string ;
     lao:cityZipCode "92308"^^xsd:string .
-
-lao:92313 a lao:City ;
-    lao:cityName "GRAND TERRACE"^^xsd:string ;
-    lao:cityZipCode "92313"^^xsd:string .
 
 lao:92314 a lao:City ;
     lao:cityName "BIG BEAR CITY"^^xsd:string ;
@@ -1870,14 +1548,6 @@ lao:92316 a lao:City ;
     lao:cityName "BLOOMINGTON"^^xsd:string ;
     lao:cityZipCode "92316"^^xsd:string .
 
-lao:92320 a lao:City ;
-    lao:cityName "CALIMESA"^^xsd:string ;
-    lao:cityZipCode "92320"^^xsd:string .
-
-lao:92324 a lao:City ;
-    lao:cityName "COLTON"^^xsd:string ;
-    lao:cityZipCode "92324"^^xsd:string .
-
 lao:92325 a lao:City ;
     lao:cityName "CRESTLINE"^^xsd:string ;
     lao:cityZipCode "92325"^^xsd:string .
@@ -1885,10 +1555,6 @@ lao:92325 a lao:City ;
 lao:92335 a lao:City ;
     lao:cityName "FONTANA"^^xsd:string ;
     lao:cityZipCode "92335"^^xsd:string .
-
-lao:92336 a lao:City ;
-    lao:cityName "FONTANA"^^xsd:string ;
-    lao:cityZipCode "92336"^^xsd:string .
 
 lao:92337 a lao:City ;
     lao:cityName "FONTANA"^^xsd:string ;
@@ -1906,17 +1572,9 @@ lao:92345 a lao:City ;
     lao:cityName "HESPERIA"^^xsd:string ;
     lao:cityZipCode "92345"^^xsd:string .
 
-lao:92346 a lao:City ;
-    lao:cityName "HIGHLAND"^^xsd:string ;
-    lao:cityZipCode "92346"^^xsd:string .
-
 lao:92352 a lao:City ;
     lao:cityName "LAKE ARROWHEAD"^^xsd:string ;
     lao:cityZipCode "92352"^^xsd:string .
-
-lao:92356 a lao:City ;
-    lao:cityName "LUCERNE VALLEY"^^xsd:string ;
-    lao:cityZipCode "92356"^^xsd:string .
 
 lao:92371 a lao:City ;
     lao:cityName "PHELAN"^^xsd:string ;
@@ -1930,17 +1588,9 @@ lao:92373 a lao:City ;
     lao:cityName "REDLANDS"^^xsd:string ;
     lao:cityZipCode "92373"^^xsd:string .
 
-lao:92374 a lao:City ;
-    lao:cityName "REDLANDS"^^xsd:string ;
-    lao:cityZipCode "92374"^^xsd:string .
-
 lao:92376 a lao:City ;
     lao:cityName "RIALTO"^^xsd:string ;
     lao:cityZipCode "92376"^^xsd:string .
-
-lao:92377 a lao:City ;
-    lao:cityName "RIALTO"^^xsd:string ;
-    lao:cityZipCode "92377"^^xsd:string .
 
 lao:92382 a lao:City ;
     lao:cityName "RUNNING SPRINGS"^^xsd:string ;
@@ -1957,10 +1607,6 @@ lao:92395 a lao:City ;
 lao:92399 a lao:City ;
     lao:cityName "YUCAIPA"^^xsd:string ;
     lao:cityZipCode "92399"^^xsd:string .
-
-lao:92404 a lao:City ;
-    lao:cityName "SAN BERNARDINO"^^xsd:string ;
-    lao:cityZipCode "92404"^^xsd:string .
 
 lao:92407 a lao:City ;
     lao:cityName "SAN BERNARDINO"^^xsd:string ;
@@ -1998,29 +1644,13 @@ lao:92508 a lao:City ;
     lao:cityName "RIVERSIDE"^^xsd:string ;
     lao:cityZipCode "92508"^^xsd:string .
 
-lao:92509 a lao:City ;
-    lao:cityName "RIVERSIDE"^^xsd:string ;
-    lao:cityZipCode "92509"^^xsd:string .
-
 lao:92530 a lao:City ;
     lao:cityName "LAKE ELSINORE"^^xsd:string ;
     lao:cityZipCode "92530"^^xsd:string .
 
-lao:92532 a lao:City ;
-    lao:cityName "LAKE ELSINORE"^^xsd:string ;
-    lao:cityZipCode "92532"^^xsd:string .
-
-lao:92543 a lao:City ;
-    lao:cityName "HEMET"^^xsd:string ;
-    lao:cityZipCode "92543"^^xsd:string .
-
 lao:92544 a lao:City ;
     lao:cityName "HEMET"^^xsd:string ;
     lao:cityZipCode "92544"^^xsd:string .
-
-lao:92551 a lao:City ;
-    lao:cityName "MORENO VALLEY"^^xsd:string ;
-    lao:cityZipCode "92551"^^xsd:string .
 
 lao:92553 a lao:City ;
     lao:cityName "MORENO VALLEY"^^xsd:string ;
@@ -2030,17 +1660,9 @@ lao:92555 a lao:City ;
     lao:cityName "MORENO VALLEY"^^xsd:string ;
     lao:cityZipCode "92555"^^xsd:string .
 
-lao:92557 a lao:City ;
-    lao:cityName "MORENO VALLEY"^^xsd:string ;
-    lao:cityZipCode "92557"^^xsd:string .
-
 lao:92562 a lao:City ;
     lao:cityName "MURRIETA"^^xsd:string ;
     lao:cityZipCode "92562"^^xsd:string .
-
-lao:92563 a lao:City ;
-    lao:cityName "MURRIETA"^^xsd:string ;
-    lao:cityZipCode "92563"^^xsd:string .
 
 lao:92567 a lao:City ;
     lao:cityName "NUEVO"^^xsd:string ;
@@ -2049,10 +1671,6 @@ lao:92567 a lao:City ;
 lao:92570 a lao:City ;
     lao:cityName "PERRIS"^^xsd:string ;
     lao:cityZipCode "92570"^^xsd:string .
-
-lao:92571 a lao:City ;
-    lao:cityName "PERRIS"^^xsd:string ;
-    lao:cityZipCode "92571"^^xsd:string .
 
 lao:92583 a lao:City ;
     lao:cityName "SAN JACINTO"^^xsd:string ;
@@ -2082,18 +1700,6 @@ lao:92602 a lao:City ;
     lao:cityName "IRVINE"^^xsd:string ;
     lao:cityZipCode "92602"^^xsd:string .
 
-lao:92604 a lao:City ;
-    lao:cityName "IRVINE"^^xsd:string ;
-    lao:cityZipCode "92604"^^xsd:string .
-
-lao:92606 a lao:City ;
-    lao:cityName "IRVINE"^^xsd:string ;
-    lao:cityZipCode "92606"^^xsd:string .
-
-lao:92612 a lao:City ;
-    lao:cityName "IRVINE"^^xsd:string ;
-    lao:cityZipCode "92612"^^xsd:string .
-
 lao:92614 a lao:City ;
     lao:cityName "IRVINE"^^xsd:string ;
     lao:cityZipCode "92614"^^xsd:string .
@@ -2109,10 +1715,6 @@ lao:92618 a lao:City ;
 lao:92620 a lao:City ;
     lao:cityName "IRVINE"^^xsd:string ;
     lao:cityZipCode "92620"^^xsd:string .
-
-lao:92625 a lao:City ;
-    lao:cityName "CORONA DEL MAR"^^xsd:string ;
-    lao:cityZipCode "92625"^^xsd:string .
 
 lao:92626 a lao:City ;
     lao:cityName "COSTA MESA"^^xsd:string ;
@@ -2133,10 +1735,6 @@ lao:92630 a lao:City ;
 lao:92646 a lao:City ;
     lao:cityName "HUNTINGTON BEACH"^^xsd:string ;
     lao:cityZipCode "92646"^^xsd:string .
-
-lao:92647 a lao:City ;
-    lao:cityName "HUNTINGTON BEACH"^^xsd:string ;
-    lao:cityZipCode "92647"^^xsd:string .
 
 lao:92648 a lao:City ;
     lao:cityName "HUNTINGTON BEACH"^^xsd:string ;
@@ -2174,14 +1772,6 @@ lao:92673 a lao:City ;
     lao:cityName "SAN CLEMENTE"^^xsd:string ;
     lao:cityZipCode "92673"^^xsd:string .
 
-lao:92677 a lao:City ;
-    lao:cityName "LAGUNA NIGUEL"^^xsd:string ;
-    lao:cityZipCode "92677"^^xsd:string .
-
-lao:92683 a lao:City ;
-    lao:cityName "WESTMINSTER"^^xsd:string ;
-    lao:cityZipCode "92683"^^xsd:string .
-
 lao:92688 a lao:City ;
     lao:cityName "RANCHO SANTA MARGARITA"^^xsd:string ;
     lao:cityZipCode "92688"^^xsd:string .
@@ -2189,10 +1779,6 @@ lao:92688 a lao:City ;
 lao:92691 a lao:City ;
     lao:cityName "MISSION VIEJO"^^xsd:string ;
     lao:cityZipCode "92691"^^xsd:string .
-
-lao:92692 a lao:City ;
-    lao:cityName "MISSION VIEJO"^^xsd:string ;
-    lao:cityZipCode "92692"^^xsd:string .
 
 lao:92694 a lao:City ;
     lao:cityName "LADERA RANCH"^^xsd:string,
@@ -2203,10 +1789,6 @@ lao:92701 a lao:City ;
     lao:cityName "SANTA ANA"^^xsd:string ;
     lao:cityZipCode "92701"^^xsd:string .
 
-lao:92703 a lao:City ;
-    lao:cityName "SANTA ANA"^^xsd:string ;
-    lao:cityZipCode "92703"^^xsd:string .
-
 lao:92704 a lao:City ;
     lao:cityName "SANTA ANA"^^xsd:string ;
     lao:cityZipCode "92704"^^xsd:string .
@@ -2214,10 +1796,6 @@ lao:92704 a lao:City ;
 lao:92705 a lao:City ;
     lao:cityName "SANTA ANA"^^xsd:string ;
     lao:cityZipCode "92705"^^xsd:string .
-
-lao:92707 a lao:City ;
-    lao:cityName "SANTA ANA"^^xsd:string ;
-    lao:cityZipCode "92707"^^xsd:string .
 
 lao:92708 a lao:City ;
     lao:cityName "FOUNTAIN VALLEY"^^xsd:string ;
@@ -2287,10 +1865,6 @@ lao:92860 a lao:City ;
     lao:cityName "NORCO"^^xsd:string ;
     lao:cityZipCode "92860"^^xsd:string .
 
-lao:92861 a lao:City ;
-    lao:cityName "VILLA PARK"^^xsd:string ;
-    lao:cityZipCode "92861"^^xsd:string .
-
 lao:92865 a lao:City ;
     lao:cityName "ORANGE"^^xsd:string ;
     lao:cityZipCode "92865"^^xsd:string .
@@ -2324,8 +1898,7 @@ lao:92879 a lao:City ;
     lao:cityZipCode "92879"^^xsd:string .
 
 lao:92880 a lao:City ;
-    lao:cityName "CORONA"^^xsd:string,
-        "EASTVALE"^^xsd:string ;
+    lao:cityName "CORONA"^^xsd:string ;
     lao:cityZipCode "92880"^^xsd:string .
 
 lao:92881 a lao:City ;
@@ -2372,10 +1945,6 @@ lao:93021 a lao:City ;
     lao:cityName "MOORPARK"^^xsd:string ;
     lao:cityZipCode "93021"^^xsd:string .
 
-lao:93022 a lao:City ;
-    lao:cityName "OAK VIEW"^^xsd:string ;
-    lao:cityZipCode "93022"^^xsd:string .
-
 lao:93023 a lao:City ;
     lao:cityName "OJAI"^^xsd:string ;
     lao:cityZipCode "93023"^^xsd:string .
@@ -2384,25 +1953,9 @@ lao:93030 a lao:City ;
     lao:cityName "OXNARD"^^xsd:string ;
     lao:cityZipCode "93030"^^xsd:string .
 
-lao:93033 a lao:City ;
-    lao:cityName "OXNARD"^^xsd:string ;
-    lao:cityZipCode "93033"^^xsd:string .
-
 lao:93035 a lao:City ;
     lao:cityName "OXNARD"^^xsd:string ;
     lao:cityZipCode "93035"^^xsd:string .
-
-lao:93036 a lao:City ;
-    lao:cityName "OXNARD"^^xsd:string ;
-    lao:cityZipCode "93036"^^xsd:string .
-
-lao:93040 a lao:City ;
-    lao:cityName "PIRU"^^xsd:string ;
-    lao:cityZipCode "93040"^^xsd:string .
-
-lao:93041 a lao:City ;
-    lao:cityName "PORT HUENEME"^^xsd:string ;
-    lao:cityZipCode "93041"^^xsd:string .
 
 lao:93060 a lao:City ;
     lao:cityName "SANTA PAULA"^^xsd:string ;
@@ -2416,18 +1969,6 @@ lao:93065 a lao:City ;
     lao:cityName "SIMI VALLEY"^^xsd:string ;
     lao:cityZipCode "93065"^^xsd:string .
 
-lao:93066 a lao:City ;
-    lao:cityName "SOMIS"^^xsd:string ;
-    lao:cityZipCode "93066"^^xsd:string .
-
-lao:93101 a lao:City ;
-    lao:cityName "SANTA BARBARA"^^xsd:string ;
-    lao:cityZipCode "93101"^^xsd:string .
-
-lao:93108 a lao:City ;
-    lao:cityName "MONTECITO"^^xsd:string ;
-    lao:cityZipCode "93108"^^xsd:string .
-
 lao:93222 a lao:City ;
     lao:cityName "PINE MOUNTAIN CLUB"^^xsd:string ;
     lao:cityZipCode "93222"^^xsd:string .
@@ -2436,21 +1977,9 @@ lao:93225 a lao:City ;
     lao:cityName "FRAZIER PARK"^^xsd:string ;
     lao:cityZipCode "93225"^^xsd:string .
 
-lao:93230 a lao:City ;
-    lao:cityName "HANFORD"^^xsd:string ;
-    lao:cityZipCode "93230"^^xsd:string .
-
-lao:93274 a lao:City ;
-    lao:cityName "TULARE"^^xsd:string ;
-    lao:cityZipCode "93274"^^xsd:string .
-
 lao:93291 a lao:City ;
     lao:cityName "VISALIA"^^xsd:string ;
     lao:cityZipCode "93291"^^xsd:string .
-
-lao:93304 a lao:City ;
-    lao:cityName "BAKERSFIELD"^^xsd:string ;
-    lao:cityZipCode "93304"^^xsd:string .
 
 lao:93308 a lao:City ;
     lao:cityName "BAKERSFIELD"^^xsd:string ;
@@ -2460,21 +1989,9 @@ lao:93446 a lao:City ;
     lao:cityName "PASO ROBLES"^^xsd:string ;
     lao:cityZipCode "93446"^^xsd:string .
 
-lao:93454 a lao:City ;
-    lao:cityName "SANTA MARIA"^^xsd:string ;
-    lao:cityZipCode "93454"^^xsd:string .
-
 lao:93455 a lao:City ;
     lao:cityName "SANTA MARIA"^^xsd:string ;
     lao:cityZipCode "93455"^^xsd:string .
-
-lao:93463 a lao:City ;
-    lao:cityName "SOLVANG"^^xsd:string ;
-    lao:cityZipCode "93463"^^xsd:string .
-
-lao:93505 a lao:City ;
-    lao:cityName "CALIFORNIA CITY"^^xsd:string ;
-    lao:cityZipCode "93505"^^xsd:string .
 
 lao:93510 a lao:City ;
     lao:cityName "ACTON"^^xsd:string ;
@@ -2497,8 +2014,7 @@ lao:93535 a lao:City ;
     lao:cityZipCode "93535"^^xsd:string .
 
 lao:93536 a lao:City ;
-    lao:cityName "LANCASTER"^^xsd:string,
-        "QUARTZ HILL"^^xsd:string ;
+    lao:cityName "LANCASTER"^^xsd:string ;
     lao:cityZipCode "93536"^^xsd:string .
 
 lao:93543 a lao:City ;
@@ -2508,10 +2024,6 @@ lao:93543 a lao:City ;
 lao:93545 a lao:City ;
     lao:cityName "LONE PINE"^^xsd:string ;
     lao:cityZipCode "93545"^^xsd:string .
-
-lao:93546 a lao:City ;
-    lao:cityName "MAMMOTH LAKES"^^xsd:string ;
-    lao:cityZipCode "93546"^^xsd:string .
 
 lao:93550 a lao:City ;
     lao:cityName "PALMDALE"^^xsd:string ;
@@ -2525,18 +2037,6 @@ lao:93552 a lao:City ;
     lao:cityName "PALMDALE"^^xsd:string ;
     lao:cityZipCode "93552"^^xsd:string .
 
-lao:93560 a lao:City ;
-    lao:cityName "ROSAMOND"^^xsd:string ;
-    lao:cityZipCode "93560"^^xsd:string .
-
-lao:93591 a lao:City ;
-    lao:cityName "PALMDALE"^^xsd:string ;
-    lao:cityZipCode "93591"^^xsd:string .
-
-lao:93612 a lao:City ;
-    lao:cityName "CLOVIS"^^xsd:string ;
-    lao:cityZipCode "93612"^^xsd:string .
-
 lao:93619 a lao:City ;
     lao:cityName "CLOVIS"^^xsd:string ;
     lao:cityZipCode "93619"^^xsd:string .
@@ -2549,33 +2049,17 @@ lao:93711 a lao:City ;
     lao:cityName "FRESNO"^^xsd:string ;
     lao:cityZipCode "93711"^^xsd:string .
 
-lao:93727 a lao:City ;
-    lao:cityName "FRESNO"^^xsd:string ;
-    lao:cityZipCode "93727"^^xsd:string .
-
 lao:93923 a lao:City ;
     lao:cityName "CARMEL"^^xsd:string ;
     lao:cityZipCode "93923"^^xsd:string .
-
-lao:94010 a lao:City ;
-    lao:cityName "BURLINGAME"^^xsd:string ;
-    lao:cityZipCode "94010"^^xsd:string .
 
 lao:94080 a lao:City ;
     lao:cityName "SOUTH SAN FRANCISCO"^^xsd:string ;
     lao:cityZipCode "94080"^^xsd:string .
 
-lao:94104 a lao:City ;
-    lao:cityName "SAN FRANCISCO"^^xsd:string ;
-    lao:cityZipCode "94104"^^xsd:string .
-
 lao:94105 a lao:City ;
     lao:cityName "SAN FRANCISCO"^^xsd:string ;
     lao:cityZipCode "94105"^^xsd:string .
-
-lao:94107 a lao:City ;
-    lao:cityName "SAN FRANCISCO"^^xsd:string ;
-    lao:cityZipCode "94107"^^xsd:string .
 
 lao:94114 a lao:City ;
     lao:cityName "SAN FRANCISCO"^^xsd:string ;
@@ -2584,14 +2068,6 @@ lao:94114 a lao:City ;
 lao:94402 a lao:City ;
     lao:cityName "SAN MATEO"^^xsd:string ;
     lao:cityZipCode "94402"^^xsd:string .
-
-lao:94501 a lao:City ;
-    lao:cityName "ALAMEDA"^^xsd:string ;
-    lao:cityZipCode "94501"^^xsd:string .
-
-lao:94510 a lao:City ;
-    lao:cityName "BENICIA"^^xsd:string ;
-    lao:cityZipCode "94510"^^xsd:string .
 
 lao:94551 a lao:City ;
     lao:cityName "LIVERMORE"^^xsd:string ;
@@ -2613,49 +2089,17 @@ lao:94702 a lao:City ;
     lao:cityName "BERKELEY"^^xsd:string ;
     lao:cityZipCode "94702"^^xsd:string .
 
-lao:94804 a lao:City ;
-    lao:cityName "RICHMOND"^^xsd:string ;
-    lao:cityZipCode "94804"^^xsd:string .
-
-lao:94949 a lao:City ;
-    lao:cityName "NOVATO"^^xsd:string ;
-    lao:cityZipCode "94949"^^xsd:string .
-
 lao:94954 a lao:City ;
     lao:cityName "PETALUMA"^^xsd:string ;
     lao:cityZipCode "94954"^^xsd:string .
-
-lao:95012 a lao:City ;
-    lao:cityName "CASTROVILLE"^^xsd:string ;
-    lao:cityZipCode "95012"^^xsd:string .
 
 lao:95035 a lao:City ;
     lao:cityName "MILPITAS"^^xsd:string ;
     lao:cityZipCode "95035"^^xsd:string .
 
-lao:95132 a lao:City ;
-    lao:cityName "SAN JOSE"^^xsd:string ;
-    lao:cityZipCode "95132"^^xsd:string .
-
-lao:95215 a lao:City ;
-    lao:cityName "STOCKTON"^^xsd:string ;
-    lao:cityZipCode "95215"^^xsd:string .
-
 lao:95624 a lao:City ;
     lao:cityName "ELK GROVE"^^xsd:string ;
     lao:cityZipCode "95624"^^xsd:string .
-
-lao:95630 a lao:City ;
-    lao:cityName "FOLSOM"^^xsd:string ;
-    lao:cityZipCode "95630"^^xsd:string .
-
-lao:95662 a lao:City ;
-    lao:cityName "ORANGEVALE"^^xsd:string ;
-    lao:cityZipCode "95662"^^xsd:string .
-
-lao:95691 a lao:City ;
-    lao:cityName "WEST SACRAMENTO"^^xsd:string ;
-    lao:cityZipCode "95691"^^xsd:string .
 
 lao:95742 a lao:City ;
     lao:cityName "RANCHO CORDOVA"^^xsd:string ;
@@ -2697,21 +2141,9 @@ lao:96001 a lao:City ;
     lao:cityName "REDDING"^^xsd:string ;
     lao:cityZipCode "96001"^^xsd:string .
 
-lao:97209 a lao:City ;
-    lao:cityName "PORTLAND"^^xsd:string ;
-    lao:cityZipCode "97209"^^xsd:string .
-
-lao:98006 a lao:City ;
-    lao:cityName "BELLEVUE"^^xsd:string ;
-    lao:cityZipCode "98006"^^xsd:string .
-
 lao:98037 a lao:City ;
     lao:cityName "LYNNWOOD"^^xsd:string ;
     lao:cityZipCode "98037"^^xsd:string .
-
-lao:98077 a lao:City ;
-    lao:cityName "WOODINVILLE"^^xsd:string ;
-    lao:cityZipCode "98077"^^xsd:string .
 
 lao:98101 a lao:City ;
     lao:cityName "SEATTLE"^^xsd:string ;
