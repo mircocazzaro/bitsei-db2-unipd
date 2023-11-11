@@ -1,151 +1,151 @@
 @prefix lao: <http://www.bitsei.it/losAngelesOntology/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-lao:ARL a lao:Area ;
+lao:areaARL a lao:Area ;
     lao:areaAcronym "ARL"^^xsd:string ;
     lao:areaName "Arleta "^^xsd:string .
 
-lao:BAR a lao:Area ;
+lao:areaBAR a lao:Area ;
     lao:areaAcronym "BAR"^^xsd:string ;
     lao:areaName "Bel Air "^^xsd:string .
 
-lao:BHT a lao:Area ;
+lao:areaBHT a lao:Area ;
     lao:areaAcronym "BHT"^^xsd:string ;
     lao:areaName "Boyle Heights"^^xsd:string .
 
-lao:BTW a lao:Area ;
+lao:areaBTW a lao:Area ;
     lao:areaAcronym "BTW"^^xsd:string ;
     lao:areaName "Brentwood "^^xsd:string .
 
-lao:CCN a lao:Area ;
+lao:areaCCN a lao:Area ;
     lao:areaAcronym "CCN"^^xsd:string ;
     lao:areaName "Central City North"^^xsd:string .
 
-lao:CCY a lao:Area ;
+lao:areaCCY a lao:Area ;
     lao:areaAcronym "CCY"^^xsd:string ;
     lao:areaName "Central City"^^xsd:string .
 
-lao:CHT a lao:Area ;
+lao:areaCHT a lao:Area ;
     lao:areaAcronym "CHT"^^xsd:string ;
     lao:areaName "Chatsworth "^^xsd:string .
 
-lao:CPK a lao:Area ;
+lao:areaCPK a lao:Area ;
     lao:areaAcronym "CPK"^^xsd:string ;
     lao:areaName "Canoga Park "^^xsd:string .
 
-lao:ENC a lao:Area ;
+lao:areaENC a lao:Area ;
     lao:areaAcronym "ENC"^^xsd:string ;
     lao:areaName "Encino "^^xsd:string .
 
-lao:GHL a lao:Area ;
+lao:areaGHL a lao:Area ;
     lao:areaAcronym "GHL"^^xsd:string ;
     lao:areaName "Granada Hills "^^xsd:string .
 
-lao:HAR a lao:Area ;
+lao:areaHAR a lao:Area ;
     lao:areaAcronym "HAR"^^xsd:string ;
     lao:areaName "Harbor Gateway"^^xsd:string .
 
-lao:HWD a lao:Area ;
+lao:areaHWD a lao:Area ;
     lao:areaAcronym "HWD"^^xsd:string ;
     lao:areaName "Hollywood"^^xsd:string .
 
-lao:LAX a lao:Area ;
+lao:areaLAX a lao:Area ;
     lao:areaAcronym "LAX"^^xsd:string ;
     lao:areaName "Los Angeles International Airport"^^xsd:string .
 
-lao:MSS a lao:Area ;
+lao:areaMSS a lao:Area ;
     lao:areaAcronym "MSS"^^xsd:string ;
     lao:areaName "Mission Hills "^^xsd:string .
 
-lao:NHL a lao:Area ;
+lao:areaNHL a lao:Area ;
     lao:areaAcronym "NHL"^^xsd:string ;
     lao:areaName "North Hollywood "^^xsd:string .
 
-lao:NLA a lao:Area ;
+lao:areaNLA a lao:Area ;
     lao:areaAcronym "NLA"^^xsd:string ;
     lao:areaName "Northeast Los Angeles"^^xsd:string .
 
-lao:NRD a lao:Area ;
+lao:areaNRD a lao:Area ;
     lao:areaAcronym "NRD"^^xsd:string ;
     lao:areaName "Northridge"^^xsd:string .
 
-lao:PLM a lao:Area ;
+lao:areaPLM a lao:Area ;
     lao:areaAcronym "PLM"^^xsd:string ;
     lao:areaName "Palms "^^xsd:string .
 
-lao:PTL a lao:Area ;
+lao:areaPTL a lao:Area ;
     lao:areaAcronym "PTL"^^xsd:string ;
     lao:areaName "Port of Los Angeles"^^xsd:string .
 
-lao:RES a lao:Area ;
+lao:areaRES a lao:Area ;
     lao:areaAcronym "RES"^^xsd:string ;
     lao:areaName "Reseda "^^xsd:string .
 
-lao:SEL a lao:Area ;
+lao:areaSEL a lao:Area ;
     lao:areaAcronym "SEL"^^xsd:string ;
     lao:areaName "Southeast Los Angeles"^^xsd:string .
 
-lao:SHR a lao:Area ;
+lao:areaSHR a lao:Area ;
     lao:areaAcronym "SHR"^^xsd:string ;
     lao:areaName "Sherman Oaks "^^xsd:string .
 
-lao:SLA a lao:Area ;
+lao:areaSLA a lao:Area ;
     lao:areaAcronym "SLA"^^xsd:string ;
     lao:areaName "South Los Angeles"^^xsd:string .
 
-lao:SLD a lao:Area ;
+lao:areaSLD a lao:Area ;
     lao:areaAcronym "SLD"^^xsd:string ;
     lao:areaName "Sunland "^^xsd:string .
 
-lao:SLK a lao:Area ;
+lao:areaSLK a lao:Area ;
     lao:areaAcronym "SLK"^^xsd:string ;
     lao:areaName "Silver Lake "^^xsd:string .
 
-lao:SPD a lao:Area ;
+lao:areaSPD a lao:Area ;
     lao:areaAcronym "SPD"^^xsd:string ;
     lao:areaName "San Pedro"^^xsd:string .
 
-lao:SVY a lao:Area ;
+lao:areaSVY a lao:Area ;
     lao:areaAcronym "SVY"^^xsd:string ;
     lao:areaName "Sun Valley "^^xsd:string .
 
-lao:SYL a lao:Area ;
+lao:areaSYL a lao:Area ;
     lao:areaAcronym "SYL"^^xsd:string ;
     lao:areaName "Sylmar"^^xsd:string .
 
-lao:VEN a lao:Area ;
+lao:areaVEN a lao:Area ;
     lao:areaAcronym "VEN"^^xsd:string ;
     lao:areaName "Venice"^^xsd:string .
 
-lao:VNY a lao:Area ;
+lao:areaVNY a lao:Area ;
     lao:areaAcronym "VNY"^^xsd:string ;
     lao:areaName "Van Nuys "^^xsd:string .
 
-lao:WAD a lao:Area ;
+lao:areaWAD a lao:Area ;
     lao:areaAcronym "WAD"^^xsd:string ;
     lao:areaName "West Adams "^^xsd:string .
 
-lao:WCH a lao:Area ;
+lao:areaWCH a lao:Area ;
     lao:areaAcronym "WCH"^^xsd:string ;
     lao:areaName "Westchester "^^xsd:string .
 
-lao:WIL a lao:Area ;
+lao:areaWIL a lao:Area ;
     lao:areaAcronym "WIL"^^xsd:string ;
     lao:areaName "Wilshire"^^xsd:string .
 
-lao:WLA a lao:Area ;
+lao:areaWLA a lao:Area ;
     lao:areaAcronym "WLA"^^xsd:string ;
     lao:areaName "West Los Angeles"^^xsd:string .
 
-lao:WLK a lao:Area ;
+lao:areaWLK a lao:Area ;
     lao:areaAcronym "WLK"^^xsd:string ;
     lao:areaName "Westlake"^^xsd:string .
 
-lao:WLM a lao:Area ;
+lao:areaWLM a lao:Area ;
     lao:areaAcronym "WLM"^^xsd:string ;
     lao:areaName "Wilmington "^^xsd:string .
 
-lao:WWD a lao:Area ;
+lao:areaWWD a lao:Area ;
     lao:areaAcronym "WWD"^^xsd:string ;
     lao:areaName "Westwood"^^xsd:string .
 
