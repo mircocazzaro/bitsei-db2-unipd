@@ -1,0 +1,1215 @@
+@prefix lao: <http://www.bitsei.it/losAngelesOntology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lao:premis101 a lao:Premis ;
+    lao:premisCode "101"^^xsd:int ;
+    lao:premisDesc "STREET"^^xsd:string .
+
+lao:premis102 a lao:Premis ;
+    lao:premisCode "102"^^xsd:int ;
+    lao:premisDesc "SIDEWALK"^^xsd:string .
+
+lao:premis103 a lao:Premis ;
+    lao:premisCode "103"^^xsd:int ;
+    lao:premisDesc "ALLEY"^^xsd:string .
+
+lao:premis104 a lao:Premis ;
+    lao:premisCode "104"^^xsd:int ;
+    lao:premisDesc "DRIVEWAY"^^xsd:string .
+
+lao:premis105 a lao:Premis ;
+    lao:premisCode "105"^^xsd:int ;
+    lao:premisDesc "PEDESTRIAN OVERCROSSING"^^xsd:string .
+
+lao:premis106 a lao:Premis ;
+    lao:premisCode "106"^^xsd:int ;
+    lao:premisDesc "TUNNEL"^^xsd:string .
+
+lao:premis107 a lao:Premis ;
+    lao:premisCode "107"^^xsd:int ;
+    lao:premisDesc "VACANT LOT"^^xsd:string .
+
+lao:premis108 a lao:Premis ;
+    lao:premisCode "108"^^xsd:int ;
+    lao:premisDesc "PARKING LOT"^^xsd:string .
+
+lao:premis109 a lao:Premis ;
+    lao:premisCode "109"^^xsd:int ;
+    lao:premisDesc "PARK/PLAYGROUND"^^xsd:string .
+
+lao:premis110 a lao:Premis ;
+    lao:premisCode "110"^^xsd:int ;
+    lao:premisDesc "FREEWAY"^^xsd:string .
+
+lao:premis111 a lao:Premis ;
+    lao:premisCode "111"^^xsd:int ;
+    lao:premisDesc "BUS-CHARTER/PRIVATE"^^xsd:string .
+
+lao:premis112 a lao:Premis ;
+    lao:premisCode "112"^^xsd:int ;
+    lao:premisDesc "BUS, SCHOOL, CHURCH"^^xsd:string .
+
+lao:premis113 a lao:Premis ;
+    lao:premisCode "113"^^xsd:int ;
+    lao:premisDesc "TRUCK, COMMERICAL"^^xsd:string .
+
+lao:premis114 a lao:Premis ;
+    lao:premisCode "114"^^xsd:int ;
+    lao:premisDesc "TAXI"^^xsd:string .
+
+lao:premis115 a lao:Premis ;
+    lao:premisCode "115"^^xsd:int ;
+    lao:premisDesc "AIRCRAFT"^^xsd:string .
+
+lao:premis116 a lao:Premis ;
+    lao:premisCode "116"^^xsd:int ;
+    lao:premisDesc "OTHER/OUTSIDE"^^xsd:string .
+
+lao:premis117 a lao:Premis ;
+    lao:premisCode "117"^^xsd:int ;
+    lao:premisDesc "BEACH"^^xsd:string .
+
+lao:premis118 a lao:Premis ;
+    lao:premisCode "118"^^xsd:int ;
+    lao:premisDesc "CONSTRUCTION SITE"^^xsd:string .
+
+lao:premis119 a lao:Premis ;
+    lao:premisCode "119"^^xsd:int ;
+    lao:premisDesc "PORCH, RESIDENTIAL"^^xsd:string .
+
+lao:premis120 a lao:Premis ;
+    lao:premisCode "120"^^xsd:int ;
+    lao:premisDesc "STORAGE SHED"^^xsd:string .
+
+lao:premis121 a lao:Premis ;
+    lao:premisCode "121"^^xsd:int ;
+    lao:premisDesc "YARD (RESIDENTIAL/BUSINESS)"^^xsd:string .
+
+lao:premis122 a lao:Premis ;
+    lao:premisCode "122"^^xsd:int ;
+    lao:premisDesc "VEHICLE, PASSENGER/TRUCK"^^xsd:string .
+
+lao:premis123 a lao:Premis ;
+    lao:premisCode "123"^^xsd:int ;
+    lao:premisDesc "PARKING UNDERGROUND/BUILDING"^^xsd:string .
+
+lao:premis124 a lao:Premis ;
+    lao:premisCode "124"^^xsd:int ;
+    lao:premisDesc "BUS STOP"^^xsd:string .
+
+lao:premis125 a lao:Premis ;
+    lao:premisCode "125"^^xsd:int ;
+    lao:premisDesc "PAY PHONE"^^xsd:string .
+
+lao:premis126 a lao:Premis ;
+    lao:premisCode "126"^^xsd:int ;
+    lao:premisDesc "TRAIN, OTHER THAN MTA (ALSO QUERY 809/810/811)"^^xsd:string .
+
+lao:premis127 a lao:Premis ;
+    lao:premisCode "127"^^xsd:int ;
+    lao:premisDesc "TRASH CAN/TRASH DUMPSTER"^^xsd:string .
+
+lao:premis128 a lao:Premis ;
+    lao:premisCode "128"^^xsd:int ;
+    lao:premisDesc "BUS STOP/LAYOVER (ALSO QUERY 124)"^^xsd:string .
+
+lao:premis129 a lao:Premis ;
+    lao:premisCode "129"^^xsd:int ;
+    lao:premisDesc "TERMINAL, OTHER THAN MTA"^^xsd:string .
+
+lao:premis135 a lao:Premis ;
+    lao:premisCode "135"^^xsd:int ;
+    lao:premisDesc "MTA PROPERTY OR PARKING LOT"^^xsd:string .
+
+lao:premis136 a lao:Premis ;
+    lao:premisCode "136"^^xsd:int ;
+    lao:premisDesc "OTHER INTERSTATE, CHARTER BUS"^^xsd:string .
+
+lao:premis138 a lao:Premis ;
+    lao:premisCode "138"^^xsd:int ;
+    lao:premisDesc "STAIRWELL*"^^xsd:string .
+
+lao:premis139 a lao:Premis ;
+    lao:premisCode "139"^^xsd:int ;
+    lao:premisDesc "AMUSEMENT PARK*"^^xsd:string .
+
+lao:premis140 a lao:Premis ;
+    lao:premisCode "140"^^xsd:int ;
+    lao:premisDesc "BALCONY*"^^xsd:string .
+
+lao:premis141 a lao:Premis ;
+    lao:premisCode "141"^^xsd:int ;
+    lao:premisDesc "CEMETARY*"^^xsd:string .
+
+lao:premis142 a lao:Premis ;
+    lao:premisCode "142"^^xsd:int ;
+    lao:premisDesc "DRIVE THRU*"^^xsd:string .
+
+lao:premis143 a lao:Premis ;
+    lao:premisCode "143"^^xsd:int ;
+    lao:premisDesc "ESCALATOR*"^^xsd:string .
+
+lao:premis144 a lao:Premis ;
+    lao:premisCode "144"^^xsd:int ;
+    lao:premisDesc "GOLF COURSE*"^^xsd:string .
+
+lao:premis145 a lao:Premis ;
+    lao:premisCode "145"^^xsd:int ;
+    lao:premisDesc "MAIL BOX"^^xsd:string .
+
+lao:premis146 a lao:Premis ;
+    lao:premisCode "146"^^xsd:int ;
+    lao:premisDesc "PATIO*"^^xsd:string .
+
+lao:premis147 a lao:Premis ;
+    lao:premisCode "147"^^xsd:int ;
+    lao:premisDesc "POOL-PUBLIC/OUTDOOR OR INDOOR*"^^xsd:string .
+
+lao:premis148 a lao:Premis ;
+    lao:premisCode "148"^^xsd:int ;
+    lao:premisDesc "PUBLIC RESTROOM/OUTSIDE*"^^xsd:string .
+
+lao:premis149 a lao:Premis ;
+    lao:premisCode "149"^^xsd:int ;
+    lao:premisDesc "RIVER BED*"^^xsd:string .
+
+lao:premis150 a lao:Premis ;
+    lao:premisCode "150"^^xsd:int ;
+    lao:premisDesc "TOOL SHED*"^^xsd:string .
+
+lao:premis151 a lao:Premis ;
+    lao:premisCode "151"^^xsd:int ;
+    lao:premisDesc "TOW YARD*"^^xsd:string .
+
+lao:premis152 a lao:Premis ;
+    lao:premisCode "152"^^xsd:int ;
+    lao:premisDesc "UNDERPASS/BRIDGE*"^^xsd:string .
+
+lao:premis154 a lao:Premis ;
+    lao:premisCode "154"^^xsd:int ;
+    lao:premisDesc "TRAIN TRACKS"^^xsd:string .
+
+lao:premis155 a lao:Premis ;
+    lao:premisCode "155"^^xsd:int ;
+    lao:premisDesc "DAM/RESERVOIR"^^xsd:string .
+
+lao:premis156 a lao:Premis ;
+    lao:premisCode "156"^^xsd:int ;
+    lao:premisDesc "VALET"^^xsd:string .
+
+lao:premis157 a lao:Premis ;
+    lao:premisCode "157"^^xsd:int ;
+    lao:premisDesc "VEHICLE STORAGE LOT (CARS, TRUCKS, RV'S, BOATS, TRAILERS, ETC.)"^^xsd:string .
+
+lao:premis158 a lao:Premis ;
+    lao:premisCode "158"^^xsd:int ;
+    lao:premisDesc "TRANSIENT ENCAMPMENT"^^xsd:string .
+
+lao:premis201 a lao:Premis ;
+    lao:premisCode "201"^^xsd:int ;
+    lao:premisDesc "JEWELRY STORE"^^xsd:string .
+
+lao:premis202 a lao:Premis ;
+    lao:premisCode "202"^^xsd:int ;
+    lao:premisDesc "LIQUOR STORE"^^xsd:string .
+
+lao:premis203 a lao:Premis ;
+    lao:premisCode "203"^^xsd:int ;
+    lao:premisDesc "OTHER BUSINESS"^^xsd:string .
+
+lao:premis204 a lao:Premis ;
+    lao:premisCode "204"^^xsd:int ;
+    lao:premisDesc "MANUFACTURING COMPANY"^^xsd:string .
+
+lao:premis205 a lao:Premis ;
+    lao:premisCode "205"^^xsd:int ;
+    lao:premisDesc "GUN/SPORTING GOODS"^^xsd:string .
+
+lao:premis206 a lao:Premis ;
+    lao:premisCode "206"^^xsd:int ;
+    lao:premisDesc "TV/RADIO/APPLIANCE"^^xsd:string .
+
+lao:premis207 a lao:Premis ;
+    lao:premisCode "207"^^xsd:int ;
+    lao:premisDesc "BAR/COCKTAIL/NIGHTCLUB"^^xsd:string .
+
+lao:premis208 a lao:Premis ;
+    lao:premisCode "208"^^xsd:int ;
+    lao:premisDesc "AUTO SALES LOT"^^xsd:string .
+
+lao:premis209 a lao:Premis ;
+    lao:premisCode "209"^^xsd:int ;
+    lao:premisDesc "EQUIPMENT RENTAL"^^xsd:string .
+
+lao:premis210 a lao:Premis ;
+    lao:premisCode "210"^^xsd:int ;
+    lao:premisDesc "RESTAURANT/FAST FOOD"^^xsd:string .
+
+lao:premis211 a lao:Premis ;
+    lao:premisCode "211"^^xsd:int ;
+    lao:premisDesc "PAWN SHOP"^^xsd:string .
+
+lao:premis212 a lao:Premis ;
+    lao:premisCode "212"^^xsd:int ;
+    lao:premisDesc "TRANSPORTATION FACILITY (AIRPORT)"^^xsd:string .
+
+lao:premis213 a lao:Premis ;
+    lao:premisCode "213"^^xsd:int ;
+    lao:premisDesc "WAREHOUSE"^^xsd:string .
+
+lao:premis214 a lao:Premis ;
+    lao:premisCode "214"^^xsd:int ;
+    lao:premisDesc "BUS DEPOT/TERMINAL, OTHER THAN MTA"^^xsd:string .
+
+lao:premis215 a lao:Premis ;
+    lao:premisCode "215"^^xsd:int ;
+    lao:premisDesc "TRAIN DEPOT/TERMINAL, OTHER THAN MTA"^^xsd:string .
+
+lao:premis216 a lao:Premis ;
+    lao:premisCode "216"^^xsd:int ;
+    lao:premisDesc "SWAP MEET"^^xsd:string .
+
+lao:premis217 a lao:Premis ;
+    lao:premisCode "217"^^xsd:int ;
+    lao:premisDesc "AUTO REPAIR SHOP"^^xsd:string .
+
+lao:premis218 a lao:Premis ;
+    lao:premisCode "218"^^xsd:int ;
+    lao:premisDesc "BEAUTY/BARBER SHOP"^^xsd:string .
+
+lao:premis219 a lao:Premis ;
+    lao:premisCode "219"^^xsd:int ;
+    lao:premisDesc "CLEANER/LAUNDROMAT"^^xsd:string .
+
+lao:premis220 a lao:Premis ;
+    lao:premisCode "220"^^xsd:int ;
+    lao:premisDesc "NAIL SALON"^^xsd:string .
+
+lao:premis221 a lao:Premis ;
+    lao:premisCode "221"^^xsd:int ;
+    lao:premisDesc "PUBLIC STORAGE"^^xsd:string .
+
+lao:premis222 a lao:Premis ;
+    lao:premisCode "222"^^xsd:int ;
+    lao:premisDesc "LAUNDROMAT"^^xsd:string .
+
+lao:premis223 a lao:Premis ;
+    lao:premisCode "223"^^xsd:int ;
+    lao:premisDesc "VIDEO RENTAL STORE"^^xsd:string .
+
+lao:premis225 a lao:Premis ;
+    lao:premisCode "225"^^xsd:int ;
+    lao:premisDesc "RECORD-CD MUSIC/COMPUTER GAME STORE"^^xsd:string .
+
+lao:premis227 a lao:Premis ;
+    lao:premisCode "227"^^xsd:int ;
+    lao:premisDesc "ABORTION CLINIC/ABORTION FACILITY*"^^xsd:string .
+
+lao:premis228 a lao:Premis ;
+    lao:premisCode "228"^^xsd:int ;
+    lao:premisDesc "BOWLING ALLEY*"^^xsd:string .
+
+lao:premis229 a lao:Premis ;
+    lao:premisCode "229"^^xsd:int ;
+    lao:premisDesc "CHECK CASHING*"^^xsd:string .
+
+lao:premis230 a lao:Premis ;
+    lao:premisCode "230"^^xsd:int ;
+    lao:premisDesc "DAY CARE/ADULTS*"^^xsd:string .
+
+lao:premis231 a lao:Premis ;
+    lao:premisCode "231"^^xsd:int ;
+    lao:premisDesc "DAY CARE/CHILDREN*"^^xsd:string .
+
+lao:premis232 a lao:Premis ;
+    lao:premisCode "232"^^xsd:int ;
+    lao:premisDesc "DELIVERY SERVICE (FED EX, UPS, COURIERS,COURIER SERVICE)*"^^xsd:string .
+
+lao:premis233 a lao:Premis ;
+    lao:premisCode "233"^^xsd:int ;
+    lao:premisDesc "TATTOO PARLOR*"^^xsd:string .
+
+lao:premis234 a lao:Premis ;
+    lao:premisCode "234"^^xsd:int ;
+    lao:premisDesc "OPTICAL OFFICE INSIDE STORE OR SUPERMARKET*"^^xsd:string .
+
+lao:premis235 a lao:Premis ;
+    lao:premisCode "235"^^xsd:int ;
+    lao:premisDesc "PHARMACY INSIDE STORE OR SUPERMARKET*"^^xsd:string .
+
+lao:premis236 a lao:Premis ;
+    lao:premisCode "236"^^xsd:int ;
+    lao:premisDesc "VISION CARE FACILITY*"^^xsd:string .
+
+lao:premis237 a lao:Premis ;
+    lao:premisCode "237"^^xsd:int ;
+    lao:premisDesc "HOSPICE"^^xsd:string .
+
+lao:premis238 a lao:Premis ;
+    lao:premisCode "238"^^xsd:int ;
+    lao:premisDesc "TELECOMMUNICATION FACILITY/LOCATION"^^xsd:string .
+
+lao:premis239 a lao:Premis ;
+    lao:premisCode "239"^^xsd:int ;
+    lao:premisDesc "MEDICAL MARIJUANA FACILITIES/BUSINESSES"^^xsd:string .
+
+lao:premis240 a lao:Premis ;
+    lao:premisCode "240"^^xsd:int ;
+    lao:premisDesc "DEPT OF DEFENSE FACILITY"^^xsd:string .
+
+lao:premis241 a lao:Premis ;
+    lao:premisCode "241"^^xsd:int ;
+    lao:premisDesc "ENERGY PLANT/FACILITY"^^xsd:string .
+
+lao:premis242 a lao:Premis ;
+    lao:premisCode "242"^^xsd:int ;
+    lao:premisDesc "DISCOUNT STORE (99 CENT,DOLLAR,ETC."^^xsd:string .
+
+lao:premis243 a lao:Premis ;
+    lao:premisCode "243"^^xsd:int ;
+    lao:premisDesc "DIY CENTER (LOWE'S,HOME DEPOT,OSH,CONTRACTORS WAREHOUSE)"^^xsd:string .
+
+lao:premis244 a lao:Premis ;
+    lao:premisCode "244"^^xsd:int ;
+    lao:premisDesc "TOBACCO SHOP"^^xsd:string .
+
+lao:premis245 a lao:Premis ;
+    lao:premisCode "245"^^xsd:int ;
+    lao:premisDesc "CATERING/ICE CREAM TRUCK"^^xsd:string .
+
+lao:premis246 a lao:Premis ;
+    lao:premisCode "246"^^xsd:int ;
+    lao:premisDesc "METHADONE CLINIC"^^xsd:string .
+
+lao:premis247 a lao:Premis ;
+    lao:premisCode "247"^^xsd:int ;
+    lao:premisDesc "CAR WASH"^^xsd:string .
+
+lao:premis248 a lao:Premis ;
+    lao:premisCode "248"^^xsd:int ;
+    lao:premisDesc "CELL PHONE STORE"^^xsd:string .
+
+lao:premis249 a lao:Premis ;
+    lao:premisCode "249"^^xsd:int ;
+    lao:premisDesc "NURSERY/FLOWER SHOP"^^xsd:string .
+
+lao:premis250 a lao:Premis ;
+    lao:premisCode "250"^^xsd:int ;
+    lao:premisDesc "COMPUTER SERVICES/REPAIRS/SALES"^^xsd:string .
+
+lao:premis251 a lao:Premis ;
+    lao:premisCode "251"^^xsd:int ;
+    lao:premisDesc "RECYCLING CENTER"^^xsd:string .
+
+lao:premis252 a lao:Premis ;
+    lao:premisCode "252"^^xsd:int ;
+    lao:premisDesc "COFFEE SHOP (STARBUCKS, COFFEE BEAN, PEET'S, ETC.)"^^xsd:string .
+
+lao:premis253 a lao:Premis ;
+    lao:premisCode "253"^^xsd:int ;
+    lao:premisDesc "MORTUARY"^^xsd:string .
+
+lao:premis254 a lao:Premis ;
+    lao:premisCode "254"^^xsd:int ;
+    lao:premisDesc "STUDIO (FILM/PHOTOGRAPHIC/MUSIC)"^^xsd:string .
+
+lao:premis255 a lao:Premis ;
+    lao:premisCode "255"^^xsd:int ;
+    lao:premisDesc "AUTO DEALERSHIP (CHEVY, FORD, BMW, MERCEDES, ETC.)"^^xsd:string .
+
+lao:premis256 a lao:Premis ;
+    lao:premisCode "256"^^xsd:int ;
+    lao:premisDesc "nan"^^xsd:string .
+
+lao:premis301 a lao:Premis ;
+    lao:premisCode "301"^^xsd:int ;
+    lao:premisDesc "GAS STATION"^^xsd:string .
+
+lao:premis302 a lao:Premis ;
+    lao:premisCode "302"^^xsd:int ;
+    lao:premisDesc "FACTORY"^^xsd:string .
+
+lao:premis303 a lao:Premis ;
+    lao:premisCode "303"^^xsd:int ;
+    lao:premisDesc "OIL REFINERY"^^xsd:string .
+
+lao:premis304 a lao:Premis ;
+    lao:premisCode "304"^^xsd:int ;
+    lao:premisDesc "GARMENT MANUFACTURER"^^xsd:string .
+
+lao:premis305 a lao:Premis ;
+    lao:premisCode "305"^^xsd:int ;
+    lao:premisDesc "CHEMICAL STORAGE/MANUFACTURING PLANT"^^xsd:string .
+
+lao:premis401 a lao:Premis ;
+    lao:premisCode "401"^^xsd:int ;
+    lao:premisDesc "MINI-MART"^^xsd:string .
+
+lao:premis402 a lao:Premis ;
+    lao:premisCode "402"^^xsd:int ;
+    lao:premisDesc "MARKET"^^xsd:string .
+
+lao:premis403 a lao:Premis ;
+    lao:premisCode "403"^^xsd:int ;
+    lao:premisDesc "DRUG STORE"^^xsd:string .
+
+lao:premis404 a lao:Premis ;
+    lao:premisCode "404"^^xsd:int ;
+    lao:premisDesc "DEPARTMENT STORE"^^xsd:string .
+
+lao:premis405 a lao:Premis ;
+    lao:premisCode "405"^^xsd:int ;
+    lao:premisDesc "CLOTHING STORE"^^xsd:string .
+
+lao:premis406 a lao:Premis ;
+    lao:premisCode "406"^^xsd:int ;
+    lao:premisDesc "OTHER STORE"^^xsd:string .
+
+lao:premis407 a lao:Premis ;
+    lao:premisCode "407"^^xsd:int ;
+    lao:premisDesc "HARDWARE/BUILDING SUPPLY"^^xsd:string .
+
+lao:premis408 a lao:Premis ;
+    lao:premisCode "408"^^xsd:int ;
+    lao:premisDesc "AUTO SUPPLY STORE*"^^xsd:string .
+
+lao:premis409 a lao:Premis ;
+    lao:premisCode "409"^^xsd:int ;
+    lao:premisDesc "BEAUTY SUPPLY STORE"^^xsd:string .
+
+lao:premis410 a lao:Premis ;
+    lao:premisCode "410"^^xsd:int ;
+    lao:premisDesc "MEMBERSHIP STORE (COSTCO,SAMS CLUB)*"^^xsd:string .
+
+lao:premis411 a lao:Premis ;
+    lao:premisCode "411"^^xsd:int ;
+    lao:premisDesc "PET STORE"^^xsd:string .
+
+lao:premis412 a lao:Premis ;
+    lao:premisCode "412"^^xsd:int ;
+    lao:premisDesc "ELECTRONICS STORE (IE:RADIO SHACK, ETC.)"^^xsd:string .
+
+lao:premis413 a lao:Premis ;
+    lao:premisCode "413"^^xsd:int ;
+    lao:premisDesc "FURNITURE STORE"^^xsd:string .
+
+lao:premis414 a lao:Premis ;
+    lao:premisCode "414"^^xsd:int ;
+    lao:premisDesc "BOOK STORE"^^xsd:string .
+
+lao:premis415 a lao:Premis ;
+    lao:premisCode "415"^^xsd:int ;
+    lao:premisDesc "THE GROVE"^^xsd:string .
+
+lao:premis416 a lao:Premis ;
+    lao:premisCode "416"^^xsd:int ;
+    lao:premisDesc "THE BEVERLY CENTER"^^xsd:string .
+
+lao:premis417 a lao:Premis ;
+    lao:premisCode "417"^^xsd:int ;
+    lao:premisDesc "THE BEVERLY CONNECTION"^^xsd:string .
+
+lao:premis418 a lao:Premis ;
+    lao:premisCode "418"^^xsd:int ;
+    lao:premisDesc "nan"^^xsd:string .
+
+lao:premis501 a lao:Premis ;
+    lao:premisCode "501"^^xsd:int ;
+    lao:premisDesc "SINGLE FAMILY DWELLING"^^xsd:string .
+
+lao:premis502 a lao:Premis ;
+    lao:premisCode "502"^^xsd:int ;
+    lao:premisDesc "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)"^^xsd:string .
+
+lao:premis503 a lao:Premis ;
+    lao:premisCode "503"^^xsd:int ;
+    lao:premisDesc "HOTEL"^^xsd:string .
+
+lao:premis504 a lao:Premis ;
+    lao:premisCode "504"^^xsd:int ;
+    lao:premisDesc "OTHER RESIDENCE"^^xsd:string .
+
+lao:premis505 a lao:Premis ;
+    lao:premisCode "505"^^xsd:int ;
+    lao:premisDesc "MOTEL"^^xsd:string .
+
+lao:premis506 a lao:Premis ;
+    lao:premisCode "506"^^xsd:int ;
+    lao:premisDesc "ABANDONED BUILDING ABANDONED HOUSE"^^xsd:string .
+
+lao:premis507 a lao:Premis ;
+    lao:premisCode "507"^^xsd:int ;
+    lao:premisDesc "CONDOMINIUM/TOWNHOUSE"^^xsd:string .
+
+lao:premis508 a lao:Premis ;
+    lao:premisCode "508"^^xsd:int ;
+    lao:premisDesc "FRAT HOUSE/SORORITY/DORMITORY"^^xsd:string .
+
+lao:premis509 a lao:Premis ;
+    lao:premisCode "509"^^xsd:int ;
+    lao:premisDesc "MOBILE HOME/TRAILERS/CONSTRUCTION TRAILERS/RV'S/MOTORHOME"^^xsd:string .
+
+lao:premis510 a lao:Premis ;
+    lao:premisCode "510"^^xsd:int ;
+    lao:premisDesc "NURSING/CONVALESCENT/RETIREMENT HOME"^^xsd:string .
+
+lao:premis511 a lao:Premis ;
+    lao:premisCode "511"^^xsd:int ;
+    lao:premisDesc "PROJECT/TENEMENT/PUBLIC HOUSING"^^xsd:string .
+
+lao:premis512 a lao:Premis ;
+    lao:premisCode "512"^^xsd:int ;
+    lao:premisDesc "FOSTER HOME BOYS OR GIRLS*"^^xsd:string .
+
+lao:premis513 a lao:Premis ;
+    lao:premisCode "513"^^xsd:int ;
+    lao:premisDesc "ABATEMENT LOCATION"^^xsd:string .
+
+lao:premis514 a lao:Premis ;
+    lao:premisCode "514"^^xsd:int ;
+    lao:premisDesc "GROUP HOME"^^xsd:string .
+
+lao:premis515 a lao:Premis ;
+    lao:premisCode "515"^^xsd:int ;
+    lao:premisDesc "APARTMENT/CONDO COMMON LAUNDRY ROOM"^^xsd:string .
+
+lao:premis516 a lao:Premis ;
+    lao:premisCode "516"^^xsd:int ;
+    lao:premisDesc "SINGLE RESIDENCE OCCUPANCY (SRO'S) LOCATIONS"^^xsd:string .
+
+lao:premis517 a lao:Premis ;
+    lao:premisCode "517"^^xsd:int ;
+    lao:premisDesc "MISSIONS/SHELTERS"^^xsd:string .
+
+lao:premis518 a lao:Premis ;
+    lao:premisCode "518"^^xsd:int ;
+    lao:premisDesc "TRANSITIONAL HOUSING/HALFWAY HOUSE"^^xsd:string .
+
+lao:premis519 a lao:Premis ;
+    lao:premisCode "519"^^xsd:int ;
+    lao:premisDesc "SHORT-TERM VACATION RENTAL"^^xsd:string .
+
+lao:premis601 a lao:Premis ;
+    lao:premisCode "601"^^xsd:int ;
+    lao:premisDesc "SAVINGS & LOAN"^^xsd:string .
+
+lao:premis602 a lao:Premis ;
+    lao:premisCode "602"^^xsd:int ;
+    lao:premisDesc "BANK"^^xsd:string .
+
+lao:premis603 a lao:Premis ;
+    lao:premisCode "603"^^xsd:int ;
+    lao:premisDesc "CREDIT UNION"^^xsd:string .
+
+lao:premis604 a lao:Premis ;
+    lao:premisCode "604"^^xsd:int ;
+    lao:premisDesc "FINANCE COMPANY"^^xsd:string .
+
+lao:premis605 a lao:Premis ;
+    lao:premisCode "605"^^xsd:int ;
+    lao:premisDesc "AUTOMATED TELLER MACHINE (ATM)"^^xsd:string .
+
+lao:premis606 a lao:Premis ;
+    lao:premisCode "606"^^xsd:int ;
+    lao:premisDesc "DRIVE THRU BANKING (WINDOW)*"^^xsd:string .
+
+lao:premis607 a lao:Premis ;
+    lao:premisCode "607"^^xsd:int ;
+    lao:premisDesc "BANKING INSIDE MARKET-STORE *"^^xsd:string .
+
+lao:premis608 a lao:Premis ;
+    lao:premisCode "608"^^xsd:int ;
+    lao:premisDesc "BANK DROP BOX/MONEY DROP-OUTSIDE OF BANK*"^^xsd:string .
+
+lao:premis701 a lao:Premis ;
+    lao:premisCode "701"^^xsd:int ;
+    lao:premisDesc "HOSPITAL"^^xsd:string .
+
+lao:premis702 a lao:Premis ;
+    lao:premisCode "702"^^xsd:int ;
+    lao:premisDesc "OFFICE BUILDING/OFFICE"^^xsd:string .
+
+lao:premis703 a lao:Premis ;
+    lao:premisCode "703"^^xsd:int ;
+    lao:premisDesc "ENTERTAINMENT/COMEDY CLUB (OTHER)"^^xsd:string .
+
+lao:premis704 a lao:Premis ;
+    lao:premisCode "704"^^xsd:int ;
+    lao:premisDesc "ELEMENTARY SCHOOL"^^xsd:string .
+
+lao:premis705 a lao:Premis ;
+    lao:premisCode "705"^^xsd:int ;
+    lao:premisDesc "SLIPS/DOCK/MARINA/BOAT"^^xsd:string .
+
+lao:premis706 a lao:Premis ;
+    lao:premisCode "706"^^xsd:int ;
+    lao:premisDesc "SEX ORIENTED/BOOK STORE/STRIP CLUB/GENTLEMAN'S CLUB"^^xsd:string .
+
+lao:premis707 a lao:Premis ;
+    lao:premisCode "707"^^xsd:int ;
+    lao:premisDesc "GARAGE/CARPORT"^^xsd:string .
+
+lao:premis708 a lao:Premis ;
+    lao:premisCode "708"^^xsd:int ;
+    lao:premisDesc "CHURCH/CHAPEL (CHANGED 03-03 FROM CHURCH/TEMPLE)"^^xsd:string .
+
+lao:premis709 a lao:Premis ;
+    lao:premisCode "709"^^xsd:int ;
+    lao:premisDesc "PUBLIC RESTROOM(INDOORS-INSIDE)"^^xsd:string .
+
+lao:premis710 a lao:Premis ;
+    lao:premisCode "710"^^xsd:int ;
+    lao:premisDesc "OTHER PREMISE"^^xsd:string .
+
+lao:premis711 a lao:Premis ;
+    lao:premisCode "711"^^xsd:int ;
+    lao:premisDesc "ARCADE,GAME ROOM/VIDEO GAMES (EXAMPLE CHUCKIE CHEESE)*"^^xsd:string .
+
+lao:premis712 a lao:Premis ;
+    lao:premisCode "712"^^xsd:int ;
+    lao:premisDesc "COLISEUM"^^xsd:string .
+
+lao:premis713 a lao:Premis ;
+    lao:premisCode "713"^^xsd:int ;
+    lao:premisDesc "CONVENTION CENTER"^^xsd:string .
+
+lao:premis714 a lao:Premis ;
+    lao:premisCode "714"^^xsd:int ;
+    lao:premisDesc "DODGER STADIUM"^^xsd:string .
+
+lao:premis716 a lao:Premis ;
+    lao:premisCode "716"^^xsd:int ;
+    lao:premisDesc "THEATRE/MOVIE"^^xsd:string .
+
+lao:premis717 a lao:Premis ;
+    lao:premisCode "717"^^xsd:int ;
+    lao:premisDesc "HEALTH SPA/GYM"^^xsd:string .
+
+lao:premis718 a lao:Premis ;
+    lao:premisCode "718"^^xsd:int ;
+    lao:premisDesc "MASSAGE PARLOR"^^xsd:string .
+
+lao:premis719 a lao:Premis ;
+    lao:premisCode "719"^^xsd:int ;
+    lao:premisDesc "MEDICAL/DENTAL OFFICES"^^xsd:string .
+
+lao:premis720 a lao:Premis ;
+    lao:premisCode "720"^^xsd:int ;
+    lao:premisDesc "JUNIOR HIGH SCHOOL"^^xsd:string .
+
+lao:premis721 a lao:Premis ;
+    lao:premisCode "721"^^xsd:int ;
+    lao:premisDesc "HIGH SCHOOL"^^xsd:string .
+
+lao:premis722 a lao:Premis ;
+    lao:premisCode "722"^^xsd:int ;
+    lao:premisDesc "COLLEGE/JUNIOR COLLEGE/UNIVERSITY"^^xsd:string .
+
+lao:premis723 a lao:Premis ;
+    lao:premisCode "723"^^xsd:int ;
+    lao:premisDesc "PRIVATE SCHOOL/PRESCHOOL"^^xsd:string .
+
+lao:premis724 a lao:Premis ;
+    lao:premisCode "724"^^xsd:int ;
+    lao:premisDesc "TRADE SCHOOL (MEDICAL-TECHNICAL-BUSINESS)*"^^xsd:string .
+
+lao:premis725 a lao:Premis ;
+    lao:premisCode "725"^^xsd:int ;
+    lao:premisDesc "GOVERNMENT FACILITY (FEDERAL,STATE, COUNTY & CITY)"^^xsd:string .
+
+lao:premis726 a lao:Premis ;
+    lao:premisCode "726"^^xsd:int ;
+    lao:premisDesc "POLICE FACILITY"^^xsd:string .
+
+lao:premis727 a lao:Premis ;
+    lao:premisCode "727"^^xsd:int ;
+    lao:premisDesc "SHOPPING MALL (COMMON AREA)"^^xsd:string .
+
+lao:premis728 a lao:Premis ;
+    lao:premisCode "728"^^xsd:int ;
+    lao:premisDesc "ELEVATOR"^^xsd:string .
+
+lao:premis729 a lao:Premis ;
+    lao:premisCode "729"^^xsd:int ;
+    lao:premisDesc "SPECIALTY SCHOOL/OTHER"^^xsd:string .
+
+lao:premis730 a lao:Premis ;
+    lao:premisCode "730"^^xsd:int ;
+    lao:premisDesc "SYNAGOGUE/TEMPLE"^^xsd:string .
+
+lao:premis731 a lao:Premis ;
+    lao:premisCode "731"^^xsd:int ;
+    lao:premisDesc "MOSQUE*"^^xsd:string .
+
+lao:premis732 a lao:Premis ;
+    lao:premisCode "732"^^xsd:int ;
+    lao:premisDesc "POST OFFICE"^^xsd:string .
+
+lao:premis733 a lao:Premis ;
+    lao:premisCode "733"^^xsd:int ;
+    lao:premisDesc "BAR/SPORTS BAR (OPEN DAY & NIGHT)"^^xsd:string .
+
+lao:premis734 a lao:Premis ;
+    lao:premisCode "734"^^xsd:int ;
+    lao:premisDesc "HOCKEY RINK/ICE HOCKEY"^^xsd:string .
+
+lao:premis735 a lao:Premis ;
+    lao:premisCode "735"^^xsd:int ;
+    lao:premisDesc "NIGHT CLUB (OPEN EVENINGS ONLY)"^^xsd:string .
+
+lao:premis736 a lao:Premis ;
+    lao:premisCode "736"^^xsd:int ;
+    lao:premisDesc "SKATEBOARD FACILITY/SKATEBOARD PARK*"^^xsd:string .
+
+lao:premis738 a lao:Premis ;
+    lao:premisCode "738"^^xsd:int ;
+    lao:premisDesc "LIBRARY"^^xsd:string .
+
+lao:premis739 a lao:Premis ;
+    lao:premisCode "739"^^xsd:int ;
+    lao:premisDesc "SPORTS ARENA"^^xsd:string .
+
+lao:premis740 a lao:Premis ;
+    lao:premisCode "740"^^xsd:int ;
+    lao:premisDesc "OTHER PLACE OF WORSHIP"^^xsd:string .
+
+lao:premis741 a lao:Premis ;
+    lao:premisCode "741"^^xsd:int ;
+    lao:premisDesc "STAPLES CENTER *"^^xsd:string .
+
+lao:premis742 a lao:Premis ;
+    lao:premisCode "742"^^xsd:int ;
+    lao:premisDesc "SPORTS VENUE, OTHER"^^xsd:string .
+
+lao:premis743 a lao:Premis ;
+    lao:premisCode "743"^^xsd:int ;
+    lao:premisDesc "MASS GATHERING LOCATION"^^xsd:string .
+
+lao:premis744 a lao:Premis ;
+    lao:premisCode "744"^^xsd:int ;
+    lao:premisDesc "HIGH-RISE BUILDING"^^xsd:string .
+
+lao:premis745 a lao:Premis ;
+    lao:premisCode "745"^^xsd:int ;
+    lao:premisDesc "WATER FACILITY"^^xsd:string .
+
+lao:premis748 a lao:Premis ;
+    lao:premisCode "748"^^xsd:int ;
+    lao:premisDesc "CULTURAL SIGNIFICANCE/MONUMENT"^^xsd:string .
+
+lao:premis750 a lao:Premis ;
+    lao:premisCode "750"^^xsd:int ;
+    lao:premisDesc "CYBERSPACE"^^xsd:string .
+
+lao:premis751 a lao:Premis ;
+    lao:premisCode "751"^^xsd:int ;
+    lao:premisDesc "WEBSITE"^^xsd:string .
+
+lao:premis752 a lao:Premis ;
+    lao:premisCode "752"^^xsd:int ;
+    lao:premisDesc "FIRE STATION"^^xsd:string .
+
+lao:premis753 a lao:Premis ;
+    lao:premisCode "753"^^xsd:int ;
+    lao:premisDesc "DETENTION/JAIL FACILITY"^^xsd:string .
+
+lao:premis754 a lao:Premis ;
+    lao:premisCode "754"^^xsd:int ;
+    lao:premisDesc "MUSEUM"^^xsd:string .
+
+lao:premis755 a lao:Premis ;
+    lao:premisCode "755"^^xsd:int ;
+    lao:premisDesc "VETERINARIAN/ANIMAL HOSPITAL"^^xsd:string .
+
+lao:premis756 a lao:Premis ;
+    lao:premisCode "756"^^xsd:int ;
+    lao:premisDesc "MUSCLE BEACH"^^xsd:string .
+
+lao:premis757 a lao:Premis ;
+    lao:premisCode "757"^^xsd:int ;
+    lao:premisDesc "BASKETBALL COURTS"^^xsd:string .
+
+lao:premis801 a lao:Premis ;
+    lao:premisCode "801"^^xsd:int ;
+    lao:premisDesc "MTA BUS"^^xsd:string .
+
+lao:premis802 a lao:Premis ;
+    lao:premisCode "802"^^xsd:int ;
+    lao:premisDesc "MUNICIPAL BUS LINE INCLUDES LADOT/DASH"^^xsd:string .
+
+lao:premis803 a lao:Premis ;
+    lao:premisCode "803"^^xsd:int ;
+    lao:premisDesc "RETIRED (DUPLICATE) DO NOT USE THIS CODE"^^xsd:string .
+
+lao:premis804 a lao:Premis ;
+    lao:premisCode "804"^^xsd:int ;
+    lao:premisDesc "GREYHOUND OR INTERSTATE BUS"^^xsd:string .
+
+lao:premis809 a lao:Premis ;
+    lao:premisCode "809"^^xsd:int ;
+    lao:premisDesc "METROLINK TRAIN"^^xsd:string .
+
+lao:premis810 a lao:Premis ;
+    lao:premisCode "810"^^xsd:int ;
+    lao:premisDesc "AMTRAK TRAIN"^^xsd:string .
+
+lao:premis811 a lao:Premis ;
+    lao:premisCode "811"^^xsd:int ;
+    lao:premisDesc "OTHER RR TRAIN (UNION PAC, SANTE FE ETC"^^xsd:string .
+
+lao:premis834 a lao:Premis ;
+    lao:premisCode "834"^^xsd:int ;
+    lao:premisDesc "LA UNION STATION (NOT LINE SPECIFIC)"^^xsd:string .
+
+lao:premis835 a lao:Premis ;
+    lao:premisCode "835"^^xsd:int ;
+    lao:premisDesc "7TH AND METRO CENTER (NOT LINE SPECIFIC)"^^xsd:string .
+
+lao:premis836 a lao:Premis ;
+    lao:premisCode "836"^^xsd:int ;
+    lao:premisDesc "HARBOR FRWY STATION (NOT LINE SPECIFIC)"^^xsd:string .
+
+lao:premis868 a lao:Premis ;
+    lao:premisCode "868"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - NORTH HOLLYWOOD"^^xsd:string .
+
+lao:premis869 a lao:Premis ;
+    lao:premisCode "869"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - LAUREL CANYON"^^xsd:string .
+
+lao:premis870 a lao:Premis ;
+    lao:premisCode "870"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - VALLEY COLLEGE"^^xsd:string .
+
+lao:premis871 a lao:Premis ;
+    lao:premisCode "871"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - WOODMAN"^^xsd:string .
+
+lao:premis872 a lao:Premis ;
+    lao:premisCode "872"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - VAN NUYS"^^xsd:string .
+
+lao:premis873 a lao:Premis ;
+    lao:premisCode "873"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - SEPULVEDA"^^xsd:string .
+
+lao:premis874 a lao:Premis ;
+    lao:premisCode "874"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - WOODLEY"^^xsd:string .
+
+lao:premis875 a lao:Premis ;
+    lao:premisCode "875"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - BALBOA"^^xsd:string .
+
+lao:premis876 a lao:Premis ;
+    lao:premisCode "876"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - RESEDA"^^xsd:string .
+
+lao:premis877 a lao:Premis ;
+    lao:premisCode "877"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - TAMPA"^^xsd:string .
+
+lao:premis878 a lao:Premis ;
+    lao:premisCode "878"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - PIERCE COLLEGE"^^xsd:string .
+
+lao:premis879 a lao:Premis ;
+    lao:premisCode "879"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - DE SOTO"^^xsd:string .
+
+lao:premis880 a lao:Premis ;
+    lao:premisCode "880"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - CANOGA"^^xsd:string .
+
+lao:premis882 a lao:Premis ;
+    lao:premisCode "882"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - SHERMAN WAY"^^xsd:string .
+
+lao:premis883 a lao:Premis ;
+    lao:premisCode "883"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - ROSCOE"^^xsd:string .
+
+lao:premis884 a lao:Premis ;
+    lao:premisCode "884"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - NORDHOFF"^^xsd:string .
+
+lao:premis885 a lao:Premis ;
+    lao:premisCode "885"^^xsd:int ;
+    lao:premisDesc "MTA - ORANGE LINE - CHATSWORTH"^^xsd:string .
+
+lao:premis892 a lao:Premis ;
+    lao:premisCode "892"^^xsd:int ;
+    lao:premisDesc "MTA - SILVER LINE - 37TH ST/USC"^^xsd:string .
+
+lao:premis893 a lao:Premis ;
+    lao:premisCode "893"^^xsd:int ;
+    lao:premisDesc "MTA - SILVER LINE - SLAUSON"^^xsd:string .
+
+lao:premis894 a lao:Premis ;
+    lao:premisCode "894"^^xsd:int ;
+    lao:premisDesc "MTA - SILVER LINE - MANCHESTER"^^xsd:string .
+
+lao:premis895 a lao:Premis ;
+    lao:premisCode "895"^^xsd:int ;
+    lao:premisDesc "MTA - SILVER LINE - HARBOR FWY"^^xsd:string .
+
+lao:premis896 a lao:Premis ;
+    lao:premisCode "896"^^xsd:int ;
+    lao:premisDesc "MTA - SILVER LINE - ROSECRANS"^^xsd:string .
+
+lao:premis897 a lao:Premis ;
+    lao:premisCode "897"^^xsd:int ;
+    lao:premisDesc "MTA - SILVER LINE - HARBOR GATEWAY TRANSIT CTR"^^xsd:string .
+
+lao:premis898 a lao:Premis ;
+    lao:premisCode "898"^^xsd:int ;
+    lao:premisDesc "MTA - SILVER LINE - PACIFIC COAST HWY"^^xsd:string .
+
+lao:premis900 a lao:Premis ;
+    lao:premisCode "900"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - UNION STATION"^^xsd:string .
+
+lao:premis901 a lao:Premis ;
+    lao:premisCode "901"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - CIVIC CENTER/GRAND PARK"^^xsd:string .
+
+lao:premis902 a lao:Premis ;
+    lao:premisCode "902"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - PERSHING SQUARE"^^xsd:string .
+
+lao:premis903 a lao:Premis ;
+    lao:premisCode "903"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - 7TH AND METRO CENTER"^^xsd:string .
+
+lao:premis904 a lao:Premis ;
+    lao:premisCode "904"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - WESTLAKE/MACARTHUR PARK"^^xsd:string .
+
+lao:premis905 a lao:Premis ;
+    lao:premisCode "905"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - WILSHIRE/VERMONT"^^xsd:string .
+
+lao:premis906 a lao:Premis ;
+    lao:premisCode "906"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - VERMONT/BEVERLY"^^xsd:string .
+
+lao:premis907 a lao:Premis ;
+    lao:premisCode "907"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - VERMONT/SANTA MONICA"^^xsd:string .
+
+lao:premis908 a lao:Premis ;
+    lao:premisCode "908"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - VERMONT/SUNSET"^^xsd:string .
+
+lao:premis909 a lao:Premis ;
+    lao:premisCode "909"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - HOLLYWOOD/WESTERN"^^xsd:string .
+
+lao:premis910 a lao:Premis ;
+    lao:premisCode "910"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - HOLLYWOOD/VINE"^^xsd:string .
+
+lao:premis911 a lao:Premis ;
+    lao:premisCode "911"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - HOLLYWOOD/HIGHLAND"^^xsd:string .
+
+lao:premis912 a lao:Premis ;
+    lao:premisCode "912"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - UNIVERSAL CITY/STUDIO CITY"^^xsd:string .
+
+lao:premis913 a lao:Premis ;
+    lao:premisCode "913"^^xsd:int ;
+    lao:premisDesc "MTA - RED LINE - NORTH HOLLYWOOD"^^xsd:string .
+
+lao:premis915 a lao:Premis ;
+    lao:premisCode "915"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - UNION STATION"^^xsd:string .
+
+lao:premis916 a lao:Premis ;
+    lao:premisCode "916"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - CIVIC CENTER/GRAND PARK"^^xsd:string .
+
+lao:premis917 a lao:Premis ;
+    lao:premisCode "917"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - PERSHING SQUARE"^^xsd:string .
+
+lao:premis918 a lao:Premis ;
+    lao:premisCode "918"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - 7TH AND METRO CENTER"^^xsd:string .
+
+lao:premis919 a lao:Premis ;
+    lao:premisCode "919"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - WESTLAKE/MACARTHUR PARK"^^xsd:string .
+
+lao:premis920 a lao:Premis ;
+    lao:premisCode "920"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - WILSHIRE/VERMONT"^^xsd:string .
+
+lao:premis921 a lao:Premis ;
+    lao:premisCode "921"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - WILSHIRE/NORMANDIE"^^xsd:string .
+
+lao:premis922 a lao:Premis ;
+    lao:premisCode "922"^^xsd:int ;
+    lao:premisDesc "MTA - PURPLE LINE - WILSHIRE/WESTERN"^^xsd:string .
+
+lao:premis931 a lao:Premis ;
+    lao:premisCode "931"^^xsd:int ;
+    lao:premisDesc "MTA - BLUE LINE - 7TH AND METRO CENTER"^^xsd:string .
+
+lao:premis932 a lao:Premis ;
+    lao:premisCode "932"^^xsd:int ;
+    lao:premisDesc "MTA - BLUE LINE - PICO"^^xsd:string .
+
+lao:premis933 a lao:Premis ;
+    lao:premisCode "933"^^xsd:int ;
+    lao:premisDesc "MTA - BLUE LINE - GRAND/LATTC"^^xsd:string .
+
+lao:premis934 a lao:Premis ;
+    lao:premisCode "934"^^xsd:int ;
+    lao:premisDesc "MTA - BLUE LINE - SAN PEDRO"^^xsd:string .
+
+lao:premis935 a lao:Premis ;
+    lao:premisCode "935"^^xsd:int ;
+    lao:premisDesc "MTA - BLUE LINE - WASHINGTON"^^xsd:string .
+
+lao:premis936 a lao:Premis ;
+    lao:premisCode "936"^^xsd:int ;
+    lao:premisDesc "MTA - BLUE LINE - VERNON"^^xsd:string .
+
+lao:premis937 a lao:Premis ;
+    lao:premisCode "937"^^xsd:int ;
+    lao:premisDesc "MTA - BLUE LINE - 103RD/WATTS TOWERS"^^xsd:string .
+
+lao:premis940 a lao:Premis ;
+    lao:premisCode "940"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - 7TH AND METRO CENTER"^^xsd:string .
+
+lao:premis941 a lao:Premis ;
+    lao:premisCode "941"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - PICO"^^xsd:string .
+
+lao:premis942 a lao:Premis ;
+    lao:premisCode "942"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - LATTC/ORTHO INSTITUTE"^^xsd:string .
+
+lao:premis943 a lao:Premis ;
+    lao:premisCode "943"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - JEFFERSON/USC"^^xsd:string .
+
+lao:premis944 a lao:Premis ;
+    lao:premisCode "944"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - EXPO PARK/USC"^^xsd:string .
+
+lao:premis945 a lao:Premis ;
+    lao:premisCode "945"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - EXPO/VERMONT"^^xsd:string .
+
+lao:premis946 a lao:Premis ;
+    lao:premisCode "946"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - EXPO/WESTERN"^^xsd:string .
+
+lao:premis947 a lao:Premis ;
+    lao:premisCode "947"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - EXPO/CRENSHAW"^^xsd:string .
+
+lao:premis948 a lao:Premis ;
+    lao:premisCode "948"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - FARMDALE"^^xsd:string .
+
+lao:premis949 a lao:Premis ;
+    lao:premisCode "949"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - EXPO/LA BREA"^^xsd:string .
+
+lao:premis950 a lao:Premis ;
+    lao:premisCode "950"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - LA CIENEGA/JEFFERSON"^^xsd:string .
+
+lao:premis951 a lao:Premis ;
+    lao:premisCode "951"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - PALMS"^^xsd:string .
+
+lao:premis952 a lao:Premis ;
+    lao:premisCode "952"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - WESTWOOD/RANCHO PARK"^^xsd:string .
+
+lao:premis953 a lao:Premis ;
+    lao:premisCode "953"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - EXPO/SEPULVEDA"^^xsd:string .
+
+lao:premis954 a lao:Premis ;
+    lao:premisCode "954"^^xsd:int ;
+    lao:premisDesc "MTA - EXPO LINE - EXPO/BUNDY"^^xsd:string .
+
+lao:premis956 a lao:Premis ;
+    lao:premisCode "956"^^xsd:int ;
+    lao:premisDesc "MTA - GREEN LINE - AVALON"^^xsd:string .
+
+lao:premis957 a lao:Premis ;
+    lao:premisCode "957"^^xsd:int ;
+    lao:premisDesc "MTA - GREEN LINE - HARBOR FWY"^^xsd:string .
+
+lao:premis958 a lao:Premis ;
+    lao:premisCode "958"^^xsd:int ;
+    lao:premisDesc "MTA - GREEN LINE - AVIATION/LAX"^^xsd:string .
+
+lao:premis961 a lao:Premis ;
+    lao:premisCode "961"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - INDIANA"^^xsd:string .
+
+lao:premis962 a lao:Premis ;
+    lao:premisCode "962"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - SOTO"^^xsd:string .
+
+lao:premis963 a lao:Premis ;
+    lao:premisCode "963"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - MARIACHI PLAZA"^^xsd:string .
+
+lao:premis964 a lao:Premis ;
+    lao:premisCode "964"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - PICO/ALISO"^^xsd:string .
+
+lao:premis965 a lao:Premis ;
+    lao:premisCode "965"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - LITTLE TOKYO/ARTS DISTRICT"^^xsd:string .
+
+lao:premis966 a lao:Premis ;
+    lao:premisCode "966"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - UNION STATION"^^xsd:string .
+
+lao:premis967 a lao:Premis ;
+    lao:premisCode "967"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - CHINATOWN"^^xsd:string .
+
+lao:premis968 a lao:Premis ;
+    lao:premisCode "968"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - LINCOLN/CYPRESS"^^xsd:string .
+
+lao:premis969 a lao:Premis ;
+    lao:premisCode "969"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - HERITAGE SQ"^^xsd:string .
+
+lao:premis970 a lao:Premis ;
+    lao:premisCode "970"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - SOUTHWEST MUSEUM"^^xsd:string .
+
+lao:premis971 a lao:Premis ;
+    lao:premisCode "971"^^xsd:int ;
+    lao:premisDesc "MTA - GOLD LINE - HIGHLAND PARK"^^xsd:string .
+
+lao:premis972 a lao:Premis ;
+    lao:premisCode "972"^^xsd:int ;
+    lao:premisDesc "nan"^^xsd:string .
+
+lao:premis973 a lao:Premis ;
+    lao:premisCode "973"^^xsd:int ;
+    lao:premisDesc "nan"^^xsd:string .
+
+lao:premis974 a lao:Premis ;
+    lao:premisCode "974"^^xsd:int ;
+    lao:premisDesc "nan"^^xsd:string .
+
+lao:premis976 a lao:Premis ;
+    lao:premisCode "976"^^xsd:int ;
+    lao:premisDesc "nan"^^xsd:string .
+

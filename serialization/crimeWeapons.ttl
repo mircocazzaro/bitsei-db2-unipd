@@ -1,0 +1,307 @@
+@prefix lao: <http://www.bitsei.it/losAngelesOntology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lao:weapon101 a lao:ModusOperandi ;
+    lao:weaponCode "101"^^xsd:int ;
+    lao:weaponDesc "REVOLVER"^^xsd:string .
+
+lao:weapon102 a lao:ModusOperandi ;
+    lao:weaponCode "102"^^xsd:int ;
+    lao:weaponDesc "HAND GUN"^^xsd:string .
+
+lao:weapon103 a lao:ModusOperandi ;
+    lao:weaponCode "103"^^xsd:int ;
+    lao:weaponDesc "RIFLE"^^xsd:string .
+
+lao:weapon104 a lao:ModusOperandi ;
+    lao:weaponCode "104"^^xsd:int ;
+    lao:weaponDesc "SHOTGUN"^^xsd:string .
+
+lao:weapon105 a lao:ModusOperandi ;
+    lao:weaponCode "105"^^xsd:int ;
+    lao:weaponDesc "SAWED OFF RIFLE/SHOTGUN"^^xsd:string .
+
+lao:weapon106 a lao:ModusOperandi ;
+    lao:weaponCode "106"^^xsd:int ;
+    lao:weaponDesc "UNKNOWN FIREARM"^^xsd:string .
+
+lao:weapon107 a lao:ModusOperandi ;
+    lao:weaponCode "107"^^xsd:int ;
+    lao:weaponDesc "OTHER FIREARM"^^xsd:string .
+
+lao:weapon108 a lao:ModusOperandi ;
+    lao:weaponCode "108"^^xsd:int ;
+    lao:weaponDesc "AUTOMATIC WEAPON/SUB-MACHINE GUN"^^xsd:string .
+
+lao:weapon109 a lao:ModusOperandi ;
+    lao:weaponCode "109"^^xsd:int ;
+    lao:weaponDesc "SEMI-AUTOMATIC PISTOL"^^xsd:string .
+
+lao:weapon110 a lao:ModusOperandi ;
+    lao:weaponCode "110"^^xsd:int ;
+    lao:weaponDesc "SEMI-AUTOMATIC RIFLE"^^xsd:string .
+
+lao:weapon111 a lao:ModusOperandi ;
+    lao:weaponCode "111"^^xsd:int ;
+    lao:weaponDesc "STARTER PISTOL/REVOLVER"^^xsd:string .
+
+lao:weapon112 a lao:ModusOperandi ;
+    lao:weaponCode "112"^^xsd:int ;
+    lao:weaponDesc "TOY GUN"^^xsd:string .
+
+lao:weapon113 a lao:ModusOperandi ;
+    lao:weaponCode "113"^^xsd:int ;
+    lao:weaponDesc "SIMULATED GUN"^^xsd:string .
+
+lao:weapon114 a lao:ModusOperandi ;
+    lao:weaponCode "114"^^xsd:int ;
+    lao:weaponDesc "AIR PISTOL/REVOLVER/RIFLE/BB GUN"^^xsd:string .
+
+lao:weapon115 a lao:ModusOperandi ;
+    lao:weaponCode "115"^^xsd:int ;
+    lao:weaponDesc "ASSAULT WEAPON/UZI/AK47/ETC"^^xsd:string .
+
+lao:weapon116 a lao:ModusOperandi ;
+    lao:weaponCode "116"^^xsd:int ;
+    lao:weaponDesc "ANTIQUE FIREARM"^^xsd:string .
+
+lao:weapon117 a lao:ModusOperandi ;
+    lao:weaponCode "117"^^xsd:int ;
+    lao:weaponDesc "UNK TYPE SEMIAUTOMATIC ASSAULT RIFLE"^^xsd:string .
+
+lao:weapon118 a lao:ModusOperandi ;
+    lao:weaponCode "118"^^xsd:int ;
+    lao:weaponDesc "UZI SEMIAUTOMATIC ASSAULT RIFLE"^^xsd:string .
+
+lao:weapon119 a lao:ModusOperandi ;
+    lao:weaponCode "119"^^xsd:int ;
+    lao:weaponDesc "MAC-10 SEMIAUTOMATIC ASSAULT WEAPON"^^xsd:string .
+
+lao:weapon122 a lao:ModusOperandi ;
+    lao:weaponCode "122"^^xsd:int ;
+    lao:weaponDesc "HECKLER & KOCH 93 SEMIAUTOMATIC ASSAULT RIFLE"^^xsd:string .
+
+lao:weapon124 a lao:ModusOperandi ;
+    lao:weaponCode "124"^^xsd:int ;
+    lao:weaponDesc "M-14 SEMIAUTOMATIC ASSAULT RIFLE"^^xsd:string .
+
+lao:weapon125 a lao:ModusOperandi ;
+    lao:weaponCode "125"^^xsd:int ;
+    lao:weaponDesc "RELIC FIREARM"^^xsd:string .
+
+lao:weapon200 a lao:ModusOperandi ;
+    lao:weaponCode "200"^^xsd:int ;
+    lao:weaponDesc "KNIFE WITH BLADE 6INCHES OR LESS"^^xsd:string .
+
+lao:weapon201 a lao:ModusOperandi ;
+    lao:weaponCode "201"^^xsd:int ;
+    lao:weaponDesc "KNIFE WITH BLADE OVER 6 INCHES IN LENGTH"^^xsd:string .
+
+lao:weapon202 a lao:ModusOperandi ;
+    lao:weaponCode "202"^^xsd:int ;
+    lao:weaponDesc "BOWIE KNIFE"^^xsd:string .
+
+lao:weapon203 a lao:ModusOperandi ;
+    lao:weaponCode "203"^^xsd:int ;
+    lao:weaponDesc "DIRK/DAGGER"^^xsd:string .
+
+lao:weapon204 a lao:ModusOperandi ;
+    lao:weaponCode "204"^^xsd:int ;
+    lao:weaponDesc "FOLDING KNIFE"^^xsd:string .
+
+lao:weapon205 a lao:ModusOperandi ;
+    lao:weaponCode "205"^^xsd:int ;
+    lao:weaponDesc "KITCHEN KNIFE"^^xsd:string .
+
+lao:weapon206 a lao:ModusOperandi ;
+    lao:weaponCode "206"^^xsd:int ;
+    lao:weaponDesc "SWITCH BLADE"^^xsd:string .
+
+lao:weapon207 a lao:ModusOperandi ;
+    lao:weaponCode "207"^^xsd:int ;
+    lao:weaponDesc "OTHER KNIFE"^^xsd:string .
+
+lao:weapon208 a lao:ModusOperandi ;
+    lao:weaponCode "208"^^xsd:int ;
+    lao:weaponDesc "RAZOR"^^xsd:string .
+
+lao:weapon209 a lao:ModusOperandi ;
+    lao:weaponCode "209"^^xsd:int ;
+    lao:weaponDesc "STRAIGHT RAZOR"^^xsd:string .
+
+lao:weapon210 a lao:ModusOperandi ;
+    lao:weaponCode "210"^^xsd:int ;
+    lao:weaponDesc "RAZOR BLADE"^^xsd:string .
+
+lao:weapon211 a lao:ModusOperandi ;
+    lao:weaponCode "211"^^xsd:int ;
+    lao:weaponDesc "AXE"^^xsd:string .
+
+lao:weapon212 a lao:ModusOperandi ;
+    lao:weaponCode "212"^^xsd:int ;
+    lao:weaponDesc "BOTTLE"^^xsd:string .
+
+lao:weapon213 a lao:ModusOperandi ;
+    lao:weaponCode "213"^^xsd:int ;
+    lao:weaponDesc "CLEAVER"^^xsd:string .
+
+lao:weapon214 a lao:ModusOperandi ;
+    lao:weaponCode "214"^^xsd:int ;
+    lao:weaponDesc "ICE PICK"^^xsd:string .
+
+lao:weapon215 a lao:ModusOperandi ;
+    lao:weaponCode "215"^^xsd:int ;
+    lao:weaponDesc "MACHETE"^^xsd:string .
+
+lao:weapon216 a lao:ModusOperandi ;
+    lao:weaponCode "216"^^xsd:int ;
+    lao:weaponDesc "SCISSORS"^^xsd:string .
+
+lao:weapon217 a lao:ModusOperandi ;
+    lao:weaponCode "217"^^xsd:int ;
+    lao:weaponDesc "SWORD"^^xsd:string .
+
+lao:weapon218 a lao:ModusOperandi ;
+    lao:weaponCode "218"^^xsd:int ;
+    lao:weaponDesc "OTHER CUTTING INSTRUMENT"^^xsd:string .
+
+lao:weapon219 a lao:ModusOperandi ;
+    lao:weaponCode "219"^^xsd:int ;
+    lao:weaponDesc "SCREWDRIVER"^^xsd:string .
+
+lao:weapon220 a lao:ModusOperandi ;
+    lao:weaponCode "220"^^xsd:int ;
+    lao:weaponDesc "SYRINGE"^^xsd:string .
+
+lao:weapon221 a lao:ModusOperandi ;
+    lao:weaponCode "221"^^xsd:int ;
+    lao:weaponDesc "GLASS"^^xsd:string .
+
+lao:weapon223 a lao:ModusOperandi ;
+    lao:weaponCode "223"^^xsd:int ;
+    lao:weaponDesc "UNKNOWN TYPE CUTTING INSTRUMENT"^^xsd:string .
+
+lao:weapon300 a lao:ModusOperandi ;
+    lao:weaponCode "300"^^xsd:int ;
+    lao:weaponDesc "BLACKJACK"^^xsd:string .
+
+lao:weapon301 a lao:ModusOperandi ;
+    lao:weaponCode "301"^^xsd:int ;
+    lao:weaponDesc "BELT FLAILING INSTRUMENT/CHAIN"^^xsd:string .
+
+lao:weapon302 a lao:ModusOperandi ;
+    lao:weaponCode "302"^^xsd:int ;
+    lao:weaponDesc "BLUNT INSTRUMENT"^^xsd:string .
+
+lao:weapon303 a lao:ModusOperandi ;
+    lao:weaponCode "303"^^xsd:int ;
+    lao:weaponDesc "BRASS KNUCKLES"^^xsd:string .
+
+lao:weapon304 a lao:ModusOperandi ;
+    lao:weaponCode "304"^^xsd:int ;
+    lao:weaponDesc "CLUB/BAT"^^xsd:string .
+
+lao:weapon305 a lao:ModusOperandi ;
+    lao:weaponCode "305"^^xsd:int ;
+    lao:weaponDesc "FIXED OBJECT"^^xsd:string .
+
+lao:weapon306 a lao:ModusOperandi ;
+    lao:weaponCode "306"^^xsd:int ;
+    lao:weaponDesc "ROCK/THROWN OBJECT"^^xsd:string .
+
+lao:weapon307 a lao:ModusOperandi ;
+    lao:weaponCode "307"^^xsd:int ;
+    lao:weaponDesc "VEHICLE"^^xsd:string .
+
+lao:weapon308 a lao:ModusOperandi ;
+    lao:weaponCode "308"^^xsd:int ;
+    lao:weaponDesc "STICK"^^xsd:string .
+
+lao:weapon309 a lao:ModusOperandi ;
+    lao:weaponCode "309"^^xsd:int ;
+    lao:weaponDesc "BOARD"^^xsd:string .
+
+lao:weapon310 a lao:ModusOperandi ;
+    lao:weaponCode "310"^^xsd:int ;
+    lao:weaponDesc "CONCRETE BLOCK/BRICK"^^xsd:string .
+
+lao:weapon311 a lao:ModusOperandi ;
+    lao:weaponCode "311"^^xsd:int ;
+    lao:weaponDesc "HAMMER"^^xsd:string .
+
+lao:weapon312 a lao:ModusOperandi ;
+    lao:weaponCode "312"^^xsd:int ;
+    lao:weaponDesc "PIPE/METAL PIPE"^^xsd:string .
+
+lao:weapon400 a lao:ModusOperandi ;
+    lao:weaponCode "400"^^xsd:int ;
+    lao:weaponDesc "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)"^^xsd:string .
+
+lao:weapon500 a lao:ModusOperandi ;
+    lao:weaponCode "500"^^xsd:int ;
+    lao:weaponDesc "UNKNOWN WEAPON/OTHER WEAPON"^^xsd:string .
+
+lao:weapon501 a lao:ModusOperandi ;
+    lao:weaponCode "501"^^xsd:int ;
+    lao:weaponDesc "BOMB THREAT"^^xsd:string .
+
+lao:weapon502 a lao:ModusOperandi ;
+    lao:weaponCode "502"^^xsd:int ;
+    lao:weaponDesc "BOW AND ARROW"^^xsd:string .
+
+lao:weapon503 a lao:ModusOperandi ;
+    lao:weaponCode "503"^^xsd:int ;
+    lao:weaponDesc "CAUSTIC CHEMICAL/POISON"^^xsd:string .
+
+lao:weapon504 a lao:ModusOperandi ;
+    lao:weaponCode "504"^^xsd:int ;
+    lao:weaponDesc "DEMAND NOTE"^^xsd:string .
+
+lao:weapon505 a lao:ModusOperandi ;
+    lao:weaponCode "505"^^xsd:int ;
+    lao:weaponDesc "EXPLOXIVE DEVICE"^^xsd:string .
+
+lao:weapon506 a lao:ModusOperandi ;
+    lao:weaponCode "506"^^xsd:int ;
+    lao:weaponDesc "FIRE"^^xsd:string .
+
+lao:weapon507 a lao:ModusOperandi ;
+    lao:weaponCode "507"^^xsd:int ;
+    lao:weaponDesc "LIQUOR/DRUGS"^^xsd:string .
+
+lao:weapon508 a lao:ModusOperandi ;
+    lao:weaponCode "508"^^xsd:int ;
+    lao:weaponDesc "MARTIAL ARTS WEAPONS"^^xsd:string .
+
+lao:weapon509 a lao:ModusOperandi ;
+    lao:weaponCode "509"^^xsd:int ;
+    lao:weaponDesc "ROPE/LIGATURE"^^xsd:string .
+
+lao:weapon510 a lao:ModusOperandi ;
+    lao:weaponCode "510"^^xsd:int ;
+    lao:weaponDesc "SCALDING LIQUID"^^xsd:string .
+
+lao:weapon511 a lao:ModusOperandi ;
+    lao:weaponCode "511"^^xsd:int ;
+    lao:weaponDesc "VERBAL THREAT"^^xsd:string .
+
+lao:weapon512 a lao:ModusOperandi ;
+    lao:weaponCode "512"^^xsd:int ;
+    lao:weaponDesc "MACE/PEPPER SPRAY"^^xsd:string .
+
+lao:weapon513 a lao:ModusOperandi ;
+    lao:weaponCode "513"^^xsd:int ;
+    lao:weaponDesc "STUN GUN"^^xsd:string .
+
+lao:weapon514 a lao:ModusOperandi ;
+    lao:weaponCode "514"^^xsd:int ;
+    lao:weaponDesc "TIRE IRON"^^xsd:string .
+
+lao:weapon515 a lao:ModusOperandi ;
+    lao:weaponCode "515"^^xsd:int ;
+    lao:weaponDesc "PHYSICAL PRESENCE"^^xsd:string .
+
+lao:weapon516 a lao:ModusOperandi ;
+    lao:weaponCode "516"^^xsd:int ;
+    lao:weaponDesc "DOG/ANIMAL (SIC ANIMAL ON)"^^xsd:string .
+
