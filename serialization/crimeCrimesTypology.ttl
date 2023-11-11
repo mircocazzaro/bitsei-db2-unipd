@@ -1,0 +1,555 @@
+@prefix lao: <http://www.bitsei.it/losAngelesOntology/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+lao:crime110 a lao:Crime ;
+    lao:crimeCode "110"^^xsd:int ;
+    lao:crimeDesc "CRIMINAL HOMICIDE"^^xsd:string .
+
+lao:crime113 a lao:Crime ;
+    lao:crimeCode "113"^^xsd:int ;
+    lao:crimeDesc "MANSLAUGHTER, NEGLIGENT"^^xsd:string .
+
+lao:crime121 a lao:Crime ;
+    lao:crimeCode "121"^^xsd:int ;
+    lao:crimeDesc "RAPE, FORCIBLE"^^xsd:string .
+
+lao:crime122 a lao:Crime ;
+    lao:crimeCode "122"^^xsd:int ;
+    lao:crimeDesc "RAPE, ATTEMPTED"^^xsd:string .
+
+lao:crime210 a lao:Crime ;
+    lao:crimeCode "210"^^xsd:int ;
+    lao:crimeDesc "ROBBERY"^^xsd:string .
+
+lao:crime220 a lao:Crime ;
+    lao:crimeCode "220"^^xsd:int ;
+    lao:crimeDesc "ATTEMPTED ROBBERY"^^xsd:string .
+
+lao:crime230 a lao:Crime ;
+    lao:crimeCode "230"^^xsd:int ;
+    lao:crimeDesc "ASSAULT WITH DEADLY WEAPON, AGGRAVATED ASSAULT"^^xsd:string .
+
+lao:crime231 a lao:Crime ;
+    lao:crimeCode "231"^^xsd:int ;
+    lao:crimeDesc "ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER"^^xsd:string .
+
+lao:crime235 a lao:Crime ;
+    lao:crimeCode "235"^^xsd:int ;
+    lao:crimeDesc "CHILD ABUSE (PHYSICAL) - AGGRAVATED ASSAULT"^^xsd:string .
+
+lao:crime236 a lao:Crime ;
+    lao:crimeCode "236"^^xsd:int ;
+    lao:crimeDesc "INTIMATE PARTNER - AGGRAVATED ASSAULT"^^xsd:string .
+
+lao:crime237 a lao:Crime ;
+    lao:crimeCode "237"^^xsd:int ;
+    lao:crimeDesc "CHILD NEGLECT (SEE 300 W.I.C.)"^^xsd:string .
+
+lao:crime250 a lao:Crime ;
+    lao:crimeCode "250"^^xsd:int ;
+    lao:crimeDesc "SHOTS FIRED AT MOVING VEHICLE, TRAIN OR AIRCRAFT"^^xsd:string .
+
+lao:crime251 a lao:Crime ;
+    lao:crimeCode "251"^^xsd:int ;
+    lao:crimeDesc "SHOTS FIRED AT INHABITED DWELLING"^^xsd:string .
+
+lao:crime310 a lao:Crime ;
+    lao:crimeCode "310"^^xsd:int ;
+    lao:crimeDesc "BURGLARY"^^xsd:string .
+
+lao:crime320 a lao:Crime ;
+    lao:crimeCode "320"^^xsd:int ;
+    lao:crimeDesc "BURGLARY, ATTEMPTED"^^xsd:string .
+
+lao:crime330 a lao:Crime ;
+    lao:crimeCode "330"^^xsd:int ;
+    lao:crimeDesc "BURGLARY FROM VEHICLE"^^xsd:string .
+
+lao:crime331 a lao:Crime ;
+    lao:crimeCode "331"^^xsd:int ;
+    lao:crimeDesc "THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)"^^xsd:string .
+
+lao:crime341 a lao:Crime ;
+    lao:crimeCode "341"^^xsd:int ;
+    lao:crimeDesc "THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD"^^xsd:string .
+
+lao:crime343 a lao:Crime ;
+    lao:crimeCode "343"^^xsd:int ;
+    lao:crimeDesc "SHOPLIFTING-GRAND THEFT ($950.01 & OVER)"^^xsd:string .
+
+lao:crime345 a lao:Crime ;
+    lao:crimeCode "345"^^xsd:int ;
+    lao:crimeDesc "DISHONEST EMPLOYEE - GRAND THEFT"^^xsd:string .
+
+lao:crime347 a lao:Crime ;
+    lao:crimeCode "347"^^xsd:int ;
+    lao:crimeDesc "GRAND THEFT / INSURANCE FRAUD"^^xsd:string .
+
+lao:crime349 a lao:Crime ;
+    lao:crimeCode "349"^^xsd:int ;
+    lao:crimeDesc "GRAND THEFT / AUTO REPAIR"^^xsd:string .
+
+lao:crime350 a lao:Crime ;
+    lao:crimeCode "350"^^xsd:int ;
+    lao:crimeDesc "THEFT, PERSON"^^xsd:string .
+
+lao:crime351 a lao:Crime ;
+    lao:crimeCode "351"^^xsd:int ;
+    lao:crimeDesc "PURSE SNATCHING"^^xsd:string .
+
+lao:crime352 a lao:Crime ;
+    lao:crimeCode "352"^^xsd:int ;
+    lao:crimeDesc "PICKPOCKET"^^xsd:string .
+
+lao:crime353 a lao:Crime ;
+    lao:crimeCode "353"^^xsd:int ;
+    lao:crimeDesc "DRUNK ROLL"^^xsd:string .
+
+lao:crime354 a lao:Crime ;
+    lao:crimeCode "354"^^xsd:int ;
+    lao:crimeDesc "THEFT OF IDENTITY"^^xsd:string .
+
+lao:crime410 a lao:Crime ;
+    lao:crimeCode "410"^^xsd:int ;
+    lao:crimeDesc "BURGLARY FROM VEHICLE, ATTEMPTED"^^xsd:string .
+
+lao:crime420 a lao:Crime ;
+    lao:crimeCode "420"^^xsd:int ;
+    lao:crimeDesc "THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)"^^xsd:string .
+
+lao:crime421 a lao:Crime ;
+    lao:crimeCode "421"^^xsd:int ;
+    lao:crimeDesc "THEFT FROM MOTOR VEHICLE - ATTEMPT"^^xsd:string .
+
+lao:crime432 a lao:Crime ;
+    lao:crimeCode "432"^^xsd:int ;
+    lao:crimeDesc "BLOCKING DOOR INDUCTION CENTER"^^xsd:string .
+
+lao:crime433 a lao:Crime ;
+    lao:crimeCode "433"^^xsd:int ;
+    lao:crimeDesc "DRIVING WITHOUT OWNER CONSENT (DWOC)"^^xsd:string .
+
+lao:crime434 a lao:Crime ;
+    lao:crimeCode "434"^^xsd:int ;
+    lao:crimeDesc "FALSE IMPRISONMENT"^^xsd:string .
+
+lao:crime435 a lao:Crime ;
+    lao:crimeCode "435"^^xsd:int ;
+    lao:crimeDesc "LYNCHING"^^xsd:string .
+
+lao:crime436 a lao:Crime ;
+    lao:crimeCode "436"^^xsd:int ;
+    lao:crimeDesc "LYNCHING - ATTEMPTED"^^xsd:string .
+
+lao:crime437 a lao:Crime ;
+    lao:crimeCode "437"^^xsd:int ;
+    lao:crimeDesc "RESISTING ARREST"^^xsd:string .
+
+lao:crime438 a lao:Crime ;
+    lao:crimeCode "438"^^xsd:int ;
+    lao:crimeDesc "RECKLESS DRIVING"^^xsd:string .
+
+lao:crime439 a lao:Crime ;
+    lao:crimeCode "439"^^xsd:int ;
+    lao:crimeDesc "FALSE POLICE REPORT"^^xsd:string .
+
+lao:crime440 a lao:Crime ;
+    lao:crimeCode "440"^^xsd:int ;
+    lao:crimeDesc "THEFT PLAIN - PETTY ($950 & UNDER)"^^xsd:string .
+
+lao:crime441 a lao:Crime ;
+    lao:crimeCode "441"^^xsd:int ;
+    lao:crimeDesc "THEFT PLAIN - ATTEMPT"^^xsd:string .
+
+lao:crime442 a lao:Crime ;
+    lao:crimeCode "442"^^xsd:int ;
+    lao:crimeDesc "SHOPLIFTING - PETTY THEFT ($950 & UNDER)"^^xsd:string .
+
+lao:crime443 a lao:Crime ;
+    lao:crimeCode "443"^^xsd:int ;
+    lao:crimeDesc "SHOPLIFTING - ATTEMPT"^^xsd:string .
+
+lao:crime444 a lao:Crime ;
+    lao:crimeCode "444"^^xsd:int ;
+    lao:crimeDesc "DISHONEST EMPLOYEE - PETTY THEFT"^^xsd:string .
+
+lao:crime445 a lao:Crime ;
+    lao:crimeCode "445"^^xsd:int ;
+    lao:crimeDesc "DISHONEST EMPLOYEE ATTEMPTED THEFT"^^xsd:string .
+
+lao:crime446 a lao:Crime ;
+    lao:crimeCode "446"^^xsd:int ;
+    lao:crimeDesc "PETTY THEFT - AUTO REPAIR"^^xsd:string .
+
+lao:crime450 a lao:Crime ;
+    lao:crimeCode "450"^^xsd:int ;
+    lao:crimeDesc "THEFT FROM PERSON - ATTEMPT"^^xsd:string .
+
+lao:crime451 a lao:Crime ;
+    lao:crimeCode "451"^^xsd:int ;
+    lao:crimeDesc "PURSE SNATCHING - ATTEMPT"^^xsd:string .
+
+lao:crime452 a lao:Crime ;
+    lao:crimeCode "452"^^xsd:int ;
+    lao:crimeDesc "PICKPOCKET, ATTEMPT"^^xsd:string .
+
+lao:crime470 a lao:Crime ;
+    lao:crimeCode "470"^^xsd:int ;
+    lao:crimeDesc "TILL TAP - GRAND THEFT ($950.01 & OVER)"^^xsd:string .
+
+lao:crime471 a lao:Crime ;
+    lao:crimeCode "471"^^xsd:int ;
+    lao:crimeDesc "TILL TAP - PETTY ($950 & UNDER)"^^xsd:string .
+
+lao:crime473 a lao:Crime ;
+    lao:crimeCode "473"^^xsd:int ;
+    lao:crimeDesc "THEFT, COIN MACHINE - GRAND ($950.01 & OVER)"^^xsd:string .
+
+lao:crime474 a lao:Crime ;
+    lao:crimeCode "474"^^xsd:int ;
+    lao:crimeDesc "THEFT, COIN MACHINE - PETTY ($950 & UNDER)"^^xsd:string .
+
+lao:crime475 a lao:Crime ;
+    lao:crimeCode "475"^^xsd:int ;
+    lao:crimeDesc "THEFT, COIN MACHINE - ATTEMPT"^^xsd:string .
+
+lao:crime480 a lao:Crime ;
+    lao:crimeCode "480"^^xsd:int ;
+    lao:crimeDesc "BIKE - STOLEN"^^xsd:string .
+
+lao:crime485 a lao:Crime ;
+    lao:crimeCode "485"^^xsd:int ;
+    lao:crimeDesc "BIKE - ATTEMPTED STOLEN"^^xsd:string .
+
+lao:crime487 a lao:Crime ;
+    lao:crimeCode "487"^^xsd:int ;
+    lao:crimeDesc "BOAT - STOLEN"^^xsd:string .
+
+lao:crime510 a lao:Crime ;
+    lao:crimeCode "510"^^xsd:int ;
+    lao:crimeDesc "VEHICLE - STOLEN"^^xsd:string .
+
+lao:crime520 a lao:Crime ;
+    lao:crimeCode "520"^^xsd:int ;
+    lao:crimeDesc "VEHICLE - ATTEMPT STOLEN"^^xsd:string .
+
+lao:crime522 a lao:Crime ;
+    lao:crimeCode "522"^^xsd:int ;
+    lao:crimeDesc "VEHICLE, STOLEN - OTHER (MOTORIZED SCOOTERS, BIKES, ETC)"^^xsd:string .
+
+lao:crime622 a lao:Crime ;
+    lao:crimeCode "622"^^xsd:int ;
+    lao:crimeDesc "BATTERY ON A FIREFIGHTER"^^xsd:string .
+
+lao:crime623 a lao:Crime ;
+    lao:crimeCode "623"^^xsd:int ;
+    lao:crimeDesc "BATTERY POLICE (SIMPLE)"^^xsd:string .
+
+lao:crime624 a lao:Crime ;
+    lao:crimeCode "624"^^xsd:int ;
+    lao:crimeDesc "BATTERY - SIMPLE ASSAULT"^^xsd:string .
+
+lao:crime625 a lao:Crime ;
+    lao:crimeCode "625"^^xsd:int ;
+    lao:crimeDesc "OTHER ASSAULT"^^xsd:string .
+
+lao:crime626 a lao:Crime ;
+    lao:crimeCode "626"^^xsd:int ;
+    lao:crimeDesc "INTIMATE PARTNER - SIMPLE ASSAULT"^^xsd:string .
+
+lao:crime627 a lao:Crime ;
+    lao:crimeCode "627"^^xsd:int ;
+    lao:crimeDesc "CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT"^^xsd:string .
+
+lao:crime647 a lao:Crime ;
+    lao:crimeCode "647"^^xsd:int ;
+    lao:crimeDesc "THROWING OBJECT AT MOVING VEHICLE"^^xsd:string .
+
+lao:crime648 a lao:Crime ;
+    lao:crimeCode "648"^^xsd:int ;
+    lao:crimeDesc "ARSON"^^xsd:string .
+
+lao:crime649 a lao:Crime ;
+    lao:crimeCode "649"^^xsd:int ;
+    lao:crimeDesc "DOCUMENT FORGERY / STOLEN FELONY"^^xsd:string .
+
+lao:crime651 a lao:Crime ;
+    lao:crimeCode "651"^^xsd:int ;
+    lao:crimeDesc "DOCUMENT WORTHLESS ($200.01 & OVER)"^^xsd:string .
+
+lao:crime652 a lao:Crime ;
+    lao:crimeCode "652"^^xsd:int ;
+    lao:crimeDesc "DOCUMENT WORTHLESS ($200 & UNDER)"^^xsd:string .
+
+lao:crime653 a lao:Crime ;
+    lao:crimeCode "653"^^xsd:int ;
+    lao:crimeDesc "CREDIT CARDS, FRAUD USE ($950.01 & OVER)"^^xsd:string .
+
+lao:crime654 a lao:Crime ;
+    lao:crimeCode "654"^^xsd:int ;
+    lao:crimeDesc "CREDIT CARDS, FRAUD USE ($950 & UNDER"^^xsd:string .
+
+lao:crime660 a lao:Crime ;
+    lao:crimeCode "660"^^xsd:int ;
+    lao:crimeDesc "COUNTERFEIT"^^xsd:string .
+
+lao:crime661 a lao:Crime ;
+    lao:crimeCode "661"^^xsd:int ;
+    lao:crimeDesc "UNAUTHORIZED COMPUTER ACCESS"^^xsd:string .
+
+lao:crime662 a lao:Crime ;
+    lao:crimeCode "662"^^xsd:int ;
+    lao:crimeDesc "BUNCO, GRAND THEFT"^^xsd:string .
+
+lao:crime664 a lao:Crime ;
+    lao:crimeCode "664"^^xsd:int ;
+    lao:crimeDesc "BUNCO, PETTY THEFT"^^xsd:string .
+
+lao:crime666 a lao:Crime ;
+    lao:crimeCode "666"^^xsd:int ;
+    lao:crimeDesc "BUNCO, ATTEMPT"^^xsd:string .
+
+lao:crime668 a lao:Crime ;
+    lao:crimeCode "668"^^xsd:int ;
+    lao:crimeDesc "EMBEZZLEMENT, GRAND THEFT ($950.01 & OVER)"^^xsd:string .
+
+lao:crime670 a lao:Crime ;
+    lao:crimeCode "670"^^xsd:int ;
+    lao:crimeDesc "EMBEZZLEMENT, PETTY THEFT ($950 & UNDER)"^^xsd:string .
+
+lao:crime740 a lao:Crime ;
+    lao:crimeCode "740"^^xsd:int ;
+    lao:crimeDesc "VANDALISM - FELONY ($400 & OVER, ALL CHURCH VANDALISMS)"^^xsd:string .
+
+lao:crime745 a lao:Crime ;
+    lao:crimeCode "745"^^xsd:int ;
+    lao:crimeDesc "VANDALISM - MISDEAMEANOR ($399 OR UNDER)"^^xsd:string .
+
+lao:crime753 a lao:Crime ;
+    lao:crimeCode "753"^^xsd:int ;
+    lao:crimeDesc "DISCHARGE FIREARMS/SHOTS FIRED"^^xsd:string .
+
+lao:crime755 a lao:Crime ;
+    lao:crimeCode "755"^^xsd:int ;
+    lao:crimeDesc "BOMB SCARE"^^xsd:string .
+
+lao:crime756 a lao:Crime ;
+    lao:crimeCode "756"^^xsd:int ;
+    lao:crimeDesc "WEAPONS POSSESSION/BOMBING"^^xsd:string .
+
+lao:crime760 a lao:Crime ;
+    lao:crimeCode "760"^^xsd:int ;
+    lao:crimeDesc "LEWD/LASCIVIOUS ACTS WITH CHILD"^^xsd:string .
+
+lao:crime761 a lao:Crime ;
+    lao:crimeCode "761"^^xsd:int ;
+    lao:crimeDesc "BRANDISH WEAPON"^^xsd:string .
+
+lao:crime762 a lao:Crime ;
+    lao:crimeCode "762"^^xsd:int ;
+    lao:crimeDesc "LEWD CONDUCT"^^xsd:string .
+
+lao:crime763 a lao:Crime ;
+    lao:crimeCode "763"^^xsd:int ;
+    lao:crimeDesc "STALKING"^^xsd:string .
+
+lao:crime805 a lao:Crime ;
+    lao:crimeCode "805"^^xsd:int ;
+    lao:crimeDesc "PIMPING"^^xsd:string .
+
+lao:crime806 a lao:Crime ;
+    lao:crimeCode "806"^^xsd:int ;
+    lao:crimeDesc "PANDERING"^^xsd:string .
+
+lao:crime810 a lao:Crime ;
+    lao:crimeCode "810"^^xsd:int ;
+    lao:crimeDesc "SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ"^^xsd:string .
+
+lao:crime812 a lao:Crime ;
+    lao:crimeCode "812"^^xsd:int ;
+    lao:crimeDesc "CRM AGNST CHLD (13 OR UNDER) (14-15 & SUSP 10 YRS OLDER)"^^xsd:string .
+
+lao:crime813 a lao:Crime ;
+    lao:crimeCode "813"^^xsd:int ;
+    lao:crimeDesc "CHILD ANNOYING (17YRS & UNDER)"^^xsd:string .
+
+lao:crime814 a lao:Crime ;
+    lao:crimeCode "814"^^xsd:int ;
+    lao:crimeDesc "CHILD PORNOGRAPHY"^^xsd:string .
+
+lao:crime815 a lao:Crime ;
+    lao:crimeCode "815"^^xsd:int ;
+    lao:crimeDesc "SEXUAL PENETRATION W/FOREIGN OBJECT"^^xsd:string .
+
+lao:crime820 a lao:Crime ;
+    lao:crimeCode "820"^^xsd:int ;
+    lao:crimeDesc "ORAL COPULATION"^^xsd:string .
+
+lao:crime821 a lao:Crime ;
+    lao:crimeCode "821"^^xsd:int ;
+    lao:crimeDesc "SODOMY/SEXUAL CONTACT B/W PENIS OF ONE PERS TO ANUS OTH"^^xsd:string .
+
+lao:crime822 a lao:Crime ;
+    lao:crimeCode "822"^^xsd:int ;
+    lao:crimeDesc "HUMAN TRAFFICKING - COMMERCIAL SEX ACTS"^^xsd:string .
+
+lao:crime830 a lao:Crime ;
+    lao:crimeCode "830"^^xsd:int ;
+    lao:crimeDesc "INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES)"^^xsd:string .
+
+lao:crime840 a lao:Crime ;
+    lao:crimeCode "840"^^xsd:int ;
+    lao:crimeDesc "BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIM"^^xsd:string .
+
+lao:crime845 a lao:Crime ;
+    lao:crimeCode "845"^^xsd:int ;
+    lao:crimeDesc "SEX OFFENDER REGISTRANT OUT OF COMPLIANCE"^^xsd:string .
+
+lao:crime850 a lao:Crime ;
+    lao:crimeCode "850"^^xsd:int ;
+    lao:crimeDesc "INDECENT EXPOSURE"^^xsd:string .
+
+lao:crime860 a lao:Crime ;
+    lao:crimeCode "860"^^xsd:int ;
+    lao:crimeDesc "BATTERY WITH SEXUAL CONTACT"^^xsd:string .
+
+lao:crime865 a lao:Crime ;
+    lao:crimeCode "865"^^xsd:int ;
+    lao:crimeDesc "DRUGS, TO A MINOR"^^xsd:string .
+
+lao:crime870 a lao:Crime ;
+    lao:crimeCode "870"^^xsd:int ;
+    lao:crimeDesc "CHILD ABANDONMENT"^^xsd:string .
+
+lao:crime880 a lao:Crime ;
+    lao:crimeCode "880"^^xsd:int ;
+    lao:crimeDesc "DISRUPT SCHOOL"^^xsd:string .
+
+lao:crime882 a lao:Crime ;
+    lao:crimeCode "882"^^xsd:int ;
+    lao:crimeDesc "INCITING A RIOT"^^xsd:string .
+
+lao:crime884 a lao:Crime ;
+    lao:crimeCode "884"^^xsd:int ;
+    lao:crimeDesc "FAILURE TO DISPERSE"^^xsd:string .
+
+lao:crime886 a lao:Crime ;
+    lao:crimeCode "886"^^xsd:int ;
+    lao:crimeDesc "DISTURBING THE PEACE"^^xsd:string .
+
+lao:crime888 a lao:Crime ;
+    lao:crimeCode "888"^^xsd:int ;
+    lao:crimeDesc "TRESPASSING"^^xsd:string .
+
+lao:crime890 a lao:Crime ;
+    lao:crimeCode "890"^^xsd:int ;
+    lao:crimeDesc "FAILURE TO YIELD"^^xsd:string .
+
+lao:crime900 a lao:Crime ;
+    lao:crimeCode "900"^^xsd:int ;
+    lao:crimeDesc "VIOLATION OF COURT ORDER"^^xsd:string .
+
+lao:crime901 a lao:Crime ;
+    lao:crimeCode "901"^^xsd:int ;
+    lao:crimeDesc "VIOLATION OF RESTRAINING ORDER"^^xsd:string .
+
+lao:crime902 a lao:Crime ;
+    lao:crimeCode "902"^^xsd:int ;
+    lao:crimeDesc "VIOLATION OF TEMPORARY RESTRAINING ORDER"^^xsd:string .
+
+lao:crime903 a lao:Crime ;
+    lao:crimeCode "903"^^xsd:int ;
+    lao:crimeDesc "CONTEMPT OF COURT"^^xsd:string .
+
+lao:crime904 a lao:Crime ;
+    lao:crimeCode "904"^^xsd:int ;
+    lao:crimeDesc "FIREARMS EMERGENCY PROTECTIVE ORDER (FIREARMS EPO)"^^xsd:string .
+
+lao:crime906 a lao:Crime ;
+    lao:crimeCode "906"^^xsd:int ;
+    lao:crimeDesc "FIREARMS RESTRAINING ORDER (FIREARMS RO)"^^xsd:string .
+
+lao:crime910 a lao:Crime ;
+    lao:crimeCode "910"^^xsd:int ;
+    lao:crimeDesc "KIDNAPPING"^^xsd:string .
+
+lao:crime920 a lao:Crime ;
+    lao:crimeCode "920"^^xsd:int ;
+    lao:crimeDesc "KIDNAPPING - GRAND ATTEMPT"^^xsd:string .
+
+lao:crime921 a lao:Crime ;
+    lao:crimeCode "921"^^xsd:int ;
+    lao:crimeDesc "HUMAN TRAFFICKING - INVOLUNTARY SERVITUDE"^^xsd:string .
+
+lao:crime922 a lao:Crime ;
+    lao:crimeCode "922"^^xsd:int ;
+    lao:crimeDesc "CHILD STEALING"^^xsd:string .
+
+lao:crime924 a lao:Crime ;
+    lao:crimeCode "924"^^xsd:int ;
+    lao:crimeDesc "TELEPHONE PROPERTY - DAMAGE"^^xsd:string .
+
+lao:crime928 a lao:Crime ;
+    lao:crimeCode "928"^^xsd:int ;
+    lao:crimeDesc "THREATENING PHONE CALLS/LETTERS"^^xsd:string .
+
+lao:crime930 a lao:Crime ;
+    lao:crimeCode "930"^^xsd:int ;
+    lao:crimeDesc "CRIMINAL THREATS - NO WEAPON DISPLAYED"^^xsd:string .
+
+lao:crime931 a lao:Crime ;
+    lao:crimeCode "931"^^xsd:int ;
+    lao:crimeDesc "REPLICA FIREARMS(SALE,DISPLAY,MANUFACTURE OR DISTRIBUTE)"^^xsd:string .
+
+lao:crime932 a lao:Crime ;
+    lao:crimeCode "932"^^xsd:int ;
+    lao:crimeDesc "PEEPING TOM"^^xsd:string .
+
+lao:crime933 a lao:Crime ;
+    lao:crimeCode "933"^^xsd:int ;
+    lao:crimeDesc "PROWLER"^^xsd:string .
+
+lao:crime940 a lao:Crime ;
+    lao:crimeCode "940"^^xsd:int ;
+    lao:crimeDesc "EXTORTION"^^xsd:string .
+
+lao:crime942 a lao:Crime ;
+    lao:crimeCode "942"^^xsd:int ;
+    lao:crimeDesc "BRIBERY"^^xsd:string .
+
+lao:crime943 a lao:Crime ;
+    lao:crimeCode "943"^^xsd:int ;
+    lao:crimeDesc "CRUELTY TO ANIMALS"^^xsd:string .
+
+lao:crime944 a lao:Crime ;
+    lao:crimeCode "944"^^xsd:int ;
+    lao:crimeDesc "CONSPIRACY"^^xsd:string .
+
+lao:crime946 a lao:Crime ;
+    lao:crimeCode "946"^^xsd:int ;
+    lao:crimeDesc "OTHER MISCELLANEOUS CRIME"^^xsd:string .
+
+lao:crime948 a lao:Crime ;
+    lao:crimeCode "948"^^xsd:int ;
+    lao:crimeDesc "BIGAMY"^^xsd:string .
+
+lao:crime949 a lao:Crime ;
+    lao:crimeCode "949"^^xsd:int ;
+    lao:crimeDesc "ILLEGAL DUMPING"^^xsd:string .
+
+lao:crime950 a lao:Crime ;
+    lao:crimeCode "950"^^xsd:int ;
+    lao:crimeDesc "DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $950.01"^^xsd:string .
+
+lao:crime951 a lao:Crime ;
+    lao:crimeCode "951"^^xsd:int ;
+    lao:crimeDesc "DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 & UNDER"^^xsd:string .
+
+lao:crime954 a lao:Crime ;
+    lao:crimeCode "954"^^xsd:int ;
+    lao:crimeDesc "CONTRIBUTING"^^xsd:string .
+
+lao:crime956 a lao:Crime ;
+    lao:crimeCode "956"^^xsd:int ;
+    lao:crimeDesc "LETTERS, LEWD  -  TELEPHONE CALLS, LEWD"^^xsd:string .
+
