@@ -3143,7 +3143,7 @@ lao:modusOperandi909 a lao:ModusOperandi ;
 
 lao:modusOperandi910 a lao:ModusOperandi ;
     lao:moCode "910"^^xsd:int ;
-    lao:moDesc "Public Transit (Metrolink/Train Station,Metro Rail Red,Line Subway Station, Metro Rail Blue Line Station,adjacent transit parking lots, tracks or tunnels MTA(RTD), and other municipal lines."^^xsd:string .
+    lao:moDesc "Public Transit (Metrolink/Train Station, Metro Rail Red, Line Subway Station, Metro Rail Blue Line Station, adjacent transit parking lots, tracks or tunnels MTA(RTD), and other municipal lines)."^^xsd:string .
 
 lao:modusOperandi911 a lao:ModusOperandi ;
     lao:moCode "911"^^xsd:int ;
