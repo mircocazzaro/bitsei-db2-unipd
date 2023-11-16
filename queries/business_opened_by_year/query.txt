@@ -1,0 +1,20 @@
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX xmlns: <http://www.w3.org/2000/xmlns/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?sigla (COUNT(?business) AS ?numBusinesses) WHERE {
+    ?business lao:locatedIn ?location ;
+              lao:openedOnDate ?day .
+   	?day lao:hasDate ?date .
+    ?location lao:belongsToArea ?area .
+    ?area lao:areaAcronym ?sigla .
+    
+    
+	#FILTER (?date >= "2020-01-01T00:00:00"^^xsd:dateTime && ?date <= "2020-12-31T23:59:59"^^xsd:dateTime)
+    FILTER (xsd:date(?date) >= "2022-01-01"^^xsd:date && xsd:date(?date) <= "2022-12-31"^^xsd:date)
+    #FILTER (?date >= "2020-01-01"^^xsd:date && ?date <= "2020-12-31"^^xsd:date) QUESTO NON FUNZIA!!!
+}
+GROUP BY (?sigla)
+ORDER BY (?sigla)
