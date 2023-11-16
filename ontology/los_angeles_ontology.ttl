@@ -650,926 +650,6 @@
 #    Individuals
 #################################################################
 
-###  http://www.bitsei.it/losAngelesOntology#crime113
-:crime113 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 113 ;
-          :crimeDesc "MANSLAUGHTER,  NEGLIGENT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime121
-:crime121 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 121 ;
-          :crimeDesc "RAPE,  FORCIBLE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime122
-:crime122 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 122 ;
-          :crimeDesc "RAPE,  ATTEMPTED" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime210
-:crime210 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 210 ;
-          :crimeDesc "ROBBERY" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime220
-:crime220 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 220 ;
-          :crimeDesc "ATTEMPTED ROBBERY" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime230
-:crime230 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 230 ;
-          :crimeDesc "ASSAULT WITH DEADLY WEAPON,  AGGRAVATED ASSAULT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime231
-:crime231 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 231 ;
-          :crimeDesc "ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime235
-:crime235 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 235 ;
-          :crimeDesc "CHILD ABUSE (PHYSICAL) - AGGRAVATED ASSAULT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime236
-:crime236 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 236 ;
-          :crimeDesc "INTIMATE PARTNER - AGGRAVATED ASSAULT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime237
-:crime237 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 237 ;
-          :crimeDesc "CHILD NEGLECT (SEE 300 W.I.C.)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime320
-:crime320 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 320 ;
-          :crimeDesc "BURGLARY,  ATTEMPTED" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime330
-:crime330 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 330 ;
-          :crimeDesc "BURGLARY FROM VEHICLE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime331
-:crime331 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 331 ;
-          :crimeDesc "THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime341
-:crime341 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 341 ;
-          :crimeDesc " THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime343
-:crime343 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 343 ;
-          :crimeDesc "SHOPLIFTING-GRAND THEFT ($950.01 & OVER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime345
-:crime345 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 345 ;
-          :crimeDesc "DISHONEST EMPLOYEE - GRAND THEFT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime347
-:crime347 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 347 ;
-          :crimeDesc "GRAND THEFT / INSURANCE FRAUD" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime349
-:crime349 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 349 ;
-          :crimeDesc "GRAND THEFT / AUTO REPAIR" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime350
-:crime350 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 350 ;
-          :crimeDesc "THEFT,  PERSON" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime351
-:crime351 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 351 ;
-          :crimeDesc "PURSE SNATCHING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime352
-:crime352 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 352 ;
-          :crimeDesc "PICKPOCKET" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime353
-:crime353 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 353 ;
-          :crimeDesc "DRUNK ROLL" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime354
-:crime354 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 354 ;
-          :crimeDesc "THEFT OF IDENTITY" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime410
-:crime410 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 410 ;
-          :crimeDesc "BURGLARY FROM VEHICLE,  ATTEMPTED" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime420
-:crime420 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 420 ;
-          :crimeDesc "THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime421
-:crime421 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 421 ;
-          :crimeDesc "THEFT FROM MOTOR VEHICLE - ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime432
-:crime432 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 432	 ;
-          :crimeDesc " BLOCKING DOOR INDUCTION " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime433
-:crime433 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 433 ;
-          :crimeDesc "DRIVING WITHOUT OWNER CONSENT (DWOC)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime435
-:crime435 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 435 ;
-          :crimeDesc "LYNCHING " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime436
-:crime436 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 436 ;
-          :crimeDesc "LYNCHING - ATTEMPTED " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime437
-:crime437 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 437	 ;
-          :crimeDesc " RESISTING ARREST " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime438
-:crime438 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 438	 ;
-          :crimeDesc " RECKLESS DRIVING " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime439
-:crime439 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 439	 ;
-          :crimeDesc " FALSE POLICE REPORT " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime440
-:crime440 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 440 ;
-          :crimeDesc "THEFT PLAIN - PETTY ($950 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime441
-:crime441 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 441 ;
-          :crimeDesc "THEFT PLAIN - ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime442
-:crime442 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 442 ;
-          :crimeDesc "SHOPLIFTING - PETTY THEFT ($950 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime443
-:crime443 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 443 ;
-          :crimeDesc "SHOPLIFTING - ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime444
-:crime444 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 444 ;
-          :crimeDesc "DISHONEST EMPLOYEE - PETTY THEFT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime445
-:crime445 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 445 ;
-          :crimeDesc "DISHONEST EMPLOYEE ATTEMPTED THEFT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime446
-:crime446 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 446 ;
-          :crimeDesc "PETTY THEFT - AUTO REPAIR" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime450
-:crime450 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 450 ;
-          :crimeDesc "THEFT FROM PERSON - ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime451
-:crime451 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 451 ;
-          :crimeDesc "PURSE SNATCHING - ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime452
-:crime452 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 452 ;
-          :crimeDesc "PICKPOCKET,  ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime470
-:crime470 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 470 ;
-          :crimeDesc "TILL TAP - GRAND THEFT ($950.01 & OVER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime471
-:crime471 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 471 ;
-          :crimeDesc "TILL TAP - PETTY ($950 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime473
-:crime473 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 473 ;
-          :crimeDesc "THEFT,  COIN MACHINE - GRAND ($950.01 & OVER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime474
-:crime474 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 474 ;
-          :crimeDesc "THEFT,  COIN MACHINE - PETTY ($950 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime475
-:crime475 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 475 ;
-          :crimeDesc "THEFT,  COIN MACHINE – ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime480
-:crime480 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 480 ;
-          :crimeDesc "BIKE - STOLEN" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime485
-:crime485 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 485 ;
-          :crimeDesc "BIKE - ATTEMPTED STOLEN" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime487
-:crime487 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 487 ;
-          :crimeDesc "BOAT - STOLEN" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime510
-:crime510 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 510 ;
-          :crimeDesc "VEHICLE - STOLEN" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime520
-:crime520 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 520 ;
-          :crimeDesc "VEHICLE - ATTEMPT STOLEN" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime522
-:crime522 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 522 ;
-          :crimeDesc "VEHICLE, STOLEN - OTHER (MOTORIZED SCOOTERS, BIKES, ETC)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime622
-:crime622 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 622 ;
-          :crimeDesc "BATTERY ON A FIREFIGHTER" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime623
-:crime623 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 623 ;
-          :crimeDesc "BATTERY POLICE (SIMPLE)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime624
-:crime624 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 624 ;
-          :crimeDesc "BATTERY - SIMPLE ASSAULT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime625
-:crime625 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 625 ;
-          :crimeDesc "OTHER ASSAULT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime626
-:crime626 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 626 ;
-          :crimeDesc "INTIMATE PARTNER - SIMPLE ASSAULT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime627
-:crime627 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 627 ;
-          :crimeDesc "CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime647
-:crime647 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 647 ;
-          :crimeDesc "THROWING OBJECT AT MOVING VEHICLE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime648
-:crime648 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 648 ;
-          :crimeDesc "ARSON" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime649
-:crime649 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 649 ;
-          :crimeDesc "DOCUMENT FORGERY / STOLEN FELONY" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime651
-:crime651 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 651 ;
-          :crimeDesc "DOCUMENT WORTHLESS ($200.01 & OVER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime652
-:crime652 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 652 ;
-          :crimeDesc "DOCUMENT WORTHLESS ($200 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime653
-:crime653 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 653 ;
-          :crimeDesc "CREDIT CARDS,  FRAUD USE ($950.01 & OVER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime654
-:crime654 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 654 ;
-          :crimeDesc "CREDIT CARDS,  FRAUD USE ($950 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime660
-:crime660 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 660 ;
-          :crimeDesc "COUNTERFEIT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime661
-:crime661 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 661 ;
-          :crimeDesc "UNAUTHORIZED COMPUTER ACCESS" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime662
-:crime662 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 662 ;
-          :crimeDesc "BUNCO,  GRAND THEFT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime664
-:crime664 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 664 ;
-          :crimeDesc "BUNCO,  PETTY THEFT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime666
-:crime666 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 666 ;
-          :crimeDesc "BUNCO,  ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime668
-:crime668 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 668 ;
-          :crimeDesc "EMBEZZLEMENT,  GRAND THEFT ($950.01 & OVER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime670
-:crime670 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 670 ;
-          :crimeDesc "EMBEZZLEMENT,  PETTY THEFT ($950 & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime740
-:crime740 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 740	 ;
-          :crimeDesc " VANDALISM - FELONY ($400 & OVER,  ALL CHURCH VANDALISMS)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime745
-:crime745 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 745	 ;
-          :crimeDesc " VANDALISM - MISDEAMEANOR ($399 OR UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime753
-:crime753 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 753	 ;
-          :crimeDesc " DISCHARGE FIREARMS/SHOTS FIRED" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime755
-:crime755 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 755	 ;
-          :crimeDesc " BOMB SCARE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime756
-:crime756 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 756	 ;
-          :crimeDesc " WEAPONS POSSESSION/BOMBING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime760
-:crime760 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 760 ;
-          :crimeDesc "LEWD/LASCIVIOUS ACTS WITH CHILD" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime761
-:crime761 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 761 ;
-          :crimeDesc "BRANDISH WEAPON" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime762
-:crime762 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 762 ;
-          :crimeDesc "LEWD CONDUCT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime763
-:crime763 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ,
-                   :ViolentCrime ;
-          :crimeCode 763 ,
-                     763	 ;
-          :crimeDesc " STALKING" ,
-                     "STALKING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime805
-:crime805 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 805	 ;
-          :crimeDesc " PIMPING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime806
-:crime806 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 806	 ;
-          :crimeDesc " PANDERING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime810
-:crime810 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 810 ;
-          :crimeDesc "SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ) " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime812
-:crime812 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 812 ;
-          :crimeDesc "CRM AGNST CHLD (13 OR UNDER) (14-15 & SUSP 10 YRS OLDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime813
-:crime813 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 813 ;
-          :crimeDesc "CHILD ANNOYING (17YRS & UNDER)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime814
-:crime814 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 814 ;
-          :crimeDesc "CHILD PORNOGRAPHY" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime815
-:crime815 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 815 ;
-          :crimeDesc "SEXUAL PENETRATION W/FOREIGN OBJECT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime820
-:crime820 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 820 ;
-          :crimeDesc "ORAL COPULATION" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime821
-:crime821 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 821 ;
-          :crimeDesc "SODOMY/SEXUAL CONTACT B/W PENIS OF ONE PERS TO ANUS OTH" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime822
-:crime822 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 822 ;
-          :crimeDesc "HUMAN TRAFFICKING - COMMERCIAL SEX ACTS" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime830
-:crime830 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 830 ;
-          :crimeDesc "INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime840
-:crime840 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 840 ;
-          :crimeDesc "BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIMAL" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime845
-:crime845 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 845 ;
-          :crimeDesc "SEX OFFENDER REGISTRANT OUT OF COMPLIANCE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime850
-:crime850 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 850 ;
-          :crimeDesc "INDECENT EXPOSURE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime860
-:crime860 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 860 ;
-          :crimeDesc "BATTERY WITH SEXUAL CONTACT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime865
-:crime865 rdf:type owl:NamedIndividual ,
-                   :SexualCrime ;
-          :crimeCode 865 ;
-          :crimeDesc "DRUGS,  TO A MINOR" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime880
-:crime880 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 880	 ;
-          :crimeDesc " DISRUPT SCHOOL" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime882
-:crime882 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 882	 ;
-          :crimeDesc " INCITING A RIOT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime884
-:crime884 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 884	 ;
-          :crimeDesc " FAILURE TO DISPERSE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime886
-:crime886 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 886	 ;
-          :crimeDesc " DISTURBING THE PEACE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime888
-:crime888 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 888	 ;
-          :crimeDesc " TRESPASSING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime890
-:crime890 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 890	 ;
-          :crimeDesc " FAILURE TO YIELD" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime900
-:crime900 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 900	 ;
-          :crimeDesc " VIOLATION OF COURT ORDER" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime901
-:crime901 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 901	 ;
-          :crimeDesc " VIOLATION OF RESTRAINING ORDER" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime902
-:crime902 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 902	 ;
-          :crimeDesc " VIOLATION OF TEMPORARY RESTRAINING ORDER" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime903
-:crime903 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 903	 ;
-          :crimeDesc " CONTEMPT OF COURT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime904
-:crime904 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 904	 ;
-          :crimeDesc " FIREARMS EMERGENCY PROTECTIVE ORDER (FIREARMS EPO)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime906
-:crime906 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 906	 ;
-          :crimeDesc " FIREARMS RESTRAINING ORDER (FIREARMS RO)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime910
-:crime910 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 910 ;
-          :crimeDesc "KIDNAPPING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime920
-:crime920 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 920 ;
-          :crimeDesc "KIDNAPPING - GRAND ATTEMPT" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime922
-:crime922 rdf:type owl:NamedIndividual ,
-                   :ViolentCrime ;
-          :crimeCode 922 ;
-          :crimeDesc "CHILD STEALING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime924
-:crime924 rdf:type owl:NamedIndividual ,
-                   :PropertyCrime ;
-          :crimeCode 924 ;
-          :crimeDesc "TELEPHONE PROPERTY - DAMAGE" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime928
-:crime928 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 928	 ;
-          :crimeDesc " THREATENING PHONE CALLS/LETTERS" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime930
-:crime930 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 930	 ;
-          :crimeDesc " CRIMINAL THREATS - NO WEAPON DISPLAYED" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime931
-:crime931 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 931	 ;
-          :crimeDesc " REPLICA FIREARMS(SALE, DISPLAY, MANUFACTURE OR DISTRIBUTE)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime932
-:crime932 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 932	 ;
-          :crimeDesc " PEEPING TOM" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime933
-:crime933 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 933	 ;
-          :crimeDesc " PROWLER" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime940
-:crime940 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 940	 ;
-          :crimeDesc " EXTORTION" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime942
-:crime942 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 942	 ;
-          :crimeDesc " BRIBERY" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime943
-:crime943 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 943	 ;
-          :crimeDesc " CRUELTY TO ANIMALS" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime944
-:crime944 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 944	 ;
-          :crimeDesc " CONSPIRACY" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime946
-:crime946 rdf:type owl:NamedIndividual ,
-                   :PublicOrderCrime ;
-          :crimeCode 946	 ;
-          :crimeDesc " OTHER MISCELLANEOUS CRIME" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime948
-:crime948 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 948 ;
-          :crimeDesc "BIGAMY " .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime949
-:crime949 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 949 ;
-          :crimeDesc "ILLEGAL DUMPING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime950
-:crime950 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 950 ;
-          :crimeDesc "DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $950.01" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime951
-:crime951 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 951 ;
-          :crimeDesc "DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 & UNDER" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime954
-:crime954 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 954 ;
-          :crimeDesc "CONTRIBUTING" .
-
-
-###  http://www.bitsei.it/losAngelesOntology#crime956
-:crime956 rdf:type owl:NamedIndividual ,
-                   :WhiteCollarCrime ;
-          :crimeCode 956 ;
-          :crimeDesc "LETTERS, LEWD  -  TELEPHONE CALLS, LEWD" .
-
-
 ###  http://www.bitsei.it/losAngelesOntology/crime110
 :crime110 rdf:type owl:NamedIndividual ,
                    :Crime ,
@@ -1578,12 +658,930 @@
           :crimeDesc "CRIMINAL HOMICIDE" .
 
 
+###  http://www.bitsei.it/losAngelesOntology/crime113
+:crime113 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 113 ;
+          :crimeDesc "MANSLAUGHTER,  NEGLIGENT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime121
+:crime121 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 121 ;
+          :crimeDesc "RAPE,  FORCIBLE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime122
+:crime122 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 122 ;
+          :crimeDesc "RAPE,  ATTEMPTED" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime210
+:crime210 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 210 ;
+          :crimeDesc "ROBBERY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime220
+:crime220 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 220 ;
+          :crimeDesc "ATTEMPTED ROBBERY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime230
+:crime230 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 230 ;
+          :crimeDesc "ASSAULT WITH DEADLY WEAPON,  AGGRAVATED ASSAULT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime231
+:crime231 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 231 ;
+          :crimeDesc "ASSAULT WITH DEADLY WEAPON ON POLICE OFFICER" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime235
+:crime235 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 235 ;
+          :crimeDesc "CHILD ABUSE (PHYSICAL) - AGGRAVATED ASSAULT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime236
+:crime236 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 236 ;
+          :crimeDesc "INTIMATE PARTNER - AGGRAVATED ASSAULT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime237
+:crime237 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 237 ;
+          :crimeDesc "CHILD NEGLECT (SEE 300 W.I.C.)" .
+
+
 ###  http://www.bitsei.it/losAngelesOntology/crime310
 :crime310 rdf:type owl:NamedIndividual ,
                    :Crime ,
                    :PropertyCrime ;
           :crimeCode 310 ;
           :crimeDesc "BURGLARY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime320
+:crime320 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 320 ;
+          :crimeDesc "BURGLARY,  ATTEMPTED" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime330
+:crime330 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 330 ;
+          :crimeDesc "BURGLARY FROM VEHICLE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime331
+:crime331 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 331 ;
+          :crimeDesc "THEFT FROM MOTOR VEHICLE - GRAND ($950.01 AND OVER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime341
+:crime341 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 341 ;
+          :crimeDesc " THEFT-GRAND ($950.01 & OVER)EXCPT,GUNS,FOWL,LIVESTK,PROD" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime343
+:crime343 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 343 ;
+          :crimeDesc "SHOPLIFTING-GRAND THEFT ($950.01 & OVER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime345
+:crime345 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 345 ;
+          :crimeDesc "DISHONEST EMPLOYEE - GRAND THEFT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime347
+:crime347 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 347 ;
+          :crimeDesc "GRAND THEFT / INSURANCE FRAUD" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime349
+:crime349 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 349 ;
+          :crimeDesc "GRAND THEFT / AUTO REPAIR" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime350
+:crime350 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 350 ;
+          :crimeDesc "THEFT,  PERSON" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime351
+:crime351 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 351 ;
+          :crimeDesc "PURSE SNATCHING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime352
+:crime352 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 352 ;
+          :crimeDesc "PICKPOCKET" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime353
+:crime353 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 353 ;
+          :crimeDesc "DRUNK ROLL" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime354
+:crime354 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 354 ;
+          :crimeDesc "THEFT OF IDENTITY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime410
+:crime410 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 410 ;
+          :crimeDesc "BURGLARY FROM VEHICLE,  ATTEMPTED" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime420
+:crime420 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 420 ;
+          :crimeDesc "THEFT FROM MOTOR VEHICLE - PETTY ($950 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime421
+:crime421 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 421 ;
+          :crimeDesc "THEFT FROM MOTOR VEHICLE - ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime432
+:crime432 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 432 ;
+          :crimeDesc " BLOCKING DOOR INDUCTION " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime433
+:crime433 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 433 ;
+          :crimeDesc "DRIVING WITHOUT OWNER CONSENT (DWOC)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime435
+:crime435 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 435 ;
+          :crimeDesc "LYNCHING " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime436
+:crime436 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 436 ;
+          :crimeDesc "LYNCHING - ATTEMPTED " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime437
+:crime437 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 437 ;
+          :crimeDesc " RESISTING ARREST " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime438
+:crime438 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 438 ;
+          :crimeDesc " RECKLESS DRIVING " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime439
+:crime439 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 439 ;
+          :crimeDesc " FALSE POLICE REPORT " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime440
+:crime440 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 440 ;
+          :crimeDesc "THEFT PLAIN - PETTY ($950 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime441
+:crime441 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 441 ;
+          :crimeDesc "THEFT PLAIN - ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime442
+:crime442 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 442 ;
+          :crimeDesc "SHOPLIFTING - PETTY THEFT ($950 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime443
+:crime443 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 443 ;
+          :crimeDesc "SHOPLIFTING - ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime444
+:crime444 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 444 ;
+          :crimeDesc "DISHONEST EMPLOYEE - PETTY THEFT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime445
+:crime445 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 445 ;
+          :crimeDesc "DISHONEST EMPLOYEE ATTEMPTED THEFT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime446
+:crime446 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 446 ;
+          :crimeDesc "PETTY THEFT - AUTO REPAIR" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime450
+:crime450 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 450 ;
+          :crimeDesc "THEFT FROM PERSON - ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime451
+:crime451 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 451 ;
+          :crimeDesc "PURSE SNATCHING - ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime452
+:crime452 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 452 ;
+          :crimeDesc "PICKPOCKET,  ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime470
+:crime470 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 470 ;
+          :crimeDesc "TILL TAP - GRAND THEFT ($950.01 & OVER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime471
+:crime471 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 471 ;
+          :crimeDesc "TILL TAP - PETTY ($950 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime473
+:crime473 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 473 ;
+          :crimeDesc "THEFT,  COIN MACHINE - GRAND ($950.01 & OVER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime474
+:crime474 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 474 ;
+          :crimeDesc "THEFT,  COIN MACHINE - PETTY ($950 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime475
+:crime475 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 475 ;
+          :crimeDesc "THEFT,  COIN MACHINE – ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime480
+:crime480 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 480 ;
+          :crimeDesc "BIKE - STOLEN" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime485
+:crime485 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 485 ;
+          :crimeDesc "BIKE - ATTEMPTED STOLEN" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime487
+:crime487 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 487 ;
+          :crimeDesc "BOAT - STOLEN" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime510
+:crime510 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 510 ;
+          :crimeDesc "VEHICLE - STOLEN" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime520
+:crime520 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 520 ;
+          :crimeDesc "VEHICLE - ATTEMPT STOLEN" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime522
+:crime522 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 522 ;
+          :crimeDesc "VEHICLE, STOLEN - OTHER (MOTORIZED SCOOTERS, BIKES, ETC)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime622
+:crime622 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 622 ;
+          :crimeDesc "BATTERY ON A FIREFIGHTER" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime623
+:crime623 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 623 ;
+          :crimeDesc "BATTERY POLICE (SIMPLE)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime624
+:crime624 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 624 ;
+          :crimeDesc "BATTERY - SIMPLE ASSAULT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime625
+:crime625 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 625 ;
+          :crimeDesc "OTHER ASSAULT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime626
+:crime626 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 626 ;
+          :crimeDesc "INTIMATE PARTNER - SIMPLE ASSAULT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime627
+:crime627 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 627 ;
+          :crimeDesc "CHILD ABUSE (PHYSICAL) - SIMPLE ASSAULT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime647
+:crime647 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 647 ;
+          :crimeDesc "THROWING OBJECT AT MOVING VEHICLE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime648
+:crime648 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 648 ;
+          :crimeDesc "ARSON" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime649
+:crime649 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 649 ;
+          :crimeDesc "DOCUMENT FORGERY / STOLEN FELONY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime651
+:crime651 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 651 ;
+          :crimeDesc "DOCUMENT WORTHLESS ($200.01 & OVER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime652
+:crime652 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 652 ;
+          :crimeDesc "DOCUMENT WORTHLESS ($200 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime653
+:crime653 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 653 ;
+          :crimeDesc "CREDIT CARDS,  FRAUD USE ($950.01 & OVER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime654
+:crime654 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 654 ;
+          :crimeDesc "CREDIT CARDS,  FRAUD USE ($950 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime660
+:crime660 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 660 ;
+          :crimeDesc "COUNTERFEIT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime661
+:crime661 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 661 ;
+          :crimeDesc "UNAUTHORIZED COMPUTER ACCESS" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime662
+:crime662 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 662 ;
+          :crimeDesc "BUNCO,  GRAND THEFT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime664
+:crime664 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 664 ;
+          :crimeDesc "BUNCO,  PETTY THEFT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime666
+:crime666 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 666 ;
+          :crimeDesc "BUNCO,  ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime668
+:crime668 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 668 ;
+          :crimeDesc "EMBEZZLEMENT,  GRAND THEFT ($950.01 & OVER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime670
+:crime670 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 670 ;
+          :crimeDesc "EMBEZZLEMENT,  PETTY THEFT ($950 & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime740
+:crime740 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 740 ;
+          :crimeDesc " VANDALISM - FELONY ($400 & OVER,  ALL CHURCH VANDALISMS)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime745
+:crime745 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 745 ;
+          :crimeDesc " VANDALISM - MISDEAMEANOR ($399 OR UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime753
+:crime753 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 753 ;
+          :crimeDesc " DISCHARGE FIREARMS/SHOTS FIRED" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime755
+:crime755 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 755 ;
+          :crimeDesc " BOMB SCARE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime756
+:crime756 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 756 ;
+          :crimeDesc " WEAPONS POSSESSION/BOMBING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime760
+:crime760 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 760 ;
+          :crimeDesc "LEWD/LASCIVIOUS ACTS WITH CHILD" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime761
+:crime761 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 761 ;
+          :crimeDesc "BRANDISH WEAPON" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime762
+:crime762 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 762 ;
+          :crimeDesc "LEWD CONDUCT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime763
+:crime763 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ,
+                   :ViolentCrime ;
+          :crimeCode 763 ;
+          :crimeDesc "STALKING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime805
+:crime805 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 805 ;
+          :crimeDesc " PIMPING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime806
+:crime806 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 806 ;
+          :crimeDesc " PANDERING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime810
+:crime810 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 810 ;
+          :crimeDesc "SEX,UNLAWFUL(INC MUTUAL CONSENT, PENETRATION W/ FRGN OBJ) " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime812
+:crime812 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 812 ;
+          :crimeDesc "CRM AGNST CHLD (13 OR UNDER) (14-15 & SUSP 10 YRS OLDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime813
+:crime813 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 813 ;
+          :crimeDesc "CHILD ANNOYING (17YRS & UNDER)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime814
+:crime814 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 814 ;
+          :crimeDesc "CHILD PORNOGRAPHY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime815
+:crime815 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 815 ;
+          :crimeDesc "SEXUAL PENETRATION W/FOREIGN OBJECT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime820
+:crime820 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 820 ;
+          :crimeDesc "ORAL COPULATION" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime821
+:crime821 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 821 ;
+          :crimeDesc "SODOMY/SEXUAL CONTACT B/W PENIS OF ONE PERS TO ANUS OTH" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime822
+:crime822 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 822 ;
+          :crimeDesc "HUMAN TRAFFICKING - COMMERCIAL SEX ACTS" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime830
+:crime830 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 830 ;
+          :crimeDesc "INCEST (SEXUAL ACTS BETWEEN BLOOD RELATIVES)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime840
+:crime840 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 840 ;
+          :crimeDesc "BEASTIALITY, CRIME AGAINST NATURE SEXUAL ASSLT WITH ANIMAL" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime845
+:crime845 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 845 ;
+          :crimeDesc "SEX OFFENDER REGISTRANT OUT OF COMPLIANCE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime850
+:crime850 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 850 ;
+          :crimeDesc "INDECENT EXPOSURE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime860
+:crime860 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 860 ;
+          :crimeDesc "BATTERY WITH SEXUAL CONTACT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime865
+:crime865 rdf:type owl:NamedIndividual ,
+                   :SexualCrime ;
+          :crimeCode 865 ;
+          :crimeDesc "DRUGS,  TO A MINOR" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime880
+:crime880 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 880 ;
+          :crimeDesc " DISRUPT SCHOOL" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime882
+:crime882 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 882 ;
+          :crimeDesc " INCITING A RIOT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime884
+:crime884 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 884 ;
+          :crimeDesc " FAILURE TO DISPERSE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime886
+:crime886 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 886 ;
+          :crimeDesc " DISTURBING THE PEACE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime888
+:crime888 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 888 ;
+          :crimeDesc " TRESPASSING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime890
+:crime890 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 890 ;
+          :crimeDesc " FAILURE TO YIELD" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime900
+:crime900 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 900 ;
+          :crimeDesc " VIOLATION OF COURT ORDER" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime901
+:crime901 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 901 ;
+          :crimeDesc " VIOLATION OF RESTRAINING ORDER" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime902
+:crime902 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 902 ;
+          :crimeDesc " VIOLATION OF TEMPORARY RESTRAINING ORDER" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime903
+:crime903 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 903 ;
+          :crimeDesc " CONTEMPT OF COURT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime904
+:crime904 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 904 ;
+          :crimeDesc " FIREARMS EMERGENCY PROTECTIVE ORDER (FIREARMS EPO)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime906
+:crime906 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 906 ;
+          :crimeDesc " FIREARMS RESTRAINING ORDER (FIREARMS RO)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime910
+:crime910 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 910 ;
+          :crimeDesc "KIDNAPPING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime920
+:crime920 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 920 ;
+          :crimeDesc "KIDNAPPING - GRAND ATTEMPT" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime922
+:crime922 rdf:type owl:NamedIndividual ,
+                   :ViolentCrime ;
+          :crimeCode 922 ;
+          :crimeDesc "CHILD STEALING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime924
+:crime924 rdf:type owl:NamedIndividual ,
+                   :PropertyCrime ;
+          :crimeCode 924 ;
+          :crimeDesc "TELEPHONE PROPERTY - DAMAGE" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime928
+:crime928 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 928 ;
+          :crimeDesc " THREATENING PHONE CALLS/LETTERS" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime930
+:crime930 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 930 ;
+          :crimeDesc " CRIMINAL THREATS - NO WEAPON DISPLAYED" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime931
+:crime931 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 931 ;
+          :crimeDesc " REPLICA FIREARMS(SALE, DISPLAY, MANUFACTURE OR DISTRIBUTE)" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime932
+:crime932 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 932 ;
+          :crimeDesc " PEEPING TOM" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime933
+:crime933 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 933 ;
+          :crimeDesc " PROWLER" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime940
+:crime940 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 940 ;
+          :crimeDesc " EXTORTION" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime942
+:crime942 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 942 ;
+          :crimeDesc " BRIBERY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime943
+:crime943 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 943 ;
+          :crimeDesc " CRUELTY TO ANIMALS" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime944
+:crime944 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 944 ;
+          :crimeDesc " CONSPIRACY" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime946
+:crime946 rdf:type owl:NamedIndividual ,
+                   :PublicOrderCrime ;
+          :crimeCode 946 ;
+          :crimeDesc " OTHER MISCELLANEOUS CRIME" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime948
+:crime948 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 948 ;
+          :crimeDesc "BIGAMY " .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime949
+:crime949 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 949 ;
+          :crimeDesc "ILLEGAL DUMPING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime950
+:crime950 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 950 ;
+          :crimeDesc "DEFRAUDING INNKEEPER/THEFT OF SERVICES, OVER $950.01" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime951
+:crime951 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 951 ;
+          :crimeDesc "DEFRAUDING INNKEEPER/THEFT OF SERVICES, $950 & UNDER" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime954
+:crime954 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 954 ;
+          :crimeDesc "CONTRIBUTING" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime956
+:crime956 rdf:type owl:NamedIndividual ,
+                   :WhiteCollarCrime ;
+          :crimeCode 956 ;
+          :crimeDesc "LETTERS, LEWD  -  TELEPHONE CALLS, LEWD" .
 
 
 ###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
