@@ -1,0 +1,1237 @@
+@prefix : <http://www.bitsei.it/losAngelesOntology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.bitsei.it/losAngelesOntology/> .
+
+<http://www.bitsei.it/losAngelesOntology> rdf:type owl:Ontology ;
+                                           rdfs:comment "This is the Ontology related to the socio-economics aspects of the city of Los Angeles during the Covid years/"@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.bitsei.it/losAngelesOntology/belongsToArea
+:belongsToArea rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :Location ;
+               rdfs:range :Area .
+
+
+###  http://www.bitsei.it/losAngelesOntology/closedOnDate
+:closedOnDate rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Business ;
+              rdfs:range :Day .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasModusOperandi
+:hasModusOperandi rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain :CrimeEvent ;
+                  rdfs:range :ModusOperandi .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasNaics
+:hasNaics rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Business ;
+          rdfs:range :Naics .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasPremis
+:hasPremis rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :CrimeEvent ;
+           rdfs:range :Premis .
+
+
+###  http://www.bitsei.it/losAngelesOntology/isOfType
+:isOfType rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdfs:domain :CrimeEvent ;
+          rdfs:range :Crime .
+
+
+###  http://www.bitsei.it/losAngelesOntology/locatedIn
+:locatedIn rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Business ;
+           rdfs:range :Location .
+
+
+###  http://www.bitsei.it/losAngelesOntology/locatedInCity
+:locatedInCity rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :Business ;
+               rdfs:range :City .
+
+
+###  http://www.bitsei.it/losAngelesOntology/occurredInLocation
+:occurredInLocation rdf:type owl:ObjectProperty ;
+                    rdfs:subPropertyOf owl:topObjectProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :CrimeEvent ;
+                    rdfs:range :Location .
+
+
+###  http://www.bitsei.it/losAngelesOntology/occurredOnDate
+:occurredOnDate rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :CrimeEvent ;
+                rdfs:range :Day .
+
+
+###  http://www.bitsei.it/losAngelesOntology/occurredOnVictim
+:occurredOnVictim rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain :CrimeEvent ;
+                  rdfs:range :Victim .
+
+
+###  http://www.bitsei.it/losAngelesOntology/openedOnDate
+:openedOnDate rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Business ;
+              rdfs:range :Day .
+
+
+###  http://www.bitsei.it/losAngelesOntology/reportedOnDate
+:reportedOnDate rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :CrimeEvent ;
+                rdfs:range :Day .
+
+
+###  http://www.bitsei.it/losAngelesOntology/usedWeapon
+:usedWeapon rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :CrimeEvent ;
+            rdfs:range :Weapon .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.bitsei.it/losAngelesOntology/areaAcronym
+:areaAcronym rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :Area ;
+             rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/areaName
+:areaName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Area ;
+          rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/businessId
+:businessId rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Business ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/businessName
+:businessName rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Business ;
+              rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/cityName
+:cityName rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :City ;
+          rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/cityZipCode
+:cityZipCode rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :City ;
+             rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crimeCode
+:crimeCode rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Crime ;
+           rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crimeDesc
+:crimeDesc rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Crime ;
+           rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crimeId
+:crimeId rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :CrimeEvent ;
+         rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/doingBusinessAsName
+:doingBusinessAsName rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf owl:topDataProperty ;
+                     rdf:type owl:FunctionalProperty ;
+                     rdfs:domain :Business ;
+                     rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasActiveCases
+:hasActiveCases rdf:type owl:DatatypeProperty ;
+                rdfs:subPropertyOf owl:topDataProperty ;
+                rdf:type owl:FunctionalProperty ;
+                rdfs:domain :Day ;
+                rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasAddress
+:hasAddress rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Location ;
+            rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasDate
+:hasDate rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain :Day ;
+         rdfs:range xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasLatitude
+:hasLatitude rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :Location ;
+             rdfs:range xsd:double .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasLongitude
+:hasLongitude rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Location ;
+              rdfs:range xsd:double .
+
+
+###  http://www.bitsei.it/losAngelesOntology/hasNOfDeaths
+:hasNOfDeaths rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Day ;
+              rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/moCode
+:moCode rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:domain :ModusOperandi ;
+        rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/moDesc
+:moDesc rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:domain :ModusOperandi ;
+        rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/naicsCode
+:naicsCode rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Naics ;
+           rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/naicsDescription
+:naicsDescription rdf:type owl:DatatypeProperty ;
+                  rdfs:subPropertyOf owl:topDataProperty ;
+                  rdf:type owl:FunctionalProperty .
+
+
+###  http://www.bitsei.it/losAngelesOntology/premisCode
+:premisCode rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Premis ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/premisDesc
+:premisDesc rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Premis ;
+            rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/reportedToFbi
+:reportedToFbi rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :CrimeEvent ;
+               rdfs:range xsd:boolean .
+
+
+###  http://www.bitsei.it/losAngelesOntology/timeOccurred
+:timeOccurred rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :CrimeEvent ;
+              rdfs:range xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology/victimAge
+:victimAge rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Victim ;
+           rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/victimDescent
+:victimDescent rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain :Victim ;
+               rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/victimSex
+:victimSex rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Victim ;
+           rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology/weaponCode
+:weaponCode rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Weapon ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology/weaponDesc
+:weaponDesc rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Weapon ;
+            rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.bitsei.it/losAngelesOntology/Area
+:Area rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :areaAcronym ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :areaName ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Business
+:Business rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :openedOnDate ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Day
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :closedOnDate ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Day
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasNaics ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Naics
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :locatedIn ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Location
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :locatedInCity ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :City
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :businessId ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:integer
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :businessName ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :doingBusinessAsName ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :cityName ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] ,
+                      [ rdf:type owl:Restriction ;
+                        owl:onProperty :cityZipCode ;
+                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                        owl:onDataRange xsd:string
+                      ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Crime
+:Crime rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :crimeCode ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:integer
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :crimeDesc ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:string
+                       ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/CrimeEvent
+:CrimeEvent rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasModusOperandi ;
+                              owl:allValuesFrom :ModusOperandi
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :occurredOnVictim ;
+                              owl:allValuesFrom :Victim
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :usedWeapon ;
+                              owl:allValuesFrom :Weapon
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :isOfType ;
+                              owl:minQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Crime
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :hasPremis ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Premis
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :occurredInLocation ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Location
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :occurredOnDate ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Day
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :reportedOnDate ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Day
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :crimeId ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:integer
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :reportedToFbi ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:boolean
+                            ] ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :timeOccurred ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onDataRange xsd:dateTime
+                            ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Day
+:Day rdf:type owl:Class ;
+     rdfs:subClassOf [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasDate ;
+                       owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onDataRange xsd:dateTime
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasActiveCases ;
+                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onDataRange xsd:integer
+                     ] ,
+                     [ rdf:type owl:Restriction ;
+                       owl:onProperty :hasNOfDeaths ;
+                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                       owl:onDataRange xsd:integer
+                     ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Location
+:Location rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :belongsToArea ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Area
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasLatitude ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:double
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasLongitude ;
+                            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:double
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :hasAddress ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onDataRange xsd:string
+                          ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/ModusOperandi
+:ModusOperandi rdf:type owl:Class ;
+               rdfs:subClassOf [ rdf:type owl:Restriction ;
+                                 owl:onProperty :moCode ;
+                                 owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:integer
+                               ] ,
+                               [ rdf:type owl:Restriction ;
+                                 owl:onProperty :moDesc ;
+                                 owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                 owl:onDataRange xsd:string
+                               ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Naics
+:Naics rdf:type owl:Class ;
+       rdfs:subClassOf [ rdf:type owl:Restriction ;
+                         owl:onProperty :naicsCode ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:integer
+                       ] ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :naicsDescription ;
+                         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onDataRange xsd:string
+                       ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Premis
+:Premis rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :premisCode ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:integer
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :premisDesc ;
+                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/PropertyCrime
+:PropertyCrime rdf:type owl:Class ;
+               owl:equivalentClass [ owl:intersectionOf ( :Crime
+                                                          [ rdf:type owl:Class ;
+                                                            owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 310
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 320
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 330
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 331
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 341
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 343
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 345
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 347
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 349
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 350
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 351
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 352
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 353
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 354
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 410
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 420
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 421
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 432
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 433
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 434
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 435
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 436
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 437
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 438
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 439
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 440
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 441
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 442
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 443
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 444
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 445
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 446
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 450
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 451
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 452
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 470
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 471
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 473
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 474
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 475
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 480
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 485
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 487
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 510
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 520
+                                                                          ]
+                                                                          [ rdf:type owl:Restriction ;
+                                                                            owl:onProperty :crimeCode ;
+                                                                            owl:hasValue 522
+                                                                          ]
+                                                                        )
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
+                                   ] ;
+               rdfs:subClassOf :Crime .
+
+
+###  http://www.bitsei.it/losAngelesOntology/PublicOrderCrime
+:PublicOrderCrime rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( :Crime
+                                                             [ rdf:type owl:Class ;
+                                                               owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 740
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 745
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 753
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 755
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 756
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 763
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 805
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 806
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 880
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 882
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 884
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 886
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 888
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 890
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 900
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 901
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 902
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 903
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 904
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 906
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 928
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 930
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 931
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 932
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 933
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 940
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 942
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 943
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 944
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 946
+                                                                             ]
+                                                                           )
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
+                  rdfs:subClassOf :Crime .
+
+
+###  http://www.bitsei.it/losAngelesOntology/SexualCrime
+:SexualCrime rdf:type owl:Class ;
+             owl:equivalentClass [ owl:intersectionOf ( :Crime
+                                                        [ rdf:type owl:Class ;
+                                                          owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 810
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 812
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 813
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 814
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 815
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 820
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 821
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 822
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 830
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 840
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 845
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 850
+                                                                        ]
+                                                                        [ rdf:type owl:Restriction ;
+                                                                          owl:onProperty :crimeCode ;
+                                                                          owl:hasValue 865
+                                                                        ]
+                                                                      )
+                                                        ]
+                                                      ) ;
+                                   rdf:type owl:Class
+                                 ] ;
+             rdfs:subClassOf :Crime .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Victim
+:Victim rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :victimAge ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:integer
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :victimDescent ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :victimSex ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/ViolentCrime
+:ViolentCrime rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :Crime
+                                                         [ rdf:type owl:Class ;
+                                                           owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 110
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 113
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 121
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 122
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 210
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 220
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 230
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 231
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 235
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 236
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 237
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 622
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 623
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 624
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 625
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 626
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 627
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 647
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 648
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 760
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 761
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 762
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 763
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 860
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 910
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 920
+                                                                         ]
+                                                                         [ rdf:type owl:Restriction ;
+                                                                           owl:onProperty :crimeCode ;
+                                                                           owl:hasValue 922
+                                                                         ]
+                                                                       )
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf :Crime .
+
+
+###  http://www.bitsei.it/losAngelesOntology/Weapon
+:Weapon rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :weaponCode ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:integer
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :weaponDesc ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] .
+
+
+###  http://www.bitsei.it/losAngelesOntology/WhiteCollarCrime
+:WhiteCollarCrime rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( :Crime
+                                                             [ rdf:type owl:Class ;
+                                                               owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 649
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 651
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 652
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 653
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 654
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 660
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 661
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 662
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 664
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 666
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 668
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 670
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 948
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 949
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 950
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 951
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 954
+                                                                             ]
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty :crimeCode ;
+                                                                               owl:hasValue 956
+                                                                             ]
+                                                                           )
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] ;
+                  rdfs:subClassOf :Crime .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.bitsei.it/losAngelesOntology#crime310
+:crime310 rdf:type owl:NamedIndividual ,
+                   :Crime ;
+          :crimeCode 310 .
+
+
+###  http://www.bitsei.it/losAngelesOntology/crime110
+:crime110 rdf:type owl:NamedIndividual ,
+                   :Crime ;
+          :crimeCode 110 ;
+          :crimeDesc "CRIMINAL HOMICIDE" .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
