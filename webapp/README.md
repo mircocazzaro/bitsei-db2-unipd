@@ -23,4 +23,8 @@ uvicorn main:app --reload --port 8081
 API documentation is available at http://localhost:8081/docs, you can see the swagger documentation and test the API's.
 
 ### Run the Frontend
-Go through the frontend directory and just run the `crime.html` file in your browser.
+Install the dependencies using Yarn (preferred) or NPM.
+`yarn install` or `npm install --save`
+
+Run the application on port `1234`, run this command in the project directory.
+`yarn run dev` or `npm run dev`
