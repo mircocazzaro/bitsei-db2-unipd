@@ -1,17 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Chart.js example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 🇺🇸 Bitsei | Covid Reflection</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 </head>
 <body>
-<!-- <div style="width: 500px;"><canvas id="dimensions"></canvas></div><br/> -->
-<div style="width: 800px;"><canvas id="acquisitions"></canvas></div>
-<div style="width: 800px;"><canvas id="acquisitions2"></canvas></div>
 
-<!-- <script type="module" src="dimensions.js"></script> -->
-<script type="module" src="acquisitions.js"></script>
+<!--Navbar for the dashboard-->
+<nav class="navbar navbar-light bg-light p-3">
+    <div class="d-flex col-12 col-md-3 col-lg-2 mb-2 mb-lg-0 flex-wrap flex-md-nowrap justify-content-between">
+        <a class="navbar-brand" href="#">
+            Bitsei | Covid Reflection
+        </a>
+        <button class="navbar-toggler d-md-none collapsed mb-3" type="button" data-toggle="collapse"
+                data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="col-12 col-md-5 col-lg-8 d-flex align-items-center justify-content-md-end mt-3 mt-md-0">
+        <div class="mr-3 mt-1">
+            <a class="github-button" href="https://github.com/mircocazzaro/bitsei-db2-unipd"
+               data-color-scheme="no-preference: dark; light: light; dark: light;" data-icon="octicon-star"
+               data-size="large" data-show-count="true"
+               aria-label="Star /mircocazzaro/bitsei-db2-unipd">Star</a>
+        </div>
+    </div>
+</nav>
+<!---->
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky">
+                <!-- Sidebar Loaded by JS (SideBar.js)-->
+            </div>
+        </nav>
+        <!-- Sidebar -->
+
+        <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4 py-4">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Overview</li>
+                </ol>
+            </nav>
+            <h1 class="h2">Dashboard</h1>
+            <p>This is the homepage of a simple admin interface which is part of a tutorial written on Themesberg</p>
+            <div class="row">
+                <div class="col-12 mb-4 mb-lg-0">
+                    <div>
+                        <canvas id="chart"></canvas>
+                    </div>
+
+                    <div class="card">
+                        <h5 class="card-header">Latest transactions</h5>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Order</th>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Customer</th>
+                                        <th scope="col">Total</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="row">17371705</th>
+                                        <td>Volt Premium Bootstrap 5 Dashboard</td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>€61.11</td>
+                                        <td>Aug 31 2020</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">View</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17370540</th>
+                                        <td>Pixel Pro Premium Bootstrap UI Kit</td>
+                                        <td>jacob.monroe@company.com</td>
+                                        <td>$153.11</td>
+                                        <td>Aug 28 2020</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">View</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17371705</th>
+                                        <td>Volt Premium Bootstrap 5 Dashboard</td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>€61.11</td>
+                                        <td>Aug 31 2020</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">View</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17370540</th>
+                                        <td>Pixel Pro Premium Bootstrap UI Kit</td>
+                                        <td>jacob.monroe@company.com</td>
+                                        <td>$153.11</td>
+                                        <td>Aug 28 2020</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">View</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17371705</th>
+                                        <td>Volt Premium Bootstrap 5 Dashboard</td>
+                                        <td>johndoe@gmail.com</td>
+                                        <td>€61.11</td>
+                                        <td>Aug 31 2020</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">View</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">17370540</th>
+                                        <td>Pixel Pro Premium Bootstrap UI Kit</td>
+                                        <td>jacob.monroe@company.com</td>
+                                        <td>$153.11</td>
+                                        <td>Aug 28 2020</td>
+                                        <td><a href="#" class="btn btn-sm btn-primary">View</a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <a href="#" class="btn btn-block btn-light">View all</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="pt-5 d-flex justify-content-between">
+                <span>Copyright © 2023 | Database 2 course of
+                    <a href="https://www.dei.unipd.it/">University of Padova</a>
+                </span>
+            </footer>
+        </main>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+        type="module"
+></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"
+        type="module"
+></script>
+
+<script type="module" src="scripts/main.js"></script>
+<script src="scripts/sidebar.js"></script>
+
+<script async defer src="https://buttons.github.io/buttons.js"></script>
 </body>
 </html>
-
-
-
