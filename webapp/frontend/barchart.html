@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+    .node {
+        cursor: pointer;
+    }
+
+    .node circle {
+        fill: #fff;
+        stroke: steelblue;
+        stroke-width: 1.5px;
+    }
+
+    .node text {
+        font: 10px sans-serif;
+    }
+
+    .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 1.5px;
+    }
+
+</style>
+<body>
+
+<div id="my_dataviz"></div>
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<script>
+    async function populateCrimeCodes() {
+        // Fetch crime codes from the server or provide them statically
+        const crimeCodes = await fetch("http://localhost:8081/api/v1/crime/codes").then(response => response.json())
+
+        // Get the select element
+        const select = document.getElementById("crimeCodeSelect");
+
+        // Populate the dropdown menu
+        crimeCodes.forEach(function (code) {
+            const data = code.split("@")
+            const option = document.createElement("option");
+            option.value = data[1];
+            option.text = `${data[0]} - ${data[1]}`;
+            select.appendChild(option);
+        });
+    }
+
+    // window.addEventListener("load", populateCrimeCodes);
+
+
+    // Assuming data is in the following format:
+    // data = [
+    //   { cityName: "City1", numBusinesses20: 10, numBusinesses21: 15 },
+    //   { cityName: "City2", numBusinesses20: 8, numBusinesses21: 12 },
+    //   // ...
+    // ];
+
+    // Set up the SVG dimensions
+    var margin = { top: 20, right: 20, bottom: 30, left: 40 },
+        width = 8000 - margin.left - margin.right,
+        height = 10000 - margin.top - margin.bottom;
+
+    // Create the SVG element
+    var svg = d3.select("#my_dataviz")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+    // Parse the Data
+    d3.json("../file.json").then ( function(data) {
+        var keys = Object.keys(data[0]).filter(key => key !== 'cityName');
+
+        var x = d3.scaleBand()
+            .domain(data.map(d => d.cityName))
+            .range([0, width])
+            .padding(0.1);
+
+        var y = d3.scaleLinear()
+            .domain([0, d3.max(data, d => d3.max(keys.map(key => d[key])))])
+            .range([height, 0]);
+
+        // Extract the keys (excluding 'cityName')
+
+        // Create color scale for different bars
+        var color = d3.scaleOrdinal()
+            .domain(keys)
+            .range(["#66c2a5", "#fc8d62", "#b166c2"]); // Add more colors if needed
+
+        // Create a group for each city
+        var groups = svg.selectAll("g")
+            .data(data)
+            .enter()
+            .append("g")
+            .attr("transform", d => "translate(" + x(d.cityName) + ",0)");
+
+        var xSubgroup = d3.scaleBand()
+            .domain(keys)
+            .range([0, x.bandwidth()])
+            .padding([0.2]);
+
+        // Create a rectangle for each value within a city group
+        groups.selectAll("rect")
+            .data(d => keys.map(key => ({ key, value: d[key] })))
+            .enter()
+            .append("rect")
+            .attr("x", d => xSubgroup(d.key))
+            .attr("y", d => y(d.value))
+            .attr("width", xSubgroup.bandwidth())
+            .attr("height", d => height - y(d.value))
+            .attr("fill", d => color(d.key));
+
+        svg.append("g")
+            .selectAll("text")
+            .data(data)
+            .enter()
+            .append("text")
+            .attr("dy", "1em")
+            .attr("x", d => x(d.cityName) + x.bandwidth() / 2)
+            .attr("y", height + 10)
+            .attr("transform", "rotate(-90)")
+            .text(d => d.cityName);
+
+    })
+</script>
+
+</body>

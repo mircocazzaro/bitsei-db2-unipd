@@ -12,7 +12,7 @@ from fastapi_globals import GlobalsMiddleware, g
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
-    sparql = SPARQLWrapper("http://89.40.142.15:7200/repositories/LARepo")
+    sparql = SPARQLWrapper("http://89.40.142.15:7200/repositories/LArepo")
     g.set_default("sparql", sparql)
     print("startup fastapi")
     yield
@@ -37,22 +37,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-
-class CustomException(Exception):
-    http_code: int
-    code: str
-    message: str
-
-    def __init__(
-            self,
-            http_code: int = 500,
-            code: str | None = None,
-            message: str = "This is an error message",
-    ):
-        self.http_code = http_code
-        self.code = code if code else str(self.http_code)
-        self.message = message
 
 
 @app.get("/")

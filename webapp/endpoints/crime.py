@@ -3,7 +3,6 @@ from SPARQLWrapper import JSON, SPARQLExceptions
 
 from fastapi_globals import g
 
-
 router = APIRouter()
 
 
@@ -53,11 +52,7 @@ async def crime_codes():
     if len(results["results"]["bindings"]) == 0:
         return []
 
-    data = []
-    for result in results["results"]["bindings"]:
-        data.append(result["data"]["value"])
-
-    return data
+    return [result["data"]["value"] for result in results["results"]["bindings"]]
 
 
 @router.get("/weapon")
