@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-11-19T13:20:32.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="82RxJ3XlFe_dFdA0FyXz" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-25T14:04:32.659Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="ACjEDeME766CnIF59hnp" version="22.0.3" type="device">
   <diagram name="Pagina-1" id="HVrx4mBCEq5tj3mh1qI3">
-    <mxGraphModel dx="1674" dy="3175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="3330" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -261,7 +261,7 @@
         <mxCell id="mEboZhqRd4yFQjhO1t4g-104" value="&lt;div&gt;victimAgege: int&lt;/div&gt;&lt;div&gt;victimSex: string &lt;br&gt;&lt;/div&gt;&lt;div&gt;victimDescent: string &lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="920" y="1039.42" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mEboZhqRd4yFQjhO1t4g-106" value="&lt;div&gt;hasDate^^xsd:date&lt;/div&gt;&lt;div&gt;hasActiveCases: int&lt;/div&gt;&lt;div&gt;hasNOfDeaths: int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="mEboZhqRd4yFQjhO1t4g-106" value="&lt;div&gt;hasDate^^xsd:date&lt;/div&gt;&lt;div&gt;hasActiveCases: int&lt;/div&gt;&lt;div&gt;hasNOfDeaths: int&lt;br&gt;hasNewCases: int&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1200" y="402" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mEboZhqRd4yFQjhO1t4g-107" value="&lt;div&gt;businessId: string&lt;/div&gt;&lt;div&gt;businessName: string&lt;/div&gt;&lt;div&gt;doingBusinessAsName: string&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
