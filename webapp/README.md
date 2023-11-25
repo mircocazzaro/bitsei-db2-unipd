@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ## Run the application
 Run the application on port 8081, run this command in the project directory.
 ```bash
-uvicorn main:app --reload --port 8081
+uvicorn main:app --reload --port 8080
 ```
 
 ### API Documentation
