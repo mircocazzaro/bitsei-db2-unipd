@@ -1,5 +1,5 @@
 import Chart from "chart.js/auto";
-import {loadQueryOne} from './chart.js'
+import {loadQueryOne, loadQueryTwo} from './chart.js'
 
 let chart;
 
@@ -48,7 +48,7 @@ window.onpopstate = function (event) {
             h1Title[0].innerHTML = 'Query 2';
             mainDescription[0].innerHTML = 'Lorem others';
 
-            loadQueryOne(loading).then(r => {
+            loadQueryTwo(loading).then(r => {
                 rowDiv[0].removeChild(loading)
                 chart = new Chart(
                     document.getElementById('chart'),

@@ -91,3 +91,60 @@ async def crime_weapon(
         })
 
     return data
+
+
+@router.get("/category-month")
+async def category_month():
+    g.sparql.setQuery("""
+        PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
+        SELECT DISTINCT ?month ?crimeCat (COUNT(?crimeEvent) AS ?crimeCount) WHERE {
+            ?crimeEvent a                   lao:CrimeEvent ;
+                        lao:isOfType        ?crime ;
+                        lao:occurredOnDate  ?day.
+
+            ?crime a ?crimeCat.
+            
+            FILTER(?crimeCat in (lao:ViolentCrime, lao:PropertyCrime, lao:PublicOrderCrime, lao:WhiteCollarCrime, lao:SexualCrime)).
+
+            ?day a          lao:Day ;
+                lao:hasDate ?date .
+            
+            BIND(xsd:int(MONTH(?date)) AS ?month) .
+            
+            FILTER(YEAR(?date) = 2020)
+        }
+        GROUP BY ?crimeCat ?month
+        ORDER BY ?month
+    """)
+
+    g.sparql.setReturnFormat(JSON)
+
+    try:
+        results = g.sparql.query().convert()
+    except SPARQLExceptions as e:
+        return {"data": e.args}
+
+    if len(results["results"]["bindings"]) == 0:
+        return {"data": []}
+
+    transformed_data = {}
+
+    # Iterate through the original array
+    for result in results["results"]["bindings"]:
+        # month = int(result["month"]["value"]),
+        crime_cat = result["crimeCat"]["value"].split('/')[-1]
+        crime_count = int(result["crimeCount"]["value"])
+
+        # If the dataset entry doesn't exist, create an entry with an empty list
+        if crime_cat not in transformed_data:
+            transformed_data[crime_cat] = {
+                "label": crime_cat,
+                "data": [],  # Initialize with empty for each month
+                # "borderColor": "#000000",
+                # "backgroundColor": "#000000"
+            }
+
+        # Add the crime_count to the corresponding month in the data list
+        transformed_data[crime_cat]["data"].append(crime_count)
+
+    return list(transformed_data.values())
