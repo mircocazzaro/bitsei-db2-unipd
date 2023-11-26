@@ -1,7 +1,8 @@
 from fastapi import APIRouter
-from SPARQLWrapper import JSON, SPARQLExceptions
+from SPARQLWrapper import JSON
 
 from fastapi_globals import g
+from utils import SPARQLExceptions
 
 router = APIRouter()
 
