@@ -47,6 +47,55 @@ function loadQueryTwo() {
         });
 }
 
+function loadQueryThree(us) {
+    return fetch("http://127.0.0.1:8080/api/v1/crime/category-event-by-area")
+        .then(response => response.json())
+        .then(data => {
+            return {
+                type: 'choropleth',
+                data: {
+                    labels: us.features.map(row => row.properties.NAME_ALF),
+                    datasets: [
+                        {
+                            label: 'Counties',
+                            outline: us.features,
+                            data: us.features.map((d) => ({
+                                feature: d,
+                                value: Math.random() * 100, // todo: use data from api
+                            })),
+                        },
+                    ],
+                },
+                options: {
+                    scales: {
+                        projection: {
+                            axis: 'x',
+                            projection: 'albersUsa',
+                        },
+                        color: {
+                            interpolate: 'orRd',
+                            axis: 'x',
+                            quantize: 5,
+                            legend: {
+                                position: 'bottom-right',
+                                align: 'right',
+                            },
+                        },
+                    },
+                },
+            }
+        }).catch(error => {
+            console.error(error)
+        });
+}
 
-export {loadQueryOne, loadQueryTwo};
+function loadMap() {
+    return fetch("https://gist.githubusercontent.com/farzad-845/1113f0eca0935a55a84ce6a51c5f7161/raw/f3d3d4f546f7ae93af5e6591cd6c8f77fe6ecc52/LA.json")
+        .then(response => response.json())
+        .catch(error => {
+            console.error(error)
+        });
+}
+
+export {loadQueryOne, loadQueryTwo, loadQueryThree, loadMap};
 

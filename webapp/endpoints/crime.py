@@ -149,3 +149,43 @@ async def category_month():
         transformed_data[crime_cat]["data"].append(crime_count)
 
     return list(transformed_data.values())
+
+
+@router.get("/category-event-by-area")
+async def category_event_by_area():
+    g.sparql.setQuery("""
+        PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        
+        SELECT DISTINCT ?areaName ?areaAcronym (COUNT(?crimeEvent) AS ?crimeEvents) (((ROUND(?crimeEvents * 100 / 30)) / 100) AS ?ratio) 
+        WHERE {
+            ?crimeEvent lao:occurredOnDate ?day ;
+                        lao:occurredInLocation ?location .
+            ?day lao:hasDate ?date .
+            ?location lao:belongsToArea ?area .
+            ?area lao:areaName ?areaName ;
+                  lao:areaAcronym ?areaAcronym .
+        }
+        GROUP BY ?areaName ?areaAcronym
+        ORDER BY DESC(?crimeEvents)
+    """)
+
+    g.sparql.setReturnFormat(JSON)
+
+    try:
+        results = g.sparql.query().convert()
+    except SPARQLExceptions as e:
+        return {"data": e.args}
+
+    if len(results["results"]["bindings"]) == 0:
+        return {"data": []}
+
+    data = []
+    # Iterate through the original array
+    for result in results["results"]["bindings"]:
+        data.append({
+            "acronym": result["areaAcronym"]["value"],
+            "ratio": float(result["ratio"]["value"]),
+        })
+
+    return data

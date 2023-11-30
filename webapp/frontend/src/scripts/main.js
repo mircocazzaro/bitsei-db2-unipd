@@ -1,5 +1,7 @@
 import Chart from "chart.js/auto";
-import {loadQueryOne, loadQueryTwo} from './chart.js'
+import {ChoroplethController, GeoFeature, ColorScale, ProjectionScale} from 'chartjs-chart-geo';
+
+import {loadQueryOne, loadQueryTwo, loadQueryThree, loadMap} from './chart.js'
 
 let chart;
 
@@ -50,12 +52,20 @@ window.onpopstate = function (event) {
 
             loadQueryTwo(loading).then(r => {
                 rowDiv[0].removeChild(loading)
-                chart = new Chart(
-                    document.getElementById('chart'),
-                    r
-                );
+                chart = new Chart(document.getElementById('chart'), r);
             });
 
+            break;
+        case '#query3':
+            h1Title[0].innerHTML = 'Query 3';
+            mainDescription[0].innerHTML = 'Lorem others';
+            loadMap().then(LaMap => {
+                loadQueryThree(LaMap).then(r => {
+                    rowDiv[0].removeChild(loading)
+                    Chart.register(ChoroplethController, GeoFeature, ColorScale, ProjectionScale);
+                    chart = new Chart(document.getElementById('chart').getContext('2d'), r);
+                });
+            });
             break;
         default:
             loadQueryOne(loading).then(r => rowDiv[0].removeChild(loading));
