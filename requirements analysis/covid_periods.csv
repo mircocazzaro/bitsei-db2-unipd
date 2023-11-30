@@ -1,0 +1,12 @@
+ID,label,startDate,endDate,duration
+CovidStartingPeriod,Covid Starting Period,2020-01-01T00:00:00,2020-03-10T00:00:00,69
+FirstLockdownPeriod,First Lockdown Period,2020-03-11T00:00:00,2020-05-28T00:00:00,78
+FirstReopeningPeriod,First Reopening Period,2020-05-29T00:00:00,2020-11-16T00:00:00,171
+MaskMandatePeriod,Mask Mandate Period,2020-11-17T00:00:00,2021-01-24T00:00:00,68
+RestrictionsEasedPeriod,Restrictions Eased Period,2021-01-25T00:00:00,2021-04-09T00:00:00,74
+VaccineAvailabilityPeriod,Vaccine Availability Period,2021-04-10T00:00:00,2021-06-14T00:00:00,65
+RestrictionsDroppedPeriod,Restrictions Dropped Period,2021-06-15T00:00:00,2021-10-01T00:00:00,108
+VaccineRequirementPeriod,Vaccine Requirement Period,2021-10-02T00:00:00,2022-01-04T00:00:00,94
+MaskMandateExtendedPeriod,Mask Mandate Extended Period,2022-01-05T00:00:00,2022-01-26T00:00:00,21
+SecondRestrictionsEasedPeriod,Second Restrictions Eased Period,2022-01-27T00:00:00,2022-02-24T00:00:00,28
+ExecutiveOrdersDroppedPeriod,Executive Orders Dropped Period,2022-01-27T00:00:00,2022-12-01T00:00:00,308
