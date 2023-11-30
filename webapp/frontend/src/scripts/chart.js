@@ -1,8 +1,6 @@
-import Chart from "chart.js/auto";
-
-
+const URL_HOST = "http://127.0.0.1:8080/api/v1"
 function loadQueryOne() {
-    return fetch("http://127.0.0.1:8080/api/v1/crime/category-month")
+    return fetch(`${URL_HOST}/crime/category-month`)
         .then(response => response.json())
         .then(data => (
             {
@@ -21,7 +19,7 @@ function loadQueryOne() {
 }
 
 function loadQueryTwo() {
-    return fetch("http://127.0.0.1:8080/api/v1/business/")
+    return fetch(`${URL_HOST}/business/`)
         .then(response => response.json())
         .then(data => (
             {
@@ -48,9 +46,10 @@ function loadQueryTwo() {
 }
 
 function loadQueryThree(us) {
-    return fetch("http://127.0.0.1:8080/api/v1/crime/category-event-by-area")
+    return fetch(`${URL_HOST}/crime/category-event-by-area`)
         .then(response => response.json())
         .then(data => {
+            console.log(data)
             return {
                 type: 'choropleth',
                 data: {
@@ -61,7 +60,7 @@ function loadQueryThree(us) {
                             outline: us.features,
                             data: us.features.map((d) => ({
                                 feature: d,
-                                value: Math.random() * 100, // todo: use data from api
+                                value: data.filter(mp => mp.acronym === d.properties.Acronym)[0].ratio,
                             })),
                         },
                     ],
