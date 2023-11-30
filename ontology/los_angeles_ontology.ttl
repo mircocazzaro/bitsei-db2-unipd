@@ -13,6 +13,13 @@
 #    Object Properties
 #################################################################
 
+###  http://www.bitsei.it/losAngelesOntology#belongsToPeriod
+:belongsToPeriod rdf:type owl:ObjectProperty ,
+                          owl:FunctionalProperty ;
+                 rdfs:domain :Day ;
+                 rdfs:range :Period .
+
+
 ###  http://www.bitsei.it/losAngelesOntology/belongsToArea
 :belongsToArea rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf owl:topObjectProperty ;
@@ -126,6 +133,33 @@
 #################################################################
 #    Data properties
 #################################################################
+
+###  http://www.bitsei.it/losAngelesOntology#hasDuration
+:hasDuration rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :Period ;
+             rdfs:range xsd:integer .
+
+
+###  http://www.bitsei.it/losAngelesOntology#hasEndDate
+:hasEndDate rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain :Period ;
+            rdfs:range xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#hasLabel
+:hasLabel rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Period ;
+          rdfs:range xsd:string .
+
+
+###  http://www.bitsei.it/losAngelesOntology#hasStartDate
+:hasStartDate rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Period ;
+              rdfs:range xsd:dateTime .
+
 
 ###  http://www.bitsei.it/losAngelesOntology/areaAcronym
 :areaAcronym rdf:type owl:DatatypeProperty ;
@@ -360,6 +394,30 @@
 #################################################################
 #    Classes
 #################################################################
+
+###  http://www.bitsei.it/losAngelesOntology#Period
+:Period rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasDuration ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:integer
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasEndDate ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:dateTime
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasLabel ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:string
+                        ] ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :hasStartDate ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onDataRange xsd:dateTime
+                        ] .
+
 
 ###  http://www.bitsei.it/losAngelesOntology/Area
 :Area rdf:type owl:Class ;
@@ -649,6 +707,105 @@
 #################################################################
 #    Individuals
 #################################################################
+
+###  http://www.bitsei.it/losAngelesOntology#CovidStartingPeriod
+:CovidStartingPeriod rdf:type owl:NamedIndividual ,
+                              :Period ;
+                     :hasDuration 69 ;
+                     :hasEndDate "2020-03-10T00:00:00"^^xsd:dateTime ;
+                     :hasLabel "Covid Starting Period" ;
+                     :hasStartDate "2020-01-01T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#ExecutiveOrdersDroppedPeriod
+:ExecutiveOrdersDroppedPeriod rdf:type owl:NamedIndividual ,
+                                       :Period ;
+                              :hasDuration 308 ;
+                              :hasEndDate "2022-12-01T00:00:00"^^xsd:dateTime ;
+                              :hasLabel "Executive Orders Dropped Period" ;
+                              :hasStartDate "2022-01-27T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#FirstLockdownPeriod
+:FirstLockdownPeriod rdf:type owl:NamedIndividual ,
+                              :Period ;
+                     :hasDuration 78 ;
+                     :hasEndDate "2020-05-28T00:00:00"^^xsd:dateTime ;
+                     :hasLabel "First Lockdown Period" ;
+                     :hasStartDate "2020-03-11T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#FirstReopeningPeriod
+:FirstReopeningPeriod rdf:type owl:NamedIndividual ,
+                               :Period ;
+                      :hasDuration 171 ;
+                      :hasEndDate "2020-11-16T00:00:00"^^xsd:dateTime ;
+                      :hasLabel "First Reopening Period" ;
+                      :hasStartDate "2020-05-29T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#MaskMandateExtendedPeriod
+:MaskMandateExtendedPeriod rdf:type owl:NamedIndividual ,
+                                    :Period ;
+                           :hasDuration 21 ;
+                           :hasEndDate "2022-01-26T00:00:00"^^xsd:dateTime ;
+                           :hasLabel "Mask Mandate Extended Period" ;
+                           :hasStartDate "2022-01-05T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#MaskMandatePeriod
+:MaskMandatePeriod rdf:type owl:NamedIndividual ,
+                            :Period ;
+                   :hasDuration 68 ;
+                   :hasEndDate "2021-01-24T00:00:00"^^xsd:dateTime ;
+                   :hasLabel "Mask Mandate Period" ;
+                   :hasStartDate "2020-11-17T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#RestrictionsDroppedPeriod
+:RestrictionsDroppedPeriod rdf:type owl:NamedIndividual ,
+                                    :Period ;
+                           :hasDuration 108 ;
+                           :hasEndDate "2021-10-01T00:00:00"^^xsd:dateTime ;
+                           :hasLabel "Restrictions Dropped Period" ;
+                           :hasStartDate "2021-06-15T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#RestrictionsEasedPeriod
+:RestrictionsEasedPeriod rdf:type owl:NamedIndividual ,
+                                  :Period ;
+                         :hasDuration 74 ;
+                         :hasEndDate "2021-04-09T00:00:00"^^xsd:dateTime ;
+                         :hasLabel "Restrictions Eased Period" ;
+                         :hasStartDate "2021-01-25T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#SecondRestrictionsEasedPeriod
+:SecondRestrictionsEasedPeriod rdf:type owl:NamedIndividual ,
+                                        :Period ;
+                               :hasDuration 28 ;
+                               :hasEndDate "2022-02-24T00:00:00"^^xsd:dateTime ;
+                               :hasLabel "Second Restrictions Eased Period" ;
+                               :hasStartDate "2022-01-27T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#VaccineAvailabilityPeriod
+:VaccineAvailabilityPeriod rdf:type owl:NamedIndividual ,
+                                    :Period ;
+                           :hasDuration 65 ;
+                           :hasEndDate "2021-06-14T00:00:00"^^xsd:dateTime ;
+                           :hasLabel "Vaccine Availability Period" ;
+                           :hasStartDate "2021-04-10T00:00:00"^^xsd:dateTime .
+
+
+###  http://www.bitsei.it/losAngelesOntology#VaccineRequirementPeriod
+:VaccineRequirementPeriod rdf:type owl:NamedIndividual ,
+                                   :Period ;
+                          :hasDuration 94 ;
+                          :hasEndDate "2022-01-04T00:00:00"^^xsd:dateTime ;
+                          :hasLabel "Vaccine Requirement Period" ;
+                          :hasStartDate "2021-10-02T00:00:00"^^xsd:dateTime .
+
 
 ###  http://www.bitsei.it/losAngelesOntology/crime110
 :crime110 rdf:type owl:NamedIndividual ,
