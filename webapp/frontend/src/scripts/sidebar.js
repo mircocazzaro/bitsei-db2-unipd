@@ -17,8 +17,8 @@ function sidebarItems() {
         },
         {
             id: 'subItem3',
-            href: '#subItem2',
-            name: 'Item 3',
+            href: '#query3',
+            name: 'Query Three',
             icon: 'feather feather-home'
         }
     ]

@@ -12,7 +12,7 @@ from fastapi_globals import GlobalsMiddleware, g
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
-    sparql = SPARQLWrapper("http://89.40.142.15:7200/repositories/LArepo")
+    sparql = SPARQLWrapper("http://89.40.142.15:7200/repositories/LARepo")
     g.set_default("sparql", sparql)
     print("startup fastapi")
     yield
