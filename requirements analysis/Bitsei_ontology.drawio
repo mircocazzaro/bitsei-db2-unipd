@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-11-30T15:27:02.177Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Imczp5SkowjUeJDvpghk" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-11-30T15:39:30.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="k9YfyA_jgRsoku5iBH4k" version="22.0.3" type="device">
   <diagram name="Pagina-1" id="HVrx4mBCEq5tj3mh1qI3">
     <mxGraphModel dx="1624" dy="3193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -288,15 +288,15 @@
         <mxCell id="mEboZhqRd4yFQjhO1t4g-134" value="&lt;br&gt;&lt;div&gt;areaName: string&lt;/div&gt;&lt;div&gt;acronym: string&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1370" y="-10" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hQXMybyycjJgbbDCrBPo-2" value="period" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="hQXMybyycjJgbbDCrBPo-2" value="period" style="ellipse;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;direction=south;" vertex="1" parent="1">
           <mxGeometry x="1050" y="630" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="hQXMybyycjJgbbDCrBPo-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hQXMybyycjJgbbDCrBPo-2" target="mEboZhqRd4yFQjhO1t4g-35">
+        <mxCell id="hQXMybyycjJgbbDCrBPo-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.265;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.375;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mEboZhqRd4yFQjhO1t4g-35" target="hQXMybyycjJgbbDCrBPo-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1020" y="670" as="sourcePoint" />
-            <mxPoint x="1120" y="670" as="targetPoint" />
+            <mxPoint x="1110" y="620" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1220" y="642" />
+              <mxPoint x="1220" y="660" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -307,7 +307,7 @@
         </mxCell>
         <mxCell id="hQXMybyycjJgbbDCrBPo-5" value="belongsTo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hQXMybyycjJgbbDCrBPo-3">
           <mxGeometry x="-0.3884" y="-2" relative="1" as="geometry">
-            <mxPoint y="-3" as="offset" />
+            <mxPoint x="-19" y="43" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hQXMybyycjJgbbDCrBPo-6" value="&lt;div&gt;hasStartingDate^^xsd:dateTime&lt;/div&gt;&lt;div&gt;hasEndingDate^^xsd:dateTime&lt;/div&gt;&lt;div&gt;hasDuration: int&lt;/div&gt;&lt;div&gt;hasLabel: string&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
