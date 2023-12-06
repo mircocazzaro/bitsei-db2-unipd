@@ -1,0 +1,12 @@
+periodLabel,startDateParsed,endDateParsed,duration,crimeEvents,crimeEventsRatio
+Covid Starting Period,2020-01-01,2020-03-10,69,39893,578.16
+First Lockdown Period,2020-03-11,2020-05-28,78,39916,511.74
+First Reopening Period,2020-05-29,2020-11-16,171,93038,544.08
+Mask Mandate Period,2020-11-17,2021-01-24,68,35776,526.12
+Restrictions Eased Period,2021-01-25,2021-04-09,74,39604,535.19
+Vaccine Availability Period,2021-04-10,2021-06-14,65,35545,546.85
+Restrictions Dropped Period,2021-06-15,2021-10-01,108,64642,598.54
+Vaccine Requirement Period,2021-10-02,2022-01-04,94,56911,605.44
+Mask Mandate Extended Period,2022-01-05,2022-01-26,21,7149,340.43
+Executive Orders Dropped Period,2022-01-27,2022-12-01,308,181319,588.7
+Second Restrictions Eased Period,2022-01-27,2022-02-24,28,17677,631.32

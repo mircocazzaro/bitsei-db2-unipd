@@ -1,0 +1,12 @@
+periodLabel,startDateParsed,endDateParsed,numSexualCrimes,numPropertyCrimes,numWhiteCollarCrimes,numViolentCrimes,numPublicOrderCrimes
+Covid Starting Period,2020-01-01,2020-03-10,540,17653,3281,11329,7025
+First Lockdown Period,2020-03-11,2020-05-28,430,17959,2682,11568,7227
+First Reopening Period,2020-05-29,2020-11-16,1045,39134,6284,29224,17081
+Mask Mandate Period,2020-11-17,2021-01-24,354,16251,2595,10268,6166
+Restrictions Eased Period,2021-01-25,2021-04-09,404,17575,3263,11280,6989
+Vaccine Availability Period,2021-04-10,2021-06-14,362,15234,2747,10664,6453
+Restrictions Dropped Period,2021-06-15,2021-10-01,627,27252,5033,19953,11627
+Vaccine Requirement Period,2021-10-02,2022-01-04,606,29051,5497,17312,9864
+Mask Mandate Extended Period,2022-01-05,2022-01-26,46,3384,506,2075,1123
+Executive Orders Dropped Period,2022-01-27,2022-12-01,1737,79217,21616,50716,27650
+Second Restrictions Eased Period,2022-01-27,2022-02-24,194,7902,1944,4813,2784

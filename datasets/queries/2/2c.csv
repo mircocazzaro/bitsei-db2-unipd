@@ -1,0 +1,12 @@
+periodLabel,startDateParsed,endDateParsed,duration,closedBusinesses,closedRatio
+Covid Starting Period,2020-01-01,2020-03-10,69,3579,51.87
+First Lockdown Period,2020-03-11,2020-05-28,78,3614,46.33
+First Reopening Period,2020-05-29,2020-11-16,171,7152,41.82
+Mask Mandate Period,2020-11-17,2021-01-24,68,18208,267.76
+Restrictions Eased Period,2021-01-25,2021-04-09,74,2661,35.96
+Vaccine Availability Period,2021-04-10,2021-06-14,65,1925,29.62
+Restrictions Dropped Period,2021-06-15,2021-10-01,108,3834,35.5
+Vaccine Requirement Period,2021-10-02,2022-01-04,94,10745,114.31
+Mask Mandate Extended Period,2022-01-05,2022-01-26,21,185,8.81
+Executive Orders Dropped Period,2022-01-27,2022-12-01,308,6735,21.87
+Second Restrictions Eased Period,2022-01-27,2022-02-24,28,852,30.43
