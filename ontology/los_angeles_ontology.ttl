@@ -7,7 +7,19 @@
 @base <http://www.bitsei.it/losAngelesOntology/> .
 
 <http://www.bitsei.it/losAngelesOntology> rdf:type owl:Ontology ;
-                                           rdfs:comment "This is the Ontology related to the socio-economics aspects of the city of Los Angeles during the Covid years/"@en .
+                                           rdfs:comment "An ontology related to the socio-economics aspects of the city of Los Angeles during the Covid years (2020-2022)"@en ,
+                                                        """Course of \"Graph Databases\", Professor Gianmaria Silvello.
+Master course in Computer Engineering, University of Padua.""" ,
+                                                        """Developed by Bitsei Group.
+Team Members:
+- Farzad Shami
+- Marco Martinelli
+- Mirco Cazzaro
+- Nicola Boscolo Cegion
+
+Please direct all comments and questions to: 
+bitsei.wa@gmail.com""" ;
+                                           rdfs:seeAlso "https://github.com/mircocazzaro/bitsei-db2-unipd" .
 
 #################################################################
 #    Object Properties
@@ -18,14 +30,16 @@
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdf:type owl:FunctionalProperty ;
                rdfs:domain :Location ;
-               rdfs:range :Area .
+               rdfs:range :Area ;
+               rdfs:comment "Relates a location to an area within Los Angeles" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/belongsToPeriod
 :belongsToPeriod rdf:type owl:ObjectProperty ,
                           owl:FunctionalProperty ;
                  rdfs:domain :Day ;
-                 rdfs:range :Period .
+                 rdfs:range :Period ;
+                 rdfs:comment "Specifies the period to which a day belongs" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/closedOnDate
@@ -33,14 +47,16 @@
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdf:type owl:FunctionalProperty ;
               rdfs:domain :Business ;
-              rdfs:range :Day .
+              rdfs:range :Day ;
+              rdfs:comment "Indicates the date when a business was closed" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasModusOperandi
 :hasModusOperandi rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf owl:topObjectProperty ;
                   rdfs:domain :CrimeEvent ;
-                  rdfs:range :ModusOperandi .
+                  rdfs:range :ModusOperandi ;
+                  rdfs:comment "Specifies the modus operandi associated with a crime event" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasNaics
@@ -48,7 +64,8 @@
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdf:type owl:FunctionalProperty ;
           rdfs:domain :Business ;
-          rdfs:range :Naics .
+          rdfs:range :Naics ;
+          rdfs:comment "Specifies the NAICS (North American Industry Classification System) code of a business" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasPremis
@@ -56,14 +73,16 @@
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :CrimeEvent ;
-           rdfs:range :Premis .
+           rdfs:range :Premis ;
+           rdfs:comment "Indicates the premise associated with a crime event" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/isOfType
 :isOfType rdf:type owl:ObjectProperty ;
           rdfs:subPropertyOf owl:topObjectProperty ;
           rdfs:domain :CrimeEvent ;
-          rdfs:range :Crime .
+          rdfs:range :Crime ;
+          rdfs:comment "Indicates the type of crime related to a crime event" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/locatedIn
@@ -71,7 +90,8 @@
            rdfs:subPropertyOf owl:topObjectProperty ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Business ;
-           rdfs:range :Location .
+           rdfs:range :Location ;
+           rdfs:comment "Specifies the location where a business is situated" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/locatedInCity
@@ -79,7 +99,8 @@
                rdfs:subPropertyOf owl:topObjectProperty ;
                rdf:type owl:FunctionalProperty ;
                rdfs:domain :Business ;
-               rdfs:range :City .
+               rdfs:range :City ;
+               rdfs:comment "Specifies the city where a business is located" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/occurredInLocation
@@ -87,7 +108,8 @@
                     rdfs:subPropertyOf owl:topObjectProperty ;
                     rdf:type owl:FunctionalProperty ;
                     rdfs:domain :CrimeEvent ;
-                    rdfs:range :Location .
+                    rdfs:range :Location ;
+                    rdfs:comment "Indicates the location where a crime event occurred" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/occurredOnDate
@@ -95,7 +117,8 @@
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdf:type owl:FunctionalProperty ;
                 rdfs:domain :CrimeEvent ;
-                rdfs:range :Day .
+                rdfs:range :Day ;
+                rdfs:comment "Indicates the date when a crime event occurred" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/occurredOnVictim
@@ -103,7 +126,8 @@
                   rdfs:subPropertyOf owl:topObjectProperty ;
                   rdf:type owl:FunctionalProperty ;
                   rdfs:domain :CrimeEvent ;
-                  rdfs:range :Victim .
+                  rdfs:range :Victim ;
+                  rdfs:comment "Indicates the victim involved in a crime event" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/openedOnDate
@@ -111,7 +135,8 @@
               rdfs:subPropertyOf owl:topObjectProperty ;
               rdf:type owl:FunctionalProperty ;
               rdfs:domain :Business ;
-              rdfs:range :Day .
+              rdfs:range :Day ;
+              rdfs:comment "Indicates the date when a business was opened" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/reportedOnDate
@@ -119,7 +144,8 @@
                 rdfs:subPropertyOf owl:topObjectProperty ;
                 rdf:type owl:FunctionalProperty ;
                 rdfs:domain :CrimeEvent ;
-                rdfs:range :Day .
+                rdfs:range :Day ;
+                rdfs:comment "Indicates the date when a crime event was reported" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/usedWeapon
@@ -127,26 +153,21 @@
             rdfs:subPropertyOf owl:topObjectProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :CrimeEvent ;
-            rdfs:range :Weapon .
+            rdfs:range :Weapon ;
+            rdfs:comment "Specifies the weapon used in a crime event" .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.bitsei.it/losAngelesOntology#areaSurface
-:areaSurface rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf owl:topDataProperty ;
-             rdfs:domain :Area ;
-             rdfs:range xsd:double .
-
-
 ###  http://www.bitsei.it/losAngelesOntology/areaAcronym
 :areaAcronym rdf:type owl:DatatypeProperty ;
              rdfs:subPropertyOf owl:topDataProperty ;
              rdf:type owl:FunctionalProperty ;
              rdfs:domain :Area ;
-             rdfs:range xsd:string .
+             rdfs:range xsd:string ;
+             rdfs:comment "Represents the acronym of an area" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/areaName
@@ -154,7 +175,16 @@
           rdfs:subPropertyOf owl:topDataProperty ;
           rdf:type owl:FunctionalProperty ;
           rdfs:domain :Area ;
-          rdfs:range xsd:string .
+          rdfs:range xsd:string ;
+          rdfs:comment "Represents the name of an area" .
+
+
+###  http://www.bitsei.it/losAngelesOntology/areaSurface
+:areaSurface rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdfs:domain :Area ;
+             rdfs:range xsd:double ;
+             rdfs:comment "Represents the surface area of an area" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/businessId
@@ -162,7 +192,8 @@
             rdfs:subPropertyOf owl:topDataProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Business ;
-            rdfs:range xsd:integer .
+            rdfs:range xsd:integer ;
+            rdfs:comment "Represents the unique identifier of a business" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/businessName
@@ -170,7 +201,8 @@
               rdfs:subPropertyOf owl:topDataProperty ;
               rdf:type owl:FunctionalProperty ;
               rdfs:domain :Business ;
-              rdfs:range xsd:string .
+              rdfs:range xsd:string ;
+              rdfs:comment "Represents the name of a business entity" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/cityName
@@ -178,7 +210,8 @@
           rdfs:subPropertyOf owl:topDataProperty ;
           rdf:type owl:FunctionalProperty ;
           rdfs:domain :City ;
-          rdfs:range xsd:string .
+          rdfs:range xsd:string ;
+          rdfs:comment "Represents the name of a city" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/cityZipCode
@@ -186,7 +219,8 @@
              rdfs:subPropertyOf owl:topDataProperty ;
              rdf:type owl:FunctionalProperty ;
              rdfs:domain :City ;
-             rdfs:range xsd:string .
+             rdfs:range xsd:string ;
+             rdfs:comment "Represents the zip code of a city" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/crimeCode
@@ -194,7 +228,8 @@
            rdfs:subPropertyOf owl:topDataProperty ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Crime ;
-           rdfs:range xsd:integer .
+           rdfs:range xsd:integer ;
+           rdfs:comment "Represents the unique identifier of a type of criminal activity" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/crimeDesc
@@ -202,7 +237,8 @@
            rdfs:subPropertyOf owl:topDataProperty ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Crime ;
-           rdfs:range xsd:string .
+           rdfs:range xsd:string ;
+           rdfs:comment "Represents the description of a type of criminal activity" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/crimeId
@@ -210,7 +246,8 @@
          rdfs:subPropertyOf owl:topDataProperty ;
          rdf:type owl:FunctionalProperty ;
          rdfs:domain :CrimeEvent ;
-         rdfs:range xsd:integer .
+         rdfs:range xsd:integer ;
+         rdfs:comment "Represents the unique identifier of a crime event" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/doingBusinessAsName
@@ -218,7 +255,8 @@
                      rdfs:subPropertyOf owl:topDataProperty ;
                      rdf:type owl:FunctionalProperty ;
                      rdfs:domain :Business ;
-                     rdfs:range xsd:string .
+                     rdfs:range xsd:string ;
+                     rdfs:comment "Represents the name a business operates under" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasActiveCases
@@ -226,7 +264,8 @@
                 rdfs:subPropertyOf owl:topDataProperty ;
                 rdf:type owl:FunctionalProperty ;
                 rdfs:domain :Day ;
-                rdfs:range xsd:integer .
+                rdfs:range xsd:integer ;
+                rdfs:comment "Represents the count of active cases on a particular day" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasAddress
@@ -234,7 +273,8 @@
             rdfs:subPropertyOf owl:topDataProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Location ;
-            rdfs:range xsd:string .
+            rdfs:range xsd:string ;
+            rdfs:comment "Represents the address of a location" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasDate
@@ -242,7 +282,8 @@
          rdfs:subPropertyOf owl:topDataProperty ;
          rdf:type owl:FunctionalProperty ;
          rdfs:domain :Day ;
-         rdfs:range xsd:dateTime .
+         rdfs:range xsd:dateTime ;
+         rdfs:comment "Represents the date associated with a day" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasDuration
@@ -250,20 +291,23 @@
              rdfs:subPropertyOf owl:topDataProperty ;
              rdf:type owl:FunctionalProperty ;
              rdfs:domain :Period ;
-             rdfs:range xsd:integer .
+             rdfs:range xsd:integer ;
+             rdfs:comment "Represents the duration of a period" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasEndDate
 :hasEndDate rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdfs:domain :Period ;
-            rdfs:range xsd:dateTime .
+            rdfs:range xsd:dateTime ;
+            rdfs:comment "Represents the end date of a period" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasLabel
 :hasLabel rdf:type owl:DatatypeProperty ;
           rdfs:domain :Period ;
-          rdfs:range xsd:string .
+          rdfs:range xsd:string ;
+          rdfs:comment "Represents the label or name of a period" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasLatitude
@@ -271,7 +315,8 @@
              rdfs:subPropertyOf owl:topDataProperty ;
              rdf:type owl:FunctionalProperty ;
              rdfs:domain :Location ;
-             rdfs:range xsd:double .
+             rdfs:range xsd:double ;
+             rdfs:comment "Represents the latitude of a location" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasLongitude
@@ -279,7 +324,8 @@
               rdfs:subPropertyOf owl:topDataProperty ;
               rdf:type owl:FunctionalProperty ;
               rdfs:domain :Location ;
-              rdfs:range xsd:double .
+              rdfs:range xsd:double ;
+              rdfs:comment "Represents the longitude of a location" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasNOfDeaths
@@ -287,13 +333,15 @@
               rdfs:subPropertyOf owl:topDataProperty ;
               rdf:type owl:FunctionalProperty ;
               rdfs:domain :Day ;
-              rdfs:range xsd:integer .
+              rdfs:range xsd:integer ;
+              rdfs:comment "Represents the number of deaths on a specific day" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/hasStartDate
 :hasStartDate rdf:type owl:DatatypeProperty ;
               rdfs:domain :Period ;
-              rdfs:range xsd:dateTime .
+              rdfs:range xsd:dateTime ;
+              rdfs:comment "Represents the start date of a period" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/moCode
@@ -301,7 +349,8 @@
         rdfs:subPropertyOf owl:topDataProperty ;
         rdf:type owl:FunctionalProperty ;
         rdfs:domain :ModusOperandi ;
-        rdfs:range xsd:integer .
+        rdfs:range xsd:integer ;
+        rdfs:comment "Represents the code associated with a Modus Operandi" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/moDesc
@@ -309,7 +358,8 @@
         rdfs:subPropertyOf owl:topDataProperty ;
         rdf:type owl:FunctionalProperty ;
         rdfs:domain :ModusOperandi ;
-        rdfs:range xsd:string .
+        rdfs:range xsd:string ;
+        rdfs:comment "Represents the description of a Modus Operandi" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/naicsCode
@@ -317,13 +367,15 @@
            rdfs:subPropertyOf owl:topDataProperty ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Naics ;
-           rdfs:range xsd:integer .
+           rdfs:range xsd:integer ;
+           rdfs:comment "Represents the code associated with a NAICS (North American Industry Classification System)" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/naicsDescription
 :naicsDescription rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
-                  rdf:type owl:FunctionalProperty .
+                  rdf:type owl:FunctionalProperty ;
+                  rdfs:comment "Represents the description of a NAICS (North American Industry Classification System)" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/premisCode
@@ -331,7 +383,8 @@
             rdfs:subPropertyOf owl:topDataProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Premis ;
-            rdfs:range xsd:integer .
+            rdfs:range xsd:integer ;
+            rdfs:comment "Represents the code associated with a premise" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/premisDesc
@@ -339,7 +392,8 @@
             rdfs:subPropertyOf owl:topDataProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Premis ;
-            rdfs:range xsd:string .
+            rdfs:range xsd:string ;
+            rdfs:comment "Represents the description of a premise" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/reportedToFbi
@@ -347,7 +401,8 @@
                rdfs:subPropertyOf owl:topDataProperty ;
                rdf:type owl:FunctionalProperty ;
                rdfs:domain :CrimeEvent ;
-               rdfs:range xsd:boolean .
+               rdfs:range xsd:boolean ;
+               rdfs:comment "Represents if the crime event was reported to the FBI" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/timeOccurred
@@ -355,7 +410,8 @@
               rdfs:subPropertyOf owl:topDataProperty ;
               rdf:type owl:FunctionalProperty ;
               rdfs:domain :CrimeEvent ;
-              rdfs:range xsd:dateTime .
+              rdfs:range xsd:dateTime ;
+              rdfs:comment "Represents the time when a crime event occurred" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/victimAge
@@ -363,7 +419,8 @@
            rdfs:subPropertyOf owl:topDataProperty ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Victim ;
-           rdfs:range xsd:integer .
+           rdfs:range xsd:integer ;
+           rdfs:comment "Represents the age of a victim" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/victimDescent
@@ -371,7 +428,8 @@
                rdfs:subPropertyOf owl:topDataProperty ;
                rdf:type owl:FunctionalProperty ;
                rdfs:domain :Victim ;
-               rdfs:range xsd:string .
+               rdfs:range xsd:string ;
+               rdfs:comment "Represents the descent or ethnicity of a victim" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/victimSex
@@ -379,7 +437,8 @@
            rdfs:subPropertyOf owl:topDataProperty ;
            rdf:type owl:FunctionalProperty ;
            rdfs:domain :Victim ;
-           rdfs:range xsd:string .
+           rdfs:range xsd:string ;
+           rdfs:comment "Represents the gender of a victim" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/weaponCode
@@ -387,7 +446,8 @@
             rdfs:subPropertyOf owl:topDataProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Weapon ;
-            rdfs:range xsd:integer .
+            rdfs:range xsd:integer ;
+            rdfs:comment "Represents the code associated with a weapon involved in a crime event" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/weaponDesc
@@ -395,7 +455,8 @@
             rdfs:subPropertyOf owl:topDataProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Weapon ;
-            rdfs:range xsd:string .
+            rdfs:range xsd:string ;
+            rdfs:comment "Represents the description associated with a weapon involved in a crime event" .
 
 
 #################################################################
@@ -413,7 +474,8 @@
                         owl:onProperty :areaName ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                         owl:onDataRange xsd:string
-                      ] .
+                      ] ;
+      rdfs:comment "Represents a geographical area in Los Angeles" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Business
@@ -457,7 +519,10 @@
                             owl:onProperty :doingBusinessAsName ;
                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                             owl:onDataRange xsd:string
-                          ] .
+                          ] ;
+          rdfs:comment "Represents a business entity operating in Los Angeles" ;
+          rdfs:seeAlso "https://catalog.data.gov/dataset/listing-of-active-businesses" ,
+                       "https://data.lacity.org/Administration-Finance/All-Closed-Businesses/tkh9-tssh" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/City
@@ -471,11 +536,20 @@
                         owl:onProperty :cityZipCode ;
                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                         owl:onDataRange xsd:string
-                      ] .
+                      ] ;
+      rdfs:comment "Represents a city within Los Angeles County" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Crime
 :Crime rdf:type owl:Class ;
+       owl:equivalentClass [ rdf:type owl:Class ;
+                             owl:unionOf ( :PropertyCrime
+                                           :PublicOrderCrime
+                                           :SexualCrime
+                                           :ViolentCrime
+                                           :WhiteCollarCrime
+                                         )
+                           ] ;
        rdfs:subClassOf [ rdf:type owl:Restriction ;
                          owl:onProperty :crimeCode ;
                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
@@ -485,7 +559,8 @@
                          owl:onProperty :crimeDesc ;
                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                          owl:onDataRange xsd:string
-                       ] .
+                       ] ;
+       rdfs:comment "Represents a type of criminal activity" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/CrimeEvent
@@ -541,7 +616,9 @@
                               owl:onProperty :timeOccurred ;
                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                               owl:onDataRange xsd:dateTime
-                            ] .
+                            ] ;
+            rdfs:comment "Represents a specific occurrence of a criminal event" ;
+            rdfs:seeAlso "https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Day
@@ -560,7 +637,9 @@
                        owl:onProperty :hasNOfDeaths ;
                        owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                        owl:onDataRange xsd:integer
-                     ] .
+                     ] ;
+     rdfs:comment "Represents a day or date in the timeline 2020-2022" ;
+     rdfs:seeAlso "https://catalog.data.gov/dataset/la-county-covid-cases" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Location
@@ -584,7 +663,8 @@
                             owl:onProperty :hasAddress ;
                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                             owl:onDataRange xsd:string
-                          ] .
+                          ] ;
+          rdfs:comment "Represents a specific geographic location within Los Angeles" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/ModusOperandi
@@ -598,7 +678,8 @@
                                  owl:onProperty :moDesc ;
                                  owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                                  owl:onDataRange xsd:string
-                               ] .
+                               ] ;
+               rdfs:comment "Represents the mode or method by which a crime is committed" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Naics
@@ -612,7 +693,8 @@
                          owl:onProperty :naicsDescription ;
                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                          owl:onDataRange xsd:string
-                       ] .
+                       ] ;
+       rdfs:comment "Represents a North American Industry Classification System code" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Period
@@ -636,7 +718,8 @@
                           owl:onProperty :hasStartDate ;
                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onDataRange xsd:dateTime
-                        ] .
+                        ] ;
+        rdfs:comment "Represents a time period associated to a COVID event" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Premis
@@ -650,22 +733,26 @@
                           owl:onProperty :premisDesc ;
                           owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onDataRange xsd:string
-                        ] .
+                        ] ;
+        rdfs:comment "Represents the type of premise where a crime occurs" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/PropertyCrime
 :PropertyCrime rdf:type owl:Class ;
-               rdfs:subClassOf :Crime .
+               rdfs:subClassOf :Crime ;
+               rdfs:comment "Involves acts of theft or destruction of property without force against the victim" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/PublicOrderCrime
 :PublicOrderCrime rdf:type owl:Class ;
-                  rdfs:subClassOf :Crime .
+                  rdfs:subClassOf :Crime ;
+                  rdfs:comment "Involves acts conflicting with social policies or public opinion" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/SexualCrime
 :SexualCrime rdf:type owl:Class ;
-             rdfs:subClassOf :Crime .
+             rdfs:subClassOf :Crime ;
+             rdfs:comment "Involves acts with a sexual component, causing physical or emotional harm" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Victim
@@ -684,12 +771,14 @@
                           owl:onProperty :victimSex ;
                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onDataRange xsd:string
-                        ] .
+                        ] ;
+        rdfs:comment "Represents an individual affected by a crime" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/ViolentCrime
 :ViolentCrime rdf:type owl:Class ;
-              rdfs:subClassOf :Crime .
+              rdfs:subClassOf :Crime ;
+              rdfs:comment "Involves acts of using or threatening force against victims" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/Weapon
@@ -703,12 +792,14 @@
                           owl:onProperty :weaponDesc ;
                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
                           owl:onDataRange xsd:string
-                        ] .
+                        ] ;
+        rdfs:comment "Represents a type of weapon used in criminal activities" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/WhiteCollarCrime
 :WhiteCollarCrime rdf:type owl:Class ;
-                  rdfs:subClassOf :Crime .
+                  rdfs:subClassOf :Crime ;
+                  rdfs:comment "Involves acts of non-violent financial crimes committed by professionals" .
 
 
 #################################################################
