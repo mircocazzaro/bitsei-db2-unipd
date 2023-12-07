@@ -2,6 +2,10 @@
 \usepackage{graphicx}
 \usepackage{lscape}
 \usepackage[margin=0.2in]{geometry}
+\usepackage[table]{xcolor}
+
+\definecolor{lightgreen}{rgb}{0.8, 1, 0.8}
+\definecolor{lightgray}{rgb}{0.9, 0.9, 0.9}
 
 \begin{document}
 \pagestyle{empty}
@@ -10,8 +14,10 @@
 \begin{table}[!ht]
     \centering
     \small
+    \rowcolors{1}{lightgray}{white}
     \begin{tabular}{|p{2cm}|*{11}{p{1.7cm}|}}
     \hline
+        \rowcolor{lightgreen}
         MODUS OPERANDI & Covid Starting & First Lockdown & First Reopening & Mask Mandate & Restrictions Eased & Vaccine Availability & Restrictions Dropped & Vaccine Requirement & Mask Mandate Extended & Second Restrictions Eased & Executive Orders Dropped \\ \hline
         Removes vict property & 12951 & 11987 & 26171 & 10812 & 11667 & 10189 & 18578 & 18949 & 2270 & 5313 & 52895 \\ \hline
         Stranger & 10354 & 10526 & 29605 & 11822 & 12995 & 11619 & 21854 & 21461 & 2442 & 6374 & 69189 \\ \hline
