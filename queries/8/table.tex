@@ -2,7 +2,10 @@
 \usepackage{graphicx}
 \usepackage{lscape}
 \usepackage[margin=0.2in]{geometry}
+\usepackage[table]{xcolor}
 
+\definecolor{lightcyan}{rgb}{0.8, 1, 1}
+\definecolor{lightgray}{rgb}{0.9, 0.9, 0.9}
 \begin{document}
 \pagestyle{empty}
 
@@ -10,10 +13,12 @@
 \begin{table}[!ht]
     \centering
     \small
+    \rowcolors{1}{lightgray}{white}
     \begin{tabular}{|p{2cm}|*{11}{p{1.7cm}|}}
     \hline
+        \rowcolor{lightcyan}
         WEAPON & Covid Starting & First Lockdown & First Reopening & Mask Mandate & Restrictions Eased & Vaccine Availability & Restrictions Dropped & Vaccine Requirement & Mask Mandate Extended & Second Restrictions Eased & Executive Orders Dropped \\ \hline
-        "STRONG-ARM (HANDS, FIST, FEET OR BODILY FORCE)" & 8252 & 7765 & 18427 & 6455 & 7141 & 6788 & 12809 & 11220 & 1323 & 3125 & 32719 \\ \hline
+        STRONG-ARM & 8252 & 7765 & 18427 & 6455 & 7141 & 6788 & 12809 & 11220 & 1323 & 3125 & 32719 \\ \hline
         UNKNOWN WEAPON/OTHER WEAPON & 1442 & 1598 & 3821 & 1413 & 1484 & 1198 & 2293 & 1991 & 220 & 519 & 6228 \\ \hline
         VERBAL THREAT & 1154 & 998 & 2448 & 845 & 989 & 928 & 1695 & 1496 & 158 & 436 & 4562 \\ \hline
         HAND GUN & 631 & 640 & 1992 & 964 & 884 & 838 & 1570 & 1464 & 189 & 418 & 3790 \\ \hline
@@ -35,7 +40,6 @@
         KNIFE WITH BLADE OVER 6 INCHES IN LENGTH & 59 & 95 & 202 & 61 & 86 & 88 & 133 & 110 & 16 & 23 & 279 \\ \hline
         REVOLVER & 58 & 82 & 183 & 48 & 49 & 58 & 72 & 90 & 13 & 22 & 184 \\ \hline
         SIMULATED GUN & 55 & 52 & 123 & 47 & 68 & 31 & 59 & 93 & 6 & 22 & 258 \\ \hline
-        BELT FLAILING INSTRUMENT/CHAIN & 50 & 36 & 68 & 28 & 29 & 23 & 41 & 41 & 5 & 10 & 114 \\ \hline
     \end{tabular}
 \end{table}
 \end{landscape}

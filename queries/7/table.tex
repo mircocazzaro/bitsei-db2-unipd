@@ -2,6 +2,10 @@
 \usepackage{graphicx}
 \usepackage{lscape}
 \usepackage[margin=0.2in]{geometry}
+\usepackage[table]{xcolor}
+
+\definecolor{lightorange}{rgb}{1, 0.8, 0.8}
+\definecolor{lightgray}{rgb}{0.9, 0.9, 0.9}
 
 \begin{document}
 \pagestyle{empty}
@@ -10,9 +14,11 @@
 \begin{table}[!ht]
     \centering
     \small
+    \rowcolors{1}{lightgray}{white}
     \begin{tabular}{|p{2cm}|*{11}{p{1.7cm}|}}
     \hline
-        PREMIS & Covid Starting & First Lockdown & First Reopening & Mask Mandate & Restrictions Eased & Vaccine Availability & Restrictions Dropped & Vaccine Requirement & Mask Mandate Extended & Second Restrictions Eased & Executive Orders Dropped \\ \hline
+        \rowcolor{lightorange}
+        PREMISE & Covid Starting & First Lockdown & First Reopening & Mask Mandate & Restrictions Eased & Vaccine Availability & Restrictions Dropped & Vaccine Requirement & Mask Mandate Extended & Second Restrictions Eased & Executive Orders Dropped \\ \hline
         STREET & 9457 & 10018 & 24171 & 9459 & 10120 & 8972 & 16655 & 16088 & 1857 & 4295 & 44370 \\ \hline
         SINGLE FAMILY DWELLING & 6907 & 6910 & 15542 & 5954 & 6599 & 5894 & 10604 & 10098 & 1116 & 2998 & 31674 \\ \hline
         "MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)" & 4545 & 4958 & 11371 & 4442 & 4956 & 4306 & 7712 & 7490 & 868 & 2101 & 22405 \\ \hline
