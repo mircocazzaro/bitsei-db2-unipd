@@ -235,7 +235,6 @@ bitsei.wa@gmail.com""" ;
 ###  http://www.bitsei.it/losAngelesOntology/crimeDesc
 :crimeDesc rdf:type owl:DatatypeProperty ;
            rdfs:subPropertyOf owl:topDataProperty ;
-           rdf:type owl:FunctionalProperty ;
            rdfs:domain :Crime ;
            rdfs:range xsd:string ;
            rdfs:comment "Represents the description of a type of criminal activity" .
@@ -253,7 +252,6 @@ bitsei.wa@gmail.com""" ;
 ###  http://www.bitsei.it/losAngelesOntology/doingBusinessAsName
 :doingBusinessAsName rdf:type owl:DatatypeProperty ;
                      rdfs:subPropertyOf owl:topDataProperty ;
-                     rdf:type owl:FunctionalProperty ;
                      rdfs:domain :Business ;
                      rdfs:range xsd:string ;
                      rdfs:comment "Represents the name a business operates under" .
@@ -305,6 +303,7 @@ bitsei.wa@gmail.com""" ;
 
 ###  http://www.bitsei.it/losAngelesOntology/hasLabel
 :hasLabel rdf:type owl:DatatypeProperty ;
+          rdfs:subPropertyOf owl:topDataProperty ;
           rdfs:domain :Period ;
           rdfs:range xsd:string ;
           rdfs:comment "Represents the label or name of a period" .
@@ -356,7 +355,6 @@ bitsei.wa@gmail.com""" ;
 ###  http://www.bitsei.it/losAngelesOntology/moDesc
 :moDesc rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf owl:topDataProperty ;
-        rdf:type owl:FunctionalProperty ;
         rdfs:domain :ModusOperandi ;
         rdfs:range xsd:string ;
         rdfs:comment "Represents the description of a Modus Operandi" .
@@ -374,7 +372,8 @@ bitsei.wa@gmail.com""" ;
 ###  http://www.bitsei.it/losAngelesOntology/naicsDescription
 :naicsDescription rdf:type owl:DatatypeProperty ;
                   rdfs:subPropertyOf owl:topDataProperty ;
-                  rdf:type owl:FunctionalProperty ;
+                  rdfs:domain :Business ;
+                  rdfs:range xsd:string ;
                   rdfs:comment "Represents the description of a NAICS (North American Industry Classification System)" .
 
 
@@ -390,7 +389,6 @@ bitsei.wa@gmail.com""" ;
 ###  http://www.bitsei.it/losAngelesOntology/premisDesc
 :premisDesc rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
-            rdf:type owl:FunctionalProperty ;
             rdfs:domain :Premis ;
             rdfs:range xsd:string ;
             rdfs:comment "Represents the description of a premise" .
@@ -453,7 +451,6 @@ bitsei.wa@gmail.com""" ;
 ###  http://www.bitsei.it/losAngelesOntology/weaponDesc
 :weaponDesc rdf:type owl:DatatypeProperty ;
             rdfs:subPropertyOf owl:topDataProperty ;
-            rdf:type owl:FunctionalProperty ;
             rdfs:domain :Weapon ;
             rdfs:range xsd:string ;
             rdfs:comment "Represents the description associated with a weapon involved in a crime event" .
@@ -905,14 +902,6 @@ bitsei.wa@gmail.com""" ;
                           :hasStartDate "2021-10-02T00:00:00"^^xsd:dateTime .
 
 
-###  http://www.bitsei.it/losAngelesOntology/crime110
-:crime110 rdf:type owl:NamedIndividual ,
-                   :Crime ,
-                   :ViolentCrime ;
-          :crimeCode 110 ;
-          :crimeDesc "CRIMINAL HOMICIDE" .
-
-
 ###  http://www.bitsei.it/losAngelesOntology/crime113
 :crime113 rdf:type owl:NamedIndividual ,
                    :ViolentCrime ;
@@ -981,14 +970,6 @@ bitsei.wa@gmail.com""" ;
                    :ViolentCrime ;
           :crimeCode 237 ;
           :crimeDesc "CHILD NEGLECT (SEE 300 W.I.C.)" .
-
-
-###  http://www.bitsei.it/losAngelesOntology/crime310
-:crime310 rdf:type owl:NamedIndividual ,
-                   :Crime ,
-                   :PropertyCrime ;
-          :crimeCode 310 ;
-          :crimeDesc "BURGLARY" .
 
 
 ###  http://www.bitsei.it/losAngelesOntology/crime320
