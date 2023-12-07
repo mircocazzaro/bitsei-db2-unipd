@@ -2,3298 +2,3298 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 lao:modusOperandi100 a lao:ModusOperandi ;
-    lao:moCode "100"^^xsd:int ;
+    lao:moCode 100 ;
     lao:moDesc "Suspect Impersonate"^^xsd:string .
 
 lao:modusOperandi1000 a lao:ModusOperandi ;
-    lao:moCode "1000"^^xsd:int ;
+    lao:moCode 1000 ;
     lao:moDesc "Suspects offers/solicits"^^xsd:string .
 
 lao:modusOperandi1001 a lao:ModusOperandi ;
-    lao:moCode "1001"^^xsd:int ;
+    lao:moCode 1001 ;
     lao:moDesc "Aid for vehicle"^^xsd:string .
 
 lao:modusOperandi1002 a lao:ModusOperandi ;
-    lao:moCode "1002"^^xsd:int ;
+    lao:moCode 1002 ;
     lao:moDesc "Amusement"^^xsd:string .
 
 lao:modusOperandi1003 a lao:ModusOperandi ;
-    lao:moCode "1003"^^xsd:int ;
+    lao:moCode 1003 ;
     lao:moDesc "appraise"^^xsd:string .
 
 lao:modusOperandi1004 a lao:ModusOperandi ;
-    lao:moCode "1004"^^xsd:int ;
+    lao:moCode 1004 ;
     lao:moDesc "Assistant"^^xsd:string .
 
 lao:modusOperandi1005 a lao:ModusOperandi ;
-    lao:moCode "1005"^^xsd:int ;
+    lao:moCode 1005 ;
     lao:moDesc "Audition"^^xsd:string .
 
 lao:modusOperandi1006 a lao:ModusOperandi ;
-    lao:moCode "1006"^^xsd:int ;
+    lao:moCode 1006 ;
     lao:moDesc "Bless"^^xsd:string .
 
 lao:modusOperandi1007 a lao:ModusOperandi ;
-    lao:moCode "1007"^^xsd:int ;
+    lao:moCode 1007 ;
     lao:moDesc "Candy"^^xsd:string .
 
 lao:modusOperandi1008 a lao:ModusOperandi ;
-    lao:moCode "1008"^^xsd:int ;
+    lao:moCode 1008 ;
     lao:moDesc "Cigarette"^^xsd:string .
 
 lao:modusOperandi1009 a lao:ModusOperandi ;
-    lao:moCode "1009"^^xsd:int ;
+    lao:moCode 1009 ;
     lao:moDesc "Directions"^^xsd:string .
 
 lao:modusOperandi101 a lao:ModusOperandi ;
-    lao:moCode "101"^^xsd:int ;
+    lao:moCode 101 ;
     lao:moDesc "Aid victim"^^xsd:string .
 
 lao:modusOperandi1010 a lao:ModusOperandi ;
-    lao:moCode "1010"^^xsd:int ;
+    lao:moCode 1010 ;
     lao:moDesc "Drink (not liquor)"^^xsd:string .
 
 lao:modusOperandi1011 a lao:ModusOperandi ;
-    lao:moCode "1011"^^xsd:int ;
+    lao:moCode 1011 ;
     lao:moDesc "Employment"^^xsd:string .
 
 lao:modusOperandi1012 a lao:ModusOperandi ;
-    lao:moCode "1012"^^xsd:int ;
+    lao:moCode 1012 ;
     lao:moDesc "Find a job"^^xsd:string .
 
 lao:modusOperandi1013 a lao:ModusOperandi ;
-    lao:moCode "1013"^^xsd:int ;
+    lao:moCode 1013 ;
     lao:moDesc "Food"^^xsd:string .
 
 lao:modusOperandi1014 a lao:ModusOperandi ;
-    lao:moCode "1014"^^xsd:int ;
+    lao:moCode 1014 ;
     lao:moDesc "Game"^^xsd:string .
 
 lao:modusOperandi1015 a lao:ModusOperandi ;
-    lao:moCode "1015"^^xsd:int ;
+    lao:moCode 1015 ;
     lao:moDesc "Gift"^^xsd:string .
 
 lao:modusOperandi1016 a lao:ModusOperandi ;
-    lao:moCode "1016"^^xsd:int ;
+    lao:moCode 1016 ;
     lao:moDesc "Hold for safekeeping"^^xsd:string .
 
 lao:modusOperandi1017 a lao:ModusOperandi ;
-    lao:moCode "1017"^^xsd:int ;
+    lao:moCode 1017 ;
     lao:moDesc "Information"^^xsd:string .
 
 lao:modusOperandi1018 a lao:ModusOperandi ;
-    lao:moCode "1018"^^xsd:int ;
+    lao:moCode 1018 ;
     lao:moDesc "Liquor"^^xsd:string .
 
 lao:modusOperandi1019 a lao:ModusOperandi ;
-    lao:moCode "1019"^^xsd:int ;
+    lao:moCode 1019 ;
     lao:moDesc "Money"^^xsd:string .
 
 lao:modusOperandi102 a lao:ModusOperandi ;
-    lao:moCode "102"^^xsd:int ;
+    lao:moCode 102 ;
     lao:moDesc "Blind"^^xsd:string .
 
 lao:modusOperandi1020 a lao:ModusOperandi ;
-    lao:moCode "1020"^^xsd:int ;
+    lao:moCode 1020 ;
     lao:moDesc "Narcotics"^^xsd:string .
 
 lao:modusOperandi1021 a lao:ModusOperandi ;
-    lao:moCode "1021"^^xsd:int ;
+    lao:moCode 1021 ;
     lao:moDesc "Repair"^^xsd:string .
 
 lao:modusOperandi1022 a lao:ModusOperandi ;
-    lao:moCode "1022"^^xsd:int ;
+    lao:moCode 1022 ;
     lao:moDesc "Ride"^^xsd:string .
 
 lao:modusOperandi1023 a lao:ModusOperandi ;
-    lao:moCode "1023"^^xsd:int ;
+    lao:moCode 1023 ;
     lao:moDesc "Subscriptions"^^xsd:string .
 
 lao:modusOperandi1024 a lao:ModusOperandi ;
-    lao:moCode "1024"^^xsd:int ;
+    lao:moCode 1024 ;
     lao:moDesc "Teach"^^xsd:string .
 
 lao:modusOperandi1025 a lao:ModusOperandi ;
-    lao:moCode "1025"^^xsd:int ;
+    lao:moCode 1025 ;
     lao:moDesc "Train"^^xsd:string .
 
 lao:modusOperandi1026 a lao:ModusOperandi ;
-    lao:moCode "1026"^^xsd:int ;
+    lao:moCode 1026 ;
     lao:moDesc "Use the phone or toilet"^^xsd:string .
 
 lao:modusOperandi1027 a lao:ModusOperandi ;
-    lao:moCode "1027"^^xsd:int ;
+    lao:moCode 1027 ;
     lao:moDesc "Change"^^xsd:string .
 
 lao:modusOperandi1028 a lao:ModusOperandi ;
-    lao:moCode "1028"^^xsd:int ;
+    lao:moCode 1028 ;
     lao:moDesc "Suspect solicits time of day"^^xsd:string .
 
 lao:modusOperandi103 a lao:ModusOperandi ;
-    lao:moCode "103"^^xsd:int ;
+    lao:moCode 103 ;
     lao:moDesc "Physically disabled"^^xsd:string .
 
 lao:modusOperandi104 a lao:ModusOperandi ;
-    lao:moCode "104"^^xsd:int ;
+    lao:moCode 104 ;
     lao:moDesc "Customer"^^xsd:string .
 
 lao:modusOperandi105 a lao:ModusOperandi ;
-    lao:moCode "105"^^xsd:int ;
+    lao:moCode 105 ;
     lao:moDesc "Delivery"^^xsd:string .
 
 lao:modusOperandi106 a lao:ModusOperandi ;
-    lao:moCode "106"^^xsd:int ;
+    lao:moCode 106 ;
     lao:moDesc "Doctor"^^xsd:string .
 
 lao:modusOperandi107 a lao:ModusOperandi ;
-    lao:moCode "107"^^xsd:int ;
+    lao:moCode 107 ;
     lao:moDesc "God"^^xsd:string .
 
 lao:modusOperandi108 a lao:ModusOperandi ;
-    lao:moCode "108"^^xsd:int ;
+    lao:moCode 108 ;
     lao:moDesc "Infirm"^^xsd:string .
 
 lao:modusOperandi109 a lao:ModusOperandi ;
-    lao:moCode "109"^^xsd:int ;
+    lao:moCode 109 ;
     lao:moDesc "Inspector"^^xsd:string .
 
 lao:modusOperandi110 a lao:ModusOperandi ;
-    lao:moCode "110"^^xsd:int ;
+    lao:moCode 110 ;
     lao:moDesc "Involved in traffic/accident"^^xsd:string .
 
 lao:modusOperandi1100 a lao:ModusOperandi ;
-    lao:moCode "1100"^^xsd:int ;
+    lao:moCode 1100 ;
     lao:moDesc "Shots Fired"^^xsd:string .
 
 lao:modusOperandi1101 a lao:ModusOperandi ;
-    lao:moCode "1101"^^xsd:int ;
+    lao:moCode 1101 ;
     lao:moDesc "Shots Fired (Animal) - Animal Services"^^xsd:string .
 
 lao:modusOperandi112 a lao:ModusOperandi ;
-    lao:moCode "112"^^xsd:int ;
+    lao:moCode 112 ;
     lao:moDesc "Police"^^xsd:string .
 
 lao:modusOperandi113 a lao:ModusOperandi ;
-    lao:moCode "113"^^xsd:int ;
+    lao:moCode 113 ;
     lao:moDesc "Renting"^^xsd:string .
 
 lao:modusOperandi114 a lao:ModusOperandi ;
-    lao:moCode "114"^^xsd:int ;
+    lao:moCode 114 ;
     lao:moDesc "Repair Person"^^xsd:string .
 
 lao:modusOperandi115 a lao:ModusOperandi ;
-    lao:moCode "115"^^xsd:int ;
+    lao:moCode 115 ;
     lao:moDesc "Returning stolen property"^^xsd:string .
 
 lao:modusOperandi116 a lao:ModusOperandi ;
-    lao:moCode "116"^^xsd:int ;
+    lao:moCode 116 ;
     lao:moDesc "Satan"^^xsd:string .
 
 lao:modusOperandi117 a lao:ModusOperandi ;
-    lao:moCode "117"^^xsd:int ;
+    lao:moCode 117 ;
     lao:moDesc "Salesman"^^xsd:string .
 
 lao:modusOperandi118 a lao:ModusOperandi ;
-    lao:moCode "118"^^xsd:int ;
+    lao:moCode 118 ;
     lao:moDesc "Seeking someone"^^xsd:string .
 
 lao:modusOperandi119 a lao:ModusOperandi ;
-    lao:moCode "119"^^xsd:int ;
+    lao:moCode 119 ;
     lao:moDesc "Sent by owner"^^xsd:string .
 
 lao:modusOperandi120 a lao:ModusOperandi ;
-    lao:moCode "120"^^xsd:int ;
+    lao:moCode 120 ;
     lao:moDesc "Social Security/Medicare"^^xsd:string .
 
 lao:modusOperandi1201 a lao:ModusOperandi ;
-    lao:moCode "1201"^^xsd:int ;
+    lao:moCode 1201 ;
     lao:moDesc "Absent-advertised in paper"^^xsd:string .
 
 lao:modusOperandi1202 a lao:ModusOperandi ;
-    lao:moCode "1202"^^xsd:int ;
+    lao:moCode 1202 ;
     lao:moDesc "Victim was aged (60 & over) or blind/physically disabled/unable to care for self"^^xsd:string .
 
 lao:modusOperandi1203 a lao:ModusOperandi ;
-    lao:moCode "1203"^^xsd:int ;
+    lao:moCode 1203 ;
     lao:moDesc "Victim of crime past 12 months"^^xsd:string .
 
 lao:modusOperandi1204 a lao:ModusOperandi ;
-    lao:moCode "1204"^^xsd:int ;
+    lao:moCode 1204 ;
     lao:moDesc "Moving"^^xsd:string .
 
 lao:modusOperandi1205 a lao:ModusOperandi ;
-    lao:moCode "1205"^^xsd:int ;
+    lao:moCode 1205 ;
     lao:moDesc "On Vacation/Tourist"^^xsd:string .
 
 lao:modusOperandi1206 a lao:ModusOperandi ;
-    lao:moCode "1206"^^xsd:int ;
+    lao:moCode 1206 ;
     lao:moDesc "Under influence drugs/liquor"^^xsd:string .
 
 lao:modusOperandi1207 a lao:ModusOperandi ;
-    lao:moCode "1207"^^xsd:int ;
+    lao:moCode 1207 ;
     lao:moDesc "Hitchhiker"^^xsd:string .
 
 lao:modusOperandi1208 a lao:ModusOperandi ;
-    lao:moCode "1208"^^xsd:int ;
+    lao:moCode 1208 ;
     lao:moDesc "Victim was undocumented alien"^^xsd:string .
 
 lao:modusOperandi1209 a lao:ModusOperandi ;
-    lao:moCode "1209"^^xsd:int ;
+    lao:moCode 1209 ;
     lao:moDesc "Salesman, Jewelry"^^xsd:string .
 
 lao:modusOperandi121 a lao:ModusOperandi ;
-    lao:moCode "121"^^xsd:int ;
+    lao:moCode 121 ;
     lao:moDesc "DWP/Gas Company/Utility worker"^^xsd:string .
 
 lao:modusOperandi1210 a lao:ModusOperandi ;
-    lao:moCode "1210"^^xsd:int ;
+    lao:moCode 1210 ;
     lao:moDesc "Professional (doctor, Lawyer, etc.)"^^xsd:string .
 
 lao:modusOperandi1211 a lao:ModusOperandi ;
-    lao:moCode "1211"^^xsd:int ;
+    lao:moCode 1211 ;
     lao:moDesc "Public Official"^^xsd:string .
 
 lao:modusOperandi1212 a lao:ModusOperandi ;
-    lao:moCode "1212"^^xsd:int ;
+    lao:moCode 1212 ;
     lao:moDesc "LA Police Officer"^^xsd:string .
 
 lao:modusOperandi1213 a lao:ModusOperandi ;
-    lao:moCode "1213"^^xsd:int ;
+    lao:moCode 1213 ;
     lao:moDesc "LA Fireman"^^xsd:string .
 
 lao:modusOperandi1214 a lao:ModusOperandi ;
-    lao:moCode "1214"^^xsd:int ;
+    lao:moCode 1214 ;
     lao:moDesc "Banking, ATM"^^xsd:string .
 
 lao:modusOperandi1215 a lao:ModusOperandi ;
-    lao:moCode "1215"^^xsd:int ;
+    lao:moCode 1215 ;
     lao:moDesc "Prostitute"^^xsd:string .
 
 lao:modusOperandi1216 a lao:ModusOperandi ;
-    lao:moCode "1216"^^xsd:int ;
+    lao:moCode 1216 ;
     lao:moDesc "Sales"^^xsd:string .
 
 lao:modusOperandi1217 a lao:ModusOperandi ;
-    lao:moCode "1217"^^xsd:int ;
+    lao:moCode 1217 ;
     lao:moDesc "Teenager(Use if victim's age is unknown)"^^xsd:string .
 
 lao:modusOperandi1218 a lao:ModusOperandi ;
-    lao:moCode "1218"^^xsd:int ;
+    lao:moCode 1218 ;
     lao:moDesc "Victim was Homeless/Transient"^^xsd:string .
 
 lao:modusOperandi1219 a lao:ModusOperandi ;
-    lao:moCode "1219"^^xsd:int ;
+    lao:moCode 1219 ;
     lao:moDesc "Nude"^^xsd:string .
 
 lao:modusOperandi122 a lao:ModusOperandi ;
-    lao:moCode "122"^^xsd:int ;
+    lao:moCode 122 ;
     lao:moDesc "Contractor"^^xsd:string .
 
 lao:modusOperandi1220 a lao:ModusOperandi ;
-    lao:moCode "1220"^^xsd:int ;
+    lao:moCode 1220 ;
     lao:moDesc "Partially Nude"^^xsd:string .
 
 lao:modusOperandi1221 a lao:ModusOperandi ;
-    lao:moCode "1221"^^xsd:int ;
+    lao:moCode 1221 ;
     lao:moDesc "Missing Clothing/Jewelry"^^xsd:string .
 
 lao:modusOperandi1222 a lao:ModusOperandi ;
-    lao:moCode "1222"^^xsd:int ;
+    lao:moCode 1222 ;
     lao:moDesc "Victim was gay"^^xsd:string .
 
 lao:modusOperandi1223 a lao:ModusOperandi ;
-    lao:moCode "1223"^^xsd:int ;
+    lao:moCode 1223 ;
     lao:moDesc "Riding bike"^^xsd:string .
 
 lao:modusOperandi1224 a lao:ModusOperandi ;
-    lao:moCode "1224"^^xsd:int ;
+    lao:moCode 1224 ;
     lao:moDesc "Drive-through (not merchant)"^^xsd:string .
 
 lao:modusOperandi1225 a lao:ModusOperandi ;
-    lao:moCode "1225"^^xsd:int ;
+    lao:moCode 1225 ;
     lao:moDesc "Stop sign/light"^^xsd:string .
 
 lao:modusOperandi1226 a lao:ModusOperandi ;
-    lao:moCode "1226"^^xsd:int ;
+    lao:moCode 1226 ;
     lao:moDesc "Catering Truck Operator"^^xsd:string .
 
 lao:modusOperandi1227 a lao:ModusOperandi ;
-    lao:moCode "1227"^^xsd:int ;
+    lao:moCode 1227 ;
     lao:moDesc "Delivery person"^^xsd:string .
 
 lao:modusOperandi1228 a lao:ModusOperandi ;
-    lao:moCode "1228"^^xsd:int ;
+    lao:moCode 1228 ;
     lao:moDesc "Leaving Business Area"^^xsd:string .
 
 lao:modusOperandi1229 a lao:ModusOperandi ;
-    lao:moCode "1229"^^xsd:int ;
+    lao:moCode 1229 ;
     lao:moDesc "Making bank drop"^^xsd:string .
 
 lao:modusOperandi123 a lao:ModusOperandi ;
-    lao:moCode "123"^^xsd:int ;
+    lao:moCode 123 ;
     lao:moDesc "Gardener/Tree Trimmer"^^xsd:string .
 
 lao:modusOperandi1230 a lao:ModusOperandi ;
-    lao:moCode "1230"^^xsd:int ;
+    lao:moCode 1230 ;
     lao:moDesc "Postal employee"^^xsd:string .
 
 lao:modusOperandi1231 a lao:ModusOperandi ;
-    lao:moCode "1231"^^xsd:int ;
+    lao:moCode 1231 ;
     lao:moDesc "Taxi Driver"^^xsd:string .
 
 lao:modusOperandi1232 a lao:ModusOperandi ;
-    lao:moCode "1232"^^xsd:int ;
+    lao:moCode 1232 ;
     lao:moDesc "Bank, Arriving at"^^xsd:string .
 
 lao:modusOperandi1233 a lao:ModusOperandi ;
-    lao:moCode "1233"^^xsd:int ;
+    lao:moCode 1233 ;
     lao:moDesc "Bank, Leaving"^^xsd:string .
 
 lao:modusOperandi1234 a lao:ModusOperandi ;
-    lao:moCode "1234"^^xsd:int ;
+    lao:moCode 1234 ;
     lao:moDesc "Bar Customer"^^xsd:string .
 
 lao:modusOperandi1235 a lao:ModusOperandi ;
-    lao:moCode "1235"^^xsd:int ;
+    lao:moCode 1235 ;
     lao:moDesc "Bisexual/sexually oriented towards both sexes"^^xsd:string .
 
 lao:modusOperandi1236 a lao:ModusOperandi ;
-    lao:moCode "1236"^^xsd:int ;
+    lao:moCode 1236 ;
     lao:moDesc "Clerk/Employer/Owner"^^xsd:string .
 
 lao:modusOperandi1237 a lao:ModusOperandi ;
-    lao:moCode "1237"^^xsd:int ;
+    lao:moCode 1237 ;
     lao:moDesc "Victim was customer"^^xsd:string .
 
 lao:modusOperandi1238 a lao:ModusOperandi ;
-    lao:moCode "1238"^^xsd:int ;
+    lao:moCode 1238 ;
     lao:moDesc "Victim was physically disabled"^^xsd:string .
 
 lao:modusOperandi1239 a lao:ModusOperandi ;
-    lao:moCode "1239"^^xsd:int ;
+    lao:moCode 1239 ;
     lao:moDesc "Transgender"^^xsd:string .
 
 lao:modusOperandi1240 a lao:ModusOperandi ;
-    lao:moCode "1240"^^xsd:int ;
+    lao:moCode 1240 ;
     lao:moDesc "Vehicle occupant/Passenger"^^xsd:string .
 
 lao:modusOperandi1241 a lao:ModusOperandi ;
-    lao:moCode "1241"^^xsd:int ;
+    lao:moCode 1241 ;
     lao:moDesc "Spouse"^^xsd:string .
 
 lao:modusOperandi1242 a lao:ModusOperandi ;
-    lao:moCode "1242"^^xsd:int ;
+    lao:moCode 1242 ;
     lao:moDesc "Parent"^^xsd:string .
 
 lao:modusOperandi1243 a lao:ModusOperandi ;
-    lao:moCode "1243"^^xsd:int ;
+    lao:moCode 1243 ;
     lao:moDesc "Co-habitants"^^xsd:string .
 
 lao:modusOperandi1244 a lao:ModusOperandi ;
-    lao:moCode "1244"^^xsd:int ;
+    lao:moCode 1244 ;
     lao:moDesc "Victim was forced into business"^^xsd:string .
 
 lao:modusOperandi1245 a lao:ModusOperandi ;
-    lao:moCode "1245"^^xsd:int ;
+    lao:moCode 1245 ;
     lao:moDesc "Victim was forced into residence"^^xsd:string .
 
 lao:modusOperandi1247 a lao:ModusOperandi ;
-    lao:moCode "1247"^^xsd:int ;
+    lao:moCode 1247 ;
     lao:moDesc "Opening business"^^xsd:string .
 
 lao:modusOperandi1248 a lao:ModusOperandi ;
-    lao:moCode "1248"^^xsd:int ;
+    lao:moCode 1248 ;
     lao:moDesc "Closing business"^^xsd:string .
 
 lao:modusOperandi1251 a lao:ModusOperandi ;
-    lao:moCode "1251"^^xsd:int ;
+    lao:moCode 1251 ;
     lao:moDesc "Victim was a student"^^xsd:string .
 
 lao:modusOperandi1252 a lao:ModusOperandi ;
-    lao:moCode "1252"^^xsd:int ;
+    lao:moCode 1252 ;
     lao:moDesc "Victim was a street vendor"^^xsd:string .
 
 lao:modusOperandi1253 a lao:ModusOperandi ;
-    lao:moCode "1253"^^xsd:int ;
+    lao:moCode 1253 ;
     lao:moDesc "Bus Driver"^^xsd:string .
 
 lao:modusOperandi1254 a lao:ModusOperandi ;
-    lao:moCode "1254"^^xsd:int ;
+    lao:moCode 1254 ;
     lao:moDesc "Train Operator"^^xsd:string .
 
 lao:modusOperandi1255 a lao:ModusOperandi ;
-    lao:moCode "1255"^^xsd:int ;
+    lao:moCode 1255 ;
     lao:moDesc "Followed Transit System"^^xsd:string .
 
 lao:modusOperandi1256 a lao:ModusOperandi ;
-    lao:moCode "1256"^^xsd:int ;
+    lao:moCode 1256 ;
     lao:moDesc "Patron"^^xsd:string .
 
 lao:modusOperandi1257 a lao:ModusOperandi ;
-    lao:moCode "1257"^^xsd:int ;
+    lao:moCode 1257 ;
     lao:moDesc "Victim is Newborn-5 years old"^^xsd:string .
 
 lao:modusOperandi1258 a lao:ModusOperandi ;
-    lao:moCode "1258"^^xsd:int ;
+    lao:moCode 1258 ;
     lao:moDesc "Victim is 6 years old thru 13 years old"^^xsd:string .
 
 lao:modusOperandi1259 a lao:ModusOperandi ;
-    lao:moCode "1259"^^xsd:int ;
+    lao:moCode 1259 ;
     lao:moDesc "Victim is 14 years old thru 17 years old"^^xsd:string .
 
 lao:modusOperandi1260 a lao:ModusOperandi ;
-    lao:moCode "1260"^^xsd:int ;
+    lao:moCode 1260 ;
     lao:moDesc "Deaf/Hearing Impaired"^^xsd:string .
 
 lao:modusOperandi1261 a lao:ModusOperandi ;
-    lao:moCode "1261"^^xsd:int ;
+    lao:moCode 1261 ;
     lao:moDesc "Victim was mentally challenged/mentally disabled"^^xsd:string .
 
 lao:modusOperandi1262 a lao:ModusOperandi ;
-    lao:moCode "1262"^^xsd:int ;
+    lao:moCode 1262 ;
     lao:moDesc "Raped while unconscious"^^xsd:string .
 
 lao:modusOperandi1263 a lao:ModusOperandi ;
-    lao:moCode "1263"^^xsd:int ;
+    lao:moCode 1263 ;
     lao:moDesc "Agricultural Target"^^xsd:string .
 
 lao:modusOperandi1264 a lao:ModusOperandi ;
-    lao:moCode "1264"^^xsd:int ;
+    lao:moCode 1264 ;
     lao:moDesc "Pipeline"^^xsd:string .
 
 lao:modusOperandi1265 a lao:ModusOperandi ;
-    lao:moCode "1265"^^xsd:int ;
+    lao:moCode 1265 ;
     lao:moDesc "Mailbox"^^xsd:string .
 
 lao:modusOperandi1266 a lao:ModusOperandi ;
-    lao:moCode "1266"^^xsd:int ;
+    lao:moCode 1266 ;
     lao:moDesc "Victim was security guard"^^xsd:string .
 
 lao:modusOperandi1267 a lao:ModusOperandi ;
-    lao:moCode "1267"^^xsd:int ;
+    lao:moCode 1267 ;
     lao:moDesc "Home under construction"^^xsd:string .
 
 lao:modusOperandi1268 a lao:ModusOperandi ;
-    lao:moCode "1268"^^xsd:int ;
+    lao:moCode 1268 ;
     lao:moDesc "Victim was 5150/Mental Illness"^^xsd:string .
 
 lao:modusOperandi1269 a lao:ModusOperandi ;
-    lao:moCode "1269"^^xsd:int ;
+    lao:moCode 1269 ;
     lao:moDesc "Victim was armored car driver"^^xsd:string .
 
 lao:modusOperandi1270 a lao:ModusOperandi ;
-    lao:moCode "1270"^^xsd:int ;
+    lao:moCode 1270 ;
     lao:moDesc "Victim was gang member"^^xsd:string .
 
 lao:modusOperandi1271 a lao:ModusOperandi ;
-    lao:moCode "1271"^^xsd:int ;
+    lao:moCode 1271 ;
     lao:moDesc "Victim was Law Enforcement (not LAPD)"^^xsd:string .
 
 lao:modusOperandi1272 a lao:ModusOperandi ;
-    lao:moCode "1272"^^xsd:int ;
+    lao:moCode 1272 ;
     lao:moDesc "Victim was at/leaving medical/retail/non-retail cannabis location"^^xsd:string .
 
 lao:modusOperandi1273 a lao:ModusOperandi ;
-    lao:moCode "1273"^^xsd:int ;
+    lao:moCode 1273 ;
     lao:moDesc "Home was being fumigated"^^xsd:string .
 
 lao:modusOperandi1274 a lao:ModusOperandi ;
-    lao:moCode "1274"^^xsd:int ;
+    lao:moCode 1274 ;
     lao:moDesc "Victim was Inmate/Incarcerated"^^xsd:string .
 
 lao:modusOperandi1275 a lao:ModusOperandi ;
-    lao:moCode "1275"^^xsd:int ;
+    lao:moCode 1275 ;
     lao:moDesc "Vacant Residence/Building"^^xsd:string .
 
 lao:modusOperandi1276 a lao:ModusOperandi ;
-    lao:moCode "1276"^^xsd:int ;
+    lao:moCode 1276 ;
     lao:moDesc "Pregnant"^^xsd:string .
 
 lao:modusOperandi1277 a lao:ModusOperandi ;
-    lao:moCode "1277"^^xsd:int ;
+    lao:moCode 1277 ;
     lao:moDesc "Gardner"^^xsd:string .
 
 lao:modusOperandi1278 a lao:ModusOperandi ;
-    lao:moCode "1278"^^xsd:int ;
+    lao:moCode 1278 ;
     lao:moDesc "Victim was Uber/Lyft driver"^^xsd:string .
 
 lao:modusOperandi1279 a lao:ModusOperandi ;
-    lao:moCode "1279"^^xsd:int ;
+    lao:moCode 1279 ;
     lao:moDesc "Victim was Foster child"^^xsd:string .
 
 lao:modusOperandi1280 a lao:ModusOperandi ;
-    lao:moCode "1280"^^xsd:int ;
+    lao:moCode 1280 ;
     lao:moDesc "Victim was Foster parent"^^xsd:string .
 
 lao:modusOperandi1281 a lao:ModusOperandi ;
-    lao:moCode "1281"^^xsd:int ;
+    lao:moCode 1281 ;
     lao:moDesc "Victim was Pistol-whipped"^^xsd:string .
 
 lao:modusOperandi1300 a lao:ModusOperandi ;
-    lao:moCode "1300"^^xsd:int ;
+    lao:moCode 1300 ;
     lao:moDesc "Vehicle involved"^^xsd:string .
 
 lao:modusOperandi1301 a lao:ModusOperandi ;
-    lao:moCode "1301"^^xsd:int ;
+    lao:moCode 1301 ;
     lao:moDesc "Forced victim vehicle to curb"^^xsd:string .
 
 lao:modusOperandi1302 a lao:ModusOperandi ;
-    lao:moCode "1302"^^xsd:int ;
+    lao:moCode 1302 ;
     lao:moDesc "Suspect forced way into victim's vehicle"^^xsd:string .
 
 lao:modusOperandi1303 a lao:ModusOperandi ;
-    lao:moCode "1303"^^xsd:int ;
+    lao:moCode 1303 ;
     lao:moDesc "Hid in rear seat"^^xsd:string .
 
 lao:modusOperandi1304 a lao:ModusOperandi ;
-    lao:moCode "1304"^^xsd:int ;
+    lao:moCode 1304 ;
     lao:moDesc "Stopped victim vehicle by flagging down, forcing T/A, etc."^^xsd:string .
 
 lao:modusOperandi1305 a lao:ModusOperandi ;
-    lao:moCode "1305"^^xsd:int ;
+    lao:moCode 1305 ;
     lao:moDesc "Victim forced into vehicle"^^xsd:string .
 
 lao:modusOperandi1306 a lao:ModusOperandi ;
-    lao:moCode "1306"^^xsd:int ;
+    lao:moCode 1306 ;
     lao:moDesc "Victim parking, garaging vehicle"^^xsd:string .
 
 lao:modusOperandi1307 a lao:ModusOperandi ;
-    lao:moCode "1307"^^xsd:int ;
+    lao:moCode 1307 ;
     lao:moDesc "Breaks window"^^xsd:string .
 
 lao:modusOperandi1308 a lao:ModusOperandi ;
-    lao:moCode "1308"^^xsd:int ;
+    lao:moCode 1308 ;
     lao:moDesc "Drives by and snatches property"^^xsd:string .
 
 lao:modusOperandi1309 a lao:ModusOperandi ;
-    lao:moCode "1309"^^xsd:int ;
+    lao:moCode 1309 ;
     lao:moDesc "Susp uses vehicle"^^xsd:string .
 
 lao:modusOperandi1310 a lao:ModusOperandi ;
-    lao:moCode "1310"^^xsd:int ;
+    lao:moCode 1310 ;
     lao:moDesc "Victim in vehicle"^^xsd:string .
 
 lao:modusOperandi1311 a lao:ModusOperandi ;
-    lao:moCode "1311"^^xsd:int ;
+    lao:moCode 1311 ;
     lao:moDesc "Victim removed from vehicle"^^xsd:string .
 
 lao:modusOperandi1312 a lao:ModusOperandi ;
-    lao:moCode "1312"^^xsd:int ;
+    lao:moCode 1312 ;
     lao:moDesc "Suspect follows victim in vehicle"^^xsd:string .
 
 lao:modusOperandi1313 a lao:ModusOperandi ;
-    lao:moCode "1313"^^xsd:int ;
+    lao:moCode 1313 ;
     lao:moDesc "Suspect exits vehicle and attacks pedestrian"^^xsd:string .
 
 lao:modusOperandi1314 a lao:ModusOperandi ;
-    lao:moCode "1314"^^xsd:int ;
+    lao:moCode 1314 ;
     lao:moDesc "Victim loading vehicle"^^xsd:string .
 
 lao:modusOperandi1315 a lao:ModusOperandi ;
-    lao:moCode "1315"^^xsd:int ;
+    lao:moCode 1315 ;
     lao:moDesc "Victim unloading vehicle"^^xsd:string .
 
 lao:modusOperandi1316 a lao:ModusOperandi ;
-    lao:moCode "1316"^^xsd:int ;
+    lao:moCode 1316 ;
     lao:moDesc "Victim entering their vehicle"^^xsd:string .
 
 lao:modusOperandi1317 a lao:ModusOperandi ;
-    lao:moCode "1317"^^xsd:int ;
+    lao:moCode 1317 ;
     lao:moDesc "Victim exiting their vehicle"^^xsd:string .
 
 lao:modusOperandi1318 a lao:ModusOperandi ;
-    lao:moCode "1318"^^xsd:int ;
+    lao:moCode 1318 ;
     lao:moDesc "Suspect follows victim home"^^xsd:string .
 
 lao:modusOperandi1401 a lao:ModusOperandi ;
-    lao:moCode "1401"^^xsd:int ;
+    lao:moCode 1401 ;
     lao:moDesc "Blood Stains"^^xsd:string .
 
 lao:modusOperandi1402 a lao:ModusOperandi ;
-    lao:moCode "1402"^^xsd:int ;
+    lao:moCode 1402 ;
     lao:moDesc "Evidence Booked (any crime)"^^xsd:string .
 
 lao:modusOperandi1403 a lao:ModusOperandi ;
-    lao:moCode "1403"^^xsd:int ;
+    lao:moCode 1403 ;
     lao:moDesc "Fingerprints"^^xsd:string .
 
 lao:modusOperandi1404 a lao:ModusOperandi ;
-    lao:moCode "1404"^^xsd:int ;
+    lao:moCode 1404 ;
     lao:moDesc "Footprints"^^xsd:string .
 
 lao:modusOperandi1405 a lao:ModusOperandi ;
-    lao:moCode "1405"^^xsd:int ;
+    lao:moCode 1405 ;
     lao:moDesc "Left Note"^^xsd:string .
 
 lao:modusOperandi1406 a lao:ModusOperandi ;
-    lao:moCode "1406"^^xsd:int ;
+    lao:moCode 1406 ;
     lao:moDesc "Tool Marks"^^xsd:string .
 
 lao:modusOperandi1407 a lao:ModusOperandi ;
-    lao:moCode "1407"^^xsd:int ;
+    lao:moCode 1407 ;
     lao:moDesc "Bullets/Casings"^^xsd:string .
 
 lao:modusOperandi1408 a lao:ModusOperandi ;
-    lao:moCode "1408"^^xsd:int ;
+    lao:moCode 1408 ;
     lao:moDesc "Bite Marks"^^xsd:string .
 
 lao:modusOperandi1409 a lao:ModusOperandi ;
-    lao:moCode "1409"^^xsd:int ;
+    lao:moCode 1409 ;
     lao:moDesc "Clothes"^^xsd:string .
 
 lao:modusOperandi1410 a lao:ModusOperandi ;
-    lao:moCode "1410"^^xsd:int ;
+    lao:moCode 1410 ;
     lao:moDesc "Gun Shot Residue"^^xsd:string .
 
 lao:modusOperandi1411 a lao:ModusOperandi ;
-    lao:moCode "1411"^^xsd:int ;
+    lao:moCode 1411 ;
     lao:moDesc "Hair"^^xsd:string .
 
 lao:modusOperandi1412 a lao:ModusOperandi ;
-    lao:moCode "1412"^^xsd:int ;
+    lao:moCode 1412 ;
     lao:moDesc "Jewelry"^^xsd:string .
 
 lao:modusOperandi1413 a lao:ModusOperandi ;
-    lao:moCode "1413"^^xsd:int ;
+    lao:moCode 1413 ;
     lao:moDesc "Paint"^^xsd:string .
 
 lao:modusOperandi1414 a lao:ModusOperandi ;
-    lao:moCode "1414"^^xsd:int ;
+    lao:moCode 1414 ;
     lao:moDesc "Photographs"^^xsd:string .
 
 lao:modusOperandi1415 a lao:ModusOperandi ;
-    lao:moCode "1415"^^xsd:int ;
+    lao:moCode 1415 ;
     lao:moDesc "Rape Kit"^^xsd:string .
 
 lao:modusOperandi1416 a lao:ModusOperandi ;
-    lao:moCode "1416"^^xsd:int ;
+    lao:moCode 1416 ;
     lao:moDesc "Saliva"^^xsd:string .
 
 lao:modusOperandi1417 a lao:ModusOperandi ;
-    lao:moCode "1417"^^xsd:int ;
+    lao:moCode 1417 ;
     lao:moDesc "Semen"^^xsd:string .
 
 lao:modusOperandi1418 a lao:ModusOperandi ;
-    lao:moCode "1418"^^xsd:int ;
+    lao:moCode 1418 ;
     lao:moDesc "Skeleton/Bones"^^xsd:string .
 
 lao:modusOperandi1419 a lao:ModusOperandi ;
-    lao:moCode "1419"^^xsd:int ;
+    lao:moCode 1419 ;
     lao:moDesc "Firearm booked as evidence"^^xsd:string .
 
 lao:modusOperandi1420 a lao:ModusOperandi ;
-    lao:moCode "1420"^^xsd:int ;
+    lao:moCode 1420 ;
     lao:moDesc "Video surveillance booked/available"^^xsd:string .
 
 lao:modusOperandi1501 a lao:ModusOperandi ;
-    lao:moCode "1501"^^xsd:int ;
+    lao:moCode 1501 ;
     lao:moDesc "Other MO (see rpt)"^^xsd:string .
 
 lao:modusOperandi1505 a lao:ModusOperandi ;
-    lao:moCode "1505"^^xsd:int ;
+    lao:moCode 1505 ;
     lao:moDesc "Bias: Mental Disability"^^xsd:string .
 
 lao:modusOperandi1506 a lao:ModusOperandi ;
-    lao:moCode "1506"^^xsd:int ;
+    lao:moCode 1506 ;
     lao:moDesc "Bias: Physical disability"^^xsd:string .
 
 lao:modusOperandi1507 a lao:ModusOperandi ;
-    lao:moCode "1507"^^xsd:int ;
+    lao:moCode 1507 ;
     lao:moDesc "Bias : Anti-female"^^xsd:string .
 
 lao:modusOperandi1508 a lao:ModusOperandi ;
-    lao:moCode "1508"^^xsd:int ;
+    lao:moCode 1508 ;
     lao:moDesc "Bias: Anti-male"^^xsd:string .
 
 lao:modusOperandi1509 a lao:ModusOperandi ;
-    lao:moCode "1509"^^xsd:int ;
+    lao:moCode 1509 ;
     lao:moDesc "Bias: Anti-Gender non-conforming"^^xsd:string .
 
 lao:modusOperandi1510 a lao:ModusOperandi ;
-    lao:moCode "1510"^^xsd:int ;
+    lao:moCode 1510 ;
     lao:moDesc "Bias: Anti-Transgender"^^xsd:string .
 
 lao:modusOperandi1511 a lao:ModusOperandi ;
-    lao:moCode "1511"^^xsd:int ;
+    lao:moCode 1511 ;
     lao:moDesc "Bias: Anti-American/Alaskan Native"^^xsd:string .
 
 lao:modusOperandi1512 a lao:ModusOperandi ;
-    lao:moCode "1512"^^xsd:int ;
+    lao:moCode 1512 ;
     lao:moDesc "Bias: Anti-Arab"^^xsd:string .
 
 lao:modusOperandi1513 a lao:ModusOperandi ;
-    lao:moCode "1513"^^xsd:int ;
+    lao:moCode 1513 ;
     lao:moDesc "Bias: Anti-Asian"^^xsd:string .
 
 lao:modusOperandi1514 a lao:ModusOperandi ;
-    lao:moCode "1514"^^xsd:int ;
+    lao:moCode 1514 ;
     lao:moDesc "Bias: AntI-Black or African American"^^xsd:string .
 
 lao:modusOperandi1515 a lao:ModusOperandi ;
-    lao:moCode "1515"^^xsd:int ;
+    lao:moCode 1515 ;
     lao:moDesc "Bias: Anti-Citizenship Status"^^xsd:string .
 
 lao:modusOperandi1516 a lao:ModusOperandi ;
-    lao:moCode "1516"^^xsd:int ;
+    lao:moCode 1516 ;
     lao:moDesc "Bias: Anti-Hispanic or Latino"^^xsd:string .
 
 lao:modusOperandi1517 a lao:ModusOperandi ;
-    lao:moCode "1517"^^xsd:int ;
+    lao:moCode 1517 ;
     lao:moDesc "Bias: Anti-Multiple Races (Group)"^^xsd:string .
 
 lao:modusOperandi1518 a lao:ModusOperandi ;
-    lao:moCode "1518"^^xsd:int ;
+    lao:moCode 1518 ;
     lao:moDesc "Bias: Anti-Native Hawaiian or Other Pacific Islander"^^xsd:string .
 
 lao:modusOperandi1519 a lao:ModusOperandi ;
-    lao:moCode "1519"^^xsd:int ;
+    lao:moCode 1519 ;
     lao:moDesc "Bias: Anti-Other Race/Ethnicity/Ancestry"^^xsd:string .
 
 lao:modusOperandi1520 a lao:ModusOperandi ;
-    lao:moCode "1520"^^xsd:int ;
+    lao:moCode 1520 ;
     lao:moDesc "Bias: Anti-White"^^xsd:string .
 
 lao:modusOperandi1521 a lao:ModusOperandi ;
-    lao:moCode "1521"^^xsd:int ;
+    lao:moCode 1521 ;
     lao:moDesc "Bias: Anti-Atheism/Agnosticism"^^xsd:string .
 
 lao:modusOperandi1522 a lao:ModusOperandi ;
-    lao:moCode "1522"^^xsd:int ;
+    lao:moCode 1522 ;
     lao:moDesc "Bias: Anti-Buddhist"^^xsd:string .
 
 lao:modusOperandi1523 a lao:ModusOperandi ;
-    lao:moCode "1523"^^xsd:int ;
+    lao:moCode 1523 ;
     lao:moDesc "Bias: Anti-Catholic"^^xsd:string .
 
 lao:modusOperandi1524 a lao:ModusOperandi ;
-    lao:moCode "1524"^^xsd:int ;
+    lao:moCode 1524 ;
     lao:moDesc "Bias: Anti-Eastern Orthodox (Russian/Greek/Other)"^^xsd:string .
 
 lao:modusOperandi1525 a lao:ModusOperandi ;
-    lao:moCode "1525"^^xsd:int ;
+    lao:moCode 1525 ;
     lao:moDesc "Bias: Anti-Hindu"^^xsd:string .
 
 lao:modusOperandi1526 a lao:ModusOperandi ;
-    lao:moCode "1526"^^xsd:int ;
+    lao:moCode 1526 ;
     lao:moDesc "Bias: Anti-Islamic (Muslim)"^^xsd:string .
 
 lao:modusOperandi1527 a lao:ModusOperandi ;
-    lao:moCode "1527"^^xsd:int ;
+    lao:moCode 1527 ;
     lao:moDesc "Bias: Anti-Jehovah's Witness"^^xsd:string .
 
 lao:modusOperandi1528 a lao:ModusOperandi ;
-    lao:moCode "1528"^^xsd:int ;
+    lao:moCode 1528 ;
     lao:moDesc "Bias: Anti-Jewish"^^xsd:string .
 
 lao:modusOperandi1529 a lao:ModusOperandi ;
-    lao:moCode "1529"^^xsd:int ;
+    lao:moCode 1529 ;
     lao:moDesc "Bias: Anti-Mormon"^^xsd:string .
 
 lao:modusOperandi1530 a lao:ModusOperandi ;
-    lao:moCode "1530"^^xsd:int ;
+    lao:moCode 1530 ;
     lao:moDesc "Bias: Anti-Multiple Religions Group"^^xsd:string .
 
 lao:modusOperandi1531 a lao:ModusOperandi ;
-    lao:moCode "1531"^^xsd:int ;
+    lao:moCode 1531 ;
     lao:moDesc "Bias: Anti-Other Christian"^^xsd:string .
 
 lao:modusOperandi1532 a lao:ModusOperandi ;
-    lao:moCode "1532"^^xsd:int ;
+    lao:moCode 1532 ;
     lao:moDesc "Bias: Anti-Other Religion"^^xsd:string .
 
 lao:modusOperandi1533 a lao:ModusOperandi ;
-    lao:moCode "1533"^^xsd:int ;
+    lao:moCode 1533 ;
     lao:moDesc "Bias: Anti-Protestant"^^xsd:string .
 
 lao:modusOperandi1534 a lao:ModusOperandi ;
-    lao:moCode "1534"^^xsd:int ;
+    lao:moCode 1534 ;
     lao:moDesc "Bias: Anti-Sikh"^^xsd:string .
 
 lao:modusOperandi1535 a lao:ModusOperandi ;
-    lao:moCode "1535"^^xsd:int ;
+    lao:moCode 1535 ;
     lao:moDesc "Bias: Anti-Bisexual"^^xsd:string .
 
 lao:modusOperandi1536 a lao:ModusOperandi ;
-    lao:moCode "1536"^^xsd:int ;
+    lao:moCode 1536 ;
     lao:moDesc "Bias: Anti-Gay (Male)"^^xsd:string .
 
 lao:modusOperandi1537 a lao:ModusOperandi ;
-    lao:moCode "1537"^^xsd:int ;
+    lao:moCode 1537 ;
     lao:moDesc "Bias: Anti-Heterosexual"^^xsd:string .
 
 lao:modusOperandi1538 a lao:ModusOperandi ;
-    lao:moCode "1538"^^xsd:int ;
+    lao:moCode 1538 ;
     lao:moDesc "Bias: Anti-Lesbian"^^xsd:string .
 
 lao:modusOperandi1539 a lao:ModusOperandi ;
-    lao:moCode "1539"^^xsd:int ;
+    lao:moCode 1539 ;
     lao:moDesc "Bias: Anti-Lesbian/Gay/Bisexual or Transgender (Mixed Group)"^^xsd:string .
 
 lao:modusOperandi1601 a lao:ModusOperandi ;
-    lao:moCode "1601"^^xsd:int ;
+    lao:moCode 1601 ;
     lao:moDesc "Bodily Force"^^xsd:string .
 
 lao:modusOperandi1602 a lao:ModusOperandi ;
-    lao:moCode "1602"^^xsd:int ;
+    lao:moCode 1602 ;
     lao:moDesc "Cutting Tool"^^xsd:string .
 
 lao:modusOperandi1603 a lao:ModusOperandi ;
-    lao:moCode "1603"^^xsd:int ;
+    lao:moCode 1603 ;
     lao:moDesc "Knob Twist"^^xsd:string .
 
 lao:modusOperandi1604 a lao:ModusOperandi ;
-    lao:moCode "1604"^^xsd:int ;
+    lao:moCode 1604 ;
     lao:moDesc "Lock Box"^^xsd:string .
 
 lao:modusOperandi1605 a lao:ModusOperandi ;
-    lao:moCode "1605"^^xsd:int ;
+    lao:moCode 1605 ;
     lao:moDesc "Lock slip/key/pick"^^xsd:string .
 
 lao:modusOperandi1606 a lao:ModusOperandi ;
-    lao:moCode "1606"^^xsd:int ;
+    lao:moCode 1606 ;
     lao:moDesc "Open/unlocked"^^xsd:string .
 
 lao:modusOperandi1607 a lao:ModusOperandi ;
-    lao:moCode "1607"^^xsd:int ;
+    lao:moCode 1607 ;
     lao:moDesc "Pried"^^xsd:string .
 
 lao:modusOperandi1608 a lao:ModusOperandi ;
-    lao:moCode "1608"^^xsd:int ;
+    lao:moCode 1608 ;
     lao:moDesc "Removed"^^xsd:string .
 
 lao:modusOperandi1609 a lao:ModusOperandi ;
-    lao:moCode "1609"^^xsd:int ;
+    lao:moCode 1609 ;
     lao:moDesc "Smashed"^^xsd:string .
 
 lao:modusOperandi1610 a lao:ModusOperandi ;
-    lao:moCode "1610"^^xsd:int ;
+    lao:moCode 1610 ;
     lao:moDesc "Tunneled"^^xsd:string .
 
 lao:modusOperandi1611 a lao:ModusOperandi ;
-    lao:moCode "1611"^^xsd:int ;
+    lao:moCode 1611 ;
     lao:moDesc "Shaved Key"^^xsd:string .
 
 lao:modusOperandi1612 a lao:ModusOperandi ;
-    lao:moCode "1612"^^xsd:int ;
+    lao:moCode 1612 ;
     lao:moDesc "Punched/Pulled Door Lock"^^xsd:string .
 
 lao:modusOperandi1701 a lao:ModusOperandi ;
-    lao:moCode "1701"^^xsd:int ;
+    lao:moCode 1701 ;
     lao:moDesc "Elder Abuse/Physical"^^xsd:string .
 
 lao:modusOperandi1702 a lao:ModusOperandi ;
-    lao:moCode "1702"^^xsd:int ;
+    lao:moCode 1702 ;
     lao:moDesc "Elder Abuse/Financial"^^xsd:string .
 
 lao:modusOperandi1801 a lao:ModusOperandi ;
-    lao:moCode "1801"^^xsd:int ;
+    lao:moCode 1801 ;
     lao:moDesc "Susp is/was mother's boyfriend"^^xsd:string .
 
 lao:modusOperandi1802 a lao:ModusOperandi ;
-    lao:moCode "1802"^^xsd:int ;
+    lao:moCode 1802 ;
     lao:moDesc "Susp is/was victim's co-worker"^^xsd:string .
 
 lao:modusOperandi1803 a lao:ModusOperandi ;
-    lao:moCode "1803"^^xsd:int ;
+    lao:moCode 1803 ;
     lao:moDesc "Susp is/was victim's employee"^^xsd:string .
 
 lao:modusOperandi1804 a lao:ModusOperandi ;
-    lao:moCode "1804"^^xsd:int ;
+    lao:moCode 1804 ;
     lao:moDesc "Susp is/was victim's employer"^^xsd:string .
 
 lao:modusOperandi1805 a lao:ModusOperandi ;
-    lao:moCode "1805"^^xsd:int ;
+    lao:moCode 1805 ;
     lao:moDesc "Susp is/was fellow gang member"^^xsd:string .
 
 lao:modusOperandi1806 a lao:ModusOperandi ;
-    lao:moCode "1806"^^xsd:int ;
+    lao:moCode 1806 ;
     lao:moDesc "Susp is/was father's girlfriend"^^xsd:string .
 
 lao:modusOperandi1807 a lao:ModusOperandi ;
-    lao:moCode "1807"^^xsd:int ;
+    lao:moCode 1807 ;
     lao:moDesc "Susp is/was priest/pastor"^^xsd:string .
 
 lao:modusOperandi1808 a lao:ModusOperandi ;
-    lao:moCode "1808"^^xsd:int ;
+    lao:moCode 1808 ;
     lao:moDesc "Susp is/was other religious confidant"^^xsd:string .
 
 lao:modusOperandi1809 a lao:ModusOperandi ;
-    lao:moCode "1809"^^xsd:int ;
+    lao:moCode 1809 ;
     lao:moDesc "Susp is/was rival gang member"^^xsd:string .
 
 lao:modusOperandi1810 a lao:ModusOperandi ;
-    lao:moCode "1810"^^xsd:int ;
+    lao:moCode 1810 ;
     lao:moDesc "Susp is/was roommate"^^xsd:string .
 
 lao:modusOperandi1811 a lao:ModusOperandi ;
-    lao:moCode "1811"^^xsd:int ;
+    lao:moCode 1811 ;
     lao:moDesc "Susp is/was victim's teacher/coach"^^xsd:string .
 
 lao:modusOperandi1812 a lao:ModusOperandi ;
-    lao:moCode "1812"^^xsd:int ;
+    lao:moCode 1812 ;
     lao:moDesc "Susp is/was foster parent/sibling"^^xsd:string .
 
 lao:modusOperandi1813 a lao:ModusOperandi ;
-    lao:moCode "1813"^^xsd:int ;
+    lao:moCode 1813 ;
     lao:moDesc "Susp is/was current/former spouse/co-habitant"^^xsd:string .
 
 lao:modusOperandi1814 a lao:ModusOperandi ;
-    lao:moCode "1814"^^xsd:int ;
+    lao:moCode 1814 ;
     lao:moDesc "Susp is/was current/former boyfriend/girlfriend"^^xsd:string .
 
 lao:modusOperandi1815 a lao:ModusOperandi ;
-    lao:moCode "1815"^^xsd:int ;
+    lao:moCode 1815 ;
     lao:moDesc "Susp was student"^^xsd:string .
 
 lao:modusOperandi1816 a lao:ModusOperandi ;
-    lao:moCode "1816"^^xsd:int ;
+    lao:moCode 1816 ;
     lao:moDesc "Suspect is/was known gang member"^^xsd:string .
 
 lao:modusOperandi1817 a lao:ModusOperandi ;
-    lao:moCode "1817"^^xsd:int ;
+    lao:moCode 1817 ;
     lao:moDesc "Acquaintance"^^xsd:string .
 
 lao:modusOperandi1818 a lao:ModusOperandi ;
-    lao:moCode "1818"^^xsd:int ;
+    lao:moCode 1818 ;
     lao:moDesc "Caretaker/care-giver/nanny"^^xsd:string .
 
 lao:modusOperandi1819 a lao:ModusOperandi ;
-    lao:moCode "1819"^^xsd:int ;
+    lao:moCode 1819 ;
     lao:moDesc "Common-law Spouse"^^xsd:string .
 
 lao:modusOperandi1820 a lao:ModusOperandi ;
-    lao:moCode "1820"^^xsd:int ;
+    lao:moCode 1820 ;
     lao:moDesc "Friend"^^xsd:string .
 
 lao:modusOperandi1821 a lao:ModusOperandi ;
-    lao:moCode "1821"^^xsd:int ;
+    lao:moCode 1821 ;
     lao:moDesc "Spouse"^^xsd:string .
 
 lao:modusOperandi1822 a lao:ModusOperandi ;
-    lao:moCode "1822"^^xsd:int ;
+    lao:moCode 1822 ;
     lao:moDesc "Stranger"^^xsd:string .
 
 lao:modusOperandi1823 a lao:ModusOperandi ;
-    lao:moCode "1823"^^xsd:int ;
+    lao:moCode 1823 ;
     lao:moDesc "Brief encounter/Date"^^xsd:string .
 
 lao:modusOperandi1824 a lao:ModusOperandi ;
-    lao:moCode "1824"^^xsd:int ;
+    lao:moCode 1824 ;
     lao:moDesc "Classmate"^^xsd:string .
 
 lao:modusOperandi1900 a lao:ModusOperandi ;
-    lao:moCode "1900"^^xsd:int ;
+    lao:moCode 1900 ;
     lao:moDesc "Auction Fraud/eBay/cragslist,etc. (Internet based theft)"^^xsd:string .
 
 lao:modusOperandi1901 a lao:ModusOperandi ;
-    lao:moCode "1901"^^xsd:int ;
+    lao:moCode 1901 ;
     lao:moDesc "Child Pornography/In possession of/Via computer"^^xsd:string .
 
 lao:modusOperandi1902 a lao:ModusOperandi ;
-    lao:moCode "1902"^^xsd:int ;
+    lao:moCode 1902 ;
     lao:moDesc "Credit Card Fraud/Theft of services via internet"^^xsd:string .
 
 lao:modusOperandi1903 a lao:ModusOperandi ;
-    lao:moCode "1903"^^xsd:int ;
+    lao:moCode 1903 ;
     lao:moDesc "Cyberstalking (Stalking using internet to commit the crime)"^^xsd:string .
 
 lao:modusOperandi1904 a lao:ModusOperandi ;
-    lao:moCode "1904"^^xsd:int ;
+    lao:moCode 1904 ;
     lao:moDesc "Denial of computer services"^^xsd:string .
 
 lao:modusOperandi1905 a lao:ModusOperandi ;
-    lao:moCode "1905"^^xsd:int ;
+    lao:moCode 1905 ;
     lao:moDesc "Destruction of computer data"^^xsd:string .
 
 lao:modusOperandi1906 a lao:ModusOperandi ;
-    lao:moCode "1906"^^xsd:int ;
+    lao:moCode 1906 ;
     lao:moDesc "Harrassing E-Mail/Text Message/Other Electronic Communications"^^xsd:string .
 
 lao:modusOperandi1907 a lao:ModusOperandi ;
-    lao:moCode "1907"^^xsd:int ;
+    lao:moCode 1907 ;
     lao:moDesc "Hate Crime materials/printouts/e-mails"^^xsd:string .
 
 lao:modusOperandi1908 a lao:ModusOperandi ;
-    lao:moCode "1908"^^xsd:int ;
+    lao:moCode 1908 ;
     lao:moDesc "Identity Theft via computer"^^xsd:string .
 
 lao:modusOperandi1909 a lao:ModusOperandi ;
-    lao:moCode "1909"^^xsd:int ;
+    lao:moCode 1909 ;
     lao:moDesc "Introduction of virus or contaminants into computer system/program"^^xsd:string .
 
 lao:modusOperandi1910 a lao:ModusOperandi ;
-    lao:moCode "1910"^^xsd:int ;
+    lao:moCode 1910 ;
     lao:moDesc "Minor solicited for sex via internet/Known minor"^^xsd:string .
 
 lao:modusOperandi1911 a lao:ModusOperandi ;
-    lao:moCode "1911"^^xsd:int ;
+    lao:moCode 1911 ;
     lao:moDesc "Theft of computer data"^^xsd:string .
 
 lao:modusOperandi1912 a lao:ModusOperandi ;
-    lao:moCode "1912"^^xsd:int ;
+    lao:moCode 1912 ;
     lao:moDesc "Threatening E-mail/Text Messages"^^xsd:string .
 
 lao:modusOperandi1913 a lao:ModusOperandi ;
-    lao:moCode "1913"^^xsd:int ;
+    lao:moCode 1913 ;
     lao:moDesc "Suspect meets victim on internet/chatroom"^^xsd:string .
 
 lao:modusOperandi1914 a lao:ModusOperandi ;
-    lao:moCode "1914"^^xsd:int ;
+    lao:moCode 1914 ;
     lao:moDesc "Unauthorized access to computer system"^^xsd:string .
 
 lao:modusOperandi1915 a lao:ModusOperandi ;
-    lao:moCode "1915"^^xsd:int ;
+    lao:moCode 1915 ;
     lao:moDesc "Internet Extortion"^^xsd:string .
 
 lao:modusOperandi1916 a lao:ModusOperandi ;
-    lao:moCode "1916"^^xsd:int ;
+    lao:moCode 1916 ;
     lao:moDesc "Victim paid by wire transfer"^^xsd:string .
 
 lao:modusOperandi200 a lao:ModusOperandi ;
-    lao:moCode "200"^^xsd:int ;
+    lao:moCode 200 ;
     lao:moDesc "Suspect wore disguise"^^xsd:string .
 
 lao:modusOperandi2000 a lao:ModusOperandi ;
-    lao:moCode "2000"^^xsd:int ;
+    lao:moCode 2000 ;
     lao:moDesc "Domestic violence"^^xsd:string .
 
 lao:modusOperandi2001 a lao:ModusOperandi ;
-    lao:moCode "2001"^^xsd:int ;
+    lao:moCode 2001 ;
     lao:moDesc "Suspect on drugs"^^xsd:string .
 
 lao:modusOperandi2002 a lao:ModusOperandi ;
-    lao:moCode "2002"^^xsd:int ;
+    lao:moCode 2002 ;
     lao:moDesc "Suspect intoxicated/drunk"^^xsd:string .
 
 lao:modusOperandi2003 a lao:ModusOperandi ;
-    lao:moCode "2003"^^xsd:int ;
+    lao:moCode 2003 ;
     lao:moDesc "Suspect was 5150/mentally disabled"^^xsd:string .
 
 lao:modusOperandi2004 a lao:ModusOperandi ;
-    lao:moCode "2004"^^xsd:int ;
+    lao:moCode 2004 ;
     lao:moDesc "Suspect is homeless/transient"^^xsd:string .
 
 lao:modusOperandi2005 a lao:ModusOperandi ;
-    lao:moCode "2005"^^xsd:int ;
+    lao:moCode 2005 ;
     lao:moDesc "Suspect uses wheelchair"^^xsd:string .
 
 lao:modusOperandi2006 a lao:ModusOperandi ;
-    lao:moCode "2006"^^xsd:int ;
+    lao:moCode 2006 ;
     lao:moDesc "Suspect was transgender"^^xsd:string .
 
 lao:modusOperandi2007 a lao:ModusOperandi ;
-    lao:moCode "2007"^^xsd:int ;
+    lao:moCode 2007 ;
     lao:moDesc "Suspect was gay"^^xsd:string .
 
 lao:modusOperandi2008 a lao:ModusOperandi ;
-    lao:moCode "2008"^^xsd:int ;
+    lao:moCode 2008 ;
     lao:moDesc "In possession of a Ballistic vest"^^xsd:string .
 
 lao:modusOperandi2009 a lao:ModusOperandi ;
-    lao:moCode "2009"^^xsd:int ;
+    lao:moCode 2009 ;
     lao:moDesc "Suspect was Inmate/Incarcerated"^^xsd:string .
 
 lao:modusOperandi201 a lao:ModusOperandi ;
-    lao:moCode "201"^^xsd:int ;
+    lao:moCode 201 ;
     lao:moDesc "Bag"^^xsd:string .
 
 lao:modusOperandi2010 a lao:ModusOperandi ;
-    lao:moCode "2010"^^xsd:int ;
+    lao:moCode 2010 ;
     lao:moDesc "Suspect was Jailer/Police Officer"^^xsd:string .
 
 lao:modusOperandi2011 a lao:ModusOperandi ;
-    lao:moCode "2011"^^xsd:int ;
+    lao:moCode 2011 ;
     lao:moDesc "Vendor (street or sidewalk)"^^xsd:string .
 
 lao:modusOperandi2012 a lao:ModusOperandi ;
-    lao:moCode "2012"^^xsd:int ;
+    lao:moCode 2012 ;
     lao:moDesc "Suspect was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.)"^^xsd:string .
 
 lao:modusOperandi2013 a lao:ModusOperandi ;
-    lao:moCode "2013"^^xsd:int ;
+    lao:moCode 2013 ;
     lao:moDesc "Tour Bus/Van Operator"^^xsd:string .
 
 lao:modusOperandi2014 a lao:ModusOperandi ;
-    lao:moCode "2014"^^xsd:int ;
+    lao:moCode 2014 ;
     lao:moDesc "Suspect was Uber/Lyft driver"^^xsd:string .
 
 lao:modusOperandi2015 a lao:ModusOperandi ;
-    lao:moCode "2015"^^xsd:int ;
+    lao:moCode 2015 ;
     lao:moDesc "Suspect was Foster child"^^xsd:string .
 
 lao:modusOperandi2016 a lao:ModusOperandi ;
-    lao:moCode "2016"^^xsd:int ;
+    lao:moCode 2016 ;
     lao:moDesc "Suspect was Train Operator"^^xsd:string .
 
 lao:modusOperandi2017 a lao:ModusOperandi ;
-    lao:moCode "2017"^^xsd:int ;
+    lao:moCode 2017 ;
     lao:moDesc "Suspect was MTA Bus Driver"^^xsd:string .
 
 lao:modusOperandi2018 a lao:ModusOperandi ;
-    lao:moCode "2018"^^xsd:int ;
+    lao:moCode 2018 ;
     lao:moDesc "Cannabis related"^^xsd:string .
 
 lao:modusOperandi2019 a lao:ModusOperandi ;
-    lao:moCode "2019"^^xsd:int ;
+    lao:moCode 2019 ;
     lao:moDesc "Theft of animal (non-livestock)"^^xsd:string .
 
 lao:modusOperandi202 a lao:ModusOperandi ;
-    lao:moCode "202"^^xsd:int ;
+    lao:moCode 202 ;
     lao:moDesc "Cap/hat"^^xsd:string .
 
 lao:modusOperandi2020 a lao:ModusOperandi ;
-    lao:moCode "2020"^^xsd:int ;
+    lao:moCode 2020 ;
     lao:moDesc "Mistreatment of animal"^^xsd:string .
 
 lao:modusOperandi2021 a lao:ModusOperandi ;
-    lao:moCode "2021"^^xsd:int ;
+    lao:moCode 2021 ;
     lao:moDesc "Suspect was Aged (60+over)"^^xsd:string .
 
 lao:modusOperandi2022 a lao:ModusOperandi ;
-    lao:moCode "2022"^^xsd:int ;
+    lao:moCode 2022 ;
     lao:moDesc "Suspect was Hitchhiker"^^xsd:string .
 
 lao:modusOperandi2023 a lao:ModusOperandi ;
-    lao:moCode "2023"^^xsd:int ;
+    lao:moCode 2023 ;
     lao:moDesc "Suspect was Prostitute"^^xsd:string .
 
 lao:modusOperandi2024 a lao:ModusOperandi ;
-    lao:moCode "2024"^^xsd:int ;
+    lao:moCode 2024 ;
     lao:moDesc "Suspect was Juvenile"^^xsd:string .
 
 lao:modusOperandi2025 a lao:ModusOperandi ;
-    lao:moCode "2025"^^xsd:int ;
+    lao:moCode 2025 ;
     lao:moDesc "Suspect was Bisexual"^^xsd:string .
 
 lao:modusOperandi2026 a lao:ModusOperandi ;
-    lao:moCode "2026"^^xsd:int ;
+    lao:moCode 2026 ;
     lao:moDesc "Suspect was Deaf/hearing impaired"^^xsd:string .
 
 lao:modusOperandi2027 a lao:ModusOperandi ;
-    lao:moCode "2027"^^xsd:int ;
+    lao:moCode 2027 ;
     lao:moDesc "Suspect was Pregnant"^^xsd:string .
 
 lao:modusOperandi2028 a lao:ModusOperandi ;
-    lao:moCode "2028"^^xsd:int ;
+    lao:moCode 2028 ;
     lao:moDesc "Suspect was Repeat/known shoplifter"^^xsd:string .
 
 lao:modusOperandi2029 a lao:ModusOperandi ;
-    lao:moCode "2029"^^xsd:int ;
+    lao:moCode 2029 ;
     lao:moDesc "Victim used profanity"^^xsd:string .
 
 lao:modusOperandi203 a lao:ModusOperandi ;
-    lao:moCode "203"^^xsd:int ;
+    lao:moCode 203 ;
     lao:moDesc "Cloth (with eyeholes)"^^xsd:string .
 
 lao:modusOperandi2030 a lao:ModusOperandi ;
-    lao:moCode "2030"^^xsd:int ;
+    lao:moCode 2030 ;
     lao:moDesc "Victim used racial slurs"^^xsd:string .
 
 lao:modusOperandi2031 a lao:ModusOperandi ;
-    lao:moCode "2031"^^xsd:int ;
+    lao:moCode 2031 ;
     lao:moDesc "Victim used hate-related language"^^xsd:string .
 
 lao:modusOperandi2032 a lao:ModusOperandi ;
-    lao:moCode "2032"^^xsd:int ;
+    lao:moCode 2032 ;
     lao:moDesc "Victim left property unattended"^^xsd:string .
 
 lao:modusOperandi2033 a lao:ModusOperandi ;
-    lao:moCode "2033"^^xsd:int ;
+    lao:moCode 2033 ;
     lao:moDesc "Victim refused to cooperate w/investigation"^^xsd:string .
 
 lao:modusOperandi2034 a lao:ModusOperandi ;
-    lao:moCode "2034"^^xsd:int ;
+    lao:moCode 2034 ;
     lao:moDesc "Victim was asleep/unconscious"^^xsd:string .
 
 lao:modusOperandi2035 a lao:ModusOperandi ;
-    lao:moCode "2035"^^xsd:int ;
+    lao:moCode 2035 ;
     lao:moDesc "Racial slurs"^^xsd:string .
 
 lao:modusOperandi2036 a lao:ModusOperandi ;
-    lao:moCode "2036"^^xsd:int ;
+    lao:moCode 2036 ;
     lao:moDesc "Hate-related language"^^xsd:string .
 
 lao:modusOperandi2037 a lao:ModusOperandi ;
-    lao:moCode "2037"^^xsd:int ;
+    lao:moCode 2037 ;
     lao:moDesc "Temporary/Vacation rental (AirBnB, etc)"^^xsd:string .
 
 lao:modusOperandi2038 a lao:ModusOperandi ;
-    lao:moCode "2038"^^xsd:int ;
+    lao:moCode 2038 ;
     lao:moDesc "Restraining order in place between suspect and victim"^^xsd:string .
 
 lao:modusOperandi2039 a lao:ModusOperandi ;
-    lao:moCode "2039"^^xsd:int ;
+    lao:moCode 2039 ;
     lao:moDesc "Victim was costumed character (e.g., Barney, Darth Vader, Spiderman, etc.)"^^xsd:string .
 
 lao:modusOperandi204 a lao:ModusOperandi ;
-    lao:moCode "204"^^xsd:int ;
+    lao:moCode 204 ;
     lao:moDesc "Clothes of opposite sex"^^xsd:string .
 
 lao:modusOperandi2040 a lao:ModusOperandi ;
-    lao:moCode "2040"^^xsd:int ;
+    lao:moCode 2040 ;
     lao:moDesc "Threats via Social Media"^^xsd:string .
 
 lao:modusOperandi2041 a lao:ModusOperandi ;
-    lao:moCode "2041"^^xsd:int ;
+    lao:moCode 2041 ;
     lao:moDesc "Harassment via Social Media"^^xsd:string .
 
 lao:modusOperandi2042 a lao:ModusOperandi ;
-    lao:moCode "2042"^^xsd:int ;
+    lao:moCode 2042 ;
     lao:moDesc "Victim staying at short-term vacation rental"^^xsd:string .
 
 lao:modusOperandi2043 a lao:ModusOperandi ;
-    lao:moCode "2043"^^xsd:int ;
+    lao:moCode 2043 ;
     lao:moDesc "Victim is owner of short-term vacation rental"^^xsd:string .
 
 lao:modusOperandi2044 a lao:ModusOperandi ;
-    lao:moCode "2044"^^xsd:int ;
+    lao:moCode 2044 ;
     lao:moDesc "Suspect staying at short-term vacation rental"^^xsd:string .
 
 lao:modusOperandi2045 a lao:ModusOperandi ;
-    lao:moCode "2045"^^xsd:int ;
+    lao:moCode 2045 ;
     lao:moDesc "Suspect is owner of short-term vacation rental"^^xsd:string .
 
 lao:modusOperandi2046 a lao:ModusOperandi ;
-    lao:moCode "2046"^^xsd:int ;
+    lao:moCode 2046 ;
     lao:moDesc "Suspect damaged property equal to or exceeding $25,000"^^xsd:string .
 
 lao:modusOperandi2047 a lao:ModusOperandi ;
-    lao:moCode "2047"^^xsd:int ;
+    lao:moCode 2047 ;
     lao:moDesc "Victim was injured requiring transportation away from scene for medical reasons"^^xsd:string .
 
 lao:modusOperandi2048 a lao:ModusOperandi ;
-    lao:moCode "2048"^^xsd:int ;
+    lao:moCode 2048 ;
     lao:moDesc "Victim was on transit platform"^^xsd:string .
 
 lao:modusOperandi2049 a lao:ModusOperandi ;
-    lao:moCode "2049"^^xsd:int ;
+    lao:moCode 2049 ;
     lao:moDesc "Victim was passenger on bus"^^xsd:string .
 
 lao:modusOperandi205 a lao:ModusOperandi ;
-    lao:moCode "205"^^xsd:int ;
+    lao:moCode 205 ;
     lao:moDesc "Earring"^^xsd:string .
 
 lao:modusOperandi2050 a lao:ModusOperandi ;
-    lao:moCode "2050"^^xsd:int ;
+    lao:moCode 2050 ;
     lao:moDesc "Victim was passenger on train"^^xsd:string .
 
 lao:modusOperandi2051 a lao:ModusOperandi ;
-    lao:moCode "2051"^^xsd:int ;
+    lao:moCode 2051 ;
     lao:moDesc "Suspect was passenger on bus"^^xsd:string .
 
 lao:modusOperandi2052 a lao:ModusOperandi ;
-    lao:moCode "2052"^^xsd:int ;
+    lao:moCode 2052 ;
     lao:moDesc "Suspect was passenger on train"^^xsd:string .
 
 lao:modusOperandi2053 a lao:ModusOperandi ;
-    lao:moCode "2053"^^xsd:int ;
+    lao:moCode 2053 ;
     lao:moDesc "Victim targeted based on religion"^^xsd:string .
 
 lao:modusOperandi2054 a lao:ModusOperandi ;
-    lao:moCode "2054"^^xsd:int ;
+    lao:moCode 2054 ;
     lao:moDesc "Victim targeted based on sexual orientation"^^xsd:string .
 
 lao:modusOperandi2055 a lao:ModusOperandi ;
-    lao:moCode "2055"^^xsd:int ;
+    lao:moCode 2055 ;
     lao:moDesc "Victim targeted based on Race/Ethnicity/Ancestry"^^xsd:string .
 
 lao:modusOperandi2056 a lao:ModusOperandi ;
-    lao:moCode "2056"^^xsd:int ;
+    lao:moCode 2056 ;
     lao:moDesc "Victim targeted based on gender"^^xsd:string .
 
 lao:modusOperandi2057 a lao:ModusOperandi ;
-    lao:moCode "2057"^^xsd:int ;
+    lao:moCode 2057 ;
     lao:moDesc "Victim targeted based on disability"^^xsd:string .
 
 lao:modusOperandi2058 a lao:ModusOperandi ;
-    lao:moCode "2058"^^xsd:int ;
+    lao:moCode 2058 ;
     lao:moDesc "Victim targeted based on Gender Non-conforming"^^xsd:string .
 
 lao:modusOperandi2059 a lao:ModusOperandi ;
-    lao:moCode "2059"^^xsd:int ;
+    lao:moCode 2059 ;
     lao:moDesc "Vict rptd sexual assault at time of arst for unrelated incident"^^xsd:string .
 
 lao:modusOperandi206 a lao:ModusOperandi ;
-    lao:moCode "206"^^xsd:int ;
+    lao:moCode 206 ;
     lao:moDesc "Gloves"^^xsd:string .
 
 lao:modusOperandi2060 a lao:ModusOperandi ;
-    lao:moCode "2060"^^xsd:int ;
+    lao:moCode 2060 ;
     lao:moDesc "Victim inside tent"^^xsd:string .
 
 lao:modusOperandi207 a lao:ModusOperandi ;
-    lao:moCode "207"^^xsd:int ;
+    lao:moCode 207 ;
     lao:moDesc "Handkerchief"^^xsd:string .
 
 lao:modusOperandi208 a lao:ModusOperandi ;
-    lao:moCode "208"^^xsd:int ;
+    lao:moCode 208 ;
     lao:moDesc "Halloween mask"^^xsd:string .
 
 lao:modusOperandi209 a lao:ModusOperandi ;
-    lao:moCode "209"^^xsd:int ;
+    lao:moCode 209 ;
     lao:moDesc "Mask"^^xsd:string .
 
 lao:modusOperandi210 a lao:ModusOperandi ;
-    lao:moCode "210"^^xsd:int ;
+    lao:moCode 210 ;
     lao:moDesc "Make up (males only)"^^xsd:string .
 
 lao:modusOperandi2100 a lao:ModusOperandi ;
-    lao:moCode "2100"^^xsd:int ;
+    lao:moCode 2100 ;
     lao:moDesc "Observation/Surveillance"^^xsd:string .
 
 lao:modusOperandi2101 a lao:ModusOperandi ;
-    lao:moCode "2101"^^xsd:int ;
+    lao:moCode 2101 ;
     lao:moDesc "Counter Surveillance efforts"^^xsd:string .
 
 lao:modusOperandi2102 a lao:ModusOperandi ;
-    lao:moCode "2102"^^xsd:int ;
+    lao:moCode 2102 ;
     lao:moDesc "Questions about-security procedures"^^xsd:string .
 
 lao:modusOperandi2103 a lao:ModusOperandi ;
-    lao:moCode "2103"^^xsd:int ;
+    lao:moCode 2103 ;
     lao:moDesc "Appears to take measurements"^^xsd:string .
 
 lao:modusOperandi2104 a lao:ModusOperandi ;
-    lao:moCode "2104"^^xsd:int ;
+    lao:moCode 2104 ;
     lao:moDesc "Photography (pics or video footage)"^^xsd:string .
 
 lao:modusOperandi2105 a lao:ModusOperandi ;
-    lao:moCode "2105"^^xsd:int ;
+    lao:moCode 2105 ;
     lao:moDesc "Draws diagrams or takes notes"^^xsd:string .
 
 lao:modusOperandi2106 a lao:ModusOperandi ;
-    lao:moCode "2106"^^xsd:int ;
+    lao:moCode 2106 ;
     lao:moDesc "Abandons suspicious package/item"^^xsd:string .
 
 lao:modusOperandi2107 a lao:ModusOperandi ;
-    lao:moCode "2107"^^xsd:int ;
+    lao:moCode 2107 ;
     lao:moDesc "Abandons vehicle restricted area"^^xsd:string .
 
 lao:modusOperandi2108 a lao:ModusOperandi ;
-    lao:moCode "2108"^^xsd:int ;
+    lao:moCode 2108 ;
     lao:moDesc "Enters restricted area w/o authorization"^^xsd:string .
 
 lao:modusOperandi2109 a lao:ModusOperandi ;
-    lao:moCode "2109"^^xsd:int ;
+    lao:moCode 2109 ;
     lao:moDesc "Testing or Probing of Security"^^xsd:string .
 
 lao:modusOperandi211 a lao:ModusOperandi ;
-    lao:moCode "211"^^xsd:int ;
+    lao:moCode 211 ;
     lao:moDesc "Shoes"^^xsd:string .
 
 lao:modusOperandi2110 a lao:ModusOperandi ;
-    lao:moCode "2110"^^xsd:int ;
+    lao:moCode 2110 ;
     lao:moDesc "Contraband at security check point"^^xsd:string .
 
 lao:modusOperandi2111 a lao:ModusOperandi ;
-    lao:moCode "2111"^^xsd:int ;
+    lao:moCode 2111 ;
     lao:moDesc "Susp purchase of legal materials"^^xsd:string .
 
 lao:modusOperandi2112 a lao:ModusOperandi ;
-    lao:moCode "2112"^^xsd:int ;
+    lao:moCode 2112 ;
     lao:moDesc "Acquires restricted items/information"^^xsd:string .
 
 lao:modusOperandi2113 a lao:ModusOperandi ;
-    lao:moCode "2113"^^xsd:int ;
+    lao:moCode 2113 ;
     lao:moDesc "Acquires illegal explosive/precur agents"^^xsd:string .
 
 lao:modusOperandi2114 a lao:ModusOperandi ;
-    lao:moCode "2114"^^xsd:int ;
+    lao:moCode 2114 ;
     lao:moDesc "Acquires illegal chemical agent"^^xsd:string .
 
 lao:modusOperandi2115 a lao:ModusOperandi ;
-    lao:moCode "2115"^^xsd:int ;
+    lao:moCode 2115 ;
     lao:moDesc "Acquires illegal biological agents"^^xsd:string .
 
 lao:modusOperandi2116 a lao:ModusOperandi ;
-    lao:moCode "2116"^^xsd:int ;
+    lao:moCode 2116 ;
     lao:moDesc "Acquires illegal rediological material"^^xsd:string .
 
 lao:modusOperandi2117 a lao:ModusOperandi ;
-    lao:moCode "2117"^^xsd:int ;
+    lao:moCode 2117 ;
     lao:moDesc "Uses explosives for illegal purposes"^^xsd:string .
 
 lao:modusOperandi2118 a lao:ModusOperandi ;
-    lao:moCode "2118"^^xsd:int ;
+    lao:moCode 2118 ;
     lao:moDesc "Uses chemical agent illegally"^^xsd:string .
 
 lao:modusOperandi2119 a lao:ModusOperandi ;
-    lao:moCode "2119"^^xsd:int ;
+    lao:moCode 2119 ;
     lao:moDesc "Uses biological agent illegally"^^xsd:string .
 
 lao:modusOperandi212 a lao:ModusOperandi ;
-    lao:moCode "212"^^xsd:int ;
+    lao:moCode 212 ;
     lao:moDesc "Nude/partly nude"^^xsd:string .
 
 lao:modusOperandi2120 a lao:ModusOperandi ;
-    lao:moCode "2120"^^xsd:int ;
+    lao:moCode 2120 ;
     lao:moDesc "Uses radiological material illegally"^^xsd:string .
 
 lao:modusOperandi2121 a lao:ModusOperandi ;
-    lao:moCode "2121"^^xsd:int ;
+    lao:moCode 2121 ;
     lao:moDesc "Acquires uniforms without legit reason"^^xsd:string .
 
 lao:modusOperandi2122 a lao:ModusOperandi ;
-    lao:moCode "2122"^^xsd:int ;
+    lao:moCode 2122 ;
     lao:moDesc "Acquires official vehicle without legit reason"^^xsd:string .
 
 lao:modusOperandi2123 a lao:ModusOperandi ;
-    lao:moCode "2123"^^xsd:int ;
+    lao:moCode 2123 ;
     lao:moDesc "Pursues training/education with suspect motives"^^xsd:string .
 
 lao:modusOperandi2124 a lao:ModusOperandi ;
-    lao:moCode "2124"^^xsd:int ;
+    lao:moCode 2124 ;
     lao:moDesc "Large unexplained sum of currency"^^xsd:string .
 
 lao:modusOperandi2125 a lao:ModusOperandi ;
-    lao:moCode "2125"^^xsd:int ;
+    lao:moCode 2125 ;
     lao:moDesc "Multiple passports/ID's/travel documents"^^xsd:string .
 
 lao:modusOperandi2126 a lao:ModusOperandi ;
-    lao:moCode "2126"^^xsd:int ;
+    lao:moCode 2126 ;
     lao:moDesc "Expressed or Implied threats"^^xsd:string .
 
 lao:modusOperandi2127 a lao:ModusOperandi ;
-    lao:moCode "2127"^^xsd:int ;
+    lao:moCode 2127 ;
     lao:moDesc "Brags about affiliation with extremist organization"^^xsd:string .
 
 lao:modusOperandi2128 a lao:ModusOperandi ;
-    lao:moCode "2128"^^xsd:int ;
+    lao:moCode 2128 ;
     lao:moDesc "Coded conversation or transmission"^^xsd:string .
 
 lao:modusOperandi2129 a lao:ModusOperandi ;
-    lao:moCode "2129"^^xsd:int ;
+    lao:moCode 2129 ;
     lao:moDesc "Overt support of terrorist network"^^xsd:string .
 
 lao:modusOperandi213 a lao:ModusOperandi ;
-    lao:moCode "213"^^xsd:int ;
+    lao:moCode 213 ;
     lao:moDesc "Ski mask"^^xsd:string .
 
 lao:modusOperandi2130 a lao:ModusOperandi ;
-    lao:moCode "2130"^^xsd:int ;
+    lao:moCode 2130 ;
     lao:moDesc "Uses Facsimile/Hoax explosive device (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2131 a lao:ModusOperandi ;
-    lao:moCode "2131"^^xsd:int ;
+    lao:moCode 2131 ;
     lao:moDesc "Uses Facsimile/Hoax dispersal device (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2135 a lao:ModusOperandi ;
-    lao:moCode "2135"^^xsd:int ;
+    lao:moCode 2135 ;
     lao:moDesc "Sensitive event schedules(susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2136 a lao:ModusOperandi ;
-    lao:moCode "2136"^^xsd:int ;
+    lao:moCode 2136 ;
     lao:moDesc "VIP appearance or travel schedules (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2137 a lao:ModusOperandi ;
-    lao:moCode "2137"^^xsd:int ;
+    lao:moCode 2137 ;
     lao:moDesc "Security schedules (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2138 a lao:ModusOperandi ;
-    lao:moCode "2138"^^xsd:int ;
+    lao:moCode 2138 ;
     lao:moDesc "Blueprints/building plans (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2139 a lao:ModusOperandi ;
-    lao:moCode "2139"^^xsd:int ;
+    lao:moCode 2139 ;
     lao:moDesc "Evacuation or emergency plans (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi214 a lao:ModusOperandi ;
-    lao:moCode "214"^^xsd:int ;
+    lao:moCode 214 ;
     lao:moDesc "Stocking"^^xsd:string .
 
 lao:modusOperandi2140 a lao:ModusOperandi ;
-    lao:moCode "2140"^^xsd:int ;
+    lao:moCode 2140 ;
     lao:moDesc "Security plans (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2141 a lao:ModusOperandi ;
-    lao:moCode "2141"^^xsd:int ;
+    lao:moCode 2141 ;
     lao:moDesc "Weapons or ammunition (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2142 a lao:ModusOperandi ;
-    lao:moCode "2142"^^xsd:int ;
+    lao:moCode 2142 ;
     lao:moDesc "Explosive materials(susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2143 a lao:ModusOperandi ;
-    lao:moCode "2143"^^xsd:int ;
+    lao:moCode 2143 ;
     lao:moDesc "Illicit chemical agents (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2144 a lao:ModusOperandi ;
-    lao:moCode "2144"^^xsd:int ;
+    lao:moCode 2144 ;
     lao:moDesc "Illicit biological agents (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2145 a lao:ModusOperandi ;
-    lao:moCode "2145"^^xsd:int ;
+    lao:moCode 2145 ;
     lao:moDesc "Illicit radiological material (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi2146 a lao:ModusOperandi ;
-    lao:moCode "2146"^^xsd:int ;
+    lao:moCode 2146 ;
     lao:moDesc "Other sensitive materials (susp offer/solicts)"^^xsd:string .
 
 lao:modusOperandi215 a lao:ModusOperandi ;
-    lao:moCode "215"^^xsd:int ;
+    lao:moCode 215 ;
     lao:moDesc "Unusual clothes"^^xsd:string .
 
 lao:modusOperandi2150 a lao:ModusOperandi ;
-    lao:moCode "2150"^^xsd:int ;
+    lao:moCode 2150 ;
     lao:moDesc "Coded/ciphered literature/correspondence"^^xsd:string .
 
 lao:modusOperandi2151 a lao:ModusOperandi ;
-    lao:moCode "2151"^^xsd:int ;
+    lao:moCode 2151 ;
     lao:moDesc "Sensitive event schedules (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2152 a lao:ModusOperandi ;
-    lao:moCode "2152"^^xsd:int ;
+    lao:moCode 2152 ;
     lao:moDesc "VIP appearance or travel schedules (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2153 a lao:ModusOperandi ;
-    lao:moCode "2153"^^xsd:int ;
+    lao:moCode 2153 ;
     lao:moDesc "Security schedules (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2154 a lao:ModusOperandi ;
-    lao:moCode "2154"^^xsd:int ;
+    lao:moCode 2154 ;
     lao:moDesc "Blueprints/building plans (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2155 a lao:ModusOperandi ;
-    lao:moCode "2155"^^xsd:int ;
+    lao:moCode 2155 ;
     lao:moDesc "Evacuation or emergency plans (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2156 a lao:ModusOperandi ;
-    lao:moCode "2156"^^xsd:int ;
+    lao:moCode 2156 ;
     lao:moDesc "Security plans (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2157 a lao:ModusOperandi ;
-    lao:moCode "2157"^^xsd:int ;
+    lao:moCode 2157 ;
     lao:moDesc "Weapons or ammunition (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2158 a lao:ModusOperandi ;
-    lao:moCode "2158"^^xsd:int ;
+    lao:moCode 2158 ;
     lao:moDesc "Explosive materials (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2159 a lao:ModusOperandi ;
-    lao:moCode "2159"^^xsd:int ;
+    lao:moCode 2159 ;
     lao:moDesc "Illicit chemical agents (susp in possession)"^^xsd:string .
 
 lao:modusOperandi216 a lao:ModusOperandi ;
-    lao:moCode "216"^^xsd:int ;
+    lao:moCode 216 ;
     lao:moDesc "Suspect wore hood/hoodie"^^xsd:string .
 
 lao:modusOperandi2160 a lao:ModusOperandi ;
-    lao:moCode "2160"^^xsd:int ;
+    lao:moCode 2160 ;
     lao:moDesc "Illicit biological agents (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2161 a lao:ModusOperandi ;
-    lao:moCode "2161"^^xsd:int ;
+    lao:moCode 2161 ;
     lao:moDesc "Illicit radiological material (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2162 a lao:ModusOperandi ;
-    lao:moCode "2162"^^xsd:int ;
+    lao:moCode 2162 ;
     lao:moDesc "Other sensitive materials (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2163 a lao:ModusOperandi ;
-    lao:moCode "2163"^^xsd:int ;
+    lao:moCode 2163 ;
     lao:moDesc "Facsimile/Hoax explosive device (susp in possession)"^^xsd:string .
 
 lao:modusOperandi2164 a lao:ModusOperandi ;
-    lao:moCode "2164"^^xsd:int ;
+    lao:moCode 2164 ;
     lao:moDesc "Facsimile/Hoax dispersal device (susp in possession)"^^xsd:string .
 
 lao:modusOperandi217 a lao:ModusOperandi ;
-    lao:moCode "217"^^xsd:int ;
+    lao:moCode 217 ;
     lao:moDesc "Uniform"^^xsd:string .
 
 lao:modusOperandi2170 a lao:ModusOperandi ;
-    lao:moCode "2170"^^xsd:int ;
+    lao:moCode 2170 ;
     lao:moDesc "Associates with known/susp terrorist"^^xsd:string .
 
 lao:modusOperandi2171 a lao:ModusOperandi ;
-    lao:moCode "2171"^^xsd:int ;
+    lao:moCode 2171 ;
     lao:moDesc "Corresponds w/suspected terrorist"^^xsd:string .
 
 lao:modusOperandi2172 a lao:ModusOperandi ;
-    lao:moCode "2172"^^xsd:int ;
+    lao:moCode 2172 ;
     lao:moDesc "In photos w/suspected terrorists"^^xsd:string .
 
 lao:modusOperandi2173 a lao:ModusOperandi ;
-    lao:moCode "2173"^^xsd:int ;
+    lao:moCode 2173 ;
     lao:moDesc "Organization supports overthrow/violent acts"^^xsd:string .
 
 lao:modusOperandi218 a lao:ModusOperandi ;
-    lao:moCode "218"^^xsd:int ;
+    lao:moCode 218 ;
     lao:moDesc "Wig"^^xsd:string .
 
 lao:modusOperandi2180 a lao:ModusOperandi ;
-    lao:moCode "2180"^^xsd:int ;
+    lao:moCode 2180 ;
     lao:moDesc "Bomb/explosive device"^^xsd:string .
 
 lao:modusOperandi2181 a lao:ModusOperandi ;
-    lao:moCode "2181"^^xsd:int ;
+    lao:moCode 2181 ;
     lao:moDesc "Biological agent"^^xsd:string .
 
 lao:modusOperandi2182 a lao:ModusOperandi ;
-    lao:moCode "2182"^^xsd:int ;
+    lao:moCode 2182 ;
     lao:moDesc "Chemical agent"^^xsd:string .
 
 lao:modusOperandi2183 a lao:ModusOperandi ;
-    lao:moCode "2183"^^xsd:int ;
+    lao:moCode 2183 ;
     lao:moDesc "Radiological matter"^^xsd:string .
 
 lao:modusOperandi2184 a lao:ModusOperandi ;
-    lao:moCode "2184"^^xsd:int ;
+    lao:moCode 2184 ;
     lao:moDesc "Military ordinance"^^xsd:string .
 
 lao:modusOperandi2185 a lao:ModusOperandi ;
-    lao:moCode "2185"^^xsd:int ;
+    lao:moCode 2185 ;
     lao:moDesc "Incendiary device"^^xsd:string .
 
 lao:modusOperandi2186 a lao:ModusOperandi ;
-    lao:moCode "2186"^^xsd:int ;
+    lao:moCode 2186 ;
     lao:moDesc "Pyrotechnics"^^xsd:string .
 
 lao:modusOperandi2187 a lao:ModusOperandi ;
-    lao:moCode "2187"^^xsd:int ;
+    lao:moCode 2187 ;
     lao:moDesc "Facsimile/Hoax device"^^xsd:string .
 
 lao:modusOperandi219 a lao:ModusOperandi ;
-    lao:moCode "219"^^xsd:int ;
+    lao:moCode 219 ;
     lao:moDesc "Mustache-Fake"^^xsd:string .
 
 lao:modusOperandi2190 a lao:ModusOperandi ;
-    lao:moCode "2190"^^xsd:int ;
+    lao:moCode 2190 ;
     lao:moDesc "Financing terrorism"^^xsd:string .
 
 lao:modusOperandi2191 a lao:ModusOperandi ;
-    lao:moCode "2191"^^xsd:int ;
+    lao:moCode 2191 ;
     lao:moDesc "Victim's religion"^^xsd:string .
 
 lao:modusOperandi2192 a lao:ModusOperandi ;
-    lao:moCode "2192"^^xsd:int ;
+    lao:moCode 2192 ;
     lao:moDesc "Victim's national origin"^^xsd:string .
 
 lao:modusOperandi2193 a lao:ModusOperandi ;
-    lao:moCode "2193"^^xsd:int ;
+    lao:moCode 2193 ;
     lao:moDesc "Influencing societal action"^^xsd:string .
 
 lao:modusOperandi2194 a lao:ModusOperandi ;
-    lao:moCode "2194"^^xsd:int ;
+    lao:moCode 2194 ;
     lao:moDesc "Furthering objectives by force"^^xsd:string .
 
 lao:modusOperandi2197 a lao:ModusOperandi ;
-    lao:moCode "2197"^^xsd:int ;
+    lao:moCode 2197 ;
     lao:moDesc "SSI - Food/Agriculture"^^xsd:string .
 
 lao:modusOperandi2198 a lao:ModusOperandi ;
-    lao:moCode "2198"^^xsd:int ;
+    lao:moCode 2198 ;
     lao:moDesc "Pipeline"^^xsd:string .
 
 lao:modusOperandi2199 a lao:ModusOperandi ;
-    lao:moCode "2199"^^xsd:int ;
+    lao:moCode 2199 ;
     lao:moDesc "SSI - Postal/Shipping/Mailbox"^^xsd:string .
 
 lao:modusOperandi220 a lao:ModusOperandi ;
-    lao:moCode "220"^^xsd:int ;
+    lao:moCode 220 ;
     lao:moDesc "Suspect wore motorcycle helmet"^^xsd:string .
 
 lao:modusOperandi2200 a lao:ModusOperandi ;
-    lao:moCode "2200"^^xsd:int ;
+    lao:moCode 2200 ;
     lao:moDesc "SSI - Government Facilities/Bldg."^^xsd:string .
 
 lao:modusOperandi2201 a lao:ModusOperandi ;
-    lao:moCode "2201"^^xsd:int ;
+    lao:moCode 2201 ;
     lao:moDesc "Church"^^xsd:string .
 
 lao:modusOperandi2202 a lao:ModusOperandi ;
-    lao:moCode "2202"^^xsd:int ;
+    lao:moCode 2202 ;
     lao:moDesc "Synagogue"^^xsd:string .
 
 lao:modusOperandi2203 a lao:ModusOperandi ;
-    lao:moCode "2203"^^xsd:int ;
+    lao:moCode 2203 ;
     lao:moDesc "University"^^xsd:string .
 
 lao:modusOperandi2204 a lao:ModusOperandi ;
-    lao:moCode "2204"^^xsd:int ;
+    lao:moCode 2204 ;
     lao:moDesc "School"^^xsd:string .
 
 lao:modusOperandi2205 a lao:ModusOperandi ;
-    lao:moCode "2205"^^xsd:int ;
+    lao:moCode 2205 ;
     lao:moDesc "Sports Venue"^^xsd:string .
 
 lao:modusOperandi2206 a lao:ModusOperandi ;
-    lao:moCode "2206"^^xsd:int ;
+    lao:moCode 2206 ;
     lao:moDesc "Theater"^^xsd:string .
 
 lao:modusOperandi2207 a lao:ModusOperandi ;
-    lao:moCode "2207"^^xsd:int ;
+    lao:moCode 2207 ;
     lao:moDesc "Amusement Park"^^xsd:string .
 
 lao:modusOperandi2208 a lao:ModusOperandi ;
-    lao:moCode "2208"^^xsd:int ;
+    lao:moCode 2208 ;
     lao:moDesc "Shopping Mall"^^xsd:string .
 
 lao:modusOperandi2209 a lao:ModusOperandi ;
-    lao:moCode "2209"^^xsd:int ;
+    lao:moCode 2209 ;
     lao:moDesc "Convention Center"^^xsd:string .
 
 lao:modusOperandi2210 a lao:ModusOperandi ;
-    lao:moCode "2210"^^xsd:int ;
+    lao:moCode 2210 ;
     lao:moDesc "Mass Gathering Location"^^xsd:string .
 
 lao:modusOperandi2211 a lao:ModusOperandi ;
-    lao:moCode "2211"^^xsd:int ;
+    lao:moCode 2211 ;
     lao:moDesc "Bridge"^^xsd:string .
 
 lao:modusOperandi2212 a lao:ModusOperandi ;
-    lao:moCode "2212"^^xsd:int ;
+    lao:moCode 2212 ;
     lao:moDesc "High-Rise Building"^^xsd:string .
 
 lao:modusOperandi2213 a lao:ModusOperandi ;
-    lao:moCode "2213"^^xsd:int ;
+    lao:moCode 2213 ;
     lao:moDesc "Airport"^^xsd:string .
 
 lao:modusOperandi2214 a lao:ModusOperandi ;
-    lao:moCode "2214"^^xsd:int ;
+    lao:moCode 2214 ;
     lao:moDesc "Freight Train"^^xsd:string .
 
 lao:modusOperandi2215 a lao:ModusOperandi ;
-    lao:moCode "2215"^^xsd:int ;
+    lao:moCode 2215 ;
     lao:moDesc "Train Tracks"^^xsd:string .
 
 lao:modusOperandi2216 a lao:ModusOperandi ;
-    lao:moCode "2216"^^xsd:int ;
+    lao:moCode 2216 ;
     lao:moDesc "SSI - Chemical storage/Manufacturing plant"^^xsd:string .
 
 lao:modusOperandi2217 a lao:ModusOperandi ;
-    lao:moCode "2217"^^xsd:int ;
+    lao:moCode 2217 ;
     lao:moDesc "SSI - Telecommunication Facility/Location"^^xsd:string .
 
 lao:modusOperandi2218 a lao:ModusOperandi ;
-    lao:moCode "2218"^^xsd:int ;
+    lao:moCode 2218 ;
     lao:moDesc "SSI - Energy Plant/Facility"^^xsd:string .
 
 lao:modusOperandi2219 a lao:ModusOperandi ;
-    lao:moCode "2219"^^xsd:int ;
+    lao:moCode 2219 ;
     lao:moDesc "SSI - Water Facility"^^xsd:string .
 
 lao:modusOperandi2220 a lao:ModusOperandi ;
-    lao:moCode "2220"^^xsd:int ;
+    lao:moCode 2220 ;
     lao:moDesc "Sewage Facility/Pipe"^^xsd:string .
 
 lao:modusOperandi2221 a lao:ModusOperandi ;
-    lao:moCode "2221"^^xsd:int ;
+    lao:moCode 2221 ;
     lao:moDesc "SSI - Nuclear Facility, Reactors, Materials & Waste"^^xsd:string .
 
 lao:modusOperandi2222 a lao:ModusOperandi ;
-    lao:moCode "2222"^^xsd:int ;
+    lao:moCode 2222 ;
     lao:moDesc "SSI - Dam/Reservoir"^^xsd:string .
 
 lao:modusOperandi2223 a lao:ModusOperandi ;
-    lao:moCode "2223"^^xsd:int ;
+    lao:moCode 2223 ;
     lao:moDesc "SSI - National Monuments/Icon/Cultural significance"^^xsd:string .
 
 lao:modusOperandi2224 a lao:ModusOperandi ;
-    lao:moCode "2224"^^xsd:int ;
+    lao:moCode 2224 ;
     lao:moDesc "Tactical significance"^^xsd:string .
 
 lao:modusOperandi2225 a lao:ModusOperandi ;
-    lao:moCode "2225"^^xsd:int ;
+    lao:moCode 2225 ;
     lao:moDesc "SSI - Healthcare & Public Health/Hospital/Medical Clinic"^^xsd:string .
 
 lao:modusOperandi2226 a lao:ModusOperandi ;
-    lao:moCode "2226"^^xsd:int ;
+    lao:moCode 2226 ;
     lao:moDesc "Abortion clinic"^^xsd:string .
 
 lao:modusOperandi2227 a lao:ModusOperandi ;
-    lao:moCode "2227"^^xsd:int ;
+    lao:moCode 2227 ;
     lao:moDesc "SSI - Defense Industrial Base/Facility"^^xsd:string .
 
 lao:modusOperandi2228 a lao:ModusOperandi ;
-    lao:moCode "2228"^^xsd:int ;
+    lao:moCode 2228 ;
     lao:moDesc "SSI - Transportation System"^^xsd:string .
 
 lao:modusOperandi2229 a lao:ModusOperandi ;
-    lao:moCode "2229"^^xsd:int ;
+    lao:moCode 2229 ;
     lao:moDesc "SSI - Commercial Facilities"^^xsd:string .
 
 lao:modusOperandi2230 a lao:ModusOperandi ;
-    lao:moCode "2230"^^xsd:int ;
+    lao:moCode 2230 ;
     lao:moDesc "SSI - Information Technology"^^xsd:string .
 
 lao:modusOperandi2231 a lao:ModusOperandi ;
-    lao:moCode "2231"^^xsd:int ;
+    lao:moCode 2231 ;
     lao:moDesc "SSI - Banking and Finance"^^xsd:string .
 
 lao:modusOperandi2232 a lao:ModusOperandi ;
-    lao:moCode "2232"^^xsd:int ;
+    lao:moCode 2232 ;
     lao:moDesc "SSI - Critical Manufacturing"^^xsd:string .
 
 lao:modusOperandi2233 a lao:ModusOperandi ;
-    lao:moCode "2233"^^xsd:int ;
+    lao:moCode 2233 ;
     lao:moDesc "SSI - Emergency Services"^^xsd:string .
 
 lao:modusOperandi2234 a lao:ModusOperandi ;
-    lao:moCode "2234"^^xsd:int ;
+    lao:moCode 2234 ;
     lao:moDesc "SSI - Waste"^^xsd:string .
 
 lao:modusOperandi2301 a lao:ModusOperandi ;
-    lao:moCode "2301"^^xsd:int ;
+    lao:moCode 2301 ;
     lao:moDesc "Breach/Attempted Intrusion"^^xsd:string .
 
 lao:modusOperandi2302 a lao:ModusOperandi ;
-    lao:moCode "2302"^^xsd:int ;
+    lao:moCode 2302 ;
     lao:moDesc "Misrepresentation"^^xsd:string .
 
 lao:modusOperandi2303 a lao:ModusOperandi ;
-    lao:moCode "2303"^^xsd:int ;
+    lao:moCode 2303 ;
     lao:moDesc "Theft/Loss/Diversion"^^xsd:string .
 
 lao:modusOperandi2304 a lao:ModusOperandi ;
-    lao:moCode "2304"^^xsd:int ;
+    lao:moCode 2304 ;
     lao:moDesc "Sabotage/Tampering/Vandalism"^^xsd:string .
 
 lao:modusOperandi2305 a lao:ModusOperandi ;
-    lao:moCode "2305"^^xsd:int ;
+    lao:moCode 2305 ;
     lao:moDesc "Cyber Attack"^^xsd:string .
 
 lao:modusOperandi2306 a lao:ModusOperandi ;
-    lao:moCode "2306"^^xsd:int ;
+    lao:moCode 2306 ;
     lao:moDesc "Espouses violent extremist views"^^xsd:string .
 
 lao:modusOperandi2307 a lao:ModusOperandi ;
-    lao:moCode "2307"^^xsd:int ;
+    lao:moCode 2307 ;
     lao:moDesc "Aviation activity"^^xsd:string .
 
 lao:modusOperandi2308 a lao:ModusOperandi ;
-    lao:moCode "2308"^^xsd:int ;
+    lao:moCode 2308 ;
     lao:moDesc "Eliciting information"^^xsd:string .
 
 lao:modusOperandi2309 a lao:ModusOperandi ;
-    lao:moCode "2309"^^xsd:int ;
+    lao:moCode 2309 ;
     lao:moDesc "Recruiting"^^xsd:string .
 
 lao:modusOperandi2310 a lao:ModusOperandi ;
-    lao:moCode "2310"^^xsd:int ;
+    lao:moCode 2310 ;
     lao:moDesc "Materials"^^xsd:string .
 
 lao:modusOperandi2311 a lao:ModusOperandi ;
-    lao:moCode "2311"^^xsd:int ;
+    lao:moCode 2311 ;
     lao:moDesc "Acquisition of expertise"^^xsd:string .
 
 lao:modusOperandi2312 a lao:ModusOperandi ;
-    lao:moCode "2312"^^xsd:int ;
+    lao:moCode 2312 ;
     lao:moDesc "Weapons discovery"^^xsd:string .
 
 lao:modusOperandi2313 a lao:ModusOperandi ;
-    lao:moCode "2313"^^xsd:int ;
+    lao:moCode 2313 ;
     lao:moDesc "Finance"^^xsd:string .
 
 lao:modusOperandi2314 a lao:ModusOperandi ;
-    lao:moCode "2314"^^xsd:int ;
+    lao:moCode 2314 ;
     lao:moDesc "TSC hit"^^xsd:string .
 
 lao:modusOperandi2315 a lao:ModusOperandi ;
-    lao:moCode "2315"^^xsd:int ;
+    lao:moCode 2315 ;
     lao:moDesc "Sector-Specific Incident (SSI)"^^xsd:string .
 
 lao:modusOperandi3001 a lao:ModusOperandi ;
-    lao:moCode "3001"^^xsd:int ;
+    lao:moCode 3001 ;
     lao:moDesc "T/C - Veh vs Non-collision"^^xsd:string .
 
 lao:modusOperandi3002 a lao:ModusOperandi ;
-    lao:moCode "3002"^^xsd:int ;
+    lao:moCode 3002 ;
     lao:moDesc "T/C - Officer Involved T/C"^^xsd:string .
 
 lao:modusOperandi3003 a lao:ModusOperandi ;
-    lao:moCode "3003"^^xsd:int ;
+    lao:moCode 3003 ;
     lao:moDesc "T/C - Veh vs Ped"^^xsd:string .
 
 lao:modusOperandi3004 a lao:ModusOperandi ;
-    lao:moCode "3004"^^xsd:int ;
+    lao:moCode 3004 ;
     lao:moDesc "T/C - Veh vs Veh"^^xsd:string .
 
 lao:modusOperandi3005 a lao:ModusOperandi ;
-    lao:moCode "3005"^^xsd:int ;
+    lao:moCode 3005 ;
     lao:moDesc "T/C - Veh vs Veh on other roadway"^^xsd:string .
 
 lao:modusOperandi3006 a lao:ModusOperandi ;
-    lao:moCode "3006"^^xsd:int ;
+    lao:moCode 3006 ;
     lao:moDesc "T/C - Veh vs Parked Veh"^^xsd:string .
 
 lao:modusOperandi3007 a lao:ModusOperandi ;
-    lao:moCode "3007"^^xsd:int ;
+    lao:moCode 3007 ;
     lao:moDesc "T/C - Veh vs Train"^^xsd:string .
 
 lao:modusOperandi3008 a lao:ModusOperandi ;
-    lao:moCode "3008"^^xsd:int ;
+    lao:moCode 3008 ;
     lao:moDesc "T/C - Veh vs Bike"^^xsd:string .
 
 lao:modusOperandi3009 a lao:ModusOperandi ;
-    lao:moCode "3009"^^xsd:int ;
+    lao:moCode 3009 ;
     lao:moDesc "T/C - Veh vs M/C"^^xsd:string .
 
 lao:modusOperandi301 a lao:ModusOperandi ;
-    lao:moCode "301"^^xsd:int ;
+    lao:moCode 301 ;
     lao:moDesc "Escaped on (used) transit train"^^xsd:string .
 
 lao:modusOperandi3010 a lao:ModusOperandi ;
-    lao:moCode "3010"^^xsd:int ;
+    lao:moCode 3010 ;
     lao:moDesc "T/C - Veh vs Animal"^^xsd:string .
 
 lao:modusOperandi3011 a lao:ModusOperandi ;
-    lao:moCode "3011"^^xsd:int ;
+    lao:moCode 3011 ;
     lao:moDesc "T/C - Veh vs Fixed Object"^^xsd:string .
 
 lao:modusOperandi3012 a lao:ModusOperandi ;
-    lao:moCode "3012"^^xsd:int ;
+    lao:moCode 3012 ;
     lao:moDesc "T/C - Veh vs Other Object"^^xsd:string .
 
 lao:modusOperandi3013 a lao:ModusOperandi ;
-    lao:moCode "3013"^^xsd:int ;
+    lao:moCode 3013 ;
     lao:moDesc "T/C - M/C vs Veh"^^xsd:string .
 
 lao:modusOperandi3014 a lao:ModusOperandi ;
-    lao:moCode "3014"^^xsd:int ;
+    lao:moCode 3014 ;
     lao:moDesc "T/C - M/C vs Fixed Object"^^xsd:string .
 
 lao:modusOperandi3015 a lao:ModusOperandi ;
-    lao:moCode "3015"^^xsd:int ;
+    lao:moCode 3015 ;
     lao:moDesc "T/C - M/C vs Other"^^xsd:string .
 
 lao:modusOperandi3016 a lao:ModusOperandi ;
-    lao:moCode "3016"^^xsd:int ;
+    lao:moCode 3016 ;
     lao:moDesc "T/C - Bike vs Veh"^^xsd:string .
 
 lao:modusOperandi3017 a lao:ModusOperandi ;
-    lao:moCode "3017"^^xsd:int ;
+    lao:moCode 3017 ;
     lao:moDesc "T/C - Bike vs Train"^^xsd:string .
 
 lao:modusOperandi3018 a lao:ModusOperandi ;
-    lao:moCode "3018"^^xsd:int ;
+    lao:moCode 3018 ;
     lao:moDesc "T/C - Bike vs Other"^^xsd:string .
 
 lao:modusOperandi3019 a lao:ModusOperandi ;
-    lao:moCode "3019"^^xsd:int ;
+    lao:moCode 3019 ;
     lao:moDesc "T/C - Train vs Veh"^^xsd:string .
 
 lao:modusOperandi302 a lao:ModusOperandi ;
-    lao:moCode "302"^^xsd:int ;
+    lao:moCode 302 ;
     lao:moDesc "Aimed gun"^^xsd:string .
 
 lao:modusOperandi3020 a lao:ModusOperandi ;
-    lao:moCode "3020"^^xsd:int ;
+    lao:moCode 3020 ;
     lao:moDesc "T/C - Train vs Train"^^xsd:string .
 
 lao:modusOperandi3021 a lao:ModusOperandi ;
-    lao:moCode "3021"^^xsd:int ;
+    lao:moCode 3021 ;
     lao:moDesc "T/C - Train vs Bike"^^xsd:string .
 
 lao:modusOperandi3022 a lao:ModusOperandi ;
-    lao:moCode "3022"^^xsd:int ;
+    lao:moCode 3022 ;
     lao:moDesc "T/C - Train vs Ped"^^xsd:string .
 
 lao:modusOperandi3023 a lao:ModusOperandi ;
-    lao:moCode "3023"^^xsd:int ;
+    lao:moCode 3023 ;
     lao:moDesc "T/C - Train vs Fixed Object"^^xsd:string .
 
 lao:modusOperandi3024 a lao:ModusOperandi ;
-    lao:moCode "3024"^^xsd:int ;
+    lao:moCode 3024 ;
     lao:moDesc "T/C - (A) Severe Injury"^^xsd:string .
 
 lao:modusOperandi3025 a lao:ModusOperandi ;
-    lao:moCode "3025"^^xsd:int ;
+    lao:moCode 3025 ;
     lao:moDesc "T/C - (B) Visible Injury"^^xsd:string .
 
 lao:modusOperandi3026 a lao:ModusOperandi ;
-    lao:moCode "3026"^^xsd:int ;
+    lao:moCode 3026 ;
     lao:moDesc "T/C - (C) Complaint of Injury"^^xsd:string .
 
 lao:modusOperandi3027 a lao:ModusOperandi ;
-    lao:moCode "3027"^^xsd:int ;
+    lao:moCode 3027 ;
     lao:moDesc "T/C - (K) Fatal Injury"^^xsd:string .
 
 lao:modusOperandi3028 a lao:ModusOperandi ;
-    lao:moCode "3028"^^xsd:int ;
+    lao:moCode 3028 ;
     lao:moDesc "T/C - (N) Non Injury"^^xsd:string .
 
 lao:modusOperandi3029 a lao:ModusOperandi ;
-    lao:moCode "3029"^^xsd:int ;
+    lao:moCode 3029 ;
     lao:moDesc "T/C - Hit and Run Fel"^^xsd:string .
 
 lao:modusOperandi303 a lao:ModusOperandi ;
-    lao:moCode "303"^^xsd:int ;
+    lao:moCode 303 ;
     lao:moDesc "Ambushed"^^xsd:string .
 
 lao:modusOperandi3030 a lao:ModusOperandi ;
-    lao:moCode "3030"^^xsd:int ;
+    lao:moCode 3030 ;
     lao:moDesc "T/C - Hit and Run Misd"^^xsd:string .
 
 lao:modusOperandi3032 a lao:ModusOperandi ;
-    lao:moCode "3032"^^xsd:int ;
+    lao:moCode 3032 ;
     lao:moDesc "T/C - Private Property - Yes"^^xsd:string .
 
 lao:modusOperandi3033 a lao:ModusOperandi ;
-    lao:moCode "3033"^^xsd:int ;
+    lao:moCode 3033 ;
     lao:moDesc "T/C - Private Property - No"^^xsd:string .
 
 lao:modusOperandi3034 a lao:ModusOperandi ;
-    lao:moCode "3034"^^xsd:int ;
+    lao:moCode 3034 ;
     lao:moDesc "T/C - City Property Involved - Yes"^^xsd:string .
 
 lao:modusOperandi3035 a lao:ModusOperandi ;
-    lao:moCode "3035"^^xsd:int ;
+    lao:moCode 3035 ;
     lao:moDesc "T/C - City Property Involved - No"^^xsd:string .
 
 lao:modusOperandi3036 a lao:ModusOperandi ;
-    lao:moCode "3036"^^xsd:int ;
+    lao:moCode 3036 ;
     lao:moDesc "T/C - At Intersection - Yes"^^xsd:string .
 
 lao:modusOperandi3037 a lao:ModusOperandi ;
-    lao:moCode "3037"^^xsd:int ;
+    lao:moCode 3037 ;
     lao:moDesc "T/C - At Intersection - No"^^xsd:string .
 
 lao:modusOperandi3038 a lao:ModusOperandi ;
-    lao:moCode "3038"^^xsd:int ;
+    lao:moCode 3038 ;
     lao:moDesc "T/C - DUI Felony"^^xsd:string .
 
 lao:modusOperandi3039 a lao:ModusOperandi ;
-    lao:moCode "3039"^^xsd:int ;
+    lao:moCode 3039 ;
     lao:moDesc "T/C - DUI Misdemeanor"^^xsd:string .
 
 lao:modusOperandi304 a lao:ModusOperandi ;
-    lao:moCode "304"^^xsd:int ;
+    lao:moCode 304 ;
     lao:moDesc "Ate/drank on premises"^^xsd:string .
 
 lao:modusOperandi3040 a lao:ModusOperandi ;
-    lao:moCode "3040"^^xsd:int ;
+    lao:moCode 3040 ;
     lao:moDesc "T/C - Resulting from Street Racing/Speed Exhibition"^^xsd:string .
 
 lao:modusOperandi305 a lao:ModusOperandi ;
-    lao:moCode "305"^^xsd:int ;
+    lao:moCode 305 ;
     lao:moDesc "Attacks from rear"^^xsd:string .
 
 lao:modusOperandi306 a lao:ModusOperandi ;
-    lao:moCode "306"^^xsd:int ;
+    lao:moCode 306 ;
     lao:moDesc "Crime on upper floor"^^xsd:string .
 
 lao:modusOperandi3062 a lao:ModusOperandi ;
-    lao:moCode "3062"^^xsd:int ;
+    lao:moCode 3062 ;
     lao:moDesc "T/C - Bicyclist in Bicycle Lane"^^xsd:string .
 
 lao:modusOperandi3063 a lao:ModusOperandi ;
-    lao:moCode "3063"^^xsd:int ;
+    lao:moCode 3063 ;
     lao:moDesc "T/C - E-Bike"^^xsd:string .
 
 lao:modusOperandi3064 a lao:ModusOperandi ;
-    lao:moCode "3064"^^xsd:int ;
+    lao:moCode 3064 ;
     lao:moDesc "T/C - Motorized Scooter"^^xsd:string .
 
 lao:modusOperandi307 a lao:ModusOperandi ;
-    lao:moCode "307"^^xsd:int ;
+    lao:moCode 307 ;
     lao:moDesc "Defecated/urinated"^^xsd:string .
 
 lao:modusOperandi308 a lao:ModusOperandi ;
-    lao:moCode "308"^^xsd:int ;
+    lao:moCode 308 ;
     lao:moDesc "Demands jewelry"^^xsd:string .
 
 lao:modusOperandi309 a lao:ModusOperandi ;
-    lao:moCode "309"^^xsd:int ;
+    lao:moCode 309 ;
     lao:moDesc "Drive-by shooting"^^xsd:string .
 
 lao:modusOperandi310 a lao:ModusOperandi ;
-    lao:moCode "310"^^xsd:int ;
+    lao:moCode 310 ;
     lao:moDesc "Got victim to withdraw savings"^^xsd:string .
 
 lao:modusOperandi3101 a lao:ModusOperandi ;
-    lao:moCode "3101"^^xsd:int ;
+    lao:moCode 3101 ;
     lao:moDesc "T/C - PCF (A) In the Narrative"^^xsd:string .
 
 lao:modusOperandi3102 a lao:ModusOperandi ;
-    lao:moCode "3102"^^xsd:int ;
+    lao:moCode 3102 ;
     lao:moDesc "T/C - PCF (B) Other Improper Driving"^^xsd:string .
 
 lao:modusOperandi3103 a lao:ModusOperandi ;
-    lao:moCode "3103"^^xsd:int ;
+    lao:moCode 3103 ;
     lao:moDesc "T/C - PCF (C) Other Than Driver"^^xsd:string .
 
 lao:modusOperandi3104 a lao:ModusOperandi ;
-    lao:moCode "3104"^^xsd:int ;
+    lao:moCode 3104 ;
     lao:moDesc "T/C - PCF (D) Unk"^^xsd:string .
 
 lao:modusOperandi311 a lao:ModusOperandi ;
-    lao:moCode "311"^^xsd:int ;
+    lao:moCode 311 ;
     lao:moDesc "Graffiti"^^xsd:string .
 
 lao:modusOperandi312 a lao:ModusOperandi ;
-    lao:moCode "312"^^xsd:int ;
+    lao:moCode 312 ;
     lao:moDesc "Gun in waistband"^^xsd:string .
 
 lao:modusOperandi313 a lao:ModusOperandi ;
-    lao:moCode "313"^^xsd:int ;
+    lao:moCode 313 ;
     lao:moDesc "Hid in building"^^xsd:string .
 
 lao:modusOperandi314 a lao:ModusOperandi ;
-    lao:moCode "314"^^xsd:int ;
+    lao:moCode 314 ;
     lao:moDesc "Hot Prowl"^^xsd:string .
 
 lao:modusOperandi315 a lao:ModusOperandi ;
-    lao:moCode "315"^^xsd:int ;
+    lao:moCode 315 ;
     lao:moDesc "Jumped counter/goes behind counter"^^xsd:string .
 
 lao:modusOperandi316 a lao:ModusOperandi ;
-    lao:moCode "316"^^xsd:int ;
+    lao:moCode 316 ;
     lao:moDesc "Makes victim give money"^^xsd:string .
 
 lao:modusOperandi317 a lao:ModusOperandi ;
-    lao:moCode "317"^^xsd:int ;
+    lao:moCode 317 ;
     lao:moDesc "Pillowcase/suitcase"^^xsd:string .
 
 lao:modusOperandi318 a lao:ModusOperandi ;
-    lao:moCode "318"^^xsd:int ;
+    lao:moCode 318 ;
     lao:moDesc "Prepared exit"^^xsd:string .
 
 lao:modusOperandi319 a lao:ModusOperandi ;
-    lao:moCode "319"^^xsd:int ;
+    lao:moCode 319 ;
     lao:moDesc "Profanity Used"^^xsd:string .
 
 lao:modusOperandi320 a lao:ModusOperandi ;
-    lao:moCode "320"^^xsd:int ;
+    lao:moCode 320 ;
     lao:moDesc "Quiet polite"^^xsd:string .
 
 lao:modusOperandi3201 a lao:ModusOperandi ;
-    lao:moCode "3201"^^xsd:int ;
+    lao:moCode 3201 ;
     lao:moDesc "T/C - Weather/Lighting/Roadway"^^xsd:string .
 
 lao:modusOperandi321 a lao:ModusOperandi ;
-    lao:moCode "321"^^xsd:int ;
+    lao:moCode 321 ;
     lao:moDesc "Ransacked"^^xsd:string .
 
 lao:modusOperandi322 a lao:ModusOperandi ;
-    lao:moCode "322"^^xsd:int ;
+    lao:moCode 322 ;
     lao:moDesc "Smashed display case"^^xsd:string .
 
 lao:modusOperandi323 a lao:ModusOperandi ;
-    lao:moCode "323"^^xsd:int ;
+    lao:moCode 323 ;
     lao:moDesc "Smoked on premises"^^xsd:string .
 
 lao:modusOperandi324 a lao:ModusOperandi ;
-    lao:moCode "324"^^xsd:int ;
+    lao:moCode 324 ;
     lao:moDesc "Takes money from register"^^xsd:string .
 
 lao:modusOperandi325 a lao:ModusOperandi ;
-    lao:moCode "325"^^xsd:int ;
+    lao:moCode 325 ;
     lao:moDesc "Took merchandise"^^xsd:string .
 
 lao:modusOperandi326 a lao:ModusOperandi ;
-    lao:moCode "326"^^xsd:int ;
+    lao:moCode 326 ;
     lao:moDesc "Used driver"^^xsd:string .
 
 lao:modusOperandi327 a lao:ModusOperandi ;
-    lao:moCode "327"^^xsd:int ;
+    lao:moCode 327 ;
     lao:moDesc "Used lookout"^^xsd:string .
 
 lao:modusOperandi328 a lao:ModusOperandi ;
-    lao:moCode "328"^^xsd:int ;
+    lao:moCode 328 ;
     lao:moDesc "Used toilet"^^xsd:string .
 
 lao:modusOperandi329 a lao:ModusOperandi ;
-    lao:moCode "329"^^xsd:int ;
+    lao:moCode 329 ;
     lao:moDesc "Vandalized"^^xsd:string .
 
 lao:modusOperandi330 a lao:ModusOperandi ;
-    lao:moCode "330"^^xsd:int ;
+    lao:moCode 330 ;
     lao:moDesc "Victims vehicle taken"^^xsd:string .
 
 lao:modusOperandi3301 a lao:ModusOperandi ;
-    lao:moCode "3301"^^xsd:int ;
+    lao:moCode 3301 ;
     lao:moDesc "T/C - Traffic Control Devices"^^xsd:string .
 
 lao:modusOperandi331 a lao:ModusOperandi ;
-    lao:moCode "331"^^xsd:int ;
+    lao:moCode 331 ;
     lao:moDesc "Mailbox Bombing"^^xsd:string .
 
 lao:modusOperandi332 a lao:ModusOperandi ;
-    lao:moCode "332"^^xsd:int ;
+    lao:moCode 332 ;
     lao:moDesc "Mailbox Vandalism"^^xsd:string .
 
 lao:modusOperandi333 a lao:ModusOperandi ;
-    lao:moCode "333"^^xsd:int ;
+    lao:moCode 333 ;
     lao:moDesc "Used hand held radios"^^xsd:string .
 
 lao:modusOperandi334 a lao:ModusOperandi ;
-    lao:moCode "334"^^xsd:int ;
+    lao:moCode 334 ;
     lao:moDesc "Brandishes weapon"^^xsd:string .
 
 lao:modusOperandi335 a lao:ModusOperandi ;
-    lao:moCode "335"^^xsd:int ;
+    lao:moCode 335 ;
     lao:moDesc "Cases location"^^xsd:string .
 
 lao:modusOperandi336 a lao:ModusOperandi ;
-    lao:moCode "336"^^xsd:int ;
+    lao:moCode 336 ;
     lao:moDesc "Chain snatch"^^xsd:string .
 
 lao:modusOperandi337 a lao:ModusOperandi ;
-    lao:moCode "337"^^xsd:int ;
+    lao:moCode 337 ;
     lao:moDesc "Demands money"^^xsd:string .
 
 lao:modusOperandi338 a lao:ModusOperandi ;
-    lao:moCode "338"^^xsd:int ;
+    lao:moCode 338 ;
     lao:moDesc "Disables Telephone"^^xsd:string .
 
 lao:modusOperandi339 a lao:ModusOperandi ;
-    lao:moCode "339"^^xsd:int ;
+    lao:moCode 339 ;
     lao:moDesc "Disables video camera"^^xsd:string .
 
 lao:modusOperandi340 a lao:ModusOperandi ;
-    lao:moCode "340"^^xsd:int ;
+    lao:moCode 340 ;
     lao:moDesc "Suspect follows victim/follows victim home"^^xsd:string .
 
 lao:modusOperandi3401 a lao:ModusOperandi ;
-    lao:moCode "3401"^^xsd:int ;
+    lao:moCode 3401 ;
     lao:moDesc "T/C - Type of Collision"^^xsd:string .
 
 lao:modusOperandi341 a lao:ModusOperandi ;
-    lao:moCode "341"^^xsd:int ;
+    lao:moCode 341 ;
     lao:moDesc "Makes vict lie down"^^xsd:string .
 
 lao:modusOperandi342 a lao:ModusOperandi ;
-    lao:moCode "342"^^xsd:int ;
+    lao:moCode 342 ;
     lao:moDesc "Multi-susps overwhelm"^^xsd:string .
 
 lao:modusOperandi343 a lao:ModusOperandi ;
-    lao:moCode "343"^^xsd:int ;
+    lao:moCode 343 ;
     lao:moDesc "Orders vict to rear room"^^xsd:string .
 
 lao:modusOperandi344 a lao:ModusOperandi ;
-    lao:moCode "344"^^xsd:int ;
+    lao:moCode 344 ;
     lao:moDesc "Removes vict property"^^xsd:string .
 
 lao:modusOperandi345 a lao:ModusOperandi ;
-    lao:moCode "345"^^xsd:int ;
+    lao:moCode 345 ;
     lao:moDesc "Riding bike"^^xsd:string .
 
 lao:modusOperandi346 a lao:ModusOperandi ;
-    lao:moCode "346"^^xsd:int ;
+    lao:moCode 346 ;
     lao:moDesc "Snatch property and runs"^^xsd:string .
 
 lao:modusOperandi347 a lao:ModusOperandi ;
-    lao:moCode "347"^^xsd:int ;
+    lao:moCode 347 ;
     lao:moDesc "Stalks vict"^^xsd:string .
 
 lao:modusOperandi348 a lao:ModusOperandi ;
-    lao:moCode "348"^^xsd:int ;
+    lao:moCode 348 ;
     lao:moDesc "Takeover other"^^xsd:string .
 
 lao:modusOperandi349 a lao:ModusOperandi ;
-    lao:moCode "349"^^xsd:int ;
+    lao:moCode 349 ;
     lao:moDesc "Takes mail"^^xsd:string .
 
 lao:modusOperandi350 a lao:ModusOperandi ;
-    lao:moCode "350"^^xsd:int ;
+    lao:moCode 350 ;
     lao:moDesc "Concealed victim's body"^^xsd:string .
 
 lao:modusOperandi3501 a lao:ModusOperandi ;
-    lao:moCode "3501"^^xsd:int ;
+    lao:moCode 3501 ;
     lao:moDesc "T/C - Ped Actions"^^xsd:string .
 
 lao:modusOperandi351 a lao:ModusOperandi ;
-    lao:moCode "351"^^xsd:int ;
+    lao:moCode 351 ;
     lao:moDesc "Disabled Security"^^xsd:string .
 
 lao:modusOperandi352 a lao:ModusOperandi ;
-    lao:moCode "352"^^xsd:int ;
+    lao:moCode 352 ;
     lao:moDesc "Took Victim's clothing or jewelry"^^xsd:string .
 
 lao:modusOperandi353 a lao:ModusOperandi ;
-    lao:moCode "353"^^xsd:int ;
+    lao:moCode 353 ;
     lao:moDesc "Weapon Concealed"^^xsd:string .
 
 lao:modusOperandi354 a lao:ModusOperandi ;
-    lao:moCode "354"^^xsd:int ;
+    lao:moCode 354 ;
     lao:moDesc "Suspect takes car keys"^^xsd:string .
 
 lao:modusOperandi355 a lao:ModusOperandi ;
-    lao:moCode "355"^^xsd:int ;
+    lao:moCode 355 ;
     lao:moDesc "Demanded property other than money"^^xsd:string .
 
 lao:modusOperandi356 a lao:ModusOperandi ;
-    lao:moCode "356"^^xsd:int ;
+    lao:moCode 356 ;
     lao:moDesc "Suspect spits on victim"^^xsd:string .
 
 lao:modusOperandi357 a lao:ModusOperandi ;
-    lao:moCode "357"^^xsd:int ;
+    lao:moCode 357 ;
     lao:moDesc "Cuts or breaks purse strap"^^xsd:string .
 
 lao:modusOperandi358 a lao:ModusOperandi ;
-    lao:moCode "358"^^xsd:int ;
+    lao:moCode 358 ;
     lao:moDesc "Forces Entry"^^xsd:string .
 
 lao:modusOperandi359 a lao:ModusOperandi ;
-    lao:moCode "359"^^xsd:int ;
+    lao:moCode 359 ;
     lao:moDesc "Made unusual statement"^^xsd:string .
 
 lao:modusOperandi360 a lao:ModusOperandi ;
-    lao:moCode "360"^^xsd:int ;
+    lao:moCode 360 ;
     lao:moDesc "Suspect is Other Family Member"^^xsd:string .
 
 lao:modusOperandi3601 a lao:ModusOperandi ;
-    lao:moCode "3601"^^xsd:int ;
+    lao:moCode 3601 ;
     lao:moDesc "T/C - Special Information and Other"^^xsd:string .
 
 lao:modusOperandi3602 a lao:ModusOperandi ;
-    lao:moCode "3602"^^xsd:int ;
+    lao:moCode 3602 ;
     lao:moDesc "T/C - Unlicensed motorist"^^xsd:string .
 
 lao:modusOperandi3603 a lao:ModusOperandi ;
-    lao:moCode "3603"^^xsd:int ;
+    lao:moCode 3603 ;
     lao:moDesc "T/C - Bicyclists colliding into opened vehicle door"^^xsd:string .
 
 lao:modusOperandi361 a lao:ModusOperandi ;
-    lao:moCode "361"^^xsd:int ;
+    lao:moCode 361 ;
     lao:moDesc "Suspect is neighbor"^^xsd:string .
 
 lao:modusOperandi362 a lao:ModusOperandi ;
-    lao:moCode "362"^^xsd:int ;
+    lao:moCode 362 ;
     lao:moDesc "Suspect attempts to carry victim away"^^xsd:string .
 
 lao:modusOperandi363 a lao:ModusOperandi ;
-    lao:moCode "363"^^xsd:int ;
+    lao:moCode 363 ;
     lao:moDesc "Home invasion"^^xsd:string .
 
 lao:modusOperandi364 a lao:ModusOperandi ;
-    lao:moCode "364"^^xsd:int ;
+    lao:moCode 364 ;
     lao:moDesc "Suspect is babysitter"^^xsd:string .
 
 lao:modusOperandi365 a lao:ModusOperandi ;
-    lao:moCode "365"^^xsd:int ;
+    lao:moCode 365 ;
     lao:moDesc "Takeover robbery"^^xsd:string .
 
 lao:modusOperandi366 a lao:ModusOperandi ;
-    lao:moCode "366"^^xsd:int ;
+    lao:moCode 366 ;
     lao:moDesc "Ordered vict to open safe"^^xsd:string .
 
 lao:modusOperandi367 a lao:ModusOperandi ;
-    lao:moCode "367"^^xsd:int ;
+    lao:moCode 367 ;
     lao:moDesc "Was Transit Patrol"^^xsd:string .
 
 lao:modusOperandi368 a lao:ModusOperandi ;
-    lao:moCode "368"^^xsd:int ;
+    lao:moCode 368 ;
     lao:moDesc "Suspect speaks foreign language"^^xsd:string .
 
 lao:modusOperandi369 a lao:ModusOperandi ;
-    lao:moCode "369"^^xsd:int ;
+    lao:moCode 369 ;
     lao:moDesc "Suspect speaks spanish"^^xsd:string .
 
 lao:modusOperandi370 a lao:ModusOperandi ;
-    lao:moCode "370"^^xsd:int ;
+    lao:moCode 370 ;
     lao:moDesc "Frisks victim/pats down victim/searches victim"^^xsd:string .
 
 lao:modusOperandi3701 a lao:ModusOperandi ;
-    lao:moCode "3701"^^xsd:int ;
+    lao:moCode 3701 ;
     lao:moDesc "T/C - Movement Preceding Collision"^^xsd:string .
 
 lao:modusOperandi371 a lao:ModusOperandi ;
-    lao:moCode "371"^^xsd:int ;
+    lao:moCode 371 ;
     lao:moDesc "Gang affiliation questions asked/made gang statement"^^xsd:string .
 
 lao:modusOperandi372 a lao:ModusOperandi ;
-    lao:moCode "372"^^xsd:int ;
+    lao:moCode 372 ;
     lao:moDesc "Photographed victim/took pictures of victim"^^xsd:string .
 
 lao:modusOperandi373 a lao:ModusOperandi ;
-    lao:moCode "373"^^xsd:int ;
+    lao:moCode 373 ;
     lao:moDesc "Physicall disabled/in wheelchair"^^xsd:string .
 
 lao:modusOperandi374 a lao:ModusOperandi ;
-    lao:moCode "374"^^xsd:int ;
+    lao:moCode 374 ;
     lao:moDesc "Gang signs/threw gang signs using hands"^^xsd:string .
 
 lao:modusOperandi375 a lao:ModusOperandi ;
-    lao:moCode "375"^^xsd:int ;
+    lao:moCode 375 ;
     lao:moDesc "Removes cash register"^^xsd:string .
 
 lao:modusOperandi376 a lao:ModusOperandi ;
-    lao:moCode "376"^^xsd:int ;
+    lao:moCode 376 ;
     lao:moDesc "Makes victim kneel"^^xsd:string .
 
 lao:modusOperandi377 a lao:ModusOperandi ;
-    lao:moCode "377"^^xsd:int ;
+    lao:moCode 377 ;
     lao:moDesc "Takes vict's identification/driver license"^^xsd:string .
 
 lao:modusOperandi378 a lao:ModusOperandi ;
-    lao:moCode "378"^^xsd:int ;
+    lao:moCode 378 ;
     lao:moDesc "Brings own bag"^^xsd:string .
 
 lao:modusOperandi379 a lao:ModusOperandi ;
-    lao:moCode "379"^^xsd:int ;
+    lao:moCode 379 ;
     lao:moDesc "Turns off lights/electricity"^^xsd:string .
 
 lao:modusOperandi380 a lao:ModusOperandi ;
-    lao:moCode "380"^^xsd:int ;
+    lao:moCode 380 ;
     lao:moDesc "Distracts Victim"^^xsd:string .
 
 lao:modusOperandi3801 a lao:ModusOperandi ;
-    lao:moCode "3801"^^xsd:int ;
+    lao:moCode 3801 ;
     lao:moDesc "T/C - Sobriety"^^xsd:string .
 
 lao:modusOperandi381 a lao:ModusOperandi ;
-    lao:moCode "381"^^xsd:int ;
+    lao:moCode 381 ;
     lao:moDesc "Suspect apologizes"^^xsd:string .
 
 lao:modusOperandi382 a lao:ModusOperandi ;
-    lao:moCode "382"^^xsd:int ;
+    lao:moCode 382 ;
     lao:moDesc "Removed money/property from safe"^^xsd:string .
 
 lao:modusOperandi383 a lao:ModusOperandi ;
-    lao:moCode "383"^^xsd:int ;
+    lao:moCode 383 ;
     lao:moDesc "Suspect entered during open house/party/estate/yard sale"^^xsd:string .
 
 lao:modusOperandi384 a lao:ModusOperandi ;
-    lao:moCode "384"^^xsd:int ;
+    lao:moCode 384 ;
     lao:moDesc "Suspect removed drugs from location"^^xsd:string .
 
 lao:modusOperandi385 a lao:ModusOperandi ;
-    lao:moCode "385"^^xsd:int ;
+    lao:moCode 385 ;
     lao:moDesc "Suspect removed parts from vehicle"^^xsd:string .
 
 lao:modusOperandi386 a lao:ModusOperandi ;
-    lao:moCode "386"^^xsd:int ;
+    lao:moCode 386 ;
     lao:moDesc "Suspect removed property from trunk of vehicle"^^xsd:string .
 
 lao:modusOperandi387 a lao:ModusOperandi ;
-    lao:moCode "387"^^xsd:int ;
+    lao:moCode 387 ;
     lao:moDesc "Weapon (other than gun) in waistband"^^xsd:string .
 
 lao:modusOperandi388 a lao:ModusOperandi ;
-    lao:moCode "388"^^xsd:int ;
+    lao:moCode 388 ;
     lao:moDesc "Suspect points laser at plane/helicopter"^^xsd:string .
 
 lao:modusOperandi389 a lao:ModusOperandi ;
-    lao:moCode "389"^^xsd:int ;
+    lao:moCode 389 ;
     lao:moDesc "Knock-knock"^^xsd:string .
 
 lao:modusOperandi390 a lao:ModusOperandi ;
-    lao:moCode "390"^^xsd:int ;
+    lao:moCode 390 ;
     lao:moDesc "Purse snatch"^^xsd:string .
 
 lao:modusOperandi3901 a lao:ModusOperandi ;
-    lao:moCode "3901"^^xsd:int ;
+    lao:moCode 3901 ;
     lao:moDesc "T/C - Safety Equipment"^^xsd:string .
 
 lao:modusOperandi391 a lao:ModusOperandi ;
-    lao:moCode "391"^^xsd:int ;
+    lao:moCode 391 ;
     lao:moDesc "Used demand note"^^xsd:string .
 
 lao:modusOperandi392 a lao:ModusOperandi ;
-    lao:moCode "392"^^xsd:int ;
+    lao:moCode 392 ;
     lao:moDesc "False Emergency Reporting"^^xsd:string .
 
 lao:modusOperandi393 a lao:ModusOperandi ;
-    lao:moCode "393"^^xsd:int ;
+    lao:moCode 393 ;
     lao:moDesc "911 Abuse"^^xsd:string .
 
 lao:modusOperandi394 a lao:ModusOperandi ;
-    lao:moCode "394"^^xsd:int ;
+    lao:moCode 394 ;
     lao:moDesc "Susp takes UPS, Fedex, USPS packages"^^xsd:string .
 
 lao:modusOperandi395 a lao:ModusOperandi ;
-    lao:moCode "395"^^xsd:int ;
+    lao:moCode 395 ;
     lao:moDesc "Murder/Suicide"^^xsd:string .
 
 lao:modusOperandi396 a lao:ModusOperandi ;
-    lao:moCode "396"^^xsd:int ;
+    lao:moCode 396 ;
     lao:moDesc "Used paper plates to disguise license number"^^xsd:string .
 
 lao:modusOperandi397 a lao:ModusOperandi ;
-    lao:moCode "397"^^xsd:int ;
+    lao:moCode 397 ;
     lao:moDesc "Cut lock (to bicycle, gate, etc."^^xsd:string .
 
 lao:modusOperandi398 a lao:ModusOperandi ;
-    lao:moCode "398"^^xsd:int ;
+    lao:moCode 398 ;
     lao:moDesc "Roof access (remove A/C, equip, etc.)"^^xsd:string .
 
 lao:modusOperandi399 a lao:ModusOperandi ;
-    lao:moCode "399"^^xsd:int ;
+    lao:moCode 399 ;
     lao:moDesc "Vehicle to Vehicle shooting"^^xsd:string .
 
 lao:modusOperandi400 a lao:ModusOperandi ;
-    lao:moCode "400"^^xsd:int ;
+    lao:moCode 400 ;
     lao:moDesc "Force used"^^xsd:string .
 
 lao:modusOperandi4001 a lao:ModusOperandi ;
-    lao:moCode "4001"^^xsd:int ;
+    lao:moCode 4001 ;
     lao:moDesc "T/C - Central"^^xsd:string .
 
 lao:modusOperandi4002 a lao:ModusOperandi ;
-    lao:moCode "4002"^^xsd:int ;
+    lao:moCode 4002 ;
     lao:moDesc "T/C - Rampart"^^xsd:string .
 
 lao:modusOperandi4003 a lao:ModusOperandi ;
-    lao:moCode "4003"^^xsd:int ;
+    lao:moCode 4003 ;
     lao:moDesc "T/C - Southwest"^^xsd:string .
 
 lao:modusOperandi4004 a lao:ModusOperandi ;
-    lao:moCode "4004"^^xsd:int ;
+    lao:moCode 4004 ;
     lao:moDesc "T/C - Hollenbeck"^^xsd:string .
 
 lao:modusOperandi4005 a lao:ModusOperandi ;
-    lao:moCode "4005"^^xsd:int ;
+    lao:moCode 4005 ;
     lao:moDesc "T/C - Harbor"^^xsd:string .
 
 lao:modusOperandi4006 a lao:ModusOperandi ;
-    lao:moCode "4006"^^xsd:int ;
+    lao:moCode 4006 ;
     lao:moDesc "T/C- Hollywood"^^xsd:string .
 
 lao:modusOperandi4007 a lao:ModusOperandi ;
-    lao:moCode "4007"^^xsd:int ;
+    lao:moCode 4007 ;
     lao:moDesc "T/C - Wilshire"^^xsd:string .
 
 lao:modusOperandi4008 a lao:ModusOperandi ;
-    lao:moCode "4008"^^xsd:int ;
+    lao:moCode 4008 ;
     lao:moDesc "T/C - West Los Angeles"^^xsd:string .
 
 lao:modusOperandi4009 a lao:ModusOperandi ;
-    lao:moCode "4009"^^xsd:int ;
+    lao:moCode 4009 ;
     lao:moDesc "T/C - Van Nuys"^^xsd:string .
 
 lao:modusOperandi401 a lao:ModusOperandi ;
-    lao:moCode "401"^^xsd:int ;
+    lao:moCode 401 ;
     lao:moDesc "Bit"^^xsd:string .
 
 lao:modusOperandi4010 a lao:ModusOperandi ;
-    lao:moCode "4010"^^xsd:int ;
+    lao:moCode 4010 ;
     lao:moDesc "T/C - West Valley"^^xsd:string .
 
 lao:modusOperandi4011 a lao:ModusOperandi ;
-    lao:moCode "4011"^^xsd:int ;
+    lao:moCode 4011 ;
     lao:moDesc "T/C - Northeast"^^xsd:string .
 
 lao:modusOperandi4012 a lao:ModusOperandi ;
-    lao:moCode "4012"^^xsd:int ;
+    lao:moCode 4012 ;
     lao:moDesc "T/C - 77th"^^xsd:string .
 
 lao:modusOperandi4013 a lao:ModusOperandi ;
-    lao:moCode "4013"^^xsd:int ;
+    lao:moCode 4013 ;
     lao:moDesc "T/C - Newton"^^xsd:string .
 
 lao:modusOperandi4014 a lao:ModusOperandi ;
-    lao:moCode "4014"^^xsd:int ;
+    lao:moCode 4014 ;
     lao:moDesc "T/C - Pacific"^^xsd:string .
 
 lao:modusOperandi4015 a lao:ModusOperandi ;
-    lao:moCode "4015"^^xsd:int ;
+    lao:moCode 4015 ;
     lao:moDesc "T/C - North Hollywood"^^xsd:string .
 
 lao:modusOperandi4016 a lao:ModusOperandi ;
-    lao:moCode "4016"^^xsd:int ;
+    lao:moCode 4016 ;
     lao:moDesc "T/C - Foothill"^^xsd:string .
 
 lao:modusOperandi4017 a lao:ModusOperandi ;
-    lao:moCode "4017"^^xsd:int ;
+    lao:moCode 4017 ;
     lao:moDesc "T/C - Devonshire"^^xsd:string .
 
 lao:modusOperandi4018 a lao:ModusOperandi ;
-    lao:moCode "4018"^^xsd:int ;
+    lao:moCode 4018 ;
     lao:moDesc "T/C - Southeast"^^xsd:string .
 
 lao:modusOperandi4019 a lao:ModusOperandi ;
-    lao:moCode "4019"^^xsd:int ;
+    lao:moCode 4019 ;
     lao:moDesc "T/C - Mission"^^xsd:string .
 
 lao:modusOperandi402 a lao:ModusOperandi ;
-    lao:moCode "402"^^xsd:int ;
+    lao:moCode 402 ;
     lao:moDesc "Blindfolded"^^xsd:string .
 
 lao:modusOperandi4020 a lao:ModusOperandi ;
-    lao:moCode "4020"^^xsd:int ;
+    lao:moCode 4020 ;
     lao:moDesc "T/C - Olympic"^^xsd:string .
 
 lao:modusOperandi4021 a lao:ModusOperandi ;
-    lao:moCode "4021"^^xsd:int ;
+    lao:moCode 4021 ;
     lao:moDesc "T/C - Topanga"^^xsd:string .
 
 lao:modusOperandi4024 a lao:ModusOperandi ;
-    lao:moCode "4024"^^xsd:int ;
+    lao:moCode 4024 ;
     lao:moDesc "T/C - Central Traffic (CTD)"^^xsd:string .
 
 lao:modusOperandi4025 a lao:ModusOperandi ;
-    lao:moCode "4025"^^xsd:int ;
+    lao:moCode 4025 ;
     lao:moDesc "T/C - South Traffic (STD)"^^xsd:string .
 
 lao:modusOperandi4026 a lao:ModusOperandi ;
-    lao:moCode "4026"^^xsd:int ;
+    lao:moCode 4026 ;
     lao:moDesc "T/C - Valley Traffic (VTD)"^^xsd:string .
 
 lao:modusOperandi4027 a lao:ModusOperandi ;
-    lao:moCode "4027"^^xsd:int ;
+    lao:moCode 4027 ;
     lao:moDesc "T/C - West Traffic (WTD)"^^xsd:string .
 
 lao:modusOperandi403 a lao:ModusOperandi ;
-    lao:moCode "403"^^xsd:int ;
+    lao:moCode 403 ;
     lao:moDesc "Bomb Threat, Bomb found"^^xsd:string .
 
 lao:modusOperandi404 a lao:ModusOperandi ;
-    lao:moCode "404"^^xsd:int ;
+    lao:moCode 404 ;
     lao:moDesc "Bomb Threat, no bomb"^^xsd:string .
 
 lao:modusOperandi405 a lao:ModusOperandi ;
-    lao:moCode "405"^^xsd:int ;
+    lao:moCode 405 ;
     lao:moDesc "Bound"^^xsd:string .
 
 lao:modusOperandi406 a lao:ModusOperandi ;
-    lao:moCode "406"^^xsd:int ;
+    lao:moCode 406 ;
     lao:moDesc "Brutal Assault"^^xsd:string .
 
 lao:modusOperandi407 a lao:ModusOperandi ;
-    lao:moCode "407"^^xsd:int ;
+    lao:moCode 407 ;
     lao:moDesc "Burned Victim"^^xsd:string .
 
 lao:modusOperandi408 a lao:ModusOperandi ;
-    lao:moCode "408"^^xsd:int ;
+    lao:moCode 408 ;
     lao:moDesc "Choked/uses choke hold/Strangulation"^^xsd:string .
 
 lao:modusOperandi409 a lao:ModusOperandi ;
-    lao:moCode "409"^^xsd:int ;
+    lao:moCode 409 ;
     lao:moDesc "Cover mouth w/hands"^^xsd:string .
 
 lao:modusOperandi410 a lao:ModusOperandi ;
-    lao:moCode "410"^^xsd:int ;
+    lao:moCode 410 ;
     lao:moDesc "Covered victim's face"^^xsd:string .
 
 lao:modusOperandi411 a lao:ModusOperandi ;
-    lao:moCode "411"^^xsd:int ;
+    lao:moCode 411 ;
     lao:moDesc "Cut/stabbed"^^xsd:string .
 
 lao:modusOperandi412 a lao:ModusOperandi ;
-    lao:moCode "412"^^xsd:int ;
+    lao:moCode 412 ;
     lao:moDesc "Disfigured"^^xsd:string .
 
 lao:modusOperandi413 a lao:ModusOperandi ;
-    lao:moCode "413"^^xsd:int ;
+    lao:moCode 413 ;
     lao:moDesc "Drugged"^^xsd:string .
 
 lao:modusOperandi414 a lao:ModusOperandi ;
-    lao:moCode "414"^^xsd:int ;
+    lao:moCode 414 ;
     lao:moDesc "Gagged"^^xsd:string .
 
 lao:modusOperandi415 a lao:ModusOperandi ;
-    lao:moCode "415"^^xsd:int ;
+    lao:moCode 415 ;
     lao:moDesc "Handcuffed/Metal"^^xsd:string .
 
 lao:modusOperandi416 a lao:ModusOperandi ;
-    lao:moCode "416"^^xsd:int ;
+    lao:moCode 416 ;
     lao:moDesc "Hit-Hit w/ weapon"^^xsd:string .
 
 lao:modusOperandi417 a lao:ModusOperandi ;
-    lao:moCode "417"^^xsd:int ;
+    lao:moCode 417 ;
     lao:moDesc "Kicked"^^xsd:string .
 
 lao:modusOperandi418 a lao:ModusOperandi ;
-    lao:moCode "418"^^xsd:int ;
+    lao:moCode 418 ;
     lao:moDesc "Kidnapped"^^xsd:string .
 
 lao:modusOperandi419 a lao:ModusOperandi ;
-    lao:moCode "419"^^xsd:int ;
+    lao:moCode 419 ;
     lao:moDesc "Pulled victims hair"^^xsd:string .
 
 lao:modusOperandi420 a lao:ModusOperandi ;
-    lao:moCode "420"^^xsd:int ;
+    lao:moCode 420 ;
     lao:moDesc "Searched"^^xsd:string .
 
 lao:modusOperandi421 a lao:ModusOperandi ;
-    lao:moCode "421"^^xsd:int ;
+    lao:moCode 421 ;
     lao:moDesc "Threaten to kill"^^xsd:string .
 
 lao:modusOperandi422 a lao:ModusOperandi ;
-    lao:moCode "422"^^xsd:int ;
+    lao:moCode 422 ;
     lao:moDesc "Threaten Victims family"^^xsd:string .
 
 lao:modusOperandi423 a lao:ModusOperandi ;
-    lao:moCode "423"^^xsd:int ;
+    lao:moCode 423 ;
     lao:moDesc "Tied victim to object"^^xsd:string .
 
 lao:modusOperandi424 a lao:ModusOperandi ;
-    lao:moCode "424"^^xsd:int ;
+    lao:moCode 424 ;
     lao:moDesc "Tore clothes off victim"^^xsd:string .
 
 lao:modusOperandi425 a lao:ModusOperandi ;
-    lao:moCode "425"^^xsd:int ;
+    lao:moCode 425 ;
     lao:moDesc "Tortured"^^xsd:string .
 
 lao:modusOperandi426 a lao:ModusOperandi ;
-    lao:moCode "426"^^xsd:int ;
+    lao:moCode 426 ;
     lao:moDesc "Twisted arm"^^xsd:string .
 
 lao:modusOperandi427 a lao:ModusOperandi ;
-    lao:moCode "427"^^xsd:int ;
+    lao:moCode 427 ;
     lao:moDesc "Whipped"^^xsd:string .
 
 lao:modusOperandi428 a lao:ModusOperandi ;
-    lao:moCode "428"^^xsd:int ;
+    lao:moCode 428 ;
     lao:moDesc "Dismembered"^^xsd:string .
 
 lao:modusOperandi429 a lao:ModusOperandi ;
-    lao:moCode "429"^^xsd:int ;
+    lao:moCode 429 ;
     lao:moDesc "Vict knocked to ground"^^xsd:string .
 
 lao:modusOperandi430 a lao:ModusOperandi ;
-    lao:moCode "430"^^xsd:int ;
+    lao:moCode 430 ;
     lao:moDesc "Vict shot"^^xsd:string .
 
 lao:modusOperandi431 a lao:ModusOperandi ;
-    lao:moCode "431"^^xsd:int ;
+    lao:moCode 431 ;
     lao:moDesc "Sprayed with chemical"^^xsd:string .
 
 lao:modusOperandi432 a lao:ModusOperandi ;
-    lao:moCode "432"^^xsd:int ;
+    lao:moCode 432 ;
     lao:moDesc "Intimidation"^^xsd:string .
 
 lao:modusOperandi433 a lao:ModusOperandi ;
-    lao:moCode "433"^^xsd:int ;
+    lao:moCode 433 ;
     lao:moDesc "Makes victim kneel"^^xsd:string .
 
 lao:modusOperandi434 a lao:ModusOperandi ;
-    lao:moCode "434"^^xsd:int ;
+    lao:moCode 434 ;
     lao:moDesc "Bed Sheets/Linens"^^xsd:string .
 
 lao:modusOperandi435 a lao:ModusOperandi ;
-    lao:moCode "435"^^xsd:int ;
+    lao:moCode 435 ;
     lao:moDesc "Chain"^^xsd:string .
 
 lao:modusOperandi436 a lao:ModusOperandi ;
-    lao:moCode "436"^^xsd:int ;
+    lao:moCode 436 ;
     lao:moDesc "Clothing"^^xsd:string .
 
 lao:modusOperandi437 a lao:ModusOperandi ;
-    lao:moCode "437"^^xsd:int ;
+    lao:moCode 437 ;
     lao:moDesc "Flexcuffs/Plastic Tie"^^xsd:string .
 
 lao:modusOperandi438 a lao:ModusOperandi ;
-    lao:moCode "438"^^xsd:int ;
+    lao:moCode 438 ;
     lao:moDesc "Rope/Cordage"^^xsd:string .
 
 lao:modusOperandi439 a lao:ModusOperandi ;
-    lao:moCode "439"^^xsd:int ;
+    lao:moCode 439 ;
     lao:moDesc "Tape/Electrical etc..."^^xsd:string .
 
 lao:modusOperandi440 a lao:ModusOperandi ;
-    lao:moCode "440"^^xsd:int ;
+    lao:moCode 440 ;
     lao:moDesc "Telephone/Electric Cord"^^xsd:string .
 
 lao:modusOperandi441 a lao:ModusOperandi ;
-    lao:moCode "441"^^xsd:int ;
+    lao:moCode 441 ;
     lao:moDesc "Wire"^^xsd:string .
 
 lao:modusOperandi442 a lao:ModusOperandi ;
-    lao:moCode "442"^^xsd:int ;
+    lao:moCode 442 ;
     lao:moDesc "Active Shooter/Armed person who has used deadly physical force on other persons & aggressively continues while having access to more victim's"^^xsd:string .
 
 lao:modusOperandi443 a lao:ModusOperandi ;
-    lao:moCode "443"^^xsd:int ;
+    lao:moCode 443 ;
     lao:moDesc "Threaten to harm victim (other than kill)"^^xsd:string .
 
 lao:modusOperandi444 a lao:ModusOperandi ;
-    lao:moCode "444"^^xsd:int ;
+    lao:moCode 444 ;
     lao:moDesc "Pushed"^^xsd:string .
 
 lao:modusOperandi445 a lao:ModusOperandi ;
-    lao:moCode "445"^^xsd:int ;
+    lao:moCode 445 ;
     lao:moDesc "Suspect swung weapon"^^xsd:string .
 
 lao:modusOperandi446 a lao:ModusOperandi ;
-    lao:moCode "446"^^xsd:int ;
+    lao:moCode 446 ;
     lao:moDesc "Suspect swung fist"^^xsd:string .
 
 lao:modusOperandi447 a lao:ModusOperandi ;
-    lao:moCode "447"^^xsd:int ;
+    lao:moCode 447 ;
     lao:moDesc "Suspect threw object at victim"^^xsd:string .
 
 lao:modusOperandi448 a lao:ModusOperandi ;
-    lao:moCode "448"^^xsd:int ;
+    lao:moCode 448 ;
     lao:moDesc "Grabbed"^^xsd:string .
 
 lao:modusOperandi449 a lao:ModusOperandi ;
-    lao:moCode "449"^^xsd:int ;
+    lao:moCode 449 ;
     lao:moDesc "Put a weapon to body"^^xsd:string .
 
 lao:modusOperandi450 a lao:ModusOperandi ;
-    lao:moCode "450"^^xsd:int ;
+    lao:moCode 450 ;
     lao:moDesc "Suspect shot at victim (no hits)"^^xsd:string .
 
 lao:modusOperandi451 a lao:ModusOperandi ;
-    lao:moCode "451"^^xsd:int ;
+    lao:moCode 451 ;
     lao:moDesc "Suffocation"^^xsd:string .
 
 lao:modusOperandi500 a lao:ModusOperandi ;
-    lao:moCode "500"^^xsd:int ;
+    lao:moCode 500 ;
     lao:moDesc "Sex related acts"^^xsd:string .
 
 lao:modusOperandi501 a lao:ModusOperandi ;
-    lao:moCode "501"^^xsd:int ;
+    lao:moCode 501 ;
     lao:moDesc "Susp ejaculated outside victim"^^xsd:string .
 
 lao:modusOperandi502 a lao:ModusOperandi ;
-    lao:moCode "502"^^xsd:int ;
+    lao:moCode 502 ;
     lao:moDesc "Fecal Fetish"^^xsd:string .
 
 lao:modusOperandi503 a lao:ModusOperandi ;
-    lao:moCode "503"^^xsd:int ;
+    lao:moCode 503 ;
     lao:moDesc "Fondle victim"^^xsd:string .
 
 lao:modusOperandi504 a lao:ModusOperandi ;
-    lao:moCode "504"^^xsd:int ;
+    lao:moCode 504 ;
     lao:moDesc "Forced to disrobe"^^xsd:string .
 
 lao:modusOperandi505 a lao:ModusOperandi ;
-    lao:moCode "505"^^xsd:int ;
+    lao:moCode 505 ;
     lao:moDesc "Forced to fondle suspect"^^xsd:string .
 
 lao:modusOperandi506 a lao:ModusOperandi ;
-    lao:moCode "506"^^xsd:int ;
+    lao:moCode 506 ;
     lao:moDesc "Forced to masturbate suspect"^^xsd:string .
 
 lao:modusOperandi507 a lao:ModusOperandi ;
-    lao:moCode "507"^^xsd:int ;
+    lao:moCode 507 ;
     lao:moDesc "Forced to orally copulate suspect"^^xsd:string .
 
 lao:modusOperandi508 a lao:ModusOperandi ;
-    lao:moCode "508"^^xsd:int ;
+    lao:moCode 508 ;
     lao:moDesc "Hit victim prior, during, after act"^^xsd:string .
 
 lao:modusOperandi509 a lao:ModusOperandi ;
-    lao:moCode "509"^^xsd:int ;
+    lao:moCode 509 ;
     lao:moDesc "Hugged"^^xsd:string .
 
 lao:modusOperandi510 a lao:ModusOperandi ;
-    lao:moCode "510"^^xsd:int ;
+    lao:moCode 510 ;
     lao:moDesc "Kissed victims body/face"^^xsd:string .
 
 lao:modusOperandi511 a lao:ModusOperandi ;
-    lao:moCode "511"^^xsd:int ;
+    lao:moCode 511 ;
     lao:moDesc "Masochism/bondage"^^xsd:string .
 
 lao:modusOperandi512 a lao:ModusOperandi ;
-    lao:moCode "512"^^xsd:int ;
+    lao:moCode 512 ;
     lao:moDesc "Orally copulated victim"^^xsd:string .
 
 lao:modusOperandi513 a lao:ModusOperandi ;
-    lao:moCode "513"^^xsd:int ;
+    lao:moCode 513 ;
     lao:moDesc "Photographed victim"^^xsd:string .
 
 lao:modusOperandi514 a lao:ModusOperandi ;
-    lao:moCode "514"^^xsd:int ;
+    lao:moCode 514 ;
     lao:moDesc "Pornography"^^xsd:string .
 
 lao:modusOperandi515 a lao:ModusOperandi ;
-    lao:moCode "515"^^xsd:int ;
+    lao:moCode 515 ;
     lao:moDesc "Put hand, finger or object into vagina"^^xsd:string .
 
 lao:modusOperandi516 a lao:ModusOperandi ;
-    lao:moCode "516"^^xsd:int ;
+    lao:moCode 516 ;
     lao:moDesc "Reached climax/ejaculated"^^xsd:string .
 
 lao:modusOperandi517 a lao:ModusOperandi ;
-    lao:moCode "517"^^xsd:int ;
+    lao:moCode 517 ;
     lao:moDesc "Sadism/Sexual gratification obtained by infliction of physical or mental pain on others"^^xsd:string .
 
 lao:modusOperandi518 a lao:ModusOperandi ;
-    lao:moCode "518"^^xsd:int ;
+    lao:moCode 518 ;
     lao:moDesc "Simulated intercourse"^^xsd:string .
 
 lao:modusOperandi519 a lao:ModusOperandi ;
-    lao:moCode "519"^^xsd:int ;
+    lao:moCode 519 ;
     lao:moDesc "Sodomy"^^xsd:string .
 
 lao:modusOperandi520 a lao:ModusOperandi ;
-    lao:moCode "520"^^xsd:int ;
+    lao:moCode 520 ;
     lao:moDesc "Solicited/offered immoral act"^^xsd:string .
 
 lao:modusOperandi521 a lao:ModusOperandi ;
-    lao:moCode "521"^^xsd:int ;
+    lao:moCode 521 ;
     lao:moDesc "Tongue or mouth to anus"^^xsd:string .
 
 lao:modusOperandi522 a lao:ModusOperandi ;
-    lao:moCode "522"^^xsd:int ;
+    lao:moCode 522 ;
     lao:moDesc "Touched"^^xsd:string .
 
 lao:modusOperandi523 a lao:ModusOperandi ;
-    lao:moCode "523"^^xsd:int ;
+    lao:moCode 523 ;
     lao:moDesc "Unable to get erection"^^xsd:string .
 
 lao:modusOperandi524 a lao:ModusOperandi ;
-    lao:moCode "524"^^xsd:int ;
+    lao:moCode 524 ;
     lao:moDesc "Underwear Fetish"^^xsd:string .
 
 lao:modusOperandi525 a lao:ModusOperandi ;
-    lao:moCode "525"^^xsd:int ;
+    lao:moCode 525 ;
     lao:moDesc "Urinated"^^xsd:string .
 
 lao:modusOperandi526 a lao:ModusOperandi ;
-    lao:moCode "526"^^xsd:int ;
+    lao:moCode 526 ;
     lao:moDesc "Utilized Condom"^^xsd:string .
 
 lao:modusOperandi527 a lao:ModusOperandi ;
-    lao:moCode "527"^^xsd:int ;
+    lao:moCode 527 ;
     lao:moDesc "Actual Intercourse"^^xsd:string .
 
 lao:modusOperandi528 a lao:ModusOperandi ;
-    lao:moCode "528"^^xsd:int ;
+    lao:moCode 528 ;
     lao:moDesc "Masturbate"^^xsd:string .
 
 lao:modusOperandi529 a lao:ModusOperandi ;
-    lao:moCode "529"^^xsd:int ;
+    lao:moCode 529 ;
     lao:moDesc "Indecent Exposure"^^xsd:string .
 
 lao:modusOperandi530 a lao:ModusOperandi ;
-    lao:moCode "530"^^xsd:int ;
+    lao:moCode 530 ;
     lao:moDesc "Used lubricant"^^xsd:string .
 
 lao:modusOperandi531 a lao:ModusOperandi ;
-    lao:moCode "531"^^xsd:int ;
+    lao:moCode 531 ;
     lao:moDesc "Suspect made sexually suggestive remarks"^^xsd:string .
 
 lao:modusOperandi532 a lao:ModusOperandi ;
-    lao:moCode "532"^^xsd:int ;
+    lao:moCode 532 ;
     lao:moDesc "Suspect undressed victim"^^xsd:string .
 
 lao:modusOperandi533 a lao:ModusOperandi ;
-    lao:moCode "533"^^xsd:int ;
+    lao:moCode 533 ;
     lao:moDesc "Consentual Sex"^^xsd:string .
 
 lao:modusOperandi534 a lao:ModusOperandi ;
-    lao:moCode "534"^^xsd:int ;
+    lao:moCode 534 ;
     lao:moDesc "Suspect in vehicle nude/partially nude"^^xsd:string .
 
 lao:modusOperandi535 a lao:ModusOperandi ;
-    lao:moCode "535"^^xsd:int ;
+    lao:moCode 535 ;
     lao:moDesc "Suspect asks minor's name"^^xsd:string .
 
 lao:modusOperandi536 a lao:ModusOperandi ;
-    lao:moCode "536"^^xsd:int ;
+    lao:moCode 536 ;
     lao:moDesc "Suspect removes own clothing"^^xsd:string .
 
 lao:modusOperandi537 a lao:ModusOperandi ;
-    lao:moCode "537"^^xsd:int ;
+    lao:moCode 537 ;
     lao:moDesc "Suspect removes victim's clothing"^^xsd:string .
 
 lao:modusOperandi538 a lao:ModusOperandi ;
-    lao:moCode "538"^^xsd:int ;
+    lao:moCode 538 ;
     lao:moDesc "Suspect fondles self"^^xsd:string .
 
 lao:modusOperandi539 a lao:ModusOperandi ;
-    lao:moCode "539"^^xsd:int ;
+    lao:moCode 539 ;
     lao:moDesc "Suspect puts hand in victim's rectum"^^xsd:string .
 
 lao:modusOperandi540 a lao:ModusOperandi ;
-    lao:moCode "540"^^xsd:int ;
+    lao:moCode 540 ;
     lao:moDesc "Suspect puts finger(s) in victim's rectum"^^xsd:string .
 
 lao:modusOperandi541 a lao:ModusOperandi ;
-    lao:moCode "541"^^xsd:int ;
+    lao:moCode 541 ;
     lao:moDesc "Suspect puts object(s) in victim's rectum"^^xsd:string .
 
 lao:modusOperandi542 a lao:ModusOperandi ;
-    lao:moCode "542"^^xsd:int ;
+    lao:moCode 542 ;
     lao:moDesc "Orders victim to undress"^^xsd:string .
 
 lao:modusOperandi543 a lao:ModusOperandi ;
-    lao:moCode "543"^^xsd:int ;
+    lao:moCode 543 ;
     lao:moDesc "Orders victim to fondle suspect"^^xsd:string .
 
 lao:modusOperandi544 a lao:ModusOperandi ;
-    lao:moCode "544"^^xsd:int ;
+    lao:moCode 544 ;
     lao:moDesc "Orders victim to fondle self"^^xsd:string .
 
 lao:modusOperandi545 a lao:ModusOperandi ;
-    lao:moCode "545"^^xsd:int ;
+    lao:moCode 545 ;
     lao:moDesc "Male Victim of sexual assault"^^xsd:string .
 
 lao:modusOperandi546 a lao:ModusOperandi ;
-    lao:moCode "546"^^xsd:int ;
+    lao:moCode 546 ;
     lao:moDesc "Susp instructs vict to make certain statements"^^xsd:string .
 
 lao:modusOperandi547 a lao:ModusOperandi ;
-    lao:moCode "547"^^xsd:int ;
+    lao:moCode 547 ;
     lao:moDesc "Suspect force vict to bathe/clean/wipe"^^xsd:string .
 
 lao:modusOperandi548 a lao:ModusOperandi ;
-    lao:moCode "548"^^xsd:int ;
+    lao:moCode 548 ;
     lao:moDesc "Suspect gives victim douche/enema"^^xsd:string .
 
 lao:modusOperandi549 a lao:ModusOperandi ;
-    lao:moCode "549"^^xsd:int ;
+    lao:moCode 549 ;
     lao:moDesc "Suspect ejaculates in victims mouth"^^xsd:string .
 
 lao:modusOperandi550 a lao:ModusOperandi ;
-    lao:moCode "550"^^xsd:int ;
+    lao:moCode 550 ;
     lao:moDesc "Suspect licks victim"^^xsd:string .
 
 lao:modusOperandi551 a lao:ModusOperandi ;
-    lao:moCode "551"^^xsd:int ;
+    lao:moCode 551 ;
     lao:moDesc "Suspect touches victim genitalia/genitals over clothing"^^xsd:string .
 
 lao:modusOperandi552 a lao:ModusOperandi ;
-    lao:moCode "552"^^xsd:int ;
+    lao:moCode 552 ;
     lao:moDesc "Suspect is Victim's Father"^^xsd:string .
 
 lao:modusOperandi553 a lao:ModusOperandi ;
-    lao:moCode "553"^^xsd:int ;
+    lao:moCode 553 ;
     lao:moDesc "Suspect is Victim's Mother"^^xsd:string .
 
 lao:modusOperandi554 a lao:ModusOperandi ;
-    lao:moCode "554"^^xsd:int ;
+    lao:moCode 554 ;
     lao:moDesc "Suspect is Victim's Brother"^^xsd:string .
 
 lao:modusOperandi555 a lao:ModusOperandi ;
-    lao:moCode "555"^^xsd:int ;
+    lao:moCode 555 ;
     lao:moDesc "Suspect is Victim's Sister"^^xsd:string .
 
 lao:modusOperandi556 a lao:ModusOperandi ;
-    lao:moCode "556"^^xsd:int ;
+    lao:moCode 556 ;
     lao:moDesc "Suspect is Victim's Step-Father"^^xsd:string .
 
 lao:modusOperandi557 a lao:ModusOperandi ;
-    lao:moCode "557"^^xsd:int ;
+    lao:moCode 557 ;
     lao:moDesc "Suspect is Victim's Step-Mother"^^xsd:string .
 
 lao:modusOperandi558 a lao:ModusOperandi ;
-    lao:moCode "558"^^xsd:int ;
+    lao:moCode 558 ;
     lao:moDesc "Suspect is Victim's Uncle"^^xsd:string .
 
 lao:modusOperandi559 a lao:ModusOperandi ;
-    lao:moCode "559"^^xsd:int ;
+    lao:moCode 559 ;
     lao:moDesc "Suspect is Victim's Aunt"^^xsd:string .
 
 lao:modusOperandi560 a lao:ModusOperandi ;
-    lao:moCode "560"^^xsd:int ;
+    lao:moCode 560 ;
     lao:moDesc "Suspect is Victim's Guardian"^^xsd:string .
 
 lao:modusOperandi561 a lao:ModusOperandi ;
-    lao:moCode "561"^^xsd:int ;
+    lao:moCode 561 ;
     lao:moDesc "Suspect is Victim's Son"^^xsd:string .
 
 lao:modusOperandi562 a lao:ModusOperandi ;
-    lao:moCode "562"^^xsd:int ;
+    lao:moCode 562 ;
     lao:moDesc "Suspect is Victim's Daughter"^^xsd:string .
 
 lao:modusOperandi563 a lao:ModusOperandi ;
-    lao:moCode "563"^^xsd:int ;
+    lao:moCode 563 ;
     lao:moDesc "Fetish, Other"^^xsd:string .
 
 lao:modusOperandi601 a lao:ModusOperandi ;
-    lao:moCode "601"^^xsd:int ;
+    lao:moCode 601 ;
     lao:moDesc "Business"^^xsd:string .
 
 lao:modusOperandi602 a lao:ModusOperandi ;
-    lao:moCode "602"^^xsd:int ;
+    lao:moCode 602 ;
     lao:moDesc "Family"^^xsd:string .
 
 lao:modusOperandi603 a lao:ModusOperandi ;
-    lao:moCode "603"^^xsd:int ;
+    lao:moCode 603 ;
     lao:moDesc "Landlord/Tenant/Neighbor"^^xsd:string .
 
 lao:modusOperandi604 a lao:ModusOperandi ;
-    lao:moCode "604"^^xsd:int ;
+    lao:moCode 604 ;
     lao:moDesc "Reproductive Health Services/Facilities"^^xsd:string .
 
 lao:modusOperandi605 a lao:ModusOperandi ;
-    lao:moCode "605"^^xsd:int ;
+    lao:moCode 605 ;
     lao:moDesc "Traffic Accident/Traffic related incident"^^xsd:string .
 
 lao:modusOperandi701 a lao:ModusOperandi ;
-    lao:moCode "701"^^xsd:int ;
+    lao:moCode 701 ;
     lao:moDesc "THEFT: Trick or Device"^^xsd:string .
 
 lao:modusOperandi800 a lao:ModusOperandi ;
-    lao:moCode "800"^^xsd:int ;
+    lao:moCode 800 ;
     lao:moDesc "BUNCO"^^xsd:string .
 
 lao:modusOperandi901 a lao:ModusOperandi ;
-    lao:moCode "901"^^xsd:int ;
+    lao:moCode 901 ;
     lao:moDesc "Organized Crime"^^xsd:string .
 
 lao:modusOperandi902 a lao:ModusOperandi ;
-    lao:moCode "902"^^xsd:int ;
+    lao:moCode 902 ;
     lao:moDesc "Political Activity"^^xsd:string .
 
 lao:modusOperandi903 a lao:ModusOperandi ;
-    lao:moCode "903"^^xsd:int ;
+    lao:moCode 903 ;
     lao:moDesc "Hatred/Prejudice"^^xsd:string .
 
 lao:modusOperandi904 a lao:ModusOperandi ;
-    lao:moCode "904"^^xsd:int ;
+    lao:moCode 904 ;
     lao:moDesc "Strike/Labor Troubles"^^xsd:string .
 
 lao:modusOperandi905 a lao:ModusOperandi ;
-    lao:moCode "905"^^xsd:int ;
+    lao:moCode 905 ;
     lao:moDesc "Terrorist Group"^^xsd:string .
 
 lao:modusOperandi906 a lao:ModusOperandi ;
-    lao:moCode "906"^^xsd:int ;
+    lao:moCode 906 ;
     lao:moDesc "Gangs"^^xsd:string .
 
 lao:modusOperandi907 a lao:ModusOperandi ;
-    lao:moCode "907"^^xsd:int ;
+    lao:moCode 907 ;
     lao:moDesc "Narcotics (Buy-Sell-Rip)"^^xsd:string .
 
 lao:modusOperandi908 a lao:ModusOperandi ;
-    lao:moCode "908"^^xsd:int ;
+    lao:moCode 908 ;
     lao:moDesc "Prostitution"^^xsd:string .
 
 lao:modusOperandi909 a lao:ModusOperandi ;
-    lao:moCode "909"^^xsd:int ;
+    lao:moCode 909 ;
     lao:moDesc "Ritual/Occult"^^xsd:string .
 
 lao:modusOperandi910 a lao:ModusOperandi ;
-    lao:moCode "910"^^xsd:int ;
+    lao:moCode 910 ;
     lao:moDesc "Public Transit (Metrolink/Train Station, Metro Rail Red, Line Subway Station, Metro Rail Blue Line Station, adjacent transit parking lots, tracks or tunnels MTA(RTD), and other municipal lines)."^^xsd:string .
 
 lao:modusOperandi911 a lao:ModusOperandi ;
-    lao:moCode "911"^^xsd:int ;
+    lao:moCode 911 ;
     lao:moDesc "Revenge"^^xsd:string .
 
 lao:modusOperandi912 a lao:ModusOperandi ;
-    lao:moCode "912"^^xsd:int ;
+    lao:moCode 912 ;
     lao:moDesc "Insurance"^^xsd:string .
 
 lao:modusOperandi913 a lao:ModusOperandi ;
-    lao:moCode "913"^^xsd:int ;
+    lao:moCode 913 ;
     lao:moDesc "Victim knew Suspect"^^xsd:string .
 
 lao:modusOperandi914 a lao:ModusOperandi ;
-    lao:moCode "914"^^xsd:int ;
+    lao:moCode 914 ;
     lao:moDesc "Other Felony"^^xsd:string .
 
 lao:modusOperandi915 a lao:ModusOperandi ;
-    lao:moCode "915"^^xsd:int ;
+    lao:moCode 915 ;
     lao:moDesc "Parolee"^^xsd:string .
 
 lao:modusOperandi916 a lao:ModusOperandi ;
-    lao:moCode "916"^^xsd:int ;
+    lao:moCode 916 ;
     lao:moDesc "Forced theft of vehicle (Car-Jacking)"^^xsd:string .
 
 lao:modusOperandi917 a lao:ModusOperandi ;
-    lao:moCode "917"^^xsd:int ;
+    lao:moCode 917 ;
     lao:moDesc "Victim's Employment"^^xsd:string .
 
 lao:modusOperandi918 a lao:ModusOperandi ;
-    lao:moCode "918"^^xsd:int ;
+    lao:moCode 918 ;
     lao:moDesc "Career Criminal"^^xsd:string .
 
 lao:modusOperandi919 a lao:ModusOperandi ;
-    lao:moCode "919"^^xsd:int ;
+    lao:moCode 919 ;
     lao:moDesc "Road Rage"^^xsd:string .
 
 lao:modusOperandi920 a lao:ModusOperandi ;
-    lao:moCode "920"^^xsd:int ;
+    lao:moCode 920 ;
     lao:moDesc "Homeland Security"^^xsd:string .
 
 lao:modusOperandi921 a lao:ModusOperandi ;
-    lao:moCode "921"^^xsd:int ;
+    lao:moCode 921 ;
     lao:moDesc "Hate Incident"^^xsd:string .
 
 lao:modusOperandi922 a lao:ModusOperandi ;
-    lao:moCode "922"^^xsd:int ;
+    lao:moCode 922 ;
     lao:moDesc "ATM Theft with PIN number"^^xsd:string .
 
 lao:modusOperandi923 a lao:ModusOperandi ;
-    lao:moCode "923"^^xsd:int ;
+    lao:moCode 923 ;
     lao:moDesc "Stolen/Forged Checks (Personal Checks)"^^xsd:string .
 
 lao:modusOperandi924 a lao:ModusOperandi ;
-    lao:moCode "924"^^xsd:int ;
+    lao:moCode 924 ;
     lao:moDesc "Stolen/Forged Checks (Business Checks)"^^xsd:string .
 
 lao:modusOperandi925 a lao:ModusOperandi ;
-    lao:moCode "925"^^xsd:int ;
+    lao:moCode 925 ;
     lao:moDesc "Stolen/Forged Checks (Cashier's Checks)"^^xsd:string .
 
 lao:modusOperandi926 a lao:ModusOperandi ;
-    lao:moCode "926"^^xsd:int ;
+    lao:moCode 926 ;
     lao:moDesc "Forged or Telephonic Prescription"^^xsd:string .
 
 lao:modusOperandi927 a lao:ModusOperandi ;
-    lao:moCode "927"^^xsd:int ;
+    lao:moCode 927 ;
     lao:moDesc "Fraudulent or forged school loan"^^xsd:string .
 
 lao:modusOperandi928 a lao:ModusOperandi ;
-    lao:moCode "928"^^xsd:int ;
+    lao:moCode 928 ;
     lao:moDesc "Forged or Fraudulent credit applications"^^xsd:string .
 
 lao:modusOperandi929 a lao:ModusOperandi ;
-    lao:moCode "929"^^xsd:int ;
+    lao:moCode 929 ;
     lao:moDesc "Unauthorized use of victim's bank account information"^^xsd:string .
 
 lao:modusOperandi930 a lao:ModusOperandi ;
-    lao:moCode "930"^^xsd:int ;
+    lao:moCode 930 ;
     lao:moDesc "Unauthorized use of victim's credit/debit card or number"^^xsd:string .
 
 lao:modusOperandi931 a lao:ModusOperandi ;
-    lao:moCode "931"^^xsd:int ;
+    lao:moCode 931 ;
     lao:moDesc "Counterfeit or forged real estate documents"^^xsd:string .
 
 lao:modusOperandi932 a lao:ModusOperandi ;
-    lao:moCode "932"^^xsd:int ;
+    lao:moCode 932 ;
     lao:moDesc "Suspect uses victim's identity in reporting a traffic collision"^^xsd:string .
 
 lao:modusOperandi933 a lao:ModusOperandi ;
-    lao:moCode "933"^^xsd:int ;
+    lao:moCode 933 ;
     lao:moDesc "Suspect uses victim's identity when arrested"^^xsd:string .
 
 lao:modusOperandi934 a lao:ModusOperandi ;
-    lao:moCode "934"^^xsd:int ;
+    lao:moCode 934 ;
     lao:moDesc "Suspect uses victim's identity when receiving a citation"^^xsd:string .
 
 lao:modusOperandi935 a lao:ModusOperandi ;
-    lao:moCode "935"^^xsd:int ;
+    lao:moCode 935 ;
     lao:moDesc "Misc. Stolen/Forged documents"^^xsd:string .
 
 lao:modusOperandi936 a lao:ModusOperandi ;
-    lao:moCode "936"^^xsd:int ;
+    lao:moCode 936 ;
     lao:moDesc "Dog Fighting"^^xsd:string .
 
 lao:modusOperandi937 a lao:ModusOperandi ;
-    lao:moCode "937"^^xsd:int ;
+    lao:moCode 937 ;
     lao:moDesc "Cock Fighting"^^xsd:string .
 
 lao:modusOperandi938 a lao:ModusOperandi ;
-    lao:moCode "938"^^xsd:int ;
+    lao:moCode 938 ;
     lao:moDesc "Animal Neglect"^^xsd:string .
 
 lao:modusOperandi939 a lao:ModusOperandi ;
-    lao:moCode "939"^^xsd:int ;
+    lao:moCode 939 ;
     lao:moDesc "Animal Hoarding"^^xsd:string .
 
 lao:modusOperandi940 a lao:ModusOperandi ;
-    lao:moCode "940"^^xsd:int ;
+    lao:moCode 940 ;
     lao:moDesc "Met online/Chat Room/on Party Line"^^xsd:string .
 
 lao:modusOperandi941 a lao:ModusOperandi ;
-    lao:moCode "941"^^xsd:int ;
+    lao:moCode 941 ;
     lao:moDesc "Non-Revocable Parole (NRP)"^^xsd:string .
 
 lao:modusOperandi942 a lao:ModusOperandi ;
-    lao:moCode "942"^^xsd:int ;
+    lao:moCode 942 ;
     lao:moDesc "Party/Flier party/Rave Party"^^xsd:string .
 
 lao:modusOperandi943 a lao:ModusOperandi ;
-    lao:moCode "943"^^xsd:int ;
+    lao:moCode 943 ;
     lao:moDesc "Human Trafficking"^^xsd:string .
 
 lao:modusOperandi944 a lao:ModusOperandi ;
-    lao:moCode "944"^^xsd:int ;
+    lao:moCode 944 ;
     lao:moDesc "Bait Operation"^^xsd:string .
 
 lao:modusOperandi945 a lao:ModusOperandi ;
-    lao:moCode "945"^^xsd:int ;
+    lao:moCode 945 ;
     lao:moDesc "Estes Robbery"^^xsd:string .
 
 lao:modusOperandi946 a lao:ModusOperandi ;
-    lao:moCode "946"^^xsd:int ;
+    lao:moCode 946 ;
     lao:moDesc "Gang Feud"^^xsd:string .
 
 lao:modusOperandi947 a lao:ModusOperandi ;
-    lao:moCode "947"^^xsd:int ;
+    lao:moCode 947 ;
     lao:moDesc "Motorized Rental Scooter/Bike (Bird, Lime, etc)."^^xsd:string .
 
 lao:modusOperandi9999 a lao:ModusOperandi ;
-    lao:moCode "9999"^^xsd:int ;
+    lao:moCode 9999 ;
     lao:moDesc "Indistinctive MO"^^xsd:string .
 
