@@ -1,0 +1,157 @@
+PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX val: <http://www.bitsei.it/validateLosAngelesOntology/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+# DATA PROPERTIES VALIDATION
+
+val:checkCrimeNodes 
+	a sh:NodeShape ;
+	sh:targetClass lao:Crime ;
+	sh:property [
+		sh:path lao:crimeCode ;
+		sh:datatype xsd:integer ;
+		sh:minCount 1 ; 
+	] ;
+	sh:property [
+		sh:path lao:crimeDesc ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ; 
+	] ;
+.
+
+val:checkVictimNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Victim ;
+	sh:property [
+		sh:path lao:victimAge ;
+		sh:datatype xsd:integer ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:victimSex ;
+		sh:datatype xsd:string ;
+		#sh:maxLength 1 ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:victimDescent ;
+		sh:datatype xsd:string ;
+		#sh:maxLength 1 ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkCrimeEventNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:CrimeEvent ;
+	sh:property [
+		sh:path lao:crimeId ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:timeOccurred ;
+		sh:datatype xsd:dateTime ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:reportedToFbi ;
+		sh:datatype xsd:boolean ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkModusOperandiNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:ModusOperandi ;
+	sh:property [
+		sh:path lao:moCode ;
+		sh:datatype xsd:integer ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:moDesc ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkWeaponNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Weapon ;
+	sh:property [
+		sh:path lao:weaponCode ;
+		sh:datatype xsd:integer ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:weaponDesc ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkPremisNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Premis ;
+	sh:property [
+		sh:path lao:premisCode ;
+		sh:datatype xsd:integer ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:premisDesc ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkLocationNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Location ;
+	sh:property [
+		sh:path lao:hasLatitude ;
+		sh:datatype xsd:double ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:hasLongitude ;
+		sh:datatype xsd:double ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkBusinessNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Business ;
+	sh:property [
+		sh:path lao:businessId ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:businessName ;
+		sh:datatype xsd:string ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:doingBusinessAsName ;
+		sh:datatype xsd:string ;
+		#sh:maxCount 1 ;
+	] ;
+.
