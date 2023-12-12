@@ -50,7 +50,7 @@ val:checkCrimeEventNodes
 	sh:targetClass lao:CrimeEvent ;
 	sh:property [
 		sh:path lao:crimeId ;
-		sh:datatype xsd:string ;
+		sh:datatype xsd:integer ;
 		sh:minCount 1 ;
 		sh:maxCount 1 ;
 	] ;
