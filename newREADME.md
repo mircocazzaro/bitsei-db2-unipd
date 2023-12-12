@@ -204,19 +204,24 @@ Describe the ontology diagram (if needed)
 
 Note: The image provided above displays the class diagram for reference.
 
-## System Hardware
+## System Hardware & Software
 
-Here do we want to describe the server in which the database is running?
-### Machine 1:
-- CPU: Intel centrino
-- GPU: NVIDIA schiacciasassi
-- RAM: 1GB if needed
-- SSD: a floppy disk
+We worked together in a shared environment: in particular, we instantiated a platform independent instance of GraphDB and we uploaded there all our RDF data.
+### VPS:
+- CPU: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz (1 vCore)
+- RAM: 4GB if needed
+- SSD disk
+- OS: CentOS 7
+- GraphDB: ver. 10.4.2
 ---
 
 ## How to Run and Use the Codes
-TODO
-Before any attempt, make sure you have the **collection** and **topics** files available in your system. If you want to use the query expansion, put your open-api key in the python script and run it. The script will create a file named "result.json" which will be used by the searcher. If you want to use the Re-ranking method, you should run it on a system that supports `pytorch cuda` version. Please note that it is not supported on the `macOS system with Apple Silicon chip`. Pass the [sbert](https://huggingface.co/sentence-transformers) model to the searcher. If your model exists in `dl4j`, it will automatically download it. Otherwise, you should download it, convert it to `torch-script`, and put it somewhere, using the path in the `re-ranker` class.
+### Queries:
+You can open the notebook `queries/BitseiQueries.ipynb` and run our queries!
+N.B. For security reasons, IP's are filtered on the remote server. Please make sure you are connecting from any of the buildings of the University of Padua (The IP class `147.162.0.0\16` is allowed to connect).
+
+### Web app:
+//farzy please fill this out
 
 ### Running using CLI
 We provide here in the folder `final_jar_executable` a jar executable version of our program that automatically creates its own working environment and changes the parameters based on your needs in `CloseSearchEngine.java`. To run it, follow these steps:
