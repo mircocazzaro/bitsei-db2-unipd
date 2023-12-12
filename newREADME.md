@@ -77,206 +77,205 @@ The project is developed using:
 
 The overall structure of the repository is as follows:
 
-📁 bitsei-db2-unipd
-├── 📄 .gitattributes
-├── 📄 .gitignore
-├── 📄 bitsei-db2-logo.png
-├── 📄 LICENSE
-├── 📄 loadSoccerData.ipynb
-├── 📄 newREADME.md
-├── 📄 README.md
-├── 📁 .vscode
-│   └── 📄 launch.json
-├── 📁 datasets
-│   ├── 📁 ACTIVE BUSINESSES
-│   │   ├── 📄 fixed-Listing_of_Active_Businesses_parsed.csv
-│   │   └── 📁 misc
-│   │       ├── 📄 active_businesses_parser.py
-│   │       └── 📄 Listing_of_Active_Businesses_parsed.csv
-│   ├── 📁 CLOSED BUSINESSES
-│   │   ├── 📄 2022_NAICS_Descriptions.csv
-│   │   ├── 📄 parsed-All_Closed_Businesses_20231101_PARSED.csv
-│   │   └── 📁 misc
-│   │       ├── 📄 All_Closed_Businesses_20231101.csv
-│   │       ├── 📄 All_Closed_Businesses_20231101_PARSED.csv
-│   │       └── 📄 closed_businesses_parser.py
-│   ├── 📁 COVID DATA
-│   │   ├── 📄 sorted_los_angeles_covid_data.csv
-│   │   └── 📁 misc
-│   │       ├── 📄 confirmed_cases_plot.png
-│   │       ├── 📄 covid_orderer.py
-│   │       ├── 📄 covid_parser.py
-│   │       ├── 📄 los_angeles_covid_data.csv
-│   │       └── 📄 plot_covid_data.py
-│   ├── 📁 COVID TIMELINE
-│   │   ├── 📄 covid_periods.csv
-│   │   └── 📁 misc
-│   │       ├── 📄 Timeline The Coronavirus Pandemic in California – NBC Los Angeles.csv
-│   │       └── 📄 Timeline The Coronavirus Pandemic in California – NBC Los Angeles.pdf
-│   ├── 📁 CRIME DATA
-│   │   ├── 📄 CrimesCodesAndDesc_listed.xlsx
-│   │   ├── 📄 CrimesCodesAndDesc_listed_parsed.csv
-│   │   ├── 📄 Crime_Data_from_2020_to_Present_1.csv
-│   │   ├── 📄 Crime_Data_from_2020_to_Present_2.csv
-│   │   ├── 📄 Crime_Data_from_2020_to_Present_3.csv
-│   │   ├── 📄 MO_CODES_Numerical_20191119_parsed.csv
-│   │   ├── 📄 parsed-Crime_Data_from_2020_to_Present-part1.csv
-│   │   ├── 📄 parsed-Crime_Data_from_2020_to_Present-part2.csv
-│   │   ├── 📄 parsed-Crime_Data_from_2020_to_Present-part3.csv
-│   │   ├── 📄 premisCodesData_parsed.csv
-│   │   └── 📄 weapon_ds_parsed.csv
-│   │   ├── 📁 CRIME CATEGORIES
-│   │   │   ├── 📄 cellfie.log
-│   │   │   ├── 📄 crimeCategories.txt
-│   │   │   ├── 📄 crimeCategory1.xlsx
-│   │   │   ├── 📄 crimeCategory2.xlsx
-│   │   │   ├── 📄 crimeCategory3.xlsx
-│   │   │   ├── 📄 crimeCategory4.xlsx
-│   │   │   ├── 📄 crimeCategory5.xlsx
-│   │   │   ├── 📄 CrimesCodesAndDesc_listed.xls
-│   │   │   └── 📄 populateCrimeTypologies.json
-│   │   └── 📁 misc
-│   │       ├── 📄 CrimesCodesAndDesc_listed.csv
-│   │       ├── 📄 extractCrimes.py
-│   │       ├── 📄 MO_CODES_Numerical_20191119.csv
-│   │       ├── 📄 premisCodesData.csv
-│   │       └── 📄 weapon_ds.csv
-│   ├── 📁 LOS ANGELES GEO DATA
-│   │   ├── 📄 areas.csv
-│   │   ├── 📄 cities.csv
-│   │   ├── 📄 Community_Planning_Areas.json
-│   │   └── 📄 Community_Planning_Areas4326.json
-├── 📁 ontology
-│   ├── 📄 Bitsei_ontology.drawio
-│   ├── 📄 Bitsei_ontology.svg
-│   └── 📁 requirements analysis
-│       └── 📄 link_to_requirements_analysis.txt
-├── 📁 queries
-│   ├── 📄 BitseiQueries.ipynb
-│   ├── 📁 1
-│   │   ├── 📄 1a.csv
-│   │   ├── 📄 1b.csv
-│   │   ├── 📄 1c.csv
-│   │   ├── 📄 1d.csv
-│   │   ├── 📄 num_of_businesses_opclosed_plot.png
-│   │   ├── 📄 num_of_business_opclosed_plot.py
-│   │   ├── 📄 num_of_cases_plot.png
-│   │   ├── 📄 num_of_cases_plot.py
-│   │   ├── 📄 num_of_crimeEvents_plot.png
-│   │   ├── 📄 num_of_crimeEvents_plot.py
-│   │   ├── 📄 num_of_deaths_plot.png
-│   │   └── 📄 num_of_deaths_plot.py
-│   ├── 📁 2
-│   │   ├── 📄 2a.csv
-│   │   ├── 📄 2b.csv
-│   │   ├── 📄 2c.csv
-│   │   ├── 📄 2d.csv
-│   │   ├── 📄 num_of_business_opclosedRatios_plot.png
-│   │   ├── 📄 num_of_business_opclosedRatios_plot.py
-│   │   ├── 📄 num_of_casesRatios_plot.png
-│   │   ├── 📄 num_of_casesRatios_plot.py
-│   │   ├── 📄 num_of_crimeEventsRatios_plot.png
-│   │   ├── 📄 num_of_crimeEventsRatios_plot.py
-│   │   ├── 📄 num_of_deathRatios_plot.py
-│   │   └── 📄 num_of_deathsRatios_plot.png
-│   ├── 📁 3
-│   │   ├── 📄 3a.csv
-│   │   ├── 📄 3b.csv
-│   │   ├── 📄 3c.csv
-│   │   ├── 📄 3d.csv
-│   │   ├── 📄 3e.csv
-│   │   ├── 📄 3f.csv
-│   │   └── 📄 3g.csv
-│   ├── 📁 4
-│   │   ├── 📄 4a.csv
-│   │   ├── 📄 4b.csv
-│   │   ├── 📄 businesses_opclosed_by_naics.png
-│   │   └── 📄 businesses_opclosed_by_naics.py
-│   ├── 📁 5
-│   │   ├── 📄 5a.csv
-│   │   ├── 📄 5b.csv
-│   │   ├── 📄 5c.csv
-│   │   ├── 📄 crime_dist_by_cat.png
-│   │   ├── 📄 crime_dist_by_cat.py
-│   │   ├── 📄 crime_dist_by_cat_over_area.png
-│   │   ├── 📄 crime_dist_by_cat_over_area.py
-│   │   ├── 📄 crime_dist_by_cat_over_period.png
-│   │   └── 📄 crime_dist_by_cat_over_period.py
-│   ├── 📁 6
-│   │   ├── 📄 6.csv
-│   │   ├── 📄 table.aux
-│   │   ├── 📄 table.fdb_latexmk
-│   │   ├── 📄 table.fls
-│   │   ├── 📄 table.pdf
-│   │   ├── 📄 table.synctex.gz
-│   │   └── 📄 table.tex
-│   ├── 📁 7
-│   │   ├── 📄 7.csv
-│   │   ├── 📄 table.aux
-│   │   ├── 📄 table.fdb_latexmk
-│   │   ├── 📄 table.fls
-│   │   ├── 📄 table.pdf
-│   │   ├── 📄 table.synctex.gz
-│   │   └── 📄 table.tex
-│   ├── 📁 8
-│   │   ├── 📄 8.csv
-│   │   ├── 📄 table.aux
-│   │   ├── 📄 table.fdb_latexmk
-│   │   ├── 📄 table.fls
-│   │   ├── 📄 table.pdf
-│   │   ├── 📄 table.synctex.gz
-│   │   └── 📄 table.tex
-│   └── 📁 9-10
-│       ├── 📄 10.csv
-│       ├── 📄 9.csv
-│       └── 📄 Near Repeat Phenomenon.ipynb
-├── 📁 scripts
-│   ├── 📄 loacation_process.ipynb
-│   ├── 📄 README.md
-│   └── 📄 requirements.txt
-├── 📁 serialization
-│   ├── 📄 areas.ttl
-│   ├── 📄 BitseiQueries.ipynb
-│   ├── 📄 businesses.ttl
-│   ├── 📄 cities.ttl
-│   ├── 📄 covidDays.ttl
-│   ├── 📄 crimeCrimeEvents.ttl
-│   ├── 📄 crimeCrimesTypology.ttl
-│   ├── 📄 crimeModusOperandi.ttl
-│   ├── 📄 crimePremis.ttl
-│   ├── 📄 crimeVictims.ttl
-│   ├── 📄 crimeWeapons.ttl
-│   ├── 📄 locations.ttl
-│   ├── 📄 naics.ttl
-│   ├── 📄 serializeLAcrimes.ipynb
-│   └── 📄 serializeLAdata.ipynb
-├── 📁 validation
-│   └── 📄 validateDataProperties.txt
-└── 📁 webapp
-    ├── 📄 api.py
-    ├── 📄 fastapi_globals.py
-    ├── 📄 main.py
-    ├── 📄 README.md
-    ├── 📄 requirements.txt
-    ├── 📄 utils.py
-    ├── 📁 endpoints
-    │   ├── 📄 business.py
-    │   └── 📄 crime.py
-    └── 📁 frontend
-        ├── 📄 package.json
-        ├── 📄 yarn.lock
-        └── 📁 src
-            ├── 📄 acquisitions.js
-            ├── 📄 index.html
-            ├── 📁 assets
-            │   └── 📄 bitsei-db2-logo.png
-            ├── 📁 scripts
-            │   ├── 📄 chart.js
-            │   ├── 📄 main.js
-            │   └── 📄 sidebar.js
-            └── 📁 styles
-                └── 📄 main.css
-
+📁 bitsei-db2-unipd<br/>
+├── 📄 .gitattributes<br/>
+├── 📄 .gitignore<br/>
+├── 📄 bitsei-db2-logo.png<br/>
+├── 📄 LICENSE<br/>
+├── 📄 loadSoccerData.ipynb<br/>
+├── 📄 newREADME.md<br/>
+├── 📄 README.md<br/>
+├── 📁 .vscode<br/>
+│   └── 📄 launch.json<br/>
+├── 📁 datasets<br/>
+│   ├── 📁 ACTIVE BUSINESSES<br/>
+│   │   ├── 📄 fixed-Listing_of_Active_Businesses_parsed.csv<br/>
+│   │   └── 📁 misc<br/>
+│   │       ├── 📄 active_businesses_parser.py<br/>
+│   │       └── 📄 Listing_of_Active_Businesses_parsed.csv<br/>
+│   ├── 📁 CLOSED BUSINESSES<br/>
+│   │   ├── 📄 2022_NAICS_Descriptions.csv<br/>
+│   │   ├── 📄 parsed-All_Closed_Businesses_20231101_PARSED.csv<br/>
+│   │   └── 📁 misc<br/>
+│   │       ├── 📄 All_Closed_Businesses_20231101.csv<br/>
+│   │       ├── 📄 All_Closed_Businesses_20231101_PARSED.csv<br/>
+│   │       └── 📄 closed_businesses_parser.py<br/>
+│   ├── 📁 COVID DATA<br/>
+│   │   ├── 📄 sorted_los_angeles_covid_data.csv<br/>
+│   │   └── 📁 misc<br/>
+│   │       ├── 📄 confirmed_cases_plot.png<br/>
+│   │       ├── 📄 covid_orderer.py<br/>
+│   │       ├── 📄 covid_parser.py<br/>
+│   │       ├── 📄 los_angeles_covid_data.csv<br/>
+│   │       └── 📄 plot_covid_data.py<br/>
+│   ├── 📁 COVID TIMELINE<br/>
+│   │   ├── 📄 covid_periods.csv<br/>
+│   │   └── 📁 misc<br/>
+│   │       ├── 📄 Timeline The Coronavirus Pandemic in California – NBC Los Angeles.csv<br/>
+│   │       └── 📄 Timeline The Coronavirus Pandemic in California – NBC Los Angeles.pdf<br/>
+│   ├── 📁 CRIME DATA<br/>
+│   │   ├── 📄 CrimesCodesAndDesc_listed.xlsx<br/>
+│   │   ├── 📄 CrimesCodesAndDesc_listed_parsed.csv<br/>
+│   │   ├── 📄 Crime_Data_from_2020_to_Present_1.csv<br/>
+│   │   ├── 📄 Crime_Data_from_2020_to_Present_2.csv<br/>
+│   │   ├── 📄 Crime_Data_from_2020_to_Present_3.csv<br/>
+│   │   ├── 📄 MO_CODES_Numerical_20191119_parsed.csv<br/>
+│   │   ├── 📄 parsed-Crime_Data_from_2020_to_Present-part1.csv<br/>
+│   │   ├── 📄 parsed-Crime_Data_from_2020_to_Present-part2.csv<br/>
+│   │   ├── 📄 parsed-Crime_Data_from_2020_to_Present-part3.csv<br/>
+│   │   ├── 📄 premisCodesData_parsed.csv<br/>
+│   │   └── 📄 weapon_ds_parsed.csv<br/>
+│   │   ├── 📁 CRIME CATEGORIES<br/>
+│   │   │   ├── 📄 cellfie.log<br/>
+│   │   │   ├── 📄 crimeCategories.txt<br/>
+│   │   │   ├── 📄 crimeCategory1.xlsx<br/>
+│   │   │   ├── 📄 crimeCategory2.xlsx<br/>
+│   │   │   ├── 📄 crimeCategory3.xlsx<br/>
+│   │   │   ├── 📄 crimeCategory4.xlsx<br/>
+│   │   │   ├── 📄 crimeCategory5.xlsx<br/>
+│   │   │   ├── 📄 CrimesCodesAndDesc_listed.xls<br/>
+│   │   │   └── 📄 populateCrimeTypologies.json<br/>
+│   │   └── 📁 misc<br/>
+│   │       ├── 📄 CrimesCodesAndDesc_listed.csv<br/>
+│   │       ├── 📄 extractCrimes.py<br/>
+│   │       ├── 📄 MO_CODES_Numerical_20191119.csv<br/>
+│   │       ├── 📄 premisCodesData.csv<br/>
+│   │       └── 📄 weapon_ds.csv<br/>
+│   ├── 📁 LOS ANGELES GEO DATA<br/>
+│   │   ├── 📄 areas.csv<br/>
+│   │   ├── 📄 cities.csv<br/>
+│   │   ├── 📄 Community_Planning_Areas.json<br/>
+│   │   └── 📄 Community_Planning_Areas4326.json<br/>
+├── 📁 ontology<br/>
+│   ├── 📄 Bitsei_ontology.drawio<br/>
+│   ├── 📄 Bitsei_ontology.svg<br/>
+│   └── 📁 requirements analysis<br/>
+│       └── 📄 link_to_requirements_analysis.txt<br/>
+├── 📁 queries<br/>
+│   ├── 📄 BitseiQueries.ipynb<br/>
+│   ├── 📁 1<br/>
+│   │   ├── 📄 1a.csv<br/>
+│   │   ├── 📄 1b.csv<br/>
+│   │   ├── 📄 1c.csv<br/>
+│   │   ├── 📄 1d.csv<br/>
+│   │   ├── 📄 num_of_businesses_opclosed_plot.png<br/>
+│   │   ├── 📄 num_of_business_opclosed_plot.py<br/>
+│   │   ├── 📄 num_of_cases_plot.png<br/>
+│   │   ├── 📄 num_of_cases_plot.py<br/>
+│   │   ├── 📄 num_of_crimeEvents_plot.png<br/>
+│   │   ├── 📄 num_of_crimeEvents_plot.py<br/>
+│   │   ├── 📄 num_of_deaths_plot.png<br/>
+│   │   └── 📄 num_of_deaths_plot.py<br/>
+│   ├── 📁 2<br/>
+│   │   ├── 📄 2a.csv<br/>
+│   │   ├── 📄 2b.csv<br/>
+│   │   ├── 📄 2c.csv<br/>
+│   │   ├── 📄 2d.csv<br/>
+│   │   ├── 📄 num_of_business_opclosedRatios_plot.png<br/>
+│   │   ├── 📄 num_of_business_opclosedRatios_plot.py<br/>
+│   │   ├── 📄 num_of_casesRatios_plot.png<br/>
+│   │   ├── 📄 num_of_casesRatios_plot.py<br/>
+│   │   ├── 📄 num_of_crimeEventsRatios_plot.png<br/>
+│   │   ├── 📄 num_of_crimeEventsRatios_plot.py<br/>
+│   │   ├── 📄 num_of_deathRatios_plot.py<br/>
+│   │   └── 📄 num_of_deathsRatios_plot.png<br/>
+│   ├── 📁 3<br/>
+│   │   ├── 📄 3a.csv<br/>
+│   │   ├── 📄 3b.csv<br/>
+│   │   ├── 📄 3c.csv<br/>
+│   │   ├── 📄 3d.csv<br/>
+│   │   ├── 📄 3e.csv<br/>
+│   │   ├── 📄 3f.csv<br/>
+│   │   └── 📄 3g.csv<br/>
+│   ├── 📁 4<br/>
+│   │   ├── 📄 4a.csv<br/>
+│   │   ├── 📄 4b.csv<br/>
+│   │   ├── 📄 businesses_opclosed_by_naics.png<br/>
+│   │   └── 📄 businesses_opclosed_by_naics.py<br/>
+│   ├── 📁 5<br/>
+│   │   ├── 📄 5a.csv<br/>
+│   │   ├── 📄 5b.csv<br/>
+│   │   ├── 📄 5c.csv<br/>
+│   │   ├── 📄 crime_dist_by_cat.png<br/>
+│   │   ├── 📄 crime_dist_by_cat.py<br/>
+│   │   ├── 📄 crime_dist_by_cat_over_area.png<br/>
+│   │   ├── 📄 crime_dist_by_cat_over_area.py<br/>
+│   │   ├── 📄 crime_dist_by_cat_over_period.png<br/>
+│   │   └── 📄 crime_dist_by_cat_over_period.py<br/>
+│   ├── 📁 6<br/>
+│   │   ├── 📄 6.csv<br/>
+│   │   ├── 📄 table.aux<br/>
+│   │   ├── 📄 table.fdb_latexmk<br/>
+│   │   ├── 📄 table.fls<br/>
+│   │   ├── 📄 table.pdf<br/>
+│   │   ├── 📄 table.synctex.gz<br/>
+│   │   └── 📄 table.tex<br/>
+│   ├── 📁 7<br/>
+│   │   ├── 📄 7.csv<br/>
+│   │   ├── 📄 table.aux<br/>
+│   │   ├── 📄 table.fdb_latexmk<br/>
+│   │   ├── 📄 table.fls<br/>
+│   │   ├── 📄 table.pdf<br/>
+│   │   ├── 📄 table.synctex.gz<br/>
+│   │   └── 📄 table.tex<br/>
+│   ├── 📁 8<br/>
+│   │   ├── 📄 8.csv<br/>
+│   │   ├── 📄 table.aux<br/>
+│   │   ├── 📄 table.fdb_latexmk<br/>
+│   │   ├── 📄 table.fls<br/>
+│   │   ├── 📄 table.pdf<br/>
+│   │   ├── 📄 table.synctex.gz<br/>
+│   │   └── 📄 table.tex<br/>
+│   └── 📁 9-10<br/>
+│       ├── 📄 10.csv<br/>
+│       ├── 📄 9.csv<br/>
+│       └── 📄 Near Repeat Phenomenon.ipynb<br/>
+├── 📁 scripts<br/>
+│   ├── 📄 loacation_process.ipynb<br/>
+│   ├── 📄 README.md<br/>
+│   └── 📄 requirements.txt<br/>
+├── 📁 serialization<br/>
+│   ├── 📄 areas.ttl<br/>
+│   ├── 📄 BitseiQueries.ipynb<br/>
+│   ├── 📄 businesses.ttl<br/>
+│   ├── 📄 cities.ttl<br/>
+│   ├── 📄 covidDays.ttl<br/>
+│   ├── 📄 crimeCrimeEvents.ttl<br/>
+│   ├── 📄 crimeCrimesTypology.ttl<br/>
+│   ├── 📄 crimeModusOperandi.ttl<br/>
+│   ├── 📄 crimePremis.ttl<br/>
+│   ├── 📄 crimeVictims.ttl<br/>
+│   ├── 📄 crimeWeapons.ttl<br/>
+│   ├── 📄 locations.ttl<br/>
+│   ├── 📄 naics.ttl<br/>
+│   ├── 📄 serializeLAcrimes.ipynb<br/>
+│   └── 📄 serializeLAdata.ipynb<br/>
+├── 📁 validation<br/>
+│   └── 📄 validateDataProperties.txt<br/>
+└── 📁 webapp<br/>
+    ├── 📄 api.py<br/>
+    ├── 📄 fastapi_globals.py<br/>
+    ├── 📄 main.py<br/>
+    ├── 📄 README.md<br/>
+    ├── 📄 requirements.txt<br/>
+    ├── 📄 utils.py<br/>
+    ├── 📁 endpoints<br/>
+    │   ├── 📄 business.py<br/>
+    │   └── 📄 crime.py<br/>
+    └── 📁 frontend<br/>
+        ├── 📄 package.json<br/>
+        ├── 📄 yarn.lock<br/>
+        └── 📁 src<br/>
+            ├── 📄 acquisitions.js<br/>
+            ├── 📄 index.html<br/>
+            ├── 📁 assets<br/>
+            │   └── 📄 bitsei-db2-logo.png<br/>
+            ├── 📁 scripts<br/>
+            │   ├── 📄 chart.js<br/>
+            │   ├── 📄 main.js<br/>
+            │   └── 📄 sidebar.js<br/>
+            └── 📁 styles<br/>
+                └── 📄 main.css<br/>
 
 ---
 
