@@ -11,6 +11,7 @@ The objective of this repository is to propose an ontology that can effectively 
 - The data associated with the pandemic spread and growth;
 - The data associated with the businesses opened and closed;
 - The data associated with the criminal activities registered during our period of interest.
+
 To accomplish this, we leverage on four comprehensive datasets:
 1. [Dataset Name](link): insert description 
 2. [Dataset Name](link): insert description
@@ -92,18 +93,18 @@ The overall structure of the repository is as follows:
 │   │       ├── 📄 active_businesses_parser.py<br/>
 │   │       └── 📄 Listing_of_Active_Businesses_parsed.csv<br/>
 │   ├── 📁 CLOSED BUSINESSES<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 COVID DATA<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 COVID TIMELINE<br/>
 │   │   ├── 📄 covid_periods.csv<br/>
 │   │   └── 📁 misc<br/>
 │   │       ├── 📄 Timeline The Coronavirus Pandemic in California – NBC Los Angeles.csv<br/>
 │   │       └── 📄 Timeline The Coronavirus Pandemic in California – NBC Los Angeles.pdf<br/>
 │   ├── 📁 CRIME DATA<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 LOS ANGELES GEO DATA<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 ├── 📁 ontology<br/>
 │   ├── 📄 Bitsei_ontology.drawio<br/>
 │   ├── 📄 Bitsei_ontology.svg<br/>
@@ -112,23 +113,23 @@ The overall structure of the repository is as follows:
 ├── 📁 queries<br/>
 │   ├── 📄 BitseiQueries.ipynb<br/>
 │   ├── 📁 1<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 2<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 3<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 4<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 5<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 6<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 7<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   ├── 📁 8<br/>
-│   │   └── ⤵️
+│   │   └── ⤵️<br/>
 │   └── 📁 9-10<br/>
-│       └── ⤵️
+│       └── ⤵️<br/>
 ├── 📁 scripts<br/>
 │   ├── 📄 loacation_process.ipynb<br/>
 │   ├── 📄 README.md<br/>
@@ -152,7 +153,7 @@ The overall structure of the repository is as follows:
 ├── 📁 validation<br/>
 │   └── 📄 validateDataProperties.txt<br/>
 └── 📁 webapp<br/>
-    └── ⤵️
+    └── ⤵️<br/>
 
 ---
 
