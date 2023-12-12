@@ -3,11 +3,13 @@ from SPARQLWrapper import JSON
 
 from fastapi_globals import g
 from utils import SPARQLExceptions
+from fastapi_cache.decorator import cache
 
 router = APIRouter()
 
 
 @router.get("")
+@cache()
 async def crime_codes():
     g.sparql.setQuery("""
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -29,6 +31,7 @@ async def crime_codes():
 
 
 @router.get("/codes")
+@cache()
 async def crime_codes():
     g.sparql.setQuery("""
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema/>
@@ -57,6 +60,7 @@ async def crime_codes():
 
 
 @router.get("/weapon")
+@cache()
 async def crime_weapon(
         crime_code: str
 ):
@@ -95,6 +99,7 @@ async def crime_weapon(
 
 
 @router.get("/category-month")
+@cache()
 async def category_month():
     g.sparql.setQuery("""
         PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
@@ -152,6 +157,7 @@ async def category_month():
 
 
 @router.get("/category-event-by-area")
+@cache()
 async def category_event_by_area():
     g.sparql.setQuery("""
         PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>

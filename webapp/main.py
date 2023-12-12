@@ -8,12 +8,20 @@ from starlette.middleware.cors import CORSMiddleware
 from api import api_router as api_router_v1
 from fastapi_globals import GlobalsMiddleware, g
 
+from fastapi_cache import FastAPICache
+from fastapi_cache.backends.redis import RedisBackend
+
+from redis import asyncio as aioredis
+
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
     sparql = SPARQLWrapper("http://89.40.142.15:7200/repositories/LARepo")
     g.set_default("sparql", sparql)
+
+    redis = aioredis.from_url("redis://localhost")
+    FastAPICache.init(RedisBackend(redis), prefix="fastapi-cache")
     print("startup fastapi")
     yield
 
