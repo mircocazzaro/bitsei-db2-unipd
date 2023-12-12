@@ -12,16 +12,9 @@ The objective of this repository is to propose an ontology that can effectively 
 - The data associated with the businesses opened and closed;
 - The data associated with the criminal activities registered during our period of interest.
 
-To accomplish this, we leverage on four comprehensive datasets:
-1. [Dataset Name](link): insert description 
-2. [Dataset Name](link): insert description
-3. [Dataset Name](link): insert description
-4. [Dataset Name](link): insert description
-allowing us to capture and reflect the impact of pandemic and restrictions on the population.
+Data have been modelled in a way they can be filtered both by date and by location.
 
 This repository is developed for the [Database II](https://iiia.dei.unipd.it/education/database-2/) course.
-
----
 
 ## Group Members
 BITSEI (graph-Based InformaTion SystEms for Insights analysis) Group
@@ -32,6 +25,46 @@ BITSEI (graph-Based InformaTion SystEms for Insights analysis) Group
 | Cazzaro         | Mirco        | 2076745   |
 | Martinelli      | Marco        | 2087646   |
 | Shami           | Farzad       | 2090160   |
+
+---
+
+## Datasets Overview
+To accomplish this, we leverage on four comprehensive datasets, allowing us to capture and reflect the impact of pandemic and restrictions on the population:
+1. [LA County COVID Cases](https://catalog.data.gov/dataset/la-county-covid-cases): reporting COVID cases and deaths for LA County and California State. For each day, from 2020 to 2022, the dataset provides information about:
+* confirmed cases: the number of confirmed CoVid cases cumulative, from the start of the pandemic to the current day;
+* active cases: the number of active CoVid cases of the day;
+* deaths: the number of CoVid deaths cumulative, from the start of the pandemic to the current day.     
+
+Taking advantage from these, we were able to create and populate, for each day in the timeline, the following fields:
+* new cases: the number of newCases of the day (activeCases(today)-activeCases(yesterday)).
+
+In addition, by searching various newspapers, we were able to create a subdivision in period of the CoVid timeline. Specifically, a *CoVid Periods* dataset has been created, having the following fields:
+* period name: the label used to refer to a certain period (e.g. 'First Lockdown Period');
+* start date: the date in which the period starts;
+* end date: the date in which the period ends.
+
+2. [LA County Active Businesses](https://catalog.data.gov/dataset/listing-of-active-businesses): reporting all the active businesses registered with the Office of Finance. An "active" business is defined as a registered business whose owner HAS NOT notified the Office of Finance of a cease of business operations. For each business opened in between 2020 and 2022, the dataset provides information about:
+* business name: the name of the business and, eventually, the DBA (Doing Business As) alias;
+* address: street address, city, and zip code where the business is located;
+* location: geographical coordinates (lat, lon) where the business is located;
+* opening date: the date in which the business has been opened;
+* NAICS code and description: the North American Industry Classification System code provides ;information about the business typology. 
+
+3. [La County Closed Businesses](https://data.lacity.org/Administration-Finance/All-Closed-Businesses/tkh9-tssh): reporting all the closed businesses registered with the Office of Finance. A "closed" business is defined as a registered business whose owner HAS notified the Office of Finance of a cease of business operations. The dataset provides the same information as the one referring to active businesses, the only difference is the trivial presence of the "closing date" field.
+
+Using the columns about NAICS from both the businesses datasets, we were able to create the *NAICS Codes and Descriptions* dataset, a simple dataset which maps uniquely all the different NAICS codes to their descriptions.
+
+4. [La County Crime Events](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8): reporting incidents of crime in the City of Los Angeles dating back to 2020. For each crime event, the dataset provides information about:
+* occurred and reported date: the dates in which the crime event has occurred and has been reported;
+* location: geographical coordinates (lat, lon) and area in which the crime event occurred;
+* crime typology: which type of crime has happened (e.g. burglary, assault);
+* victim: age, sex, and descent of the victim of the crime event;
+* premise: the premise in which the crime event occurred;
+* weapon: the weapon used in the crime event;
+
+Using the column about crime typology, we were able to create the *Crime Codes and Descriptions* dataset, a simple dataset which maps uniquely all the different crime codes to their descriptions.
+
+In the same way, we generated the *Weapon Codes and Descriptions* dataset, for weapon codes and descriptions.
 
 ---
 
