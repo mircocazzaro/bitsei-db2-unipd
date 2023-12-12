@@ -72,7 +72,6 @@ async def open_closed_businesses():
     ]
 
 
-
 @router.get("/count")
 @cache()
 async def count_closed_businesses():
@@ -106,6 +105,3 @@ async def count_closed_businesses():
         }
         for result in results["results"]["bindings"]
     ]
-
-
-

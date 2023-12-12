@@ -1,6 +1,7 @@
 import gc
 
 from fastapi import FastAPI
+from redis import asyncio as aioredis
 from SPARQLWrapper import SPARQLWrapper
 from contextlib import asynccontextmanager
 from starlette.middleware.cors import CORSMiddleware
@@ -10,8 +11,6 @@ from fastapi_globals import GlobalsMiddleware, g
 
 from fastapi_cache import FastAPICache
 from fastapi_cache.backends.redis import RedisBackend
-
-from redis import asyncio as aioredis
 
 
 @asynccontextmanager
