@@ -20,6 +20,12 @@ function sidebarItems() {
             href: '#query3',
             name: 'Query Three',
             icon: 'feather feather-home'
+        },
+        {
+            id: 'subItem4',
+            href: '#query4',
+            name: 'Ratio Based Analysis',
+            icon: 'feather feather-home'
         }
     ]
 

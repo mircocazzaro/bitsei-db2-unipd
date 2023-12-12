@@ -1,7 +1,7 @@
 import Chart from "chart.js/auto";
 import {ChoroplethController, GeoFeature, ColorScale, ProjectionScale} from 'chartjs-chart-geo';
 
-import {loadQueryOne, loadQueryTwo, loadQueryThree, loadMap} from './chart.js'
+import {loadQueryOne, loadQueryTwo, loadQueryThree, loadQueryFour, loadMap} from './chart.js'
 
 let chart;
 
@@ -20,14 +20,14 @@ function addSelectElement(selectElement, mainDescription, options, func) {
             break;
         }
     }
-    
+
     for (let option of options) {
         let optionElement = document.createElement("option");
         optionElement.value = option.value;
         optionElement.text = option.text;
         selectElement.appendChild(optionElement);
     }
-    
+
     selectElement.onchange = func;
 
     parentNode.insertBefore(selectElement, mainDescription);
@@ -59,31 +59,14 @@ window.onpopstate = function (event) {
         case '#query1':
             h1Title[0].innerHTML = 'Query 1';
             mainDescription[0].innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed lacinia ultrices, nunc nunc aliquam nunc, nec aliquam nunc nu';
-            
-            const options = [{
-                value: 'option1',
-                text: 'Option 1'
-            }, {
-                value: 'option2',
-                text: 'Option 2'
-            }, {
-                value: 'option3',
-                text: 'Option 3'
-            }]
-            
-            const select_onchange_functionality = function() {
-                const selectedOption = selectElement.value;
 
-                loadQueryOne(selectedOption).then(r => {
-                    rowDiv[0].removeChild(loading)
-                    chart = new Chart(
-                        document.getElementById('chart'),
-                        r
-                    );
-                });
-            };
-            
-            addSelectElement(selectElement, mainDescription[0], options, select_onchange_functionality);
+            loadQueryOne().then(r => {
+                rowDiv[0].removeChild(loading)
+                chart = new Chart(
+                    document.getElementById('chart'),
+                    r
+                );
+            });
 
             break;
         case '#query2':
@@ -107,6 +90,57 @@ window.onpopstate = function (event) {
                 });
             });
             break;
+        case '#query4':
+            rowDiv[0].removeChild(loading)
+            h1Title[0].innerHTML = 'Map Ration Based Analysis';
+            mainDescription[0].innerHTML = 'Number of { DATA } grouped by area, with ratio on area surface';
+
+            const options = [{
+                value: 'openedBusinesses',
+                text: 'opened Businesses'
+            }, {
+                value: 'closedBusinesses',
+                text: 'closed Businesses'
+            }, {
+                value: 'crimeEvents',
+                text: 'crime Events'
+            }, {
+                value: 'violentCrimeEvents',
+                text: 'violent Crime Events'
+            }, {
+                value: 'sexualCrimeEvents',
+                text: 'sexual Crime Events'
+            }, {
+                value: 'propertyCrimeEvents',
+                text: 'property Crime Events'
+            }, {
+                value: 'whiteCollarCrimeEvents',
+                text: 'white Collar Crime Events'
+            }, {
+                value: 'publicOrderCrimeEvents',
+                text: 'public Order Crime Events'
+            }]
+
+            const select_onchange_functionality = function () {
+                const selectedOption = selectElement.value;
+
+                if (chart || chart instanceof Chart) {
+                    chart.destroy();
+                }
+
+                rowDiv[0].appendChild(loading);
+
+                loadMap().then(LaMap => {
+                    loadQueryFour(LaMap, selectedOption).then(r => {
+                        rowDiv[0].removeChild(loading)
+                        Chart.register(ChoroplethController, GeoFeature, ColorScale, ProjectionScale);
+                        chart = new Chart(document.getElementById('chart').getContext('2d'), r);
+                    });
+                });
+            };
+
+            addSelectElement(selectElement, mainDescription[0], options, select_onchange_functionality);
+            break
         default:
             loadQueryOne(loading).then(r => rowDiv[0].removeChild(loading));
             break;
