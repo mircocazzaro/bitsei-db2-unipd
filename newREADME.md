@@ -56,15 +56,16 @@ Here insert some funny things to flex how much we are good since we installed an
 Before proceeding with querying the database, a validation phase on data properties has been conducted using [SHACL](https://www.w3.org/TR/shacl/).
 #### Phase 5: Querying
 Once the database has been validated and is correctly running on the server, we selected 10 insightful queries (here give some motivations for why these are relevant, how we decided to pick these)
-1. Query1: retrieve the ... with this query we want to understand/see ...
-2. Query2
-3. Query3
-4. Query4
-5. Query5
-6. Query6
-7. Query7
-8. Query8
-9. Query9
+1. Query 1: retrieve the number of `opened businesses`, `closed businesses`, `deaths` and `crime events`, grouped by `months` (over the 3 years);
+2. Query 2: retrieve the ratios of `opened businesses`, `closed businesses`, `deaths` and `crime events`, grouped by different `restriction periods` (ratio is computed over the duration in days of the periods);
+3. Query 3: retrieve the ratios of `opened businesses`, `closed businesses`, `deaths`, and of all the typologies of `crime events`, grouped by city area (ratio is computed over the surface in kmq of the areas);
+4. Query 4: retrieve the number of `opened businesses`, `closed businesses`, `deaths` and `crime events`, grouped by the North America Industry Classification System;
+5. Query 5: retrieve the distribution, over different `areas` and `periods` of the different typologies of `crime events`;  
+6. Query 6: retrieve the distribution of the crime events' `modus operandi` over different `restriction periods`;
+7. Query 7: retrieve the distribution of the crime events' `premise` over different `restriction periods`;
+8. Query 8: retrieve the distribution of the crime events' `weapon` over different `restriction periods`;
+9. Query 9: retrieve the number of `crime events`, for each `day` and for each `area`;
+10. Query 10: retrieve the location of `crime events`, for each `day`.
 
 ## Organization of the Repository
 The project is developed using:
