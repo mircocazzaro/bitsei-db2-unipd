@@ -1,5 +1,7 @@
 const URL_HOST = "http://127.0.0.1:8080/api/v1"
-function loadQueryOne() {
+function loadQueryOne(selected_option) {
+    console.log("Selected option: " + selected_option);
+
     return fetch(`${URL_HOST}/crime/category-month`)
         .then(response => response.json())
         .then(data => (

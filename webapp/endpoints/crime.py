@@ -186,12 +186,10 @@ async def category_event_by_area():
     if len(results["results"]["bindings"]) == 0:
         return {"data": []}
 
-    data = []
-    # Iterate through the original array
-    for result in results["results"]["bindings"]:
-        data.append({
+    return [
+        {
             "acronym": result["areaAcronym"]["value"],
             "ratio": float(result["ratio"]["value"]),
-        })
-
-    return data
+        }
+        for result in results["results"]["bindings"]
+    ]
