@@ -1,5 +1,6 @@
 from fastapi import APIRouter
 from SPARQLWrapper import JSON
+from fastapi_cache.decorator import cache
 
 from fastapi_globals import g
 from utils import SPARQLExceptions
@@ -8,6 +9,7 @@ router = APIRouter()
 
 
 @router.get("/")
+@cache()
 async def open_closed_businesses():
     g.sparql.setQuery("""
         PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
@@ -72,6 +74,7 @@ async def open_closed_businesses():
 
 
 @router.get("/count")
+@cache()
 async def count_closed_businesses():
     g.sparql.setQuery("""
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema/>
