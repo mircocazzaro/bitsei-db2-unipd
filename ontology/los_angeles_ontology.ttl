@@ -192,7 +192,7 @@ bitsei.wa@gmail.com""" ;
             rdfs:subPropertyOf owl:topDataProperty ;
             rdf:type owl:FunctionalProperty ;
             rdfs:domain :Business ;
-            rdfs:range xsd:integer ;
+            rdfs:range xsd:string ;
             rdfs:comment "Represents the unique identifier of a business" .
 
 
