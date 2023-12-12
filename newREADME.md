@@ -213,6 +213,9 @@ We worked together in a shared environment: in particular, we instantiated a pla
 - SSD disk
 - OS: CentOS 7
 - GraphDB: ver. 10.4.2
+
+GraphDB is executed through the command `graphdb -Ddefault.min.distinct.threshold=1024m -d`
+
 ---
 
 ## How to Run and Use the Codes
@@ -220,18 +223,8 @@ We worked together in a shared environment: in particular, we instantiated a pla
 You can open the notebook `queries/BitseiQueries.ipynb` and run our queries!
 N.B. For security reasons, IP's are filtered on the remote server. Please make sure you are connecting from any of the buildings of the University of Padua (The IP class `147.162.0.0\16` is allowed to connect).
 
-### Web app:
+### Webapp:
 //farzy please fill this out
-
-### Running using CLI
-We provide here in the folder `final_jar_executable` a jar executable version of our program that automatically creates its own working environment and changes the parameters based on your needs in `CloseSearchEngine.java`. To run it, follow these steps:
-
-1. Open the command line and change directory to where the project folder is located.
-2. Build the project by running the `mvn clean install` command.
-3. Run the following command, passing the correct parameters:
-```
-java -jar close-1.00-jar-with-dependencies.jar <collection path> <topic path> <index path>
-```
 
 ---
 
@@ -241,11 +234,3 @@ java -jar close-1.00-jar-with-dependencies.jar <collection path> <topic path> <i
 * [Master Degree in Data Science](https://datascience.math.unipd.it/) of the [Department of Mathematics "Tullio Levi-Civita"](https://www.math.unipd.it/en/), [University of Padua](https://www.unipd.it/en/), Italy.
 
 *Database II* is part of the teaching activities of the [Intelligent Interactive Information Access (IIIA) Hub](http://iiia.dei.unipd.it/).
-
----
-
-### License
-
-All the contents of this repository are shared using the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
-
-![CC logo](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
