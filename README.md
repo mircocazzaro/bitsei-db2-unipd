@@ -2,7 +2,7 @@
 <img src="bitsei-db2-logo.png" width="220" alt="BITSEI Logo"/>
 
 
-# BITSEI - Graph Databases Course - Prof. Gianmaria Silvello
+## BITSEI - Graph Databases Course - Prof. Gianmaria Silvello
 ### University of Padova - A.A. 2023-24
 ---
 
@@ -37,8 +37,8 @@ reporting COVID cases and deaths for LA County and California State. For each da
 * deaths: the number of CoVid deaths cumulative, from the start of the pandemic to the current day.     
 
 Taking advantage from these, we were able to create and populate, for each day in the timeline, the following fields:
-* new cases: the number of new covid cases of the day d (activeCases(d)-activeCases(d - 1)).
-* new deaths: the number of new deaths cases of the day d (deaths(d)-deaths(d - 1)).
+* new cases: the number of new covid cases of the day d (activeCases(d)-activeCases(d-1)).
+* new deaths: the number of new deaths cases of the day d (deaths(d)-deaths(d-1)).
 
 In addition, by searching various newspapers, we were able to create a subdivision in period of the CoVid timeline. Specifically, a *CoVid Periods* dataset has been created, having the following fields:
 * period name: the label used to refer to a certain period (e.g. 'First Lockdown Period');
@@ -71,10 +71,12 @@ Using the column about crime typology, we were able to create the *Crime Codes a
 
 In the same way, we generated the *Weapon Codes and Descriptions* dataset, for weapon codes and descriptions.
 
+In addition, we also created the *Community Planning Areas* dataset, which contains geometries of the various Los Angeles Planning Areas. More information about this can be found in the [script](https://github.com/mircocazzaro/bitsei-db2-unipd/tree/main/scripts) folder.
 ---
 
 ## Project Description
 Our development strategy followed a 5 phases approach:
+
 #### Phase 1: Requirements Analysis
 In that phase we wanted to:
 - determine the scope of the ontology
@@ -82,23 +84,26 @@ In that phase we wanted to:
 - enumerate important terms in the ontology
 - define the classes and class hierarchy
 - define the properties of the classes   
+
 #### Phase 2: Ontology Design
 For designing the ontology, we used [PROTÉGÉ](https://protege.stanford.edu/).
 However, before starting the actual implementation, the overall ontology design has been drawn based on the requirements analysis. For doing that we used [draw.io](https://drawio-app.com/).
 By studying the various fields in the datasets we decided what they would have been the classes, the object and data properties, and the individuals.
+
 #### Phase 3: Serialization
 For serializing the data we used [Python RDFlib](https://rdflib.readthedocs.io/en/stable/).
-For (insert reasons) various reasons, some data have been imported directly in the ontology, using the [Cellfie](https://github.com/protegeproject/cellfie-plugin) plugin.
+For various reasons, some data have been imported directly in the ontology, using the [Cellfie](https://github.com/protegeproject/cellfie-plugin) plugin.
 In particular:
-- All datasets related to businesses, covid updates over days and georeferenced information about positions, cities and areas have been serialized through the `serializeLAdata.py` notebook, using RDFLib;
-- All datasets related to crimes, including related data of premises, weapons, victims, ecc... have been serialized through the `serializeLAcrimes.py` notebook, using RDFLib;
-- Data related both to crime categories and covid periods have been serialized through Cellfie, so to have the individuals in Protégé and being able to write first order logic rules.
+- All datasets related to businesses, covid updates over days and georeferenced information about positions, cities and areas have been serialized through the [`serializeLAdata.py`](https://github.com/mircocazzaro/bitsei-db2-unipd/blob/main/serialization/serializeLAdata.ipynb) notebook, using RDFLib;
+- All datasets related to crimes, including related data of premises, weapons, victims, ecc... have been serialized through the [`serializeLAcrimes.py`](https://github.com/mircocazzaro/bitsei-db2-unipd/blob/main/serialization/serializeLAcrimes.ipynb) notebook, using [RDFLib](https://rdflib.readthedocs.io/en/stable/);
+- Data related to crime categories and covid periods have been serialized through [Cellfie](https://github.com/protegeproject/cellfie-plugin), so to have the individuals in [Protégé](https://protege.stanford.edu/) and being able to write first order logic rules.
+
 #### Phase 4: Validation
-Once all the turtle files associated to the serialization have been generated, they have been uploaded to a server ...
-Here insert some funny things to flex how much we are good since we installed and runned graphdb on a shared server.
+Once all the turtle files associated to the serialization have been generated, they have been uploaded to a shared server, allowing us for a better cooperation.  
 Before proceeding with querying the database, a validation phase on data properties has been conducted using [SHACL](https://www.w3.org/TR/shacl/).
+
 #### Phase 5: Querying
-Once the database has been validated and is correctly running on the server, we selected 10 insightful queries (here give some motivations for why these are relevant, how we decided to pick these)
+Once the database has been validated and is correctly running on the server, we selected 10 insightful queries. These queries were selected based on their direct relevance to identifying temporal, spatial, and categorical trends within our dataset, crucial for finding patterns in business operations, mortality rates, crime occurrences, and the impact of restrictions on various events:
 1. Query 1: retrieve the number of `opened businesses`, `closed businesses`, `deaths` and `crime events`, grouped by `months` (over the 3 years);
 2. Query 2: retrieve the ratios of `opened businesses`, `closed businesses`, `deaths` and `crime events`, grouped by different `restriction periods` (ratio is computed over the duration in days of the periods);
 3. Query 3: retrieve the ratios of `opened businesses`, `closed businesses`, `deaths`, and of all the typologies of `crime events`, grouped by city area (ratio is computed over the surface in kmq of the areas);
@@ -109,6 +114,7 @@ Once the database has been validated and is correctly running on the server, we 
 8. Query 8: retrieve the distribution of the crime events' `weapon` over different `restriction periods`;
 9. Query 9: retrieve the number of `crime events`, for each `day` and for each `area`;
 10. Query 10: retrieve the location of `crime events`, for each `day`.
+---
 
 ## Organization of the Repository
 The project is developed using:
@@ -126,10 +132,8 @@ The overall structure of the repository is as follows:
 ├── 📄 .gitignore<br/>
 ├── 📄 bitsei-db2-logo.png<br/>
 ├── 📄 LICENSE<br/>
-├── 📄 loadSoccerData.ipynb<br/>
-├── 📄 newREADME.md<br/>
 ├── 📄 README.md<br/>
-├── 📁 datasets<br/>
+├── 📁 datasets: a folder containing all the datasets used in serialization<br/>
 │   ├── 📁 ACTIVE BUSINESSES<br/>
 │   │   ├── 📄 fixed-Listing_of_Active_Businesses_parsed.csv<br/>
 │   │   └── 📁 misc<br/>
@@ -148,12 +152,12 @@ The overall structure of the repository is as follows:
 │   │   └── ⤵️<br/>
 │   ├── 📁 LOS ANGELES GEO DATA<br/>
 │   │   └── ⤵️<br/>
-├── 📁 ontology<br/>
+├── 📁 ontology<: a folder containing the ontology model design and implementation<br/>
 │   ├── 📄 Bitsei_ontology.drawio<br/>
 │   ├── 📄 Bitsei_ontology.svg<br/>
 │   └── 📁 requirements analysis<br/>
 │       └── 📄 link_to_requirements_analysis.txt<br/>
-├── 📁 queries<br/>
+├── 📁 queries: a folder containing the selected queries and associated outputs<br/>
 │   ├── 📄 BitseiQueries.ipynb<br/>
 │   ├── 📁 1<br/>
 │   │   └── ⤵️<br/>
@@ -173,11 +177,11 @@ The overall structure of the repository is as follows:
 │   │   └── ⤵️<br/>
 │   └── 📁 9-10<br/>
 │       └── ⤵️<br/>
-├── 📁 scripts<br/>
+├── 📁 scripts: a folder containing the scripts used to produce the *Community Planning Areas* dataset<br/>
 │   ├── 📄 loacation_process.ipynb<br/>
 │   ├── 📄 README.md<br/>
 │   └── 📄 requirements.txt<br/>
-├── 📁 serialization<br/>
+├── 📁 serialization: a folder containing the Python scripts used in serialization and the turtle files produced with these<br/>
 │   ├── 📄 areas.ttl<br/>
 │   ├── 📄 BitseiQueries.ipynb<br/>
 │   ├── 📄 businesses.ttl<br/>
@@ -193,9 +197,9 @@ The overall structure of the repository is as follows:
 │   ├── 📄 naics.ttl<br/>
 │   ├── 📄 serializeLAcrimes.ipynb<br/>
 │   └── 📄 serializeLAdata.ipynb<br/>
-├── 📁 validation<br/>
+├── 📁 validation: a folder containing the SHACL script for validating data<br/>
 │   └── 📄 validateDataProperties.txt<br/>
-└── 📁 webapp<br/>
+└── 📁 webapp: a folder containing our web application<br/>
     └── ⤵️<br/>
 
 ---
@@ -205,9 +209,7 @@ The overall structure of the repository is as follows:
 
 <img src="ontology/Bitsei_ontology.svg" alt="Ontology Diagram"/>
 
-Describe the ontology diagram (if needed)
-
-Note: The image provided above displays the class diagram for reference.
+The image provided above displays the class diagram for reference. The most relevant entities for our purposes are highlighted in purple.
 
 ## System Hardware & Software
 
