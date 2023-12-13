@@ -1,0 +1,115 @@
+PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX val: <http://www.bitsei.it/validateLosAngelesOntology/>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+
+# OBJECT PROPERTIES VALIDATION
+
+# With that validation we discovered that:
+#	- not all the location nodes have an outgoing "belongsToArea"
+#	- not all the business nodes have an outgoing "hasNaics"
+
+val:checkCrimeEventNodes 
+	a sh:NodeShape ;
+	sh:targetClass lao:CrimeEvent ;
+	sh:property [
+		sh:path lao:isOfType ;
+		sh:Class lao:Crime ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ; 
+	] ;
+	sh:property [
+		sh:path lao:occurredOnVictim ;
+		sh:Class lao:Victim ;
+		sh:maxCount 1 ; 
+	] ;
+	sh:property [
+		sh:path lao:hasModusOperandi ;
+		sh:Class lao:ModusOperandi ;
+	] ;
+	sh:property [
+		sh:path lao:usedWeapon ;
+		sh:Class lao:Weapon ;
+	] ;
+	sh:property [
+		sh:path lao:hasPremis ;
+		sh:Class lao:Premis ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:occurredInLocation ;
+		sh:Class lao:Location ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:occurredOnDate ;
+		sh:Class lao:Day ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:reportedOnDate ;
+		sh:Class lao:Day ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkLocationNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Location ;
+	sh:property [
+		sh:path lao:belongsToArea ;
+		sh:Class lao:Area ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkDayNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Day ;
+	sh:property [
+		sh:path lao:belongsTo ;
+		sh:Class lao:Period ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:timeOccurred ;
+		sh:datatype xsd:dateTime ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:reportedToFbi ;
+		sh:datatype xsd:boolean ;
+		sh:maxCount 1 ;
+	] ;
+.
+
+val:checkBusinessNodes
+	a sh:NodeShape ;
+	sh:targetClass lao:Business ;
+	sh:property [
+		sh:path lao:locatedInCity ;
+		sh:Class lao:City ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:hasNaics ;
+		sh:Class lao:Naics ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path [sh:alternativePath (lao:openedOnDate lao:closedOnDate)] ;
+		sh:Class lao:Day ;
+		sh:minCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:openedOnDate ;
+		sh:Class lao:Day ;
+		sh:maxCount 1 ;
+	] ;
+	sh:property [
+		sh:path lao:closedOnDate ;
+		sh:Class lao:Day ;
+		sh:maxCount 1 ;
+	] ;
+.
