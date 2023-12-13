@@ -1,2 +1,1 @@
 serialization/crimeCrimeEvents.ttl filter=lfs diff=lfs merge=lfs -text
-serialization/crimeCrimeEvents.ttl filter=lfs diff=lfs merge=lfs -text
