@@ -9,7 +9,7 @@
 <http://www.bitsei.it/losAngelesOntology> rdf:type owl:Ontology ;
                                            rdfs:comment "An ontology related to the socio-economics aspects of the city of Los Angeles during the Covid years (2020-2022)"@en ,
                                                         """Course of \"Graph Databases\", Professor Gianmaria Silvello.
-Master course in Computer Engineering, University of Padua.""" ,
+Master Course in Computer Engineering, University of Padua.""" ,
                                                         """Developed by Bitsei Group.
 Team Members:
 - Farzad Shami
@@ -19,7 +19,12 @@ Team Members:
 
 Please direct all comments and questions to: 
 bitsei.wa@gmail.com""" ;
-                                           rdfs:seeAlso "https://github.com/mircocazzaro/bitsei-db2-unipd" .
+                                           rdfs:seeAlso """The datasets we used:
+1. [LA County COVID Cases](https://catalog.data.gov/dataset/la-county-covid-cases)
+2. [LA County Active Businesses](https://catalog.data.gov/dataset/listing-of-active-businesses)
+3. [La County Closed Businesses](https://data.lacity.org/Administration-Finance/All-Closed-Businesses/tkh9-tssh)
+4.[La County Crime Events](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8)""" ,
+                                                        "https://github.com/mircocazzaro/bitsei-db2-unipd" .
 
 #################################################################
 #    Object Properties
