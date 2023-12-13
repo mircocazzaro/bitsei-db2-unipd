@@ -171,9 +171,8 @@ The overall structure of the repository is as follows:
 │   │   └── ⤵️<br/>
 │   ├── 📁 8<br/>
 │   │   └── ⤵️<br/>
-│   ├── 📁 9-10<br/>
-│   │   └── ⤵️<br/>
-│
+│   └── 📁 9-10<br/>
+│       └── ⤵️<br/>
 ├── 📁 scripts<br/>
 │   ├── 📄 loacation_process.ipynb<br/>
 │   ├── 📄 README.md<br/>
