@@ -193,3 +193,29 @@ async def category_event_by_area():
         }
         for result in results["results"]["bindings"]
     ]
+
+
+@router.get("/ratio-by-area")
+async def get_by_ratio(file_name: str):
+    mapping = {
+        "openedBusinesses": "3a",
+        "closedBusinesses": "3b",
+        "crimeEvents": "3c",
+        "violentCrimeEvents": "3d",
+        "sexualCrimeEvents": "3e",
+        "propertyCrimeEvents": "3f",
+        "whiteCollarCrimeEvents": "3g",
+        "publicOrderCrimeEvents": "3h",
+    }
+    with open(f'assets/3/{mapping.get(file_name, "3a")}.csv', 'r') as f:
+        data = f.read()
+
+    data = data.split('\n')
+    data = [row.split(',') for row in data[1:-1]]
+    return [
+        {
+            "acronym": row[1],
+            "ratio": float(row[4]),
+        }
+        for row in data
+    ]

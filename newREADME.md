@@ -198,7 +198,7 @@ The overall structure of the repository is as follows:
 ## Ontology Diagram
 
 
-<img src="ontology/Bitsei_ontology.svg" alt="Ontology Diagram" style="height: 100px; width:100px;"/>
+<img src="ontology/Bitsei_ontology.svg" alt="Ontology Diagram"/>
 
 Describe the ontology diagram (if needed)
 
@@ -224,7 +224,11 @@ You can open the notebook `queries/BitseiQueries.ipynb` and run our queries!
 N.B. For security reasons, IP's are filtered on the remote server. Please make sure you are connecting from any of the buildings of the University of Padua (The IP class `147.162.0.0\16` is allowed to connect).
 
 ### Webapp:
-//farzy please fill this out
+
+For running the webapp, you can follow the instructions in the `webapp` folder.
+These instructions are available in the `webapp/README.md` file.
+
+Serving queries through a webapp is a very useful way to make the data accessible to a wider audience, without the need of knowing SPARQL.
 
 ---
 

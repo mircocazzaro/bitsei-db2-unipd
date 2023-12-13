@@ -1,0 +1,703 @@
+areaName,areaAcronym,areaSize,propertyCrimeEvents,ratio
+Central City,CCY,1.319E1,4555,3.4534E2
+Westlake,WLK,1.148E1,2063,1.7963E2
+Central City,CCY,1.319E1,2211,1.67628E2
+Central City,CCY,1.319E1,2010,1.52389E2
+Southeast Los Angeles,SEL,5.742E1,7548,1.31463E2
+Central City North,CCN,1.195E1,1389,1.16232E2
+Central City,CCY,1.319E1,1478,1.12056E2
+Central City,CCY,1.319E1,1453,1.1016E2
+South Los Angeles,SLA,5.953E1,6554,1.10089E2
+Westlake,WLK,1.148E1,1073,9.3428E1
+Boyle Heights,BHT,2.261E1,2027,8.9651E1
+Wilshire,WIL,5.298E1,4616,8.7128E1
+Westlake,WLK,1.148E1,951,8.2806E1
+Westlake,WLK,1.148E1,816,7.1051E1
+Venice,VEN,1.184E1,836,7.0634E1
+Central City,CCY,1.319E1,914,6.9296E1
+Wilshire,WIL,5.298E1,3547,6.695E1
+Westlake,WLK,1.148E1,754,6.5652E1
+West Adams ,WAD,4.85E1,3086,6.3625E1
+Central City North,CCN,1.195E1,737,6.1673E1
+Central City,CCY,1.319E1,811,6.1487E1
+Wilshire,WIL,5.298E1,3248,6.1307E1
+Venice,VEN,1.184E1,722,6.1002E1
+Wilshire,WIL,5.298E1,3225,6.0873E1
+Venice,VEN,1.184E1,675,5.7031E1
+Harbor Gateway,HAR,1.907E1,977,5.122E1
+Silver Lake ,SLK,2.693E1,1375,5.1064E1
+Van Nuys ,VNY,4.88E1,2469,5.0591E1
+Mission Hills ,MSS,4.491E1,2241,4.9905E1
+West Los Angeles,WLA,2.704E1,1331,4.9227E1
+Central City,CCY,1.319E1,629,4.7688E1
+Venice,VEN,1.184E1,551,4.6554E1
+North Hollywood ,NHL,4.025E1,1852,4.6008E1
+San Pedro,SPD,2.798E1,1262,4.5109E1
+Central City North,CCN,1.195E1,522,4.3681E1
+Palms ,PLM,3.106E1,1306,4.2042E1
+Westchester ,WCH,3.081E1,1254,4.07E1
+Hollywood,HWD,9.506E1,3849,4.0488E1
+Central City North,CCN,1.195E1,482,4.0334E1
+Westlake,WLK,1.148E1,447,3.8921E1
+Central City,CCY,1.319E1,511,3.8742E1
+South Los Angeles,SLA,5.953E1,2212,3.7156E1
+Wilmington ,WLM,3.827E1,1419,3.7081E1
+Northeast Los Angeles,NLA,9.278E1,3386,3.6496E1
+Silver Lake ,SLK,2.693E1,974,3.6172E1
+West Los Angeles,WLA,2.704E1,965,3.569E1
+Wilshire,WIL,5.298E1,1889,3.5655E1
+West Los Angeles,WLA,2.704E1,961,3.5542E1
+Venice,VEN,1.184E1,418,3.5317E1
+Hollywood,HWD,9.506E1,3291,3.4619E1
+Southeast Los Angeles,SEL,5.742E1,1922,3.3475E1
+West Los Angeles,WLA,2.704E1,899,3.3249E1
+Westlake,WLK,1.148E1,381,3.3174E1
+Southeast Los Angeles,SEL,5.742E1,1889,3.29E1
+Venice,VEN,1.184E1,384,3.2444E1
+North Hollywood ,NHL,4.025E1,1292,3.2096E1
+South Los Angeles,SLA,5.953E1,1899,3.1898E1
+Palms ,PLM,3.106E1,986,3.1741E1
+Southeast Los Angeles,SEL,5.742E1,1821,3.1716E1
+Hollywood,HWD,9.506E1,3013,3.1694E1
+Wilshire,WIL,5.298E1,1664,3.1408E1
+North Hollywood ,NHL,4.025E1,1264,3.14E1
+Reseda ,RES,4.613E1,1430,3.0998E1
+Boyle Heights,BHT,2.261E1,698,3.0871E1
+Central City,CCY,1.319E1,404,3.063E1
+Arleta ,ARL,3.932E1,1204,3.0623E1
+South Los Angeles,SLA,5.953E1,1759,2.9546E1
+South Los Angeles,SLA,5.953E1,1744,2.9294E1
+Southeast Los Angeles,SEL,5.742E1,1672,2.9121E1
+Palms ,PLM,3.106E1,900,2.8973E1
+Van Nuys ,VNY,4.88E1,1407,2.883E1
+Van Nuys ,VNY,4.88E1,1366,2.799E1
+Sherman Oaks ,SHR,5.187E1,1440,2.7761E1
+Hollywood,HWD,9.506E1,2615,2.7508E1
+North Hollywood ,NHL,4.025E1,1107,2.75E1
+Palms ,PLM,3.106E1,853,2.746E1
+West Adams ,WAD,4.85E1,1324,2.7297E1
+Westlake,WLK,1.148E1,311,2.7079E1
+Los Angeles International Airport,LAX,2.357E1,630,2.6731E1
+Venice,VEN,1.184E1,316,2.6699E1
+Westwood,WWD,1.394E1,361,2.5894E1
+Silver Lake ,SLK,2.693E1,694,2.5773E1
+Westwood,WWD,1.394E1,358,2.5679E1
+Central City North,CCN,1.195E1,305,2.5523E1
+Wilshire,WIL,5.298E1,1312,2.4764E1
+Westchester ,WCH,3.081E1,754,2.4472E1
+Silver Lake ,SLK,2.693E1,650,2.4139E1
+Sherman Oaks ,SHR,5.187E1,1244,2.3982E1
+Venice,VEN,1.184E1,281,2.3742E1
+North Hollywood ,NHL,4.025E1,952,2.365E1
+West Los Angeles,WLA,2.704E1,639,2.3633E1
+Sun Valley ,SVY,6.237E1,1472,2.3602E1
+Palms ,PLM,3.106E1,732,2.3564E1
+West Los Angeles,WLA,2.704E1,627,2.3189E1
+West Adams ,WAD,4.85E1,1121,2.3112E1
+West Adams ,WAD,4.85E1,1118,2.305E1
+Central City North,CCN,1.195E1,273,2.2845E1
+Los Angeles International Airport,LAX,2.357E1,530,2.2488E1
+Boyle Heights,BHT,2.261E1,501,2.2158E1
+Westchester ,WCH,3.081E1,679,2.2038E1
+Van Nuys ,VNY,4.88E1,1066,2.1843E1
+Silver Lake ,SLK,2.693E1,580,2.154E1
+West Los Angeles,WLA,2.704E1,581,2.1488E1
+Van Nuys ,VNY,4.88E1,1042,2.1351E1
+Palms ,PLM,3.106E1,660,2.1247E1
+Boyle Heights,BHT,2.261E1,477,2.1097E1
+Silver Lake ,SLK,2.693E1,563,2.0908E1
+North Hollywood ,NHL,4.025E1,835,2.0743E1
+West Adams ,WAD,4.85E1,993,2.0473E1
+Westchester ,WCH,3.081E1,627,2.035E1
+Northridge,NRD,3.762E1,764,2.0309E1
+Sylmar,SYL,4.691E1,937,1.9976E1
+Hollywood,HWD,9.506E1,1846,1.9418E1
+San Pedro,SPD,2.798E1,537,1.9194E1
+Harbor Gateway,HAR,1.907E1,366,1.9188E1
+South Los Angeles,SLA,5.953E1,1123,1.8863E1
+Boyle Heights,BHT,2.261E1,425,1.8797E1
+Van Nuys ,VNY,4.88E1,913,1.8708E1
+Mission Hills ,MSS,4.491E1,837,1.8639E1
+Boyle Heights,BHT,2.261E1,413,1.8266E1
+Canoga Park ,CPK,1.0618E2,1929,1.8167E1
+Westchester ,WCH,3.081E1,558,1.8111E1
+South Los Angeles,SLA,5.953E1,1074,1.804E1
+Central City,CCY,1.319E1,234,1.7741E1
+Westwood,WWD,1.394E1,247,1.7717E1
+West Los Angeles,WLA,2.704E1,474,1.7531E1
+Sherman Oaks ,SHR,5.187E1,907,1.7486E1
+Mission Hills ,MSS,4.491E1,784,1.7459E1
+Southeast Los Angeles,SEL,5.742E1,1002,1.7452E1
+West Los Angeles,WLA,2.704E1,468,1.7309E1
+North Hollywood ,NHL,4.025E1,693,1.7216E1
+Westwood,WWD,1.394E1,237,1.6999E1
+West Adams ,WAD,4.85E1,802,1.6535E1
+Canoga Park ,CPK,1.0618E2,1754,1.6519E1
+Central City North,CCN,1.195E1,194,1.6234E1
+San Pedro,SPD,2.798E1,452,1.6156E1
+Reseda ,RES,4.613E1,741,1.6063E1
+Westwood,WWD,1.394E1,220,1.578E1
+Northridge,NRD,3.762E1,591,1.571E1
+Hollywood,HWD,9.506E1,1487,1.5642E1
+Wilmington ,WLM,3.827E1,598,1.5627E1
+Southeast Los Angeles,SEL,5.742E1,884,1.5397E1
+Encino ,ENC,7.696E1,1180,1.5333E1
+San Pedro,SPD,2.798E1,427,1.5263E1
+Westchester ,WCH,3.081E1,469,1.5222E1
+Mission Hills ,MSS,4.491E1,676,1.5054E1
+Sherman Oaks ,SHR,5.187E1,745,1.4362E1
+Hollywood,HWD,9.506E1,1363,1.4338E1
+San Pedro,SPD,2.798E1,401,1.4333E1
+Mission Hills ,MSS,4.491E1,637,1.4185E1
+Reseda ,RES,4.613E1,649,1.4068E1
+Boyle Heights,BHT,2.261E1,315,1.3932E1
+Venice,VEN,1.184E1,164,1.3856E1
+Northridge,NRD,3.762E1,515,1.369E1
+Harbor Gateway,HAR,1.907E1,261,1.3683E1
+Los Angeles International Airport,LAX,2.357E1,317,1.345E1
+Sherman Oaks ,SHR,5.187E1,695,1.3399E1
+Northeast Los Angeles,NLA,9.278E1,1239,1.3354E1
+Reseda ,RES,4.613E1,614,1.331E1
+Harbor Gateway,HAR,1.907E1,253,1.3264E1
+Mission Hills ,MSS,4.491E1,589,1.3116E1
+Reseda ,RES,4.613E1,603,1.3071E1
+West Adams ,WAD,4.85E1,632,1.303E1
+Northeast Los Angeles,NLA,9.278E1,1188,1.2805E1
+Westwood,WWD,1.394E1,177,1.2696E1
+Westlake,WLK,1.148E1,145,1.2625E1
+Van Nuys ,VNY,4.88E1,616,1.2622E1
+Canoga Park ,CPK,1.0618E2,1331,1.2535E1
+Palms ,PLM,3.106E1,388,1.249E1
+Northeast Los Angeles,NLA,9.278E1,1152,1.2417E1
+Westchester ,WCH,3.081E1,382,1.2398E1
+San Pedro,SPD,2.798E1,334,1.1938E1
+Canoga Park ,CPK,1.0618E2,1259,1.1857E1
+Arleta ,ARL,3.932E1,464,1.1802E1
+Palms ,PLM,3.106E1,360,1.1589E1
+Sherman Oaks ,SHR,5.187E1,599,1.1548E1
+Westwood,WWD,1.394E1,160,1.1476E1
+Sun Valley ,SVY,6.237E1,710,1.1384E1
+Harbor Gateway,HAR,1.907E1,217,1.1376E1
+Mission Hills ,MSS,4.491E1,502,1.1179E1
+Silver Lake ,SLK,2.693E1,301,1.1178E1
+Chatsworth ,CHT,9.229E1,1020,1.1052E1
+South Los Angeles,SLA,5.953E1,656,1.1019E1
+Reseda ,RES,4.613E1,503,1.0904E1
+Harbor Gateway,HAR,1.907E1,206,1.08E1
+Canoga Park ,CPK,1.0618E2,1134,1.068E1
+Van Nuys ,VNY,4.88E1,520,1.0655E1
+Northridge,NRD,3.762E1,400,1.0633E1
+Chatsworth ,CHT,9.229E1,967,1.0478E1
+Westlake,WLK,1.148E1,119,1.0362E1
+Northeast Los Angeles,NLA,9.278E1,956,1.0304E1
+North Hollywood ,NHL,4.025E1,412,1.0235E1
+Wilmington ,WLM,3.827E1,390,1.0192E1
+Wilmington ,WLM,3.827E1,382,9.982E0
+Northeast Los Angeles,NLA,9.278E1,920,9.916E0
+Westwood,WWD,1.394E1,138,9.898E0
+Arleta ,ARL,3.932E1,379,9.64E0
+Encino ,ENC,7.696E1,739,9.603E0
+Wilmington ,WLM,3.827E1,363,9.486E0
+Northridge,NRD,3.762E1,356,9.463E0
+Central City North,CCN,1.195E1,110,9.205E0
+Encino ,ENC,7.696E1,708,9.2E0
+Mission Hills ,MSS,4.491E1,412,9.175E0
+Wilmington ,WLM,3.827E1,351,9.172E0
+Sherman Oaks ,SHR,5.187E1,475,9.157E0
+Wilshire,WIL,5.298E1,484,9.136E0
+Northridge,NRD,3.762E1,339,9.011E0
+Granada Hills ,GHL,6.166E1,555,9.0E0
+Arleta ,ARL,3.932E1,349,8.877E0
+Harbor Gateway,HAR,1.907E1,166,8.703E0
+Canoga Park ,CPK,1.0618E2,923,8.693E0
+Sun Valley ,SVY,6.237E1,541,8.674E0
+Westwood,WWD,1.394E1,118,8.464E0
+Hollywood,HWD,9.506E1,800,8.415E0
+Westchester ,WCH,3.081E1,258,8.374E0
+Sylmar,SYL,4.691E1,388,8.272E0
+Arleta ,ARL,3.932E1,324,8.241E0
+Reseda ,RES,4.613E1,375,8.129E0
+Arleta ,ARL,3.932E1,318,8.088E0
+Sun Valley ,SVY,6.237E1,495,7.937E0
+Harbor Gateway,HAR,1.907E1,144,7.549E0
+West Adams ,WAD,4.85E1,364,7.505E0
+San Pedro,SPD,2.798E1,207,7.399E0
+Sylmar,SYL,4.691E1,346,7.377E0
+South Los Angeles,SLA,5.953E1,436,7.324E0
+South Los Angeles,SLA,5.953E1,434,7.29E0
+Central City,CCY,1.319E1,94,7.127E0
+Sun Valley ,SVY,6.237E1,444,7.119E0
+Northeast Los Angeles,NLA,9.278E1,654,7.049E0
+Chatsworth ,CHT,9.229E1,650,7.043E0
+Sun Valley ,SVY,6.237E1,436,6.991E0
+Canoga Park ,CPK,1.0618E2,739,6.96E0
+Northridge,NRD,3.762E1,252,6.699E0
+Encino ,ENC,7.696E1,505,6.562E0
+Sylmar,SYL,4.691E1,307,6.545E0
+West Los Angeles,WLA,2.704E1,175,6.472E0
+Granada Hills ,GHL,6.166E1,397,6.438E0
+Canoga Park ,CPK,1.0618E2,683,6.433E0
+Granada Hills ,GHL,6.166E1,387,6.276E0
+Sunland ,SLD,9.734E1,587,6.03E0
+Chatsworth ,CHT,9.229E1,556,6.024E0
+Sun Valley ,SVY,6.237E1,375,6.013E0
+Chatsworth ,CHT,9.229E1,546,5.916E0
+Granada Hills ,GHL,6.166E1,362,5.871E0
+Wilshire,WIL,5.298E1,307,5.795E0
+Encino ,ENC,7.696E1,443,5.757E0
+Sylmar,SYL,4.691E1,268,5.714E0
+Encino ,ENC,7.696E1,436,5.666E0
+Westlake,WLK,1.148E1,64,5.573E0
+Chatsworth ,CHT,9.229E1,502,5.439E0
+Wilmington ,WLM,3.827E1,205,5.357E0
+Central City North,CCN,1.195E1,64,5.356E0
+Los Angeles International Airport,LAX,2.357E1,126,5.346E0
+Granada Hills ,GHL,6.166E1,327,5.303E0
+Southeast Los Angeles,SEL,5.742E1,303,5.277E0
+South Los Angeles,SLA,5.953E1,312,5.241E0
+Venice,VEN,1.184E1,62,5.238E0
+North Hollywood ,NHL,4.025E1,208,5.167E0
+Sylmar,SYL,4.691E1,242,5.159E0
+Central City,CCY,1.319E1,68,5.155E0
+Wilshire,WIL,5.298E1,272,5.134E0
+Encino ,ENC,7.696E1,392,5.094E0
+Arleta ,ARL,3.932E1,196,4.985E0
+Sunland ,SLD,9.734E1,484,4.972E0
+Granada Hills ,GHL,6.166E1,301,4.881E0
+Westchester ,WCH,3.081E1,149,4.836E0
+Central City North,CCN,1.195E1,55,4.602E0
+Los Angeles International Airport,LAX,2.357E1,108,4.582E0
+Hollywood,HWD,9.506E1,426,4.481E0
+Venice,VEN,1.184E1,53,4.478E0
+Arleta ,ARL,3.932E1,175,4.451E0
+Westlake,WLK,1.148E1,51,4.441E0
+Bel Air ,BAR,5.73E1,252,4.398E0
+Central City,CCY,1.319E1,58,4.397E0
+Chatsworth ,CHT,9.229E1,402,4.356E0
+Chatsworth ,CHT,9.229E1,398,4.312E0
+Brentwood ,BTW,1.4404E2,620,4.304E0
+Sherman Oaks ,SHR,5.187E1,221,4.261E0
+Silver Lake ,SLK,2.693E1,113,4.196E0
+Westlake,WLK,1.148E1,48,4.179E0
+Brentwood ,BTW,1.4404E2,601,4.172E0
+Silver Lake ,SLK,2.693E1,110,4.085E0
+Central City,CCY,1.319E1,53,4.018E0
+Sunland ,SLD,9.734E1,369,3.791E0
+San Pedro,SPD,2.798E1,105,3.753E0
+Central City North,CCN,1.195E1,44,3.682E0
+Los Angeles International Airport,LAX,2.357E1,86,3.649E0
+Southeast Los Angeles,SEL,5.742E1,209,3.64E0
+Hollywood,HWD,9.506E1,345,3.629E0
+Boyle Heights,BHT,2.261E1,82,3.627E0
+Wilshire,WIL,5.298E1,192,3.624E0
+Northridge,NRD,3.762E1,136,3.615E0
+Wilshire,WIL,5.298E1,189,3.567E0
+Granada Hills ,GHL,6.166E1,219,3.552E0
+Canoga Park ,CPK,1.0618E2,372,3.504E0
+Reseda ,RES,4.613E1,158,3.425E0
+Sylmar,SYL,4.691E1,159,3.39E0
+Port of Los Angeles,PTL,4.198E1,138,3.287E0
+South Los Angeles,SLA,5.953E1,192,3.225E0
+Southeast Los Angeles,SEL,5.742E1,185,3.222E0
+Van Nuys ,VNY,4.88E1,157,3.217E0
+South Los Angeles,SLA,5.953E1,190,3.191E0
+Wilmington ,WLM,3.827E1,121,3.162E0
+Sun Valley ,SVY,6.237E1,196,3.143E0
+Granada Hills ,GHL,6.166E1,190,3.081E0
+Boyle Heights,BHT,2.261E1,69,3.052E0
+Palms ,PLM,3.106E1,93,2.994E0
+West Adams ,WAD,4.85E1,141,2.907E0
+Boyle Heights,BHT,2.261E1,65,2.875E0
+Van Nuys ,VNY,4.88E1,136,2.787E0
+Sunland ,SLD,9.734E1,263,2.702E0
+Sunland ,SLD,9.734E1,251,2.578E0
+Palms ,PLM,3.106E1,80,2.575E0
+Central City North,CCN,1.195E1,30,2.51E0
+Brentwood ,BTW,1.4404E2,357,2.478E0
+Sherman Oaks ,SHR,5.187E1,127,2.448E0
+Sunland ,SLD,9.734E1,238,2.445E0
+West Adams ,WAD,4.85E1,118,2.433E0
+Northeast Los Angeles,NLA,9.278E1,224,2.414E0
+Palms ,PLM,3.106E1,74,2.382E0
+Westchester ,WCH,3.081E1,73,2.369E0
+West Los Angeles,WLA,2.704E1,63,2.33E0
+Southeast Los Angeles,SEL,5.742E1,133,2.316E0
+Palms ,PLM,3.106E1,69,2.221E0
+Van Nuys ,VNY,4.88E1,108,2.213E0
+Westchester ,WCH,3.081E1,68,2.207E0
+Venice,VEN,1.184E1,26,2.197E0
+Hollywood,HWD,9.506E1,208,2.188E0
+Los Angeles International Airport,LAX,2.357E1,51,2.164E0
+West Adams ,WAD,4.85E1,103,2.124E0
+Encino ,ENC,7.696E1,162,2.105E0
+Brentwood ,BTW,1.4404E2,300,2.083E0
+Brentwood ,BTW,1.4404E2,299,2.076E0
+Wilshire,WIL,5.298E1,109,2.057E0
+Venice,VEN,1.184E1,24,2.028E0
+Mission Hills ,MSS,4.491E1,90,2.004E0
+Sylmar,SYL,4.691E1,93,1.983E0
+Harbor Gateway,HAR,1.907E1,37,1.94E0
+Van Nuys ,VNY,4.88E1,90,1.844E0
+Hollywood,HWD,9.506E1,174,1.83E0
+San Pedro,SPD,2.798E1,51,1.823E0
+Bel Air ,BAR,5.73E1,104,1.815E0
+Silver Lake ,SLK,2.693E1,48,1.783E0
+Westchester ,WCH,3.081E1,53,1.72E0
+Silver Lake ,SLK,2.693E1,46,1.708E0
+Brentwood ,BTW,1.4404E2,243,1.687E0
+West Adams ,WAD,4.85E1,81,1.67E0
+Central City,CCY,1.319E1,22,1.668E0
+Bel Air ,BAR,5.73E1,95,1.658E0
+San Pedro,SPD,2.798E1,46,1.644E0
+Sunland ,SLD,9.734E1,159,1.633E0
+Venice,VEN,1.184E1,19,1.605E0
+West Adams ,WAD,4.85E1,77,1.588E0
+Brentwood ,BTW,1.4404E2,228,1.583E0
+Bel Air ,BAR,5.73E1,90,1.571E0
+Sherman Oaks ,SHR,5.187E1,79,1.523E0
+West Los Angeles,WLA,2.704E1,41,1.516E0
+Central City,CCY,1.319E1,20,1.516E0
+Mission Hills ,MSS,4.491E1,68,1.514E0
+Westwood,WWD,1.394E1,21,1.506E0
+Westlake,WLK,1.148E1,17,1.48E0
+Chatsworth ,CHT,9.229E1,136,1.474E0
+West Los Angeles,WLA,2.704E1,39,1.442E0
+Central City,CCY,1.319E1,19,1.44E0
+Port of Los Angeles,PTL,4.198E1,60,1.429E0
+Bel Air ,BAR,5.73E1,80,1.396E0
+Westlake,WLK,1.148E1,16,1.393E0
+Venice,VEN,1.184E1,16,1.352E0
+Reseda ,RES,4.613E1,62,1.344E0
+San Pedro,SPD,2.798E1,37,1.323E0
+Westlake,WLK,1.148E1,15,1.306E0
+Northridge,NRD,3.762E1,49,1.303E0
+South Los Angeles,SLA,5.953E1,77,1.293E0
+Northeast Los Angeles,NLA,9.278E1,120,1.293E0
+North Hollywood ,NHL,4.025E1,52,1.292E0
+Sherman Oaks ,SHR,5.187E1,67,1.292E0
+Northeast Los Angeles,NLA,9.278E1,118,1.272E0
+Mission Hills ,MSS,4.491E1,57,1.269E0
+Central City North,CCN,1.195E1,15,1.255E0
+Encino ,ENC,7.696E1,96,1.247E0
+Silver Lake ,SLK,2.693E1,33,1.226E0
+Westwood,WWD,1.394E1,17,1.219E0
+Hollywood,HWD,9.506E1,112,1.178E0
+Brentwood ,BTW,1.4404E2,169,1.173E0
+South Los Angeles,SLA,5.953E1,69,1.159E0
+North Hollywood ,NHL,4.025E1,45,1.118E0
+Reseda ,RES,4.613E1,51,1.106E0
+Boyle Heights,BHT,2.261E1,25,1.106E0
+Canoga Park ,CPK,1.0618E2,115,1.083E0
+Southeast Los Angeles,SEL,5.742E1,62,1.08E0
+Port of Los Angeles,PTL,4.198E1,45,1.072E0
+Westchester ,WCH,3.081E1,33,1.071E0
+Wilmington ,WLM,3.827E1,41,1.071E0
+South Los Angeles,SLA,5.953E1,63,1.058E0
+Harbor Gateway,HAR,1.907E1,20,1.049E0
+Westlake,WLK,1.148E1,12,1.045E0
+Arleta ,ARL,3.932E1,41,1.043E0
+South Los Angeles,SLA,5.953E1,61,1.025E0
+Mission Hills ,MSS,4.491E1,46,1.024E0
+North Hollywood ,NHL,4.025E1,39,9.69E-1
+Wilshire,WIL,5.298E1,51,9.63E-1
+North Hollywood ,NHL,4.025E1,38,9.44E-1
+Wilmington ,WLM,3.827E1,36,9.41E-1
+Reseda ,RES,4.613E1,43,9.32E-1
+Granada Hills ,GHL,6.166E1,57,9.24E-1
+Canoga Park ,CPK,1.0618E2,95,8.95E-1
+Van Nuys ,VNY,4.88E1,43,8.81E-1
+San Pedro,SPD,2.798E1,24,8.58E-1
+Silver Lake ,SLK,2.693E1,23,8.54E-1
+West Los Angeles,WLA,2.704E1,23,8.51E-1
+Los Angeles International Airport,LAX,2.357E1,20,8.49E-1
+Venice,VEN,1.184E1,10,8.45E-1
+Harbor Gateway,HAR,1.907E1,16,8.39E-1
+Arleta ,ARL,3.932E1,33,8.39E-1
+Wilmington ,WLM,3.827E1,32,8.36E-1
+Port of Los Angeles,PTL,4.198E1,35,8.34E-1
+Central City,CCY,1.319E1,11,8.34E-1
+Northridge,NRD,3.762E1,31,8.24E-1
+San Pedro,SPD,2.798E1,23,8.22E-1
+Southeast Los Angeles,SEL,5.742E1,47,8.19E-1
+West Los Angeles,WLA,2.704E1,22,8.14E-1
+Port of Los Angeles,PTL,4.198E1,34,8.1E-1
+Los Angeles International Airport,LAX,2.357E1,19,8.06E-1
+Encino ,ENC,7.696E1,62,8.06E-1
+Southeast Los Angeles,SEL,5.742E1,46,8.01E-1
+Bel Air ,BAR,5.73E1,44,7.68E-1
+Southeast Los Angeles,SEL,5.742E1,44,7.66E-1
+Mission Hills ,MSS,4.491E1,34,7.57E-1
+Wilshire,WIL,5.298E1,40,7.55E-1
+Northeast Los Angeles,NLA,9.278E1,70,7.54E-1
+Sun Valley ,SVY,6.237E1,47,7.54E-1
+Boyle Heights,BHT,2.261E1,17,7.52E-1
+Palms ,PLM,3.106E1,23,7.4E-1
+Port of Los Angeles,PTL,4.198E1,31,7.38E-1
+Wilshire,WIL,5.298E1,39,7.36E-1
+Bel Air ,BAR,5.73E1,42,7.33E-1
+Granada Hills ,GHL,6.166E1,45,7.3E-1
+Chatsworth ,CHT,9.229E1,64,6.93E-1
+Westchester ,WCH,3.081E1,21,6.82E-1
+Venice,VEN,1.184E1,8,6.76E-1
+Central City North,CCN,1.195E1,8,6.69E-1
+Northridge,NRD,3.762E1,24,6.38E-1
+Hollywood,HWD,9.506E1,59,6.21E-1
+Boyle Heights,BHT,2.261E1,14,6.19E-1
+West Adams ,WAD,4.85E1,30,6.19E-1
+Palms ,PLM,3.106E1,19,6.12E-1
+Northeast Los Angeles,NLA,9.278E1,55,5.93E-1
+Venice,VEN,1.184E1,7,5.91E-1
+Central City North,CCN,1.195E1,7,5.86E-1
+Arleta ,ARL,3.932E1,23,5.85E-1
+Northridge,NRD,3.762E1,22,5.85E-1
+West Adams ,WAD,4.85E1,28,5.77E-1
+Southeast Los Angeles,SEL,5.742E1,33,5.75E-1
+Sunland ,SLD,9.734E1,55,5.65E-1
+Chatsworth ,CHT,9.229E1,52,5.63E-1
+Van Nuys ,VNY,4.88E1,27,5.53E-1
+Westchester ,WCH,3.081E1,17,5.52E-1
+Northeast Los Angeles,NLA,9.278E1,51,5.5E-1
+Southeast Los Angeles,SEL,5.742E1,31,5.4E-1
+Mission Hills ,MSS,4.491E1,24,5.34E-1
+Arleta ,ARL,3.932E1,21,5.34E-1
+Sylmar,SYL,4.691E1,25,5.33E-1
+Encino ,ENC,7.696E1,41,5.33E-1
+Boyle Heights,BHT,2.261E1,12,5.31E-1
+Harbor Gateway,HAR,1.907E1,10,5.24E-1
+Reseda ,RES,4.613E1,24,5.2E-1
+West Los Angeles,WLA,2.704E1,14,5.18E-1
+Westwood,WWD,1.394E1,7,5.02E-1
+Northeast Los Angeles,NLA,9.278E1,46,4.96E-1
+Sylmar,SYL,4.691E1,23,4.9E-1
+Boyle Heights,BHT,2.261E1,11,4.87E-1
+San Pedro,SPD,2.798E1,13,4.65E-1
+Reseda ,RES,4.613E1,21,4.55E-1
+Central City,CCY,1.319E1,6,4.55E-1
+Palms ,PLM,3.106E1,14,4.51E-1
+Sun Valley ,SVY,6.237E1,28,4.49E-1
+Boyle Heights,BHT,2.261E1,10,4.42E-1
+Westlake,WLK,1.148E1,5,4.35E-1
+Westwood,WWD,1.394E1,6,4.3E-1
+Wilmington ,WLM,3.827E1,16,4.18E-1
+Sun Valley ,SVY,6.237E1,26,4.17E-1
+Canoga Park ,CPK,1.0618E2,44,4.14E-1
+Silver Lake ,SLK,2.693E1,11,4.09E-1
+San Pedro,SPD,2.798E1,11,3.93E-1
+Palms ,PLM,3.106E1,12,3.86E-1
+South Los Angeles,SLA,5.953E1,23,3.86E-1
+Sylmar,SYL,4.691E1,18,3.84E-1
+Central City,CCY,1.319E1,5,3.79E-1
+Harbor Gateway,HAR,1.907E1,7,3.67E-1
+Southeast Los Angeles,SEL,5.742E1,21,3.66E-1
+Wilmington ,WLM,3.827E1,14,3.66E-1
+Sunland ,SLD,9.734E1,35,3.6E-1
+Wilshire,WIL,5.298E1,19,3.59E-1
+Boyle Heights,BHT,2.261E1,8,3.54E-1
+Sherman Oaks ,SHR,5.187E1,18,3.47E-1
+Hollywood,HWD,9.506E1,33,3.47E-1
+Sun Valley ,SVY,6.237E1,21,3.37E-1
+Central City North,CCN,1.195E1,4,3.35E-1
+Silver Lake ,SLK,2.693E1,9,3.34E-1
+Sherman Oaks ,SHR,5.187E1,17,3.28E-1
+Westchester ,WCH,3.081E1,10,3.25E-1
+Canoga Park ,CPK,1.0618E2,34,3.2E-1
+Northridge,NRD,3.762E1,12,3.19E-1
+Hollywood,HWD,9.506E1,30,3.16E-1
+Chatsworth ,CHT,9.229E1,29,3.14E-1
+Wilmington ,WLM,3.827E1,12,3.14E-1
+Canoga Park ,CPK,1.0618E2,33,3.11E-1
+Brentwood ,BTW,1.4404E2,44,3.05E-1
+Reseda ,RES,4.613E1,14,3.03E-1
+West Los Angeles,WLA,2.704E1,8,2.96E-1
+Granada Hills ,GHL,6.166E1,18,2.92E-1
+Northridge,NRD,3.762E1,11,2.92E-1
+Westchester ,WCH,3.081E1,9,2.92E-1
+Westwood,WWD,1.394E1,4,2.87E-1
+Bel Air ,BAR,5.73E1,16,2.79E-1
+Granada Hills ,GHL,6.166E1,17,2.76E-1
+North Hollywood ,NHL,4.025E1,11,2.73E-1
+Mission Hills ,MSS,4.491E1,12,2.67E-1
+Harbor Gateway,HAR,1.907E1,5,2.62E-1
+Silver Lake ,SLK,2.693E1,7,2.6E-1
+Reseda ,RES,4.613E1,12,2.6E-1
+West Los Angeles,WLA,2.704E1,7,2.59E-1
+Palms ,PLM,3.106E1,8,2.58E-1
+Brentwood ,BTW,1.4404E2,37,2.57E-1
+Los Angeles International Airport,LAX,2.357E1,6,2.55E-1
+Arleta ,ARL,3.932E1,10,2.54E-1
+Central City North,CCN,1.195E1,3,2.51E-1
+North Hollywood ,NHL,4.025E1,10,2.48E-1
+Encino ,ENC,7.696E1,19,2.47E-1
+West Adams ,WAD,4.85E1,12,2.47E-1
+Sun Valley ,SVY,6.237E1,15,2.41E-1
+Chatsworth ,CHT,9.229E1,22,2.38E-1
+Port of Los Angeles,PTL,4.198E1,10,2.38E-1
+South Los Angeles,SLA,5.953E1,14,2.35E-1
+Westchester ,WCH,3.081E1,7,2.27E-1
+Central City,CCY,1.319E1,3,2.27E-1
+Van Nuys ,VNY,4.88E1,11,2.25E-1
+North Hollywood ,NHL,4.025E1,9,2.24E-1
+Silver Lake ,SLK,2.693E1,6,2.23E-1
+Hollywood,HWD,9.506E1,21,2.21E-1
+Northeast Los Angeles,NLA,9.278E1,20,2.16E-1
+Westwood,WWD,1.394E1,3,2.15E-1
+Port of Los Angeles,PTL,4.198E1,9,2.14E-1
+Los Angeles International Airport,LAX,2.357E1,5,2.12E-1
+Sherman Oaks ,SHR,5.187E1,11,2.12E-1
+Harbor Gateway,HAR,1.907E1,4,2.1E-1
+Wilmington ,WLM,3.827E1,8,2.09E-1
+Encino ,ENC,7.696E1,16,2.08E-1
+West Adams ,WAD,4.85E1,10,2.06E-1
+Van Nuys ,VNY,4.88E1,10,2.05E-1
+Arleta ,ARL,3.932E1,8,2.03E-1
+Granada Hills ,GHL,6.166E1,12,1.95E-1
+Brentwood ,BTW,1.4404E2,28,1.94E-1
+Sherman Oaks ,SHR,5.187E1,10,1.93E-1
+Sun Valley ,SVY,6.237E1,12,1.92E-1
+Hollywood,HWD,9.506E1,18,1.89E-1
+Wilshire,WIL,5.298E1,10,1.89E-1
+Northridge,NRD,3.762E1,7,1.86E-1
+Canoga Park ,CPK,1.0618E2,19,1.79E-1
+Granada Hills ,GHL,6.166E1,11,1.78E-1
+Sunland ,SLD,9.734E1,17,1.75E-1
+Westlake,WLK,1.148E1,2,1.74E-1
+Sylmar,SYL,4.691E1,8,1.71E-1
+Venice,VEN,1.184E1,2,1.69E-1
+South Los Angeles,SLA,5.953E1,10,1.68E-1
+Central City North,CCN,1.195E1,2,1.67E-1
+Van Nuys ,VNY,4.88E1,8,1.64E-1
+Palms ,PLM,3.106E1,5,1.61E-1
+Northridge,NRD,3.762E1,6,1.59E-1
+Wilmington ,WLM,3.827E1,6,1.57E-1
+Harbor Gateway,HAR,1.907E1,3,1.57E-1
+Arleta ,ARL,3.932E1,6,1.53E-1
+Central City,CCY,1.319E1,2,1.52E-1
+North Hollywood ,NHL,4.025E1,6,1.49E-1
+San Pedro,SPD,2.798E1,4,1.43E-1
+Westwood,WWD,1.394E1,2,1.43E-1
+Northeast Los Angeles,NLA,9.278E1,13,1.4E-1
+Southeast Los Angeles,SEL,5.742E1,8,1.39E-1
+Mission Hills ,MSS,4.491E1,6,1.34E-1
+South Los Angeles,SLA,5.953E1,8,1.34E-1
+Boyle Heights,BHT,2.261E1,3,1.33E-1
+Encino ,ENC,7.696E1,10,1.3E-1
+Westchester ,WCH,3.081E1,4,1.3E-1
+Reseda ,RES,4.613E1,6,1.3E-1
+Los Angeles International Airport,LAX,2.357E1,3,1.27E-1
+Van Nuys ,VNY,4.88E1,6,1.23E-1
+Chatsworth ,CHT,9.229E1,11,1.19E-1
+South Los Angeles,SLA,5.953E1,7,1.18E-1
+Granada Hills ,GHL,6.166E1,7,1.14E-1
+Sunland ,SLD,9.734E1,11,1.13E-1
+Wilshire,WIL,5.298E1,6,1.13E-1
+West Los Angeles,WLA,2.704E1,3,1.11E-1
+Chatsworth ,CHT,9.229E1,10,1.08E-1
+San Pedro,SPD,2.798E1,3,1.07E-1
+Harbor Gateway,HAR,1.907E1,2,1.05E-1
+Wilmington ,WLM,3.827E1,4,1.05E-1
+Southeast Los Angeles,SEL,5.742E1,6,1.05E-1
+Encino ,ENC,7.696E1,8,1.04E-1
+Canoga Park ,CPK,1.0618E2,11,1.04E-1
+Brentwood ,BTW,1.4404E2,15,1.04E-1
+West Adams ,WAD,4.85E1,5,1.03E-1
+Sherman Oaks ,SHR,5.187E1,5,9.6E-2
+Sun Valley ,SVY,6.237E1,6,9.6E-2
+Hollywood,HWD,9.506E1,9,9.5E-2
+Canoga Park ,CPK,1.0618E2,10,9.4E-2
+Boyle Heights,BHT,2.261E1,2,8.8E-2
+Reseda ,RES,4.613E1,4,8.7E-2
+Westlake,WLK,1.148E1,1,8.7E-2
+Los Angeles International Airport,LAX,2.357E1,2,8.5E-2
+Sylmar,SYL,4.691E1,4,8.5E-2
+Venice,VEN,1.184E1,1,8.4E-2
+Central City North,CCN,1.195E1,1,8.4E-2
+South Los Angeles,SLA,5.953E1,5,8.4E-2
+West Adams ,WAD,4.85E1,4,8.2E-2
+Sun Valley ,SVY,6.237E1,5,8.0E-2
+Northridge,NRD,3.762E1,3,8.0E-2
+Sherman Oaks ,SHR,5.187E1,4,7.7E-2
+Central City,CCY,1.319E1,1,7.6E-2
+Wilshire,WIL,5.298E1,4,7.6E-2
+Chatsworth ,CHT,9.229E1,7,7.6E-2
+Northeast Los Angeles,NLA,9.278E1,7,7.5E-2
+Canoga Park ,CPK,1.0618E2,8,7.5E-2
+Silver Lake ,SLK,2.693E1,2,7.4E-2
+West Los Angeles,WLA,2.704E1,2,7.4E-2
+Westwood,WWD,1.394E1,1,7.2E-2
+Sunland ,SLD,9.734E1,7,7.2E-2
+Port of Los Angeles,PTL,4.198E1,3,7.1E-2
+San Pedro,SPD,2.798E1,2,7.1E-2
+Bel Air ,BAR,5.73E1,4,7.0E-2
+Brentwood ,BTW,1.4404E2,10,6.9E-2
+Mission Hills ,MSS,4.491E1,3,6.7E-2
+Westchester ,WCH,3.081E1,2,6.5E-2
+Granada Hills ,GHL,6.166E1,4,6.5E-2
+Encino ,ENC,7.696E1,5,6.5E-2
+Sylmar,SYL,4.691E1,3,6.4E-2
+Palms ,PLM,3.106E1,2,6.4E-2
+Van Nuys ,VNY,4.88E1,3,6.1E-2
+Hollywood,HWD,9.506E1,5,5.3E-2
+Harbor Gateway,HAR,1.907E1,1,5.2E-2
+Southeast Los Angeles,SEL,5.742E1,3,5.2E-2
+Bel Air ,BAR,5.73E1,3,5.2E-2
+Arleta ,ARL,3.932E1,2,5.1E-2
+South Los Angeles,SLA,5.953E1,3,5.0E-2
+North Hollywood ,NHL,4.025E1,2,5.0E-2
+Granada Hills ,GHL,6.166E1,3,4.9E-2
+Port of Los Angeles,PTL,4.198E1,2,4.8E-2
+Sun Valley ,SVY,6.237E1,3,4.8E-2
+Mission Hills ,MSS,4.491E1,2,4.5E-2
+Boyle Heights,BHT,2.261E1,1,4.4E-2
+Sylmar,SYL,4.691E1,2,4.3E-2
+Reseda ,RES,4.613E1,2,4.3E-2
+Chatsworth ,CHT,9.229E1,4,4.3E-2
+Los Angeles International Airport,LAX,2.357E1,1,4.2E-2
+Brentwood ,BTW,1.4404E2,6,4.2E-2
+Sunland ,SLD,9.734E1,4,4.1E-2
+West Adams ,WAD,4.85E1,2,4.1E-2
+Wilshire,WIL,5.298E1,2,3.8E-2
+West Los Angeles,WLA,2.704E1,1,3.7E-2
+Silver Lake ,SLK,2.693E1,1,3.7E-2
+San Pedro,SPD,2.798E1,1,3.6E-2
+Bel Air ,BAR,5.73E1,2,3.5E-2
+Southeast Los Angeles,SEL,5.742E1,2,3.5E-2
+South Los Angeles,SLA,5.953E1,2,3.4E-2
+Chatsworth ,CHT,9.229E1,3,3.3E-2
+Northeast Los Angeles,NLA,9.278E1,3,3.2E-2
+Palms ,PLM,3.106E1,1,3.2E-2
+Westchester ,WCH,3.081E1,1,3.2E-2
+Granada Hills ,GHL,6.166E1,2,3.2E-2
+Sunland ,SLD,9.734E1,3,3.1E-2
+Canoga Park ,CPK,1.0618E2,3,2.8E-2
+Northridge,NRD,3.762E1,1,2.7E-2
+Wilmington ,WLM,3.827E1,1,2.6E-2
+Encino ,ENC,7.696E1,2,2.6E-2
+Arleta ,ARL,3.932E1,1,2.5E-2
+North Hollywood ,NHL,4.025E1,1,2.5E-2
+Port of Los Angeles,PTL,4.198E1,1,2.4E-2
+Mission Hills ,MSS,4.491E1,1,2.2E-2
+Chatsworth ,CHT,9.229E1,2,2.2E-2
+Reseda ,RES,4.613E1,1,2.2E-2
+Northeast Los Angeles,NLA,9.278E1,2,2.2E-2
+Sylmar,SYL,4.691E1,1,2.1E-2
+Hollywood,HWD,9.506E1,2,2.1E-2
+Brentwood ,BTW,1.4404E2,3,2.1E-2
+Sunland ,SLD,9.734E1,2,2.1E-2
+West Adams ,WAD,4.85E1,1,2.1E-2
+Van Nuys ,VNY,4.88E1,1,2.0E-2
+Sherman Oaks ,SHR,5.187E1,1,1.9E-2
+Wilshire,WIL,5.298E1,1,1.9E-2
+Canoga Park ,CPK,1.0618E2,2,1.9E-2
+South Los Angeles,SLA,5.953E1,1,1.7E-2
+Southeast Los Angeles,SEL,5.742E1,1,1.7E-2
+Bel Air ,BAR,5.73E1,1,1.7E-2
+Granada Hills ,GHL,6.166E1,1,1.6E-2
+Sun Valley ,SVY,6.237E1,1,1.6E-2
+Brentwood ,BTW,1.4404E2,2,1.4E-2
+Encino ,ENC,7.696E1,1,1.3E-2
+Hollywood,HWD,9.506E1,1,1.1E-2
+Northeast Los Angeles,NLA,9.278E1,1,1.1E-2
+Chatsworth ,CHT,9.229E1,1,1.1E-2
+Sunland ,SLD,9.734E1,1,1.0E-2
+Canoga Park ,CPK,1.0618E2,1,9.0E-3
+Brentwood ,BTW,1.4404E2,1,7.0E-3
