@@ -8,6 +8,7 @@ PREFIX sh: <http://www.w3.org/ns/shacl#>
 # With that validation we discovered that:
 #	- not all the location nodes have an outgoing "belongsToArea"
 #	- not all the business nodes have an outgoing "hasNaics"
+#   - not all the business nodes have an outgoing "openedOnDate"
 
 val:checkCrimeEventNodes 
 	a sh:NodeShape ;
