@@ -214,7 +214,7 @@ Note: The image provided above displays the class diagram for reference.
 We worked together in a shared environment: in particular, we instantiated a platform independent instance of GraphDB and we uploaded there all our RDF data.
 ### VPS:
 - CPU: Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz (1 vCore)
-- RAM: 4GB if needed
+- RAM: 4GB
 - SSD disk
 - OS: CentOS 7
 - GraphDB: ver. 10.4.2
@@ -223,17 +223,20 @@ GraphDB is executed through the command `graphdb -Ddefault.min.distinct.threshol
 
 ---
 
-## How to Run and Use the Codes
-### Queries:
-You can open the notebook `queries/BitseiQueries.ipynb` and run our queries!
-N.B. For security reasons, IP's are filtered on the remote server. Please make sure you are connecting from any of the buildings of the University of Padua (The IP class `147.162.0.0\16` is allowed to connect).
+## Output of the project
+
+### Queries and Python SPARQLWrapper Notebook:
+
+As stated before, we carried out 10 insightful queries over our graph database. You will find 10 subfolders into the `queries` folder: inside each of them there are the outputs (in csv format) and the plots related to each of them. For each of the 10 queries, there might be different versions, just selecting different data properties. The actual SPARQL queries are instead available on the python notebook `queries/BitseiQueries.ipynb`. While looking at our notebook, you can actually run our queries on our remote server!
+
+N.B. For security reasons, IP's are filtered on the remote server. Please make sure you are connecting from any of the buildings of the University of Padova (The IP class `147.162.0.0\16` is allowed to connect).
 
 ### Webapp:
 
+For presenting our webapp, we also carried out a simple web application capable of running our queries, and showing them by means of plots (using `Chart.js` library).
 For running the webapp, you can follow the instructions in the `webapp` folder.
 These instructions are available in the `webapp/README.md` file.
 
-Serving queries through a webapp is a very useful way to make the data accessible to a wider audience, without the need of knowing SPARQL.
 
 ---
 
