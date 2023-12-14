@@ -221,7 +221,7 @@ We worked together in a shared environment: in particular, we instantiated a pla
 - OS: CentOS 7
 - GraphDB: ver. 10.4.2
 
-GraphDB is executed through the command `graphdb -Ddefault.min.distinct.threshold=1024m -d`
+GraphDB is executed through the command `./graphdb -Ddefault.min.distinct.threshold=1024m -d`
 
 ---
 
