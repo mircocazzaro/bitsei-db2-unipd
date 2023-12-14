@@ -100,7 +100,7 @@ In particular:
 
 #### Phase 4: Validation
 Once all the turtle files associated to the serialization have been generated, they have been uploaded to a shared server, allowing us for a better cooperation.  
-Before proceeding with querying the database, a validation phase on data properties has been conducted using [SHACL](https://www.w3.org/TR/shacl/).
+Before proceeding with querying the database, a validation phase on object and data properties has been conducted using [SHACL](https://www.w3.org/TR/shacl/).
 
 #### Phase 5: Querying
 Once the database has been validated and is correctly running on the server, we selected 10 insightful queries. These queries were selected based on their direct relevance to identifying temporal, spatial, and categorical trends within our dataset, crucial for finding patterns in business operations, mortality rates, crime occurrences, and the impact of restrictions on various events:
@@ -152,7 +152,7 @@ The overall structure of the repository is as follows:
 │   │   └── ⤵️<br/>
 │   ├── 📁 LOS ANGELES GEO DATA<br/>
 │   │   └── ⤵️<br/>
-├── 📁 ontology<: a folder containing the ontology model design and implementation<br/>
+├── 📁 ontology: a folder containing the ontology model design and implementation<br/>
 │   ├── 📄 Bitsei_ontology.drawio<br/>
 │   ├── 📄 Bitsei_ontology.svg<br/>
 │   └── 📁 requirements analysis<br/>
