@@ -1,4 +1,4 @@
-const URL_HOST = "http://127.0.0.1:8080/api/v1"
+const URL_HOST = "https://gd.bitsei.it/api/v1"
 function loadQueryOne() {
     return fetch(`${URL_HOST}/crime/category-month`)
         .then(response => response.json())
