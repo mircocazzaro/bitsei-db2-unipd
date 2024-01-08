@@ -1,7 +1,7 @@
 import Chart from "chart.js/auto";
 import {ChoroplethController, GeoFeature, ColorScale, ProjectionScale} from 'chartjs-chart-geo';
 
-import {loadQueryOne, loadQueryTwo, loadQueryThree, loadQueryFour, loadMap} from './chart.js'
+import {loadQueryOne, loadQueryTwo, loadQueryThree, loadQueryFour, loadQueryFive, loadMap} from './chart.js'
 
 let chart;
 
@@ -57,8 +57,8 @@ window.onpopstate = function (event) {
             rowDiv[0].removeChild(loading);
             break;
         case '#query1':
-            h1Title[0].innerHTML = 'Query 1';
-            mainDescription[0].innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl sed lacinia ultrices, nunc nunc aliquam nunc, nec aliquam nunc nu';
+            h1Title[0].innerHTML = 'Crime Category Occurrences by Month in 2020';
+            mainDescription[0].innerHTML = 'Comprehensive breakdown of crime occurrences throughout the year 2020, organized by specific crime categories and displayed on a monthly basis.';
 
             loadQueryOne().then(r => {
                 rowDiv[0].removeChild(loading)
@@ -70,8 +70,8 @@ window.onpopstate = function (event) {
 
             break;
         case '#query2':
-            h1Title[0].innerHTML = 'Query 2';
-            mainDescription[0].innerHTML = 'Lorem others';
+            h1Title[0].innerHTML = 'Number of Open/Close Businesses by NAICS';
+            mainDescription[0].innerHTML = 'The number of businesses that have recently opened or closed, categorized and organized based on the North American Industry Classification System (NAICS) codes. The NAICS codes are used to classify businesses into specific industries, allowing for a detailed breakdown of economic activities.';
 
             loadQueryTwo(loading).then(r => {
                 rowDiv[0].removeChild(loading)
@@ -80,8 +80,8 @@ window.onpopstate = function (event) {
 
             break;
         case '#query3':
-            h1Title[0].innerHTML = 'Query 3';
-            mainDescription[0].innerHTML = 'Lorem others';
+            h1Title[0].innerHTML = 'Crime Rate by Area';
+            mainDescription[0].innerHTML = 'This data chart provides a detailed analysis of crime rates across different geographic areas, offering valuable insights into the safety and security landscape. ';
             loadMap().then(LaMap => {
                 loadQueryThree(LaMap).then(r => {
                     rowDiv[0].removeChild(loading)
@@ -91,6 +91,16 @@ window.onpopstate = function (event) {
             });
             break;
         case '#query4':
+            h1Title[0].innerHTML = 'Number of COVID cases and deaths by month';
+            mainDescription[0].innerHTML = 'The number of COVID cases and deaths by month.';
+
+            loadQueryFour(loading).then(r => {
+                rowDiv[0].removeChild(loading)
+                chart = new Chart(document.getElementById('chart'), r);
+            });
+
+            break;
+        case '#query5':
             rowDiv[0].removeChild(loading)
             h1Title[0].innerHTML = 'Map Ration Based Analysis';
             mainDescription[0].innerHTML = 'Number of { DATA } grouped by area, with ratio on area surface';
@@ -131,7 +141,7 @@ window.onpopstate = function (event) {
                 rowDiv[0].appendChild(loading);
 
                 loadMap().then(LaMap => {
-                    loadQueryFour(LaMap, selectedOption).then(r => {
+                    loadQueryFive(LaMap, selectedOption).then(r => {
                         rowDiv[0].removeChild(loading)
                         Chart.register(ChoroplethController, GeoFeature, ColorScale, ProjectionScale);
                         chart = new Chart(document.getElementById('chart').getContext('2d'), r);

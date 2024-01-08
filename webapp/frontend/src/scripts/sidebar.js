@@ -6,24 +6,30 @@ function sidebarItems() {
         {
             id: 'home',
             href: '#query1',
-            name: 'Query One',
+            name: 'Crime Occurrences',
             icon: 'feather feather-home'
         },
         {
             id: 'subItem2',
             href: '#query2',
-            name: 'Query Two',
+            name: 'O/C Businesses',
             icon: 'feather feather-home'
         },
         {
             id: 'subItem3',
             href: '#query3',
-            name: 'Query Three',
+            name: 'Crime Rate by Area',
             icon: 'feather feather-home'
         },
         {
             id: 'subItem4',
             href: '#query4',
+            name: 'Covid cases & deaths',
+            icon: 'feather feather-home'
+        },
+        {
+            id: 'subItem5',
+            href: '#query5',
             name: 'Ratio Based Analysis',
             icon: 'feather feather-home'
         }

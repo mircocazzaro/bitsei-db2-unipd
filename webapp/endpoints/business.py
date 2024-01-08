@@ -105,3 +105,119 @@ async def count_closed_businesses():
         }
         for result in results["results"]["bindings"]
     ]
+
+
+@router.get("/open-closed-by-naics")
+@cache()
+async def open_closed_business_by_naics():
+    g.sparql.setQuery("""
+        PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        SELECT DISTINCT ?naicsDesc (COUNT(?openBusiness) AS ?openedBusinesses) (ROUND(?openedBusinesses*1000 / ?totBusinesses)/1000 AS ?ratio) 
+        WHERE {
+            ?openBusiness lao:openedOnDate ?day ;
+                          lao:hasNaics ?naics .
+            ?day lao:hasDate ?date .
+            ?naics lao:naicsCode ?naicsCode ;
+                   lao:naicsDescription ?naicsDesc .
+            # convert to strings
+            BIND(STR(YEAR(?date)) AS ?year)
+            BIND(STR(MONTH(?date)) AS ?month)
+            # pad with zeros
+            BIND(CONCAT("00", ?year) AS ?paddedYear)
+            BIND(CONCAT("0000", ?month) AS ?paddedMonth)
+            # extract the right number of digits from the padded strings
+            BIND(SUBSTR(?paddedYear, STRLEN(?paddedYear)-3) AS ?fourDigitYear)
+            BIND(SUBSTR(?paddedMonth, STRLEN(?paddedMonth)-1) AS ?twoDigitMonth)
+            # put it all back together
+            BIND(CONCAT(?fourDigitYear, "-", ?twoDigitMonth) AS ?period)
+            
+            FILTER (xsd:date(?date) >= "2020-01-01"^^xsd:date && xsd:date(?date) <= "2022-12-31"^^xsd:date)
+        
+            {
+                SELECT DISTINCT (COUNT(?openBus) AS ?totBusinesses) 
+                WHERE {
+                    ?openBus lao:openedOnDate ?openDay .
+                    ?openDay lao:hasDate ?openDate .
+                    FILTER (xsd:date(?openDate) >= "2020-01-01"^^xsd:date && xsd:date(?openDate) <= "2022-12-31"^^xsd:date)
+                }                        
+            }
+        }
+        GROUP BY ?naicsCode ?naicsDesc ?totBusinesses
+        ORDER BY DESC(?openedBusinesses)
+    """)
+
+    g.sparql.setReturnFormat(JSON)
+
+    try:
+        opened_results = g.sparql.query().convert()
+    except SPARQLExceptions as e:
+        return {"data": e.args}
+
+    if len(opened_results["results"]["bindings"]) == 0:
+        return {"data": []}
+
+    g.sparql.setQuery("""
+        PREFIX lao: <http://www.bitsei.it/losAngelesOntology/>
+        PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        
+        
+        SELECT DISTINCT ?naicsDesc (COUNT(?closeBusiness) AS ?closedBusinesses) (ROUND(?closedBusinesses*1000 / ?totBusinesses)/1000 AS ?ratio) 
+        WHERE {
+            ?closeBusiness lao:closedOnDate ?day ;
+                          lao:hasNaics ?naics .
+            ?day lao:hasDate ?date .
+            ?naics lao:naicsCode ?naicsCode ;
+                   lao:naicsDescription ?naicsDesc .
+            # convert to strings
+            BIND(STR(YEAR(?date)) AS ?year)
+            BIND(STR(MONTH(?date)) AS ?month)
+            # pad with zeros
+            BIND(CONCAT("00", ?year) AS ?paddedYear)
+            BIND(CONCAT("0000", ?month) AS ?paddedMonth)
+            # extract the right number of digits from the padded strings
+            BIND(SUBSTR(?paddedYear, STRLEN(?paddedYear)-3) AS ?fourDigitYear)
+            BIND(SUBSTR(?paddedMonth, STRLEN(?paddedMonth)-1) AS ?twoDigitMonth)
+            # put it all back together
+            BIND(CONCAT(?fourDigitYear, "-", ?twoDigitMonth) AS ?period)
+            
+            FILTER (xsd:date(?date) >= "2020-01-01"^^xsd:date && xsd:date(?date) <= "2022-12-31"^^xsd:date)
+        
+            {
+                SELECT DISTINCT (COUNT(?closeBus) AS ?totBusinesses) 
+                WHERE {
+                    ?closeBus lao:closedOnDate ?closeDay .
+                    ?closeDay lao:hasDate ?closeDate .		
+                    FILTER (xsd:date(?closeDate) >= "2020-01-01"^^xsd:date && xsd:date(?closeDate) <= "2022-12-31"^^xsd:date)
+                }                        
+            }
+        }
+        GROUP BY ?naicsCode ?naicsDesc ?totBusinesses
+        ORDER BY DESC(?closedBusinesses)
+        """
+                      )
+
+    g.sparql.setReturnFormat(JSON)
+
+    try:
+        closed_results = g.sparql.query().convert()
+    except SPARQLExceptions as e:
+        return {"data": e.args}
+
+    if len(closed_results["results"]["bindings"]) == 0:
+        return {"data": []}
+
+    # combine the two results and merge them by their naicsDesc
+    results = []
+    for opened_result in opened_results["results"]["bindings"]:
+        results.extend(
+            {
+                "naicsDesc": opened_result["naicsDesc"]["value"],
+                "openedBusinesses": opened_result["openedBusinesses"]["value"],
+                "closedBusinesses": closed_result["closedBusinesses"]["value"],
+            }
+            for closed_result in closed_results["results"]["bindings"]
+            if opened_result["naicsDesc"]["value"]
+            == closed_result["naicsDesc"]["value"]
+        )
+    return results

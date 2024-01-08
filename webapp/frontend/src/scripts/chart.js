@@ -19,23 +19,20 @@ function loadQueryOne() {
 }
 
 function loadQueryTwo() {
-    return fetch(`${URL_HOST}/business/`)
+    return fetch(`${URL_HOST}/business/open-closed-by-naics/`)
         .then(response => response.json())
         .then(data => (
             {
                 type: 'bar',
                 data: {
-                    labels: data.map(row => row.cityName),
+                    labels: data.map(row => row.naicsDesc),
                     datasets: [
                         {
-                            label: '2020',
-                            data: data.map(row => row.numBusinesses20),
+                            label: 'closed',
+                            data: data.map(row => row.closedBusinesses),
                         }, {
-                            label: '2021',
-                            data: data.map(row => row.numBusinesses21),
-                        }, {
-                            label: '2022',
-                            data: data.map(row => row.numBusinesses22),
+                            label: 'opened',
+                            data: data.map(row => row.openedBusinesses),
                         }
                     ]
                 }
@@ -88,7 +85,52 @@ function loadQueryThree(us) {
         });
 }
 
-function loadQueryFour(us, selectElementValue) {
+
+function loadQueryFour() {
+    return fetch(`${URL_HOST}/covid/cases_and_deaths`)
+        .then(response => response.json())
+        .then(data => (
+            {
+                type: 'line',
+                data: {
+                    labels: data.map(row => row.period),
+                    datasets: [
+                        {
+                            label: 'Number of Covid Cases',
+                            data: data.map(row => row.numOfCovidCases),
+                            yAxisID: 'y',
+                        }, {
+                            label: 'Number of Deaths',
+                            data: data.map(row => row.numOfDeaths),
+                            yAxisID: 'y1',
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                        },
+                        y1: {
+                            type: 'linear',
+                            display: true,
+                            position: 'right',
+
+                            grid: {
+                                drawOnChartArea: false, // only want the grid lines for one axis to show up
+                            },
+                        },
+                    }
+                }
+            }
+        )).catch(error => {
+            console.error(error)
+        });
+}
+
+function loadQueryFive(us, selectElementValue) {
     return fetch(`${URL_HOST}/crime/ratio-by-area?file_name=${selectElementValue}`)
         .then(response => response.json())
         .then(data => {
@@ -138,5 +180,5 @@ function loadMap() {
         });
 }
 
-export {loadQueryOne, loadQueryTwo, loadQueryThree, loadQueryFour, loadMap};
+export {loadQueryOne, loadQueryTwo, loadQueryThree, loadQueryFour, loadQueryFive, loadMap};
 
